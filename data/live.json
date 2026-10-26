@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-10-26 07:43",
+ "generated_at": "2026-10-26 13:43",
  "weather": {
   "city": "哈尔滨",
-  "temp": 2,
-  "desc": "多云",
-  "feels": -2,
-  "humidity": 57,
-  "wind": 10,
+  "temp": 9,
+  "desc": "晴",
+  "feels": 4,
+  "humidity": 31,
+  "wind": 11,
   "hi": 9,
   "lo": 2
  },
  "news": [
+  {
+   "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
+   "link": "https://aihot.news/items/o1r046h1yurwlvv536eergn57",
+   "summary": "数字生命卡兹克分享用 AI 逆向改造现实设备的实操教程，以公司 4 台会议室电视为例，通过 Codex 开启 ADB 调试连接电视，清理开机广告、重做简洁桌面和粒子动态屏保，并复刻到其余 3 台。",
+   "category": "教程",
+   "source": "卡兹克",
+   "pub": "10-26 12:48"
+  },
+  {
+   "title": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频",
+   "link": "https://aihot.news/items/he5bxeygbly5kef64gvs1tk6m",
+   "summary": "Runware 宣布 Kling 4.0 发布首日上线其 API，可生成最长 30 秒的 1080p 视频，并支持原生音频。功能包括多关键帧（首、中、尾帧）、单请求最多 15 个输入（关键帧、参考图、参考视频与元素）以及基于提示词的已有片段编辑。价格自 $0.133 每秒起，未来 7 天常规定价享 15% 折扣；已有用户可将模型 ID 切换为 klingai:kling-video@4.0。Runware API 已有 19 个 Kling 模型，覆盖视频、图像、虚拟人和对口型。Kling AI 官方转发并提醒查看评论区中的创作者指南。",
+   "category": "AI 产品",
+   "source": "可灵 Kling AI",
+   "pub": "10-26 12:25"
+  },
+  {
+   "title": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
+   "link": "https://aihot.news/items/j5auxb780hddyh0hlgekuw03h",
+   "summary": "Browser Use 作者整理了让 Claude Code、Codex、Gemini CLI、Cursor 等编程智能体使用已登录 Chrome 的方法：Claude 订阅用户可用 claude --chrome 的 Claude in Chrome 扩展。",
+   "category": "教程",
+   "source": "Browser Use",
+   "pub": "10-25 08:00"
+  },
   {
    "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
    "link": "https://aihot.news/items/d92mrmxvsfmnoyw3comncgz2c",
@@ -386,30 +410,6 @@
    "category": "行业动态",
    "source": "Wiz：Research",
    "pub": "10-21 21:44"
-  },
-  {
-   "title": "ChinaTalk 解读商务部第48号公告对AI技术出口管制的影响",
-   "link": "https://aihot.news/items/btdpdvumudpoab4rls1j5ni8m",
-   "summary": "ChinaTalk 作者详读中国商务部与科技部10月16日发布的第48号公告草案，该草案拟向《中国禁止出口限制出口技术目录》新增40项技术（14项禁售、26项需许可），其中23项涉及AI。",
-   "category": "行业动态",
-   "source": "ChinaTalk",
-   "pub": "10-21 21:43"
-  },
-  {
-   "title": "Wiz Research 披露 PHP2Shell：AI 助攻 PHP 核心 RCE 漏洞，影响全球 70% 网站",
-   "link": "https://aihot.news/items/z9nqeyi6p0br6knhkrt3xd3n6",
-   "summary": "Wiz Research 披露 PHP 核心中的多个内存安全漏洞（CVE-2026-109618/109619，CVSS 最高 9.2），实现无需认证的远程代码执行与内存泄露，影响至少追溯到 PHP 5.4 的近十年版本。",
-   "category": "论文",
-   "source": "Wiz：Research",
-   "pub": "10-21 21:30"
-  },
-  {
-   "title": "OpenAI 与 Google Cloud 达成合作，OpenAI 模型将进入 Model Garden",
-   "link": "https://aihot.news/items/bm4bwid4hdnitbtz7pr6gtd0r",
-   "summary": "OpenAI 与 Google Cloud 达成合作，将把 OpenAI 前沿模型和 Codex 智能体工作流引入 Google Cloud 的 Model Garden，客户可通过 Google Cloud Marketplace 购买，并可用 GCP 消费承诺抵扣。",
-   "category": "行业动态",
-   "source": "OpenAI：官网动态",
-   "pub": "10-21 20:00"
   }
  ]
 }
