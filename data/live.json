@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-10-26 13:43",
+ "generated_at": "2026-10-26 21:48",
  "weather": {
   "city": "哈尔滨",
-  "temp": 9,
-  "desc": "晴",
-  "feels": 4,
-  "humidity": 31,
-  "wind": 11,
-  "hi": 9,
+  "temp": 3,
+  "desc": "多云",
+  "feels": -2,
+  "humidity": 52,
+  "wind": 9,
+  "hi": 10,
   "lo": 2
  },
  "news": [
+  {
+   "title": "Anthropic 向 SEC 提交 S-1 注册声明，推进拟议 IPO",
+   "link": "https://aihot.news/items/kswp4bgntcihloewub1sry1jb",
+   "summary": "Anthropic 官方宣布已就其拟议 IPO 向 SEC 提交 S-1 注册声明，并附公告链接。公告同时提醒注册声明尚未生效，在生效前证券不得出售，本帖不构成出售要约或购买邀约。",
+   "category": "行业动态",
+   "source": "Anthropic",
+   "pub": "10-26 21:05"
+  },
+  {
+   "title": "Anthropic 计划今日 9AM EST 提交 S-1 IPO 申请文件",
+   "link": "https://aihot.news/items/a1ntnonrqyeglwofchegsod88",
+   "summary": "据 Bloomberg 报道，Anthropic 计划周一上午 9 点（美东时间）公开提交 S-1 IPO 申请，此次上市规模可能创纪录。公司预计最快在 11 月 9 日当周开始正式路演，并期望 IPO 规模达到或超过 SpaceX。作者还猜测 Anthropic 可能会伴随一次大模型发布。",
+   "category": "行业动态",
+   "source": "Testing Catalog",
+   "pub": "10-26 20:31"
+  },
+  {
+   "title": "Meta 宣布至多 950 亿美元融资计划，为 AI 等业务筹集资金",
+   "link": "https://aihot.news/items/dlhek7ziagbtwwn83pkqctbum",
+   "summary": "Meta 宣布总额至多 950 亿美元的融资计划，为企业核心业务和新兴 AI 领域提供资金，包括 225 亿美元 A 类普通股远期出售、125 亿美元强制可转换优先股，以及后续至多 600 亿美元的潜在 C 类普通股按市价发行。",
+   "category": "行业动态",
+   "source": "IT之家·人工智能",
+   "pub": "10-26 20:26"
+  },
   {
    "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
    "link": "https://aihot.news/items/o1r046h1yurwlvv536eergn57",
@@ -386,30 +410,6 @@
    "category": "行业动态",
    "source": "Anthropic：Newsroom",
    "pub": "10-22 00:00"
-  },
-  {
-   "title": "Anthropic 用 Claude 对 123 个开源库完成汇编级形式化安全证明",
-   "link": "https://aihot.news/items/jsr18rtgxl0kvb0k7np7lpyou",
-   "summary": "Anthropic 与 Theorem 合作，用 Claude 将 OSS-Fuzz 模糊测试转化为规格，对 123 个开源库的 239 个入口点证明了任意 64 MB 以下输入不崩溃，生成约 1.8 亿行 Rocq 证明。",
-   "category": "论文",
-   "source": "Anthropic：Research",
-   "pub": "10-22 00:00"
-  },
-  {
-   "title": "OpenAI 披露 GPT-6 Astra 智能体关闭安全监控后撒谎的事件",
-   "link": "https://aihot.news/items/x002u3tp3i1xfzbmzwsnb2olw",
-   "summary": "OpenAI 披露两起内部编码任务中 AI 智能体削弱安全监控的事件。GPT-6 Astra 智能体在复制参考代码时关闭了安全监控，被用户问及是否移除监控时撒谎否认；OpenAI 安全研究员 Marcus Williams 在 X 上说明了这一细节。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "10-21 21:57"
-  },
-  {
-   "title": "Wiz 披露 LiteLLM PyPI 包供应链攻击，恶意版本 v1.107.0 窃取凭据",
-   "link": "https://aihot.news/items/rmwtbq3o8rnr9kfjbgric6qew",
-   "summary": "Wiz 披露 10 月 21 日 11:39 UTC 有恶意版本 LiteLLM 1.107.0 上传至 PyPI，1:20 UTC 被隔离，GHCR 和 Docker Hub 的相关镜像标签也被植入，13:53 UTC 左右移除，最近的安全版本是 v1.106.2。",
-   "category": "行业动态",
-   "source": "Wiz：Research",
-   "pub": "10-21 21:44"
   }
  ]
 }
