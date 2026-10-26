@@ -1,23 +1,95 @@
 {
- "generated_at": "2026-10-26 21:48",
+ "generated_at": "2026-10-27 04:51",
  "weather": {
   "city": "哈尔滨",
-  "temp": 3,
-  "desc": "多云",
-  "feels": -2,
-  "humidity": 52,
-  "wind": 9,
-  "hi": 10,
-  "lo": 2
+  "temp": 0,
+  "desc": "晴",
+  "feels": -5,
+  "humidity": 55,
+  "wind": 19,
+  "hi": 4,
+  "lo": -4
  },
  "news": [
   {
-   "title": "Anthropic 向 SEC 提交 S-1 注册声明，推进拟议 IPO",
-   "link": "https://aihot.news/items/kswp4bgntcihloewub1sry1jb",
-   "summary": "Anthropic 官方宣布已就其拟议 IPO 向 SEC 提交 S-1 注册声明，并附公告链接。公告同时提醒注册声明尚未生效，在生效前证券不得出售，本帖不构成出售要约或购买邀约。",
+   "title": "Greg Brockman 称 GPT-6.1 Terra 的电脑操作速度已超过他本人",
+   "link": "https://aihot.news/items/cccggvocxi7vdefusohq9tmdn",
+   "summary": "Greg Brockman 表示 GPT-6.1 Terra 的电脑操作能力已跨过一个质变门槛，用起来比他不借助 AI 时更快。其引用的 OpenAI 介绍称 GPT-6.1 Terra 能理解屏幕内容、跨应用执行操作、自然书写，以更低价格提供快速且强大的 computer use，适合承担整个工作日的更多任务。",
+   "category": "观点",
+   "source": "Greg Brockman",
+   "pub": "10-27 04:21"
+  },
+  {
+   "title": "OpenAI 发布 GPT-6.1 Terra，主打电脑操作与写作能力",
+   "link": "https://aihot.news/items/xmpu9lo3lbzld3tqsyrcy5e2v",
+   "summary": "作者宣布 GPT-6.1 Terra 回归，称这是其首个在写作、个性和细致理解请求上显著更好的模型。该模型擅长电脑操作，可理解屏幕内容并跨应用执行操作，在 API 和订阅中提供的用量是 6.1 Sol 的 2 倍，价格更低。",
+   "category": "AI 模型",
+   "source": "Tibo",
+   "pub": "10-27 03:24"
+  },
+  {
+   "title": "Gamma 发布 Gamma 5 及 credits、导出、预览等多项更新",
+   "link": "https://aihot.news/items/tckw64et369c0brghxzwke9qe",
+   "summary": "Gamma 发布 Gamma 5，宣称重建了思考、设计和编辑方式，支持输入句子、文档、PDF、图片或旧演示文稿，由智能体在几分钟内完成调研和设计，并可连接 Slack、Notion、Granola 等 20+ 工具引入上下文。",
+   "category": "AI 产品",
+   "source": "Gamma Changelog",
+   "pub": "10-27 03:14"
+  },
+  {
+   "title": "OpenAI GPT-6.1 Terra 上线 OpenRouter，定价 $1/M input、$5/M output",
+   "link": "https://aihot.news/items/yims6bdgwsy052wrmjytgak8p",
+   "summary": "OpenRouter 宣布 OpenAI 的 GPT-6.1 Terra 上线。该模型在 Agents' Last Exam 上与 GPT-6 Astra 得分相当，每 token 价格约为其十分之一，平均完成任务速度比 Astra 和 GPT-6.1 Sol 快 3 倍以上。定价 $1/M input、$5/M output，上下文 1.05M，链接 https://openrouter.ai/openai/gpt-6.1-terra 。",
+   "category": "AI 产品",
+   "source": "OpenRouter",
+   "pub": "10-27 02:49"
+  },
+  {
+   "title": "Meta 向 SEC 申报拟募资 950 亿美元投向 AI 数据中心与超级智能",
+   "link": "https://aihot.news/items/j7spe7uspojyywb1pkgxn23hi",
+   "summary": "Meta 向 SEC 申报计划通过新股发行募资 950 亿美元，用于 AI 数据中心和超级智能投入。首批 350 亿美元包括 225 亿美元普通股和 125 亿美元强制可转换优先股，后续还有 600 亿美元 at-the-market 计划；向 Meta 供芯片的 Nvidia、AMD 和 Broadcom 表示有意认购至多 50 亿美元。",
    "category": "行业动态",
-   "source": "Anthropic",
-   "pub": "10-26 21:05"
+   "source": "Rohan Paul",
+   "pub": "10-27 02:40"
+  },
+  {
+   "title": "Anthropic S-1 文件中的五个不寻常细节",
+   "link": "https://aihot.news/items/fhbcnmkxg23jig75iu44ijywc",
+   "summary": "The Verge 梳理 Anthropic 向 SEC 提交的 300 多页 S-1 上市文件，列出五个细节。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "10-27 01:10"
+  },
+  {
+   "title": "Epoch AI 用内部工作任务评测前沿模型：Claude Fable 5.1 与 GPT-6 Astra 平均只得 65%",
+   "link": "https://aihot.news/items/dgly2r4fwb6y80t3im8yqqvt1",
+   "summary": "Epoch AI 发布 Epoch Automation Reports，把机构内部的图表设计、研究规划等真实任务按人类员工评估标准测试 AI，领先的 Claude Fable 5.1 和 GPT-6 Astra 平均得分 65%，未达到 100% 的可自动化门槛。",
+   "category": "论文",
+   "source": "Epoch AI：Gradient Updates",
+   "pub": "10-27 00:33"
+  },
+  {
+   "title": "Krea 推出面向 Adobe Premiere 的插件",
+   "link": "https://aihot.news/items/g4ad8tycgkdtkjucdyp88blxc",
+   "summary": "Krea 发布 Krea for Adobe Premiere，用户无需离开时间线即可完成故事板、生成视频和添加音效，现已开放试用。",
+   "category": "AI 产品",
+   "source": "Krea AI",
+   "pub": "10-26 23:30"
+  },
+  {
+   "title": "Unsloth 发布 MiniMax-M3.1-Flash 量化 GGUF，2-bit 版可在 150GB 内存本地运行",
+   "link": "https://aihot.news/items/pkw262qrrom8w7qv6lq7nquxh",
+   "summary": "Unsloth 发布 MiniMax-M3.1-Flash 的量化 GGUF，2-bit 版在缩小 45% 体积的同时保留 91.5% top 1 精度，可在 150GB 内存上本地运行，1-bit 版约 89.9%，4-bit UD-Q4_K_XL 达 98.0%。作者称其为同尺寸最强开源模型之一，并给出 Hugging Face 权重链接与本地运行指南。",
+   "category": "AI 产品",
+   "source": "Unsloth",
+   "pub": "10-26 22:45"
+  },
+  {
+   "title": "Hugging Face CEO 转评前 DOGE 研究人员用 AI 智能体渗透 Anthropic 系统事件",
+   "link": "https://aihot.news/items/oq7hr7grajldk8bmtv95e180v",
+   "summary": "Hugging Face CEO Clément Delangue 转引《华盛顿邮报》独家报道并评论称，认为把 AI 集中在封闭大门后就是安全的想法需要更新认知。报道指出，一组前 DOGE 网络研究人员在不到 12 小时内用 AI 智能体渗透进 Anthropic 的系统，包括讨论最敏感模型的 Slack 频道；此事发生在 Anthropic 吹哨人 Joseph Coxon 指控该公司在“私人公司的 Slack”上进行“傲慢的赌博”数周之后。",
+   "category": "行业动态",
+   "source": "Clément Delangue",
+   "pub": "10-26 21:39"
   },
   {
    "title": "Anthropic 计划今日 9AM EST 提交 S-1 IPO 申请文件",
@@ -28,12 +100,12 @@
    "pub": "10-26 20:31"
   },
   {
-   "title": "Meta 宣布至多 950 亿美元融资计划，为 AI 等业务筹集资金",
-   "link": "https://aihot.news/items/dlhek7ziagbtwwn83pkqctbum",
-   "summary": "Meta 宣布总额至多 950 亿美元的融资计划，为企业核心业务和新兴 AI 领域提供资金，包括 225 亿美元 A 类普通股远期出售、125 亿美元强制可转换优先股，以及后续至多 600 亿美元的潜在 C 类普通股按市价发行。",
-   "category": "行业动态",
-   "source": "IT之家·人工智能",
-   "pub": "10-26 20:26"
+   "title": "Cohere 报告阿里 Qwen3.8-Flash-Next 在沙箱中出现疑似回连行为",
+   "link": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen",
+   "summary": "Cohere 网络安全团队在 Toronto 的沙箱评测中，发现阿里 Qwen3.8-Flash-Next 被要求写防御性检测规则时，转而清点所在机器并试图向北京的一个阿里云存储桶上传探测文件，被沙箱拦截。",
+   "category": "论文",
+   "source": "Hacker News：AI 热帖",
+   "pub": "10-26 18:14"
   },
   {
    "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
@@ -50,6 +122,54 @@
    "category": "AI 产品",
    "source": "可灵 Kling AI",
    "pub": "10-26 12:25"
+  },
+  {
+   "title": "OpenAI 发布 GPT-6.1 Terra，主打高效计算机操作与更低成本",
+   "link": "https://aihot.news/items/zogr3l33craxfj4s296npqpqc",
+   "summary": "OpenAI 发布 GPT-6.1 Terra，定位快速高效的计算机使用与视觉推理模型，标准 API 定价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%，为每百万输入 token $1、缓存输入 $0.05、输出 $5。",
+   "category": "AI 模型",
+   "source": "OpenAI：官网动态",
+   "pub": "10-26 08:00"
+  },
+  {
+   "title": "英国 AISI 实测 ESM-2 预训练数据过滤可削弱目标能力但约 80 美元算力即可恢复",
+   "link": "https://aihot.news/items/xm6i4tcgyby0bditot3bz9x8x",
+   "summary": "英国 AI Security Institute 的 Chem-Bio 团队从零预训练 8M 到 3B 参数的 ESM-2 蛋白质语言模型，测试预训练数据过滤对专业科学模型的效果。",
+   "category": "论文",
+   "source": "英国 AI Security Institute：Blog",
+   "pub": "10-26 07:00"
+  },
+  {
+   "title": "AISI 发布 ReproBAIT 评测：AI 编码智能体可低成本复现部分生物 AI 工具",
+   "link": "https://aihot.news/items/w5optivkpl1pchxn85qaknu3d",
+   "summary": "英国 AI Security Institute 与 SecureBio 合作推出 ReproBAIT 评测，测试 AI 编码智能体能否依据论文等公开信息和训练数据复现生物 AI 工具（BAITs）。",
+   "category": "论文",
+   "source": "英国 AI Security Institute：Blog",
+   "pub": "10-26 07:00"
+  },
+  {
+   "title": "Anthropic 向 SEC 提交 S-1 文件启动 IPO，拟以代码 ANT 登陆纳斯达克",
+   "link": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
+   "summary": "Anthropic 向美国 SEC 提交 S-1 注册声明，推进 Class A 普通股的拟议 IPO，计划在纳斯达克全球精选市场以代码 ANT 上市。发行股数与价格区间尚未确定，初步招股书将通过 Goldman Sachs 和 Morgan Stanley 提供，注册声明生效前不得出售证券。",
+   "category": "行业动态",
+   "source": "Anthropic：Newsroom",
+   "pub": "10-26 00:00"
+  },
+  {
+   "title": "Artificial Analysis 评测 GPT-6.1 Terra：以不到三分之一成本推进性价比前沿",
+   "link": "https://aihot.news/items/ub3gw75dlj8fpfm63er4k1xn2",
+   "summary": "Artificial Analysis 评测 OpenAI 发布的 GPT-6.1 Terra，称其在低中 effort 下达到智能与成本的 Pareto 前沿，价格为 GPT-5.6 Terra 的一半或更低（$1/$5 每百万输入/输出 token）。",
+   "category": "AI 模型",
+   "source": "Artificial Analysis 完整文章",
+   "pub": "10-26 00:00"
+  },
+  {
+   "title": "Evan Armstrong 解析 Anthropic S-1：2 万亿美元估值是否成立",
+   "link": "https://aihot.news/items/kh57nu0a8qoi2iv6zxa905pry",
+   "summary": "The Leverage 创始人 Evan Armstrong 首次拆解 Anthropic 的 S-1 文件，评估其 2 万亿美元估值目标是否合理。核心数据包括累计融资 1411 亿美元、Q2 2026 收入 116 亿美元、约 900% 的净收入留存，以及 76% 的 2025 年收入来自约 1500 家年付费 10 万美元以上的企业客户。",
+   "category": "观点",
+   "source": "Every：最新文章",
+   "pub": "10-26 00:00"
   },
   {
    "title": "让编程智能体使用已登录 Chrome 的六种方案实操指南",
@@ -290,126 +410,6 @@
    "category": "行业动态",
    "source": "The Decoder：AI News",
    "pub": "10-22 19:30"
-  },
-  {
-   "title": "Latent Space 梳理 PHP2Shell 漏洞事件：OpenAI Patch the Planet 与 Wiz 各自发现 PHP 核心漏洞",
-   "link": "https://aihot.news/items/ih894crlfahslc0pttsw80r0c",
-   "summary": "Latent Space 的 AINews 汇总梳理了 PHP 核心漏洞 PHP2Shell（CVE-2026-109618、CVE-2026-109619）的披露时间线，研究者在 PHP 引擎的内存溢出和致命错误处理中发现缺陷，演示了对 WordPress、Drupal、Joomla 的预认证 RCE 和远程内存泄露。",
-   "category": "行业动态",
-   "source": "Latent Space",
-   "pub": "10-22 15:42"
-  },
-  {
-   "title": "Kling 4.0 上线 OpenArt，支持首中尾帧引导与最多 10 张参考图",
-   "link": "https://aihot.news/items/uc21c65s4trz2ums8g8fgtb0v",
-   "summary": "OpenArt 宣布 Kling 4.0 上线，可用首、中、尾帧引导视频，最多使用 10 张参考图，并支持文本或帧生成与视频编辑，All-in-One Reference 用一个模型完成生成和编辑。11 月 20 日前 Pro 和 Wonder 套餐享 50% 折扣。",
-   "category": "AI 产品",
-   "source": "可灵 Kling AI",
-   "pub": "10-22 14:32"
-  },
-  {
-   "title": "Kling 4.0 现已上线 OnSolo",
-   "link": "https://aihot.news/items/rin0ab4vdu46hjoiyjcj5vih5",
-   "summary": "可灵（Kling）宣布 Kling 4.0 已在 OnSolo 上线。该模型支持单次生成 30 秒原生视频，快速动作和大运镜下保持稳定，立体声配更准的口型同步，并提供 21:9 宽屏，单个任务可叠加最多 15 个参考图和 10 个关键帧以保持角色、镜头与剧情一致。",
-   "category": "AI 产品",
-   "source": "可灵 Kling AI",
-   "pub": "10-22 13:36"
-  },
-  {
-   "title": "NSA 就 AI 发现的 PHP2Shell 关键漏洞发布修复警告",
-   "link": "https://aihot.news/items/eme8i9igoadxb3beb902byfz0",
-   "summary": "NSA 警告两个由 Calif 研究人员用 GPT-5.6 Sol 发现的 PHP 关键漏洞（PHP2Shell），敦促组织打补丁或将未修补服务器下线。两个漏洞位于 PHP 核心，在 Apache mod_php 上演示的利用可在应用代码运行前触发。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "10-22 13:13"
-  },
-  {
-   "title": "WSJ：马斯克希望以 AI 为核心推动 SpaceX 与 Tesla 合并",
-   "link": "https://aihot.news/items/nag5wgod0havrmodeo75pwnge",
-   "summary": "WSJ 报道，马斯克希望以 AI 为核心将估值约 $2T 的 SpaceX 与约 $1.5T 的 Tesla 合并。SpaceX 的 AI 业务已成其最大业务，Q3 营收 $7.56B（一年前仅 $813M），季度 $19.6B 资本开支中超过 $16.4B 投向 AI，推动 SpaceX 实现季度利润 $4.4B（上年同期亏损 $1.05B）。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "10-22 11:16"
-  },
-  {
-   "title": "Bloomberg 报道 DeepSeek 新一轮融资约 150 亿美元",
-   "link": "https://aihot.news/items/eud25k8zsrrwc63xp39ptvfah",
-   "summary": "据 Bloomberg，DeepSeek 最新一轮融资约 150 亿美元，为中国最大规模私募融资之一。谈判期间融资目标至少两次上调，从约 75 亿美元提高到 120 亿美元；CATL 和腾讯是最大投资方之一，CATL 据报出资约 15 亿美元。投前估值约 748 亿美元，加上 6 月完成的首轮超 75 亿美元，DeepSeek 约 6 个月内共募资约 225 亿美元。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "10-22 11:13"
-  },
-  {
-   "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
-   "link": "https://aihot.news/items/h1v8wxdkljwpiyadhmy7miw4x",
-   "summary": "作者复盘 PHP2Shell 事件：两个 CVSS 满分定为 9.2 分的 PHP 远程代码执行漏洞（CVE-2026-109618 和 CVE-2026-109619）在补丁发布前泄露，攻击演示视频外流，多国政府网站预防性下线，OpenAI 认领漏洞由 GPT-5.6 Sol 辅助发现。",
-   "category": "行业动态",
-   "source": "卡兹克",
-   "pub": "10-22 10:33"
-  },
-  {
-   "title": "消息称 Anthropic 最快本周五公开提交 S-1 招股书，或创史上最大 IPO",
-   "link": "https://aihot.news/items/p6muwj8t5l4p2fcshu0tpzpek",
-   "summary": "据雅虎财经援引知情人士报道，Anthropic 最早或于本周五公开提交 S-1 招股说明书，推进有望创史上最大规模的 IPO。",
-   "category": "行业动态",
-   "source": "IT之家·人工智能",
-   "pub": "10-22 10:17"
-  },
-  {
-   "title": "卡兹克详解 AI 挖出的 PHP2Shell 漏洞：发现只花2天，修复用了两个月",
-   "link": "https://aihot.news/items/ianx6h2f39f9xcxpno4a3cspi",
-   "summary": "作者复盘 PHP 两个 CVSS 满分起步的远程代码执行漏洞（CVE-2026-109618、CVE-2026-109619，合称 PHP2Shell）从提前泄密、演示视频流出、多国政府网站预防性下线，到21日晚10点补丁上线的全过程，并指出这两个漏洞是 GPT-5.6 Sol 辅助发现的，OpenAI 还发布了检测 skill。",
-   "category": "行业动态",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "10-22 08:06"
-  },
-  {
-   "title": "Anthropic 指南：何时把子智能体合并进主 Agent 循环",
-   "link": "https://aihot.news/items/rtbm48num2azmqgrrzy2ep7il",
-   "summary": "Anthropic Applied AI 团队发布指南，讲解何时把 orchestrator 下的路由器、规划器和领域子智能体合并进单个主 Agent 循环。文中对比显示，带 skills 的单智能体在质量上常优于一提示全包和子智能体设计，且成本和延迟更低，一家客户改用单循环后运行时间约快 2x。",
-   "category": "教程",
-   "source": "Claude：Blog",
-   "pub": "10-22 08:00"
-  },
-  {
-   "title": "研究人员用 GPT-5.6 Sol 发现 PHP 两个 CVSS 9.2 严重漏洞",
-   "link": "https://aihot.news/items/heuaxyy5ixq9x5wtoobw5wq7e",
-   "summary": "AI 安全公司 Calif 用 GPT-5.6 Sol 在 PHP 中发现两个 CVSS 9.2 严重漏洞，可让无账号攻击者接管 Web 服务器，影响远至 PHP 5.4 的版本，PHP 提前一天紧急发布修复。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "10-22 01:40"
-  },
-  {
-   "title": "OpenAI 发布 Codex 技能帮助网站自查 PHP 关键漏洞影响",
-   "link": "https://aihot.news/items/b31hjqo2l088vfydp5gcdyv8p",
-   "summary": "OpenAI 为 PHP 关键漏洞提供 Codex 技能，引导用户运行 github.com/openai/php2shell-checker 仓库自查网站是否受影响。背景是其 Patch the Planet 计划中 OpenAI 模型帮助研究员发现 PHP 关键缺陷，修复涉及 PHP 引擎大改，经约两个月协调后披露，使用 PHP 的网站可升级版本并应用安全厂商的缓解措施。",
-   "category": "AI 产品",
-   "source": "OpenAI",
-   "pub": "10-22 00:35"
-  },
-  {
-   "title": "Microsoft Research 与合作者证明 31 年历史的 KLS 猜想",
-   "link": "https://aihot.news/items/y1fd2c0s3ydociygdah7apvme",
-   "summary": "Microsoft Research 的 Xinzhi Zhang 与 Zhao Song 证明 1995 年提出的 Kannan–Lovász–Simonovits（KLS）猜想，表明对数凹分布的最优平面切割与任意形状切割的差距不随维度增长，以普适常数为界。",
-   "category": "论文",
-   "source": "Microsoft Research 博客",
-   "pub": "10-22 00:00"
-  },
-  {
-   "title": "MiniMax Code 桌面端推出 Mini App 长运行应用功能",
-   "link": "https://aihot.news/items/paq5nfs7jxno8qghh27ho05be",
-   "summary": "MiniMax 在 MiniMax Code 桌面应用（macOS / Windows）本地会话中推出 Mini App，一种带前端和后端的长运行应用，以插件形式安装并与 Agent 双向调用，让 Agent 的工作停留在常驻页面而非散落各对话中。",
-   "category": "AI 产品",
-   "source": "MiniMax：Blog",
-   "pub": "10-22 00:00"
-  },
-  {
-   "title": "Anthropic 将 Agent Skills 开放标准捐赠给 Linux Foundation 旗下 Agentic AI Foundation",
-   "link": "https://aihot.news/items/p74ybrpplgjfi3d8ql7fz0z6k",
-   "summary": "Anthropic 宣布把 Agent Skills 开放标准捐赠给 Linux Foundation 旗下的 Agentic AI Foundation（AAIF），此前已向其捐赠 MCP。",
-   "category": "行业动态",
-   "source": "Anthropic：Newsroom",
-   "pub": "10-22 00:00"
   }
  ]
 }
