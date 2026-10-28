@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-10-28 08:55",
+ "generated_at": "2026-10-28 14:34",
  "weather": {
   "city": "哈尔滨",
-  "temp": -1,
+  "temp": 4,
   "desc": "阴",
-  "feels": -6,
-  "humidity": 38,
-  "wind": 10,
+  "feels": -1,
+  "humidity": 28,
+  "wind": 11,
   "hi": 4,
   "lo": -5
  },
  "news": [
+  {
+   "title": "Addy Osmani 讲解如何上手 Claude Code Mods",
+   "link": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb",
+   "summary": "Addy Osmani 发布 Claude Code Mods 上手指南，说明 mods 是运行在会话中的 JavaScript/TypeScript 文件，可通过 hooks 观察事件、改写行为或渲染自定义界面。",
+   "category": "教程",
+   "source": "Addy Osmani",
+   "pub": "10-28 14:15"
+  },
+  {
+   "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
+   "link": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9",
+   "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "10-28 09:15"
+  },
   {
    "title": "Google 发布世界模型 Genie 4，支持实时操控与原生音频",
    "link": "https://aihot.news/items/ku284awvyj7i3dt4j7oflb78m",
@@ -394,22 +410,6 @@
    "category": "论文",
    "source": "The Decoder：AI News",
    "pub": "10-24 19:12"
-  },
-  {
-   "title": "Kimi 发布开源旗舰模型 K3.1 Pro：2.8T 参数、100万 Token 上下文，实测 3D 与视频动效",
-   "link": "https://aihot.news/items/gwhdq3jo5p1z27wh2i46ntd2s",
-   "summary": "月之暗面发布旗舰模型 Kimi K3.1 Pro，参数 2.8T，支持 100 万 Token 上下文，完整模型权重预计 11 月 4 日前开放。API 输入每百万 Token 13 元、输出 68 元，相比 K3 基本砍半，并同步推出输出速度约 2 到 3 倍、价格翻倍的 Highspeed 版本。",
-   "category": "AI 模型",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "10-24 10:08"
-  },
-  {
-   "title": "OpenAI 红队测试发现 Brotli 未认证远程代码执行漏洞并已披露",
-   "link": "https://aihot.news/items/bflsi3krmtn64gccrmh8dlsdc",
-   "summary": "OpenAI 公布其在红队演练中发现 Brotli 压缩库存在未认证远程代码执行漏洞，攻击者可通过发送或回复恶意压缩数据在受影响系统上执行代码，无需创建用户账号，影响 Node.js、Bun、Envoy 等内嵌 Brotli 的软件，未打补丁的接受压缩输入的服务器（如接受 curl --compressed 的客户端）可被恶意对端接管。",
-   "category": "行业动态",
-   "source": "OpenAI",
-   "pub": "10-24 06:55"
   }
  ]
 }
