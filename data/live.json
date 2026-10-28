@@ -1,16 +1,48 @@
 {
- "generated_at": "2026-10-28 04:23",
+ "generated_at": "2026-10-28 08:55",
  "weather": {
   "city": "哈尔滨",
-  "temp": -5,
-  "desc": "晴",
-  "feels": -10,
-  "humidity": 46,
-  "wind": 12,
+  "temp": -1,
+  "desc": "阴",
+  "feels": -6,
+  "humidity": 38,
+  "wind": 10,
   "hi": 4,
   "lo": -5
  },
  "news": [
+  {
+   "title": "Google 发布世界模型 Genie 4，支持实时操控与原生音频",
+   "link": "https://aihot.news/items/ku284awvyj7i3dt4j7oflb78m",
+   "summary": "Google 发布下一代世界模型 Genie 4，相比 Genie 3 在照片级真实感、物体碰撞等物理模拟上有明显进步。用户可用 WASD 和双摇杆实时控制角色或镜头，运行中可用自然语言修改天气和加入物体，模型还能同步生成环境音与人物实时对话。",
+   "category": "AI 模型",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "10-28 08:22"
+  },
+  {
+   "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
+   "link": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy",
+   "summary": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "10-28 07:34"
+  },
+  {
+   "title": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
+   "link": "https://aihot.news/items/o5s4s2z9njz29hgd7im06gzrf",
+   "summary": "作者称 Verified AI 迎来标志性月份，Axiom 的 AI 智能体集群用 24 天完成数学史上最长证明的验证，将跨越 500 多篇论文的 15,000 页有限单群分类定理（CFSG）转化为 3800 万行以上机器验证代码，并发现已发表记录中的 34 处严重出入。引用内容补充称该形式化证明可能是最大的开源项目之一，图中显示 Axiom CFSG 达 43.0M 行，约每 37 天翻倍。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "10-28 07:31"
+  },
+  {
+   "title": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成",
+   "link": "https://aihot.news/items/t13kjmoalf8m0luymjchvrysk",
+   "summary": "Google Gemini 宣布集成 SynthID 检测功能，用户只需在 Gemini 中询问“Is this AI generated?”，即可检查图片、视频或音频文件是否由 Google AI 生成。官方称此举帮助用户更有信心地浏览网络内容。",
+   "category": "AI 产品",
+   "source": "Gemini",
+   "pub": "10-28 04:00"
+  },
   {
    "title": "Azeem Azhar 图解 Anthropic S-1 财务数据",
    "link": "https://aihot.news/items/xhwtx8zwvvmyou5emtd3dbzbn",
@@ -204,6 +236,22 @@
    "pub": "10-27 00:00"
   },
   {
+   "title": "Anthropic 公布 Claude 加速药物研发的早期进展与六个合作案例",
+   "link": "https://aihot.news/items/czkv5svlodxelpz10tt5fpnk7",
+   "summary": "Anthropic 生命科学团队宣布过去数月与 Generate Biomedicines、Divergence Labs、BigHat Biosciences、Enveda、The Column Group、Bristol Myers Squibb 六家机构开展药物研发合作，并已启动自有药物研发。",
+   "category": "行业动态",
+   "source": "Anthropic：Research",
+   "pub": "10-27 00:00"
+  },
+  {
+   "title": "Anthropic 扩大与 GSA 合作，政府机构购买 Claude 享 40% 折扣",
+   "link": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok",
+   "summary": "Anthropic 与美国总务管理局（GSA）扩大合作，政府伙伴购买 Claude Enterprise、Claude for Government 和 Claude API 可享 40% 折扣，预计为政府节省 10 亿美元，且不设最低消费承诺。",
+   "category": "行业动态",
+   "source": "Anthropic：Newsroom",
+   "pub": "10-27 00:00"
+  },
+  {
    "title": "Krea 推出面向 Adobe Premiere 的插件",
    "link": "https://aihot.news/items/g4ad8tycgkdtkjucdyp88blxc",
    "summary": "Krea 发布 Krea for Adobe Premiere，用户无需离开时间线即可完成故事板、生成视频和添加音效，现已开放试用。",
@@ -362,54 +410,6 @@
    "category": "行业动态",
    "source": "OpenAI",
    "pub": "10-24 06:55"
-  },
-  {
-   "title": "Sundar Pichai 解释 Demis Hassabis 退出 DeepMind 日常管理与 Jeff Dean 离职",
-   "link": "https://aihot.news/items/ryf4bbjezfib8jx05ng0889zf",
-   "summary": "Sundar Pichai 在访谈中解释 Demis Hassabis 逐步退出 DeepMind 日常管理和 Jeff Dean 离开 Google 的原因，称前沿模型开发已成为一项从数据、算力到团队管理都全消耗的规模化工作。",
-   "category": "观点",
-   "source": "Alex Heath",
-   "pub": "10-24 02:58"
-  },
-  {
-   "title": "月之暗面 Kimi K3.1 Pro 上线 OpenRouter，1M 上下文多模态开源权重模型",
-   "link": "https://aihot.news/items/g725ujk3cq0gquz6g2nlozeu4",
-   "summary": "OpenRouter 宣布月之暗面的 Kimi K3.1 Pro 上线，定位为基于 Kimi K3 后训练、面向长程编码和智能体任务的 1M 上下文多模态开源权重模型。定价为 $2/M input tokens、$10/M output tokens，可在 OpenRouter 直接试用。",
-   "category": "AI 产品",
-   "source": "OpenRouter",
-   "pub": "10-24 02:31"
-  },
-  {
-   "title": "月之暗面发布 Kimi K3.1 Pro，100 万 token 上下文，开放权重将于 11 月 4 日前释出",
-   "link": "https://aihot.news/items/okgjn7r72wo7c5j0bu3o1vbie",
-   "summary": "月之暗面发布 Kimi K3.1 系列首个模型 Kimi K3.1 Pro，为 3T 级开放权重模型，上下文窗口 100 万 token，并同步推出速度快 2-3 倍的 Kimi K3.1 Pro Highspeed。",
-   "category": "AI 模型",
-   "source": "Moonshot AI：Kimi Blog",
-   "pub": "10-24 00:00"
-  },
-  {
-   "title": "Kling 4.0 在 fal 上线并向所有客户开放 API 访问",
-   "link": "https://aihot.news/items/dy6rkvc23lfrolo4y5hjg7evh",
-   "summary": "fal 宣布 Kling 4.0 正式向公众开放，所有客户均可通过 API 访问。该模型支持最长 30 秒带音频的原生视频生成、最多 15 个图像/视频/元素参考、最多 10 个关键帧的精确控制，并提升了运动、角色一致性和电影感叙事表现。",
-   "category": "AI 产品",
-   "source": "fal",
-   "pub": "10-23 23:00"
-  },
-  {
-   "title": "OpenAI 详解前沿模型训练环境的安全加固与红队测试",
-   "link": "https://aihot.news/items/ss1c1fu81134agwcw2ae90gai",
-   "summary": "OpenAI 介绍其前沿模型训练与评估环境的安全加固措施，包括训练期间不接入互联网、构建离线缓存网页世界、以纵深防御多层隔离，并用最强模型（含即将推出的 GPT‑6 Astra Cyber）组成智能体团队进行高算力红队测试。",
-   "category": "行业动态",
-   "source": "OpenAI：官网动态",
-   "pub": "10-23 18:00"
-  },
-  {
-   "title": "OpenAI 下调估值目标至 1.25 万亿美元，拟融资至多 300 亿美元",
-   "link": "https://aihot.news/items/qexf6est4uitwd71p3ugedxo6",
-   "summary": "OpenAI 接近完成至多 300 亿美元的新一轮融资，但将估值目标从最初的 1.4 万亿美元下调至 1.25 万亿美元。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "10-23 17:49"
   }
  ]
 }
