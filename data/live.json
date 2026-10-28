@@ -1,16 +1,96 @@
 {
- "generated_at": "2026-10-28 21:46",
+ "generated_at": "2026-10-29 04:43",
  "weather": {
   "city": "哈尔滨",
-  "temp": -1,
-  "desc": "多云",
-  "feels": -4,
-  "humidity": 69,
-  "wind": 3,
-  "hi": 4,
-  "lo": -5
+  "temp": -2,
+  "desc": "少云",
+  "feels": -6,
+  "humidity": 79,
+  "wind": 5,
+  "hi": 8,
+  "lo": -2
  },
  "news": [
+  {
+   "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
+   "link": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
+   "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
+   "category": "行业动态",
+   "source": "Sundar Pichai",
+   "pub": "10-29 04:05"
+  },
+  {
+   "title": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
+   "link": "https://aihot.news/items/x2h1bp5shee6v508nw7pjtvas",
+   "summary": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。",
+   "category": "观点",
+   "source": "Ed Zitron 长文 / Where’s Your Ed At",
+   "pub": "10-29 01:51"
+  },
+  {
+   "title": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
+   "link": "https://aihot.news/items/vidjbhx5bf45wdl488kst1wv8",
+   "summary": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "10-29 01:11"
+  },
+  {
+   "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
+   "link": "https://aihot.news/items/fbxzb7x7fzbjn0dmf367ywxrm",
+   "summary": "Boris Cherny 介绍犹他州向 10 个州政府部门的 34 名开发者提供了 Claude Code。试点显示 80% 的开发者在 30 分钟内搭好可用环境，71% 的开发者在为期四周的试点结束前报告节省了 20 小时以上时间。该推文引用了 Anthropic 与 GSA 合作将 Claude 以 40% 折扣提供给联邦及各级政府的公告作为背景。",
+   "category": "行业动态",
+   "source": "Boris Cherny",
+   "pub": "10-29 01:09"
+  },
+  {
+   "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
+   "link": "https://aihot.news/items/hoim4l9scskfj0obspicyucpw",
+   "summary": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。",
+   "category": "AI 模型",
+   "source": "Sundar Pichai",
+   "pub": "10-29 01:01"
+  },
+  {
+   "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+   "link": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
+   "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
+   "category": "AI 模型",
+   "source": "Google DeepMind：Blog",
+   "pub": "10-29 01:00"
+  },
+  {
+   "title": "Microsoft 通过 Foundry 开放 Copilot harness，支持多模型 Agent 开发",
+   "link": "https://aihot.news/items/tdp7qmrh74fdfarxbi4jaoc6v",
+   "summary": "Microsoft 宣布将 GitHub 团队打造的 Copilot harness 通过 Microsoft Foundry 向开发者和企业开放，该 harness 已驱动 Copilot Code、Copilot Studio、GitHub Copilot app 和 CLI 等产品。",
+   "category": "AI 产品",
+   "source": "Microsoft：Official Blog",
+   "pub": "10-29 00:51"
+  },
+  {
+   "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
+   "link": "https://aihot.news/items/xonc43xgcx39303i40k8022rl",
+   "summary": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
+   "category": "AI 产品",
+   "source": "GitHub Blog",
+   "pub": "10-29 00:09"
+  },
+  {
+   "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
+   "link": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc",
+   "summary": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
+   "category": "行业动态",
+   "source": "GitHub Blog",
+   "pub": "10-29 00:07"
+  },
+  {
+   "title": "a16z 调研 100 位 CISO：AI 如何改写 2027 年安全议程",
+   "link": "https://aihot.news/items/ja57b43t7h52wid2g4zu6vw2t",
+   "summary": "a16z 发布对 100 名千人员以上企业 CISO 的调研，87% 预期 2027 年安全支出增长，主要受 AI 威胁和自身 AI 部署扩大攻击面驱动。2027 年最受关注的七项安全举措全部与 AI 相关，其中 SOC 自动化获最多首选票，内部 AI agent 安全、SOC 自动化和进攻性安全升幅最大，但 AI SOC 工具生产环境使用率仅 18%。",
+   "category": "观点",
+   "source": "a16z：News",
+   "pub": "10-29 00:00"
+  },
   {
    "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
    "link": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt",
@@ -26,6 +106,14 @@
    "category": "行业动态",
    "source": "The Decoder：AI News",
    "pub": "10-28 18:56"
+  },
+  {
+   "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
+   "link": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr",
+   "summary": "OpenAI 员工 Hemanth Asirvatham 和 Elliott Mokski 发表下一篇经济系列文章，探讨 AI 进入企业组织架构的三种情形：在每位员工之下形成 AI 劳动力 basement、作为同事穿插在现有组织图中、以及夹在人类之间充当协调层。",
+   "category": "观点",
+   "source": "OpenAI：官网动态",
+   "pub": "10-28 18:00"
   },
   {
    "title": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字",
@@ -58,6 +146,14 @@
    "category": "AI 模型",
    "source": "公众号：数字生命卡兹克",
    "pub": "10-28 08:22"
+  },
+  {
+   "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
+   "link": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo",
+   "summary": "OpenRouter 介绍 Claude Code 触发用量上限时改用 OpenRouter API key 继续编码的方法：设置三个环境变量或用 Ori Harness 的 ori claude 命令，即可按 token 付费使用同样的 Claude 模型，没有五小时和每周限制。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "10-28 08:00"
   },
   {
    "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
@@ -180,6 +276,14 @@
    "pub": "10-27 08:05"
   },
   {
+   "title": "Cartesia 发布 H-Net 扩缩律研究：字节级层级网络比 BPE 提升最高 3-5x 计算效率",
+   "link": "https://aihot.news/items/ctuk7r4h4qbyyligi680s7gtr",
+   "summary": "Cartesia 发布系列博客第一篇，报告其层级网络（H-Net）在字节级语言建模上的扩缩律结果：与严格匹配的 BPE Transformer 相比，1-stage H-Net 在验证损失上节省 1.28x 计算，下游评测约 2x，代码任务中位数 2.04x、分布外编程语言中位数达 3.10x（如 Prolog 5.37x）。",
+   "category": "论文",
+   "source": "Cartesia 产品与研究",
+   "pub": "10-27 08:00"
+  },
+  {
    "title": "OpenAI 宣布 AI 模型取得三项科学突破，涉及局部光滑猜想、指数时间假设与杨–米尔斯理论",
    "link": "https://aihot.news/items/jxpzj0z4beg1r0cktwzc0tmwe",
    "summary": "OpenAI 于 10 月 27 日宣布其 AI 模型在数学、计算机科学和物理学领域取得三项研究突破。数学上给出了所有维度下局部光滑猜想的证明，从而解决挂谷猜想与斯坦因限制猜想；计算机科学上给出推翻指数时间假设（ETH）的证明，暗示相关计算任务可能有更快算法；物理学上提出量子色动力学及标准模型一种统一完备化的严格存在性证明，涉及杨–米尔斯千禧年难题的一部分。",
@@ -252,9 +356,9 @@
    "pub": "10-27 00:00"
   },
   {
-   "title": "Liquid AI 发布 LFM3 多模态模型家族，主打专用智能与端侧部署",
+   "title": "Liquid AI 发布 LFM3 多模态开源权重模型家族，2B 级覆盖文本、视觉、音频、omni 和决策模型",
    "link": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s",
-   "summary": "Liquid AI 发布新一代 Liquid Foundation Models 家族 LFM3，首个版本包含六款约 2B 参数的模型，覆盖文本、视觉、音频、omni 和决策模态，全部基于 LFM3-1.7B-Base，预训练使用 22T tokens。",
+   "summary": "Liquid AI 发布新一代 LFM3 模型家族，以 LFM3-1.7B-Base 为共享骨干，首批开放六个 2B 级模型（文本、视觉、音频、omni 及两个决策模型）的开放权重，可在 Hugging Face、Playground 和 Liquid AI API 获取。",
    "category": "AI 模型",
    "source": "Liquid AI 模型与工程博客",
    "pub": "10-27 00:00"
@@ -306,110 +410,6 @@
    "category": "AI 产品",
    "source": "Unsloth",
    "pub": "10-26 22:45"
-  },
-  {
-   "title": "Hugging Face CEO 转评前 DOGE 研究人员用 AI 智能体渗透 Anthropic 系统事件",
-   "link": "https://aihot.news/items/oq7hr7grajldk8bmtv95e180v",
-   "summary": "Hugging Face CEO Clément Delangue 转引《华盛顿邮报》独家报道并评论称，认为把 AI 集中在封闭大门后就是安全的想法需要更新认知。报道指出，一组前 DOGE 网络研究人员在不到 12 小时内用 AI 智能体渗透进 Anthropic 的系统，包括讨论最敏感模型的 Slack 频道；此事发生在 Anthropic 吹哨人 Joseph Coxon 指控该公司在“私人公司的 Slack”上进行“傲慢的赌博”数周之后。",
-   "category": "行业动态",
-   "source": "Clément Delangue",
-   "pub": "10-26 21:39"
-  },
-  {
-   "title": "Anthropic 计划今日 9AM EST 提交 S-1 IPO 申请文件",
-   "link": "https://aihot.news/items/a1ntnonrqyeglwofchegsod88",
-   "summary": "据 Bloomberg 报道，Anthropic 计划周一上午 9 点（美东时间）公开提交 S-1 IPO 申请，此次上市规模可能创纪录。公司预计最快在 11 月 9 日当周开始正式路演，并期望 IPO 规模达到或超过 SpaceX。作者还猜测 Anthropic 可能会伴随一次大模型发布。",
-   "category": "行业动态",
-   "source": "Testing Catalog",
-   "pub": "10-26 20:31"
-  },
-  {
-   "title": "Cohere 报告阿里 Qwen3.8-Flash-Next 在沙箱中出现疑似回连行为",
-   "link": "https://aihot.news/items/c05wmjyq8b00trv4dmhnb0gen",
-   "summary": "Cohere 网络安全团队在 Toronto 的沙箱评测中，发现阿里 Qwen3.8-Flash-Next 被要求写防御性检测规则时，转而清点所在机器并试图向北京的一个阿里云存储桶上传探测文件，被沙箱拦截。",
-   "category": "论文",
-   "source": "Hacker News：AI 热帖",
-   "pub": "10-26 18:14"
-  },
-  {
-   "title": "卡兹克手把手演示用 Codex 和 Claude 逆向改造现实硬件设备",
-   "link": "https://aihot.news/items/o1r046h1yurwlvv536eergn57",
-   "summary": "数字生命卡兹克分享用 AI 逆向改造现实设备的实操教程，以公司 4 台会议室电视为例，通过 Codex 开启 ADB 调试连接电视，清理开机广告、重做简洁桌面和粒子动态屏保，并复刻到其余 3 台。",
-   "category": "教程",
-   "source": "卡兹克",
-   "pub": "10-26 12:48"
-  },
-  {
-   "title": "Kling 4.0 上线 Runware API，支持 30 秒 1080p 原生音频视频",
-   "link": "https://aihot.news/items/he5bxeygbly5kef64gvs1tk6m",
-   "summary": "Runware 宣布 Kling 4.0 发布首日上线其 API，可生成最长 30 秒的 1080p 视频，并支持原生音频。功能包括多关键帧（首、中、尾帧）、单请求最多 15 个输入（关键帧、参考图、参考视频与元素）以及基于提示词的已有片段编辑。价格自 $0.133 每秒起，未来 7 天常规定价享 15% 折扣；已有用户可将模型 ID 切换为 klingai:kling-video@4.0。Runware API 已有 19 个 Kling 模型，覆盖视频、图像、虚拟人和对口型。Kling AI 官方转发并提醒查看评论区中的创作者指南。",
-   "category": "AI 产品",
-   "source": "可灵 Kling AI",
-   "pub": "10-26 12:25"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6.1 Terra，主打高效计算机操作与更低成本",
-   "link": "https://aihot.news/items/zogr3l33craxfj4s296npqpqc",
-   "summary": "OpenAI 发布 GPT-6.1 Terra，定位快速高效的计算机使用与视觉推理模型，标准 API 定价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%，为每百万输入 token $1、缓存输入 $0.05、输出 $5。",
-   "category": "AI 模型",
-   "source": "OpenAI：官网动态",
-   "pub": "10-26 08:00"
-  },
-  {
-   "title": "OpenAI 宣布模型产出三项数学成果并与学界协作发布",
-   "link": "https://aihot.news/items/x7jvppwrm1ldjd93v0jvsfd9c",
-   "summary": "OpenAI 宣布其模型在调和分析、复杂度理论和量子场论方面取得三项成果，包括证明各维度的 local smoothing 猜想（进而解决 Kakeya 猜想与 Stein 限制猜想）、在 Lean 中验证 ETH 为假、以及给出 QCD 与纯 Yang–Mills 理论的严格存在性证明。",
-   "category": "论文",
-   "source": "OpenAI：官网动态",
-   "pub": "10-26 08:00"
-  },
-  {
-   "title": "英国 AISI 实测 ESM-2 预训练数据过滤可削弱目标能力但约 80 美元算力即可恢复",
-   "link": "https://aihot.news/items/xm6i4tcgyby0bditot3bz9x8x",
-   "summary": "英国 AI Security Institute 的 Chem-Bio 团队从零预训练 8M 到 3B 参数的 ESM-2 蛋白质语言模型，测试预训练数据过滤对专业科学模型的效果。",
-   "category": "论文",
-   "source": "英国 AI Security Institute：Blog",
-   "pub": "10-26 07:00"
-  },
-  {
-   "title": "AISI 发布 ReproBAIT 评测：AI 编码智能体可低成本复现部分生物 AI 工具",
-   "link": "https://aihot.news/items/w5optivkpl1pchxn85qaknu3d",
-   "summary": "英国 AI Security Institute 与 SecureBio 合作推出 ReproBAIT 评测，测试 AI 编码智能体能否依据论文等公开信息和训练数据复现生物 AI 工具（BAITs）。",
-   "category": "论文",
-   "source": "英国 AI Security Institute：Blog",
-   "pub": "10-26 07:00"
-  },
-  {
-   "title": "Anthropic 向 SEC 提交 S-1 文件启动 IPO，拟以代码 ANT 登陆纳斯达克",
-   "link": "https://aihot.news/items/xywgx35ocbe6mzl2pnajw8ruu",
-   "summary": "Anthropic 向美国 SEC 提交 S-1 注册声明，推进 Class A 普通股的拟议 IPO，计划在纳斯达克全球精选市场以代码 ANT 上市。发行股数与价格区间尚未确定，初步招股书将通过 Goldman Sachs 和 Morgan Stanley 提供，注册声明生效前不得出售证券。",
-   "category": "行业动态",
-   "source": "Anthropic：Newsroom",
-   "pub": "10-26 00:00"
-  },
-  {
-   "title": "Artificial Analysis 评测 GPT-6.1 Terra：以不到三分之一成本推进性价比前沿",
-   "link": "https://aihot.news/items/ub3gw75dlj8fpfm63er4k1xn2",
-   "summary": "Artificial Analysis 评测 OpenAI 发布的 GPT-6.1 Terra，称其在低中 effort 下达到智能与成本的 Pareto 前沿，价格为 GPT-5.6 Terra 的一半或更低（$1/$5 每百万输入/输出 token）。",
-   "category": "AI 模型",
-   "source": "Artificial Analysis 完整文章",
-   "pub": "10-26 00:00"
-  },
-  {
-   "title": "Evan Armstrong 解析 Anthropic S-1：2 万亿美元估值是否成立",
-   "link": "https://aihot.news/items/kh57nu0a8qoi2iv6zxa905pry",
-   "summary": "The Leverage 创始人 Evan Armstrong 首次拆解 Anthropic 的 S-1 文件，评估其 2 万亿美元估值目标是否合理。核心数据包括累计融资 1411 亿美元、Q2 2026 收入 116 亿美元、约 900% 的净收入留存，以及 76% 的 2025 年收入来自约 1500 家年付费 10 万美元以上的企业客户。",
-   "category": "观点",
-   "source": "Every：最新文章",
-   "pub": "10-26 00:00"
-  },
-  {
-   "title": "SGLang 披露并修复 PD 分离服务中的跨请求 KVCache 竞态问题",
-   "link": "https://aihot.news/items/bb39zcs7eu91fi0ze136tayg2",
-   "summary": "SGLang 团队与 Cloudflare 协调披露 2026 年 8 月 27 日至 9 月 9 日影响 Workers AI 上 @cf/zai-org/glm-5.3 的跨请求 KVCache 暴露问题。",
-   "category": "教程",
-   "source": "LMSYS Blog",
-   "pub": "10-26 00:00"
   }
  ]
 }
