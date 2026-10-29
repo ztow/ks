@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-10-29 09:29",
+ "generated_at": "2026-10-29 18:40",
  "weather": {
   "city": "哈尔滨",
-  "temp": 2,
+  "temp": 1,
   "desc": "晴",
-  "feels": -1,
-  "humidity": 59,
-  "wind": 3,
-  "hi": 7,
+  "feels": -3,
+  "humidity": 64,
+  "wind": 9,
+  "hi": 8,
   "lo": -3
  },
  "news": [
+  {
+   "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
+   "link": "https://aihot.news/items/wry19y87ktlbmfwu581jjffj7",
+   "summary": "Google 三季度搜索收入增长约 12%，低于分析师预期的 15%，市值一度缩水最多 10%。高管 Philipp Schindler 承认 AI mode 查询的强劲增长因变现率较低产生了影响，同时公司称搜索查询年增速达五年来最高，并计划在美国及国际市场扩大聊天机器人广告项目。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "10-29 18:16"
+  },
+  {
+   "title": "Addy Osmani 谈你可能对 Claude 过度提示了",
+   "link": "https://aihot.news/items/m1cx9dfhpep0da323x3tk7vht",
+   "summary": "Addy Osmani 撰文称新版 Claude 模型所需提示词比多数人习惯的更少，针对 Opus 5.5 建议用单一明确目标加验证条件让 Claude 自主工作，从 /effort medium 起步按需调整。",
+   "category": "教程",
+   "source": "Addy Osmani",
+   "pub": "10-29 14:13"
+  },
   {
    "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
    "link": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z",
@@ -108,6 +124,14 @@
    "pub": "10-29 00:00"
   },
   {
+   "title": "OpenMOSS 发布开源图像生成模型 MOSS-Image，主打长文本渲染与可编辑布局",
+   "link": "https://aihot.news/items/wykbrcxndw1zv255b9y2usj7v",
+   "summary": "OpenMOSS 发布开放权重图像生成模型 MOSS-Image，采用 5B 参数单流 DiT 从零预训练，支持最长 4K token 提示词、中英文长文本渲染和可编辑的 JSON Layout。",
+   "category": "AI 模型",
+   "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI",
+   "pub": "10-29 00:00"
+  },
+  {
    "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
    "link": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt",
    "summary": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。",
@@ -168,6 +192,14 @@
    "link": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo",
    "summary": "OpenRouter 介绍 Claude Code 触发用量上限时改用 OpenRouter API key 继续编码的方法：设置三个环境变量或用 Ori Harness 的 ori claude 命令，即可按 token 付费使用同样的 Claude 模型，没有五小时和每周限制。",
    "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "10-28 08:00"
+  },
+  {
+   "title": "OpenRouter 重建默认路由算法：TTFT 降 16.9%、429 错误减少 67%",
+   "link": "https://aihot.news/items/l4znfnzfs6rz6vorl1wyj90gb",
+   "summary": "OpenRouter 宣布重建默认 provider 路由算法，从只按价格排序改为按 Routing Cost 综合 effective price、TTFT、吞吐、错误率和输出质量选路。",
+   "category": "AI 产品",
    "source": "OpenRouter：Announcements",
    "pub": "10-28 08:00"
   },
@@ -377,38 +409,6 @@
    "summary": "Apple 为 Creator Studio 推出更新，Final Cut Pro for Mac 内置 MotionVFX 视觉效果库并接入含视频素材的 Content Hub。",
    "category": "AI 产品",
    "source": "Apple：Newsroom",
-   "pub": "10-27 00:00"
-  },
-  {
-   "title": "Liquid AI 发布 LFM3 多模态开源权重模型家族，2B 级覆盖文本、视觉、音频、omni 和决策模型",
-   "link": "https://aihot.news/items/vx4t4ldzajj3lhb8luhg9dy9s",
-   "summary": "Liquid AI 发布新一代 LFM3 模型家族，以 LFM3-1.7B-Base 为共享骨干，首批开放六个 2B 级模型（文本、视觉、音频、omni 及两个决策模型）的开放权重，可在 Hugging Face、Playground 和 Liquid AI API 获取。",
-   "category": "AI 模型",
-   "source": "Liquid AI 模型与工程博客",
-   "pub": "10-27 00:00"
-  },
-  {
-   "title": "Apple 发布搭载 M6 芯片的 14 英寸 MacBook Pro，起售价 $1,999",
-   "link": "https://aihot.news/items/o0okltd585bcx5lh6bkq53n59",
-   "summary": "Apple 发布搭载全新 M6 芯片的 14 英寸 MacBook Pro，配备 12 核 CPU 和 12 核 GPU，相比 M5 图形性能最高快 30%、端侧 AI 工作负载最高快 25%，电池续航最长 24 小时。新机支持 Wi-Fi 7 和蓝牙 6，可本地运行 LLM，10 月 28 日开启预购、11 月 6 日发售，起售价 $1,999（教育优惠 $1,899）。",
-   "category": "AI 产品",
-   "source": "Apple：Newsroom",
-   "pub": "10-27 00:00"
-  },
-  {
-   "title": "Anthropic 研究：AI 智能体的隐性倾向如何影响 50 名专业分析师的判断决策",
-   "link": "https://aihot.news/items/d0k8x9588e62wlqnfoq3bmtq0",
-   "summary": "Anthropic 发表研究，让 50 名有因果推断经验的专业分析师用 Claude Code（Claude Opus 4.8）完成一项统计分析任务，并在分析师不知情的情况下用掷硬币随机设定智能体在四个分析决策上的倾向。",
-   "category": "论文",
-   "source": "Anthropic：Research",
-   "pub": "10-27 00:00"
-  },
-  {
-   "title": "Anthropic 公布 Claude 加速药物研发的早期进展与六个合作案例",
-   "link": "https://aihot.news/items/czkv5svlodxelpz10tt5fpnk7",
-   "summary": "Anthropic 生命科学团队宣布过去数月与 Generate Biomedicines、Divergence Labs、BigHat Biosciences、Enveda、The Column Group、Bristol Myers Squibb 六家机构开展药物研发合作，并已启动自有药物研发。",
-   "category": "行业动态",
-   "source": "Anthropic：Research",
    "pub": "10-27 00:00"
   }
  ]
