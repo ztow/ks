@@ -1,16 +1,48 @@
 {
- "generated_at": "2026-10-30 02:46",
+ "generated_at": "2026-10-30 07:04",
  "weather": {
   "city": "哈尔滨",
-  "temp": 0,
-  "desc": "晴",
-  "feels": -5,
-  "humidity": 61,
-  "wind": 9,
-  "hi": 5,
+  "temp": 1,
+  "desc": "多云",
+  "feels": -4,
+  "humidity": 55,
+  "wind": 15,
+  "hi": 6,
   "lo": -3
  },
  "news": [
+  {
+   "title": "Figma 讲解如何训练专用画布编辑模型",
+   "link": "https://aihot.news/items/z9kqlhsgiz11fvlk3aodm6seg",
+   "summary": "Figma 介绍其为 agent 自研 Figma 编辑模型的训练方法，先用超过 25 万条合成样本做 SFT，让早期 Llama 3.3 70B 在编辑任务上接近当时顶级模型，后转向 RL 并结合确定性校验器与视觉评委做评测。",
+   "category": "教程",
+   "source": "Figma AI / Agent / Make",
+   "pub": "10-30 05:00"
+  },
+  {
+   "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
+   "link": "https://aihot.news/items/op2kjf327vilvhbxkjicxg5ec",
+   "summary": "Reddit 在 Q3 财报中宣布将转向以登录为主的体验，以保护数据免受 AI 抓取并提升广告变现。10 月搜索流量平均每周减少超 100 万次引荐，Q3 全球日活为 1.303 亿，其中美国日活降至 5070 万，同比降 2%。Q3 收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元；该转变将先在美国以外市场测试，暂无全球上线时间表。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "10-30 04:08"
+  },
+  {
+   "title": "Pika 基于MiniMax H3后训练并开源 Pika H3 Flex 视频生成模型",
+   "link": "https://aihot.news/items/eq47lph0rzobf8cr950saiu8r",
+   "summary": "Pika Labs 在 MiniMax H3 上做后训练，推出并开源 Pika H3 Flex，采样步数从 50 步压缩到 6 步，生成时间大幅降低且质量有所提升。",
+   "category": "AI 模型",
+   "source": "卡兹克",
+   "pub": "10-30 04:07"
+  },
+  {
+   "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
+   "link": "https://aihot.news/items/wb6emxuh5ob2wh96egtwawgfu",
+   "summary": "作者通读 Anthropic 公开版 S-1 文件，认为公司财务状况好于预期：2026 年第二季度收入从一季度的 47 亿美元增至 116 亿美元，并录得首个运营利润，截至 6 月底现金储备仅次于 Google 和 Berkshire Hathaway。",
+   "category": "行业动态",
+   "source": "Timothy B. Lee：Understanding AI",
+   "pub": "10-30 03:10"
+  },
   {
    "title": "腾讯混元发布 Hy-Nomas 技术报告并开源 Hy-Nomas-Bench",
    "link": "https://aihot.news/items/nb40aoihhydhoo0acp0rcyaol",
@@ -378,38 +410,6 @@
    "category": "观点",
    "source": "Every：最新文章",
    "pub": "10-28 00:00"
-  },
-  {
-   "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
-   "link": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d",
-   "summary": "Replit 推出 Cloud Agents，面向 Pro 与 Enterprise 客户开放，让设计、客服等非工程人员用自然语言向公司核心代码库提交经测试的 pull request。",
-   "category": "AI 产品",
-   "source": "Replit：Blog",
-   "pub": "10-27 23:30"
-  },
-  {
-   "title": "Ben Horowitz 长文解析 Databricks 与智能体时代的公司形态",
-   "link": "https://aihot.news/items/hfqjmlynoaqxrkyeg8qtsk9ap",
-   "summary": "a16z 的 Ben Horowitz 发文解析 Databricks 如何成为智能体时代的公司基础设施，Databricks 已达到 70 亿美元收入运行率、同比增长 80%，估值 1900 亿美元。",
-   "category": "观点",
-   "source": "a16z：News",
-   "pub": "10-27 22:02"
-  },
-  {
-   "title": "OpenAI 请外部专家核查其 AI 在数学、计算机科学和物理学领域产出的证明",
-   "link": "https://aihot.news/items/xuhb122ijbtqkri3h6er2m21y",
-   "summary": "The Decoder 报道 OpenAI 请外部专家担任\"shepherds\"核查其 AI 在计算机科学、数学和物理学领域的三项证明结果，并将部分证明翻译成 Lean 供计算机逐步验证。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "10-27 20:37"
-  },
-  {
-   "title": "Ai2 发布 Old Ideas, Novel Problems 研究与 benchmark，揭示 LLM 新颖性裁判不稳定",
-   "link": "https://aihot.news/items/p92a4pkxkheznj9nmt50o08l6",
-   "summary": "Ai2 发布研究 Old Ideas, Novel Problems、配套 benchmark、数据、代码和自动化流水线，测试 LLM 作为研究想法新颖性裁判的可靠性。",
-   "category": "论文",
-   "source": "Ai2 / Allen Institute for AI",
-   "pub": "10-27 16:00"
   }
  ]
 }
