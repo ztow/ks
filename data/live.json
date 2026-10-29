@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-10-29 04:43",
+ "generated_at": "2026-10-29 09:29",
  "weather": {
   "city": "哈尔滨",
-  "temp": -2,
-  "desc": "少云",
-  "feels": -6,
-  "humidity": 79,
-  "wind": 5,
-  "hi": 8,
-  "lo": -2
+  "temp": 2,
+  "desc": "晴",
+  "feels": -1,
+  "humidity": 59,
+  "wind": 3,
+  "hi": 7,
+  "lo": -3
  },
  "news": [
+  {
+   "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
+   "link": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z",
+   "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "10-29 08:00"
+  },
+  {
+   "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
+   "link": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn",
+   "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
+   "category": "论文",
+   "source": "IT之家·人工智能",
+   "pub": "10-29 06:35"
+  },
   {
    "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
    "link": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
@@ -212,6 +228,14 @@
    "pub": "10-28 00:01"
   },
   {
+   "title": "Every 解读 Anthropic S-1：上线超过六个月的模型贡献收入不足 20%",
+   "link": "https://aihot.news/items/p24kw8c06nmy1hzs3spvr4aha",
+   "summary": "Every 的 Context Window 通讯解读 Anthropic 周一提交的上市 S-1 文件，指出其重度依赖最新模型，发布超过六个月的模型收入占比不足 20%。",
+   "category": "观点",
+   "source": "Every：最新文章",
+   "pub": "10-28 00:00"
+  },
+  {
    "title": "Replit Cloud Agents 开放企业代码库贡献，非技术人员可直接提交经测试的 PR",
    "link": "https://aihot.news/items/qoz4pwew5rsp1idirgbhtpj9d",
    "summary": "Replit 推出 Cloud Agents，面向 Pro 与 Enterprise 客户开放，让设计、客服等非工程人员用自然语言向公司核心代码库提交经测试的 pull request。",
@@ -386,30 +410,6 @@
    "category": "行业动态",
    "source": "Anthropic：Research",
    "pub": "10-27 00:00"
-  },
-  {
-   "title": "Anthropic 扩大与 GSA 合作，政府机构购买 Claude 享 40% 折扣",
-   "link": "https://aihot.news/items/axminfteoiwhm9xm2txq1u2ok",
-   "summary": "Anthropic 与美国总务管理局（GSA）扩大合作，政府伙伴购买 Claude Enterprise、Claude for Government 和 Claude API 可享 40% 折扣，预计为政府节省 10 亿美元，且不设最低消费承诺。",
-   "category": "行业动态",
-   "source": "Anthropic：Newsroom",
-   "pub": "10-27 00:00"
-  },
-  {
-   "title": "Krea 推出面向 Adobe Premiere 的插件",
-   "link": "https://aihot.news/items/g4ad8tycgkdtkjucdyp88blxc",
-   "summary": "Krea 发布 Krea for Adobe Premiere，用户无需离开时间线即可完成故事板、生成视频和添加音效，现已开放试用。",
-   "category": "AI 产品",
-   "source": "Krea AI",
-   "pub": "10-26 23:30"
-  },
-  {
-   "title": "Unsloth 发布 MiniMax-M3.1-Flash 量化 GGUF，2-bit 版可在 150GB 内存本地运行",
-   "link": "https://aihot.news/items/pkw262qrrom8w7qv6lq7nquxh",
-   "summary": "Unsloth 发布 MiniMax-M3.1-Flash 的量化 GGUF，2-bit 版在缩小 45% 体积的同时保留 91.5% top 1 精度，可在 150GB 内存上本地运行，1-bit 版约 89.9%，4-bit UD-Q4_K_XL 达 98.0%。作者称其为同尺寸最强开源模型之一，并给出 Hugging Face 权重链接与本地运行指南。",
-   "category": "AI 产品",
-   "source": "Unsloth",
-   "pub": "10-26 22:45"
   }
  ]
 }
