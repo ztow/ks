@@ -1,16 +1,56 @@
 {
- "generated_at": "2026-10-30 21:46",
+ "generated_at": "2026-10-31 04:19",
  "weather": {
   "city": "哈尔滨",
-  "temp": -2,
+  "temp": -5,
   "desc": "晴",
-  "feels": -8,
-  "humidity": 46,
-  "wind": 15,
-  "hi": 7,
-  "lo": -3
+  "feels": -10,
+  "humidity": 53,
+  "wind": 13,
+  "hi": -1,
+  "lo": -6
  },
  "news": [
+  {
+   "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
+   "link": "https://aihot.news/items/cms82puwtmpssdpbjmajoopr9",
+   "summary": "Philipp Schmid 转引 Sundar Pichai 的消息：Google Project Suncatcher 在数周前发射原型卫星后，成功向轨道发送指令、启动 TPU、运行提示词，并在地面收到了首个完整回应（一首 haiku），作者称 Gemma 4 成为首个在太空运行的大语言模型。",
+   "category": "行业动态",
+   "source": "Philipp Schmid",
+   "pub": "10-31 02:28"
+  },
+  {
+   "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
+   "link": "https://aihot.news/items/pd3dehdyyhzkyrjsw4b6bmcyj",
+   "summary": "Anthropic 将 Claude 订阅套餐更名：Max 5x 改为 Max，Max 20x 改为 Ultra，价格不变（Max 100 美元/月、Ultra 200 美元/月）。即日起多数老订阅者的认证 Ultra 账号取消 5 小时限制，新账号保留临时限制以防欺诈滥用，周限额不变。",
+   "category": "AI 产品",
+   "source": "Ado Kukic",
+   "pub": "10-31 01:42"
+  },
+  {
+   "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问",
+   "link": "https://aihot.news/items/v4uwaucyf64u7bkzsyvri08w4",
+   "summary": "Reddit CEO Steve Huffman 表示 10 月 Reddit 每周流失超过 100 万来自 Google 搜索的访问，股价在业绩强劲的情况下仍下跌超 25%。他称 AI Mode 不会带来流量，Reddit 正在美国以外测试登录墙以遏制抓取，并与 AI 提供商继续数据授权谈判。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "10-31 01:15"
+  },
+  {
+   "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
+   "link": "https://aihot.news/items/l7y0gkoqx56dt6jxv6x0mcl0h",
+   "summary": "BBC 报道称，因担忧企业对 AI 的巨额投资回报，美股科技股连续第二日大跌。",
+   "category": "行业动态",
+   "source": "Hacker News：AI 热帖",
+   "pub": "10-30 22:50"
+  },
+  {
+   "title": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露",
+   "link": "https://aihot.news/items/vyd3tzicoe478uo8njsr8zt2v",
+   "summary": "The Verge 分析 Anthropic 提交的 335 页 S-1 招股书，其中创始人信以带来奇迹时代为愿景，同时用 94 页风险因素警告模型可能对人类构成灾难性甚至生存风险。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "10-30 21:11"
+  },
   {
    "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
    "link": "https://aihot.news/items/hfhskyex3cjrs3huvpmi1z7bg",
@@ -92,14 +132,6 @@
    "pub": "10-30 05:00"
   },
   {
-   "title": "Reddit 宣布转向以登录为主的体验，以应对 AI 搜索带来的流量下滑",
-   "link": "https://aihot.news/items/op2kjf327vilvhbxkjicxg5ec",
-   "summary": "Reddit 在 Q3 财报中宣布将转向以登录为主的体验，以保护数据免受 AI 抓取并提升广告变现。10 月搜索流量平均每周减少超 100 万次引荐，Q3 全球日活为 1.303 亿，其中美国日活降至 5070 万，同比降 2%。Q3 收入同比增长 53% 至 8.95 亿美元，净利润 2.83 亿美元；该转变将先在美国以外市场测试，暂无全球上线时间表。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "10-30 04:08"
-  },
-  {
    "title": "Pika 基于MiniMax H3后训练并开源 Pika H3 Flex 视频生成模型",
    "link": "https://aihot.news/items/eq47lph0rzobf8cr950saiu8r",
    "summary": "Pika Labs 在 MiniMax H3 上做后训练，推出并开源 Pika H3 Flex，采样步数从 50 步压缩到 6 步，生成时间大幅降低且质量有所提升。",
@@ -146,6 +178,14 @@
    "category": "AI 产品",
    "source": "Gemini",
    "pub": "10-30 00:36"
+  },
+  {
+   "title": "OpenAI 详解如何监控前沿模型的失对齐行为",
+   "link": "https://aihot.news/items/e234ewhx82g2zh3z2bgcjxx7d",
+   "summary": "OpenAI 在 Alignment 博客介绍其针对前沿模型（如 GPT-6 Astra）的多层失对齐监控系统，覆盖训练、评估、内部使用和部分外部部署。",
+   "category": "论文",
+   "source": "OpenAI：Alignment 研究博客",
+   "pub": "10-30 00:00"
   },
   {
    "title": "Wiz 分析智能体攻击的七大指纹与发展趋势",
@@ -196,9 +236,9 @@
    "pub": "10-29 21:30"
   },
   {
-   "title": "Cursor 扩展市场发现恶意版 Anthropic.claude-code 2.1.313，最多 4100 名用户受影响",
+   "title": "Cursor 通报 VS Code 扩展市场出现恶意 Anthropic.claude-code 2.1.313 版本",
    "link": "https://aihot.news/items/pg7avew3q9ekdp3ydzhiuh9y4",
-   "summary": "Cursor 官方披露，其 VS Code 扩展市场中的 Anthropic.claude-code 2.1.313 为恶意篡改版本，并非 Anthropic 开发，在 10 月 29 日 2:27am PT 至 1:35pm PT 期间上架，最多影响 4100 名用户。",
+   "summary": "Cursor 通报其 VS Code 扩展市场出现恶意修改的 Anthropic.claude-code 2.1.313 版本，非 Anthropic 官方开发，最多影响 4100 名用户。",
    "category": "行业动态",
    "source": "Cursor Blog",
    "pub": "10-29 20:00"
@@ -210,14 +250,6 @@
    "category": "行业动态",
    "source": "The Decoder：AI News",
    "pub": "10-29 18:16"
-  },
-  {
-   "title": "OpenAI 详解如何检测前沿模型失准行为",
-   "link": "https://aihot.news/items/ck2bk0ns12i2hkg4ae0eoeabv",
-   "summary": "OpenAI 发布长文，详解其针对前沿模型失准行为的多层监测系统，包括激活探针、基于模型的审查、调查智能体和自动化调查四层架构，并对 GPT‑6 Astra 及以上模型的全部 RL 运行、评估和内部 Codex 流量进行监测。",
-   "category": "论文",
-   "source": "OpenAI：官网动态",
-   "pub": "10-29 17:00"
   },
   {
    "title": "Addy Osmani 谈你可能对 Claude 过度提示了",
@@ -378,38 +410,6 @@
    "category": "观点",
    "source": "OpenAI：官网动态",
    "pub": "10-28 18:00"
-  },
-  {
-   "title": "Anthropic S-1 显示 90% 增量毛利，SemiAnalysis 播客详解其中数字",
-   "link": "https://aihot.news/items/gxwqce1swocfo9bp3dgqy3dnj",
-   "summary": "Saito 转述 SemiAnalysis 播客对 Anthropic S-1 的解读：招股书口径为增量毛利 90%、推理毛利 85%、连续两个季度盈利，Q1 净收入留存达 500%，收入同比涨 1368% 而算力费用只涨 300%。",
-   "category": "行业动态",
-   "source": "Saito 硬地骇客",
-   "pub": "10-28 17:32"
-  },
-  {
-   "title": "Trakkr 研究：追踪 1285 条 AI 引用统计的溯源路径",
-   "link": "https://aihot.news/items/dmi67weoeety92021tvuyf1hs",
-   "summary": "Trakkr Research 向 ChatGPT、Perplexity、Gemini、Claude 和 Google AI Overviews 提出 200 个要求数字的问题，并追踪其中 1285 条统计的引用链路，结果只有 40% 到达说法一致的研究，8% 到达但数字或语境已变，40% 无法核查，11% 无处可溯。",
-   "category": "论文",
-   "source": "Hacker News：AI 热帖",
-   "pub": "10-28 16:00"
-  },
-  {
-   "title": "Addy Osmani 讲解如何上手 Claude Code Mods",
-   "link": "https://aihot.news/items/tw5fe5mj6a2zyp6ica2ec3qpb",
-   "summary": "Addy Osmani 发布 Claude Code Mods 上手指南，说明 mods 是运行在会话中的 JavaScript/TypeScript 文件，可通过 hooks 观察事件、改写行为或渲染自定义界面。",
-   "category": "教程",
-   "source": "Addy Osmani",
-   "pub": "10-28 14:15"
-  },
-  {
-   "title": "Anthropic IPO 最大赢家或为 Amazon 而非 VC",
-   "link": "https://aihot.news/items/b61d349yqp5mt029fsa0ytbv9",
-   "summary": "TechCrunch 根据 Anthropic 的 S-1 分析，VC 持股均不足 5%，而 Amazon 可能是 IPO 最大财务受益方。Amazon 持有 62 亿美元本金可转债、其自估持仓价值 979 亿美元，另投 100 亿美元无投票权优先股，累计投资约 180 亿美元；Anthropic 还承诺未来 10 年在 AWS 至少消费 1100 亿美元。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "10-28 09:15"
   }
  ]
 }
