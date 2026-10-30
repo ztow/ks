@@ -1,16 +1,56 @@
 {
- "generated_at": "2026-10-30 07:04",
+ "generated_at": "2026-10-30 14:43",
  "weather": {
   "city": "哈尔滨",
-  "temp": 1,
-  "desc": "多云",
-  "feels": -4,
-  "humidity": 55,
-  "wind": 15,
+  "temp": 4,
+  "desc": "晴",
+  "feels": -3,
+  "humidity": 27,
+  "wind": 22,
   "hi": 6,
   "lo": -3
  },
  "news": [
+  {
+   "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
+   "link": "https://aihot.news/items/ykvaq4vx3ydt23josezzan62r",
+   "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
+   "category": "教程",
+   "source": "公众号：月之暗面",
+   "pub": "10-30 12:04"
+  },
+  {
+   "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
+   "link": "https://aihot.news/items/kzenjo9w2bfhpsr0ub1gr95xj",
+   "summary": "Casey Newton 分析 Google 与 Reddit 同日遭遇的股市重挫：Alphabet 股价跌 12.6%，蒸发约 $5000 亿市值，为史上第二大单日市值缩水；高管承认 AI Mode 变现能力低于传统搜索，尽管 AI Mode 月用户约 10 亿、搜索收入仍增长 12% 至 $633.5 亿。",
+   "category": "行业动态",
+   "source": "Platformer",
+   "pub": "10-30 08:51"
+  },
+  {
+   "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
+   "link": "https://aihot.news/items/gzcwy89nkjreenv5eu1qaysdi",
+   "summary": "OpenRouter 实测 Claude Opus 5.5、Sonnet 5.5 与 Haiku 5.5 三档模型，建议默认用 Sonnet 5.5，高频与子智能体任务用 Haiku 5.5，长且容错成本高的任务用 Opus 5.5。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "10-30 08:00"
+  },
+  {
+   "title": "Jassy 称 AWS 五到十年内将成为万亿美元营收业务，2026 年 capex 约 2200 亿美元",
+   "link": "https://aihot.news/items/fxmexzrmo7pw52vc5j6ej17kl",
+   "summary": "Amazon CEO Andy Jassy 在周四的季度财报电话会议上表示，AWS 未来五到十年内可以成为年营收万亿美元的业务，2026 年现金 capex 预计约 2200 亿美元，大部分投向 AWS，2027 年还将大幅增加。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "10-30 07:42"
+  },
+  {
+   "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
+   "link": "https://aihot.news/items/puushryi79v0flh2um3a70xnw",
+   "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。",
+   "category": "行业动态",
+   "source": "Hacker News：AI 热帖",
+   "pub": "10-30 05:29"
+  },
   {
    "title": "Figma 讲解如何训练专用画布编辑模型",
    "link": "https://aihot.news/items/z9kqlhsgiz11fvlk3aodm6seg",
@@ -169,6 +209,14 @@
    "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
    "category": "教程",
    "source": "OpenRouter：Announcements",
+   "pub": "10-29 08:00"
+  },
+  {
+   "title": "Factory 发布 Droid 1.0，以程序化工具调用构建企业级 Agent harness",
+   "link": "https://aihot.news/items/gjz7lj8j6ojjyj80vkkhy786v",
+   "summary": "Factory 发布 Droid 1.0，一个模型无关的 agent harness，主打程序化工具调用（PTC），模型通过编写 JavaScript 程序在沙箱中一次执行数百个工具调用。",
+   "category": "AI 产品",
+   "source": "Factory 研究 / 产品",
    "pub": "10-29 08:00"
   },
   {
@@ -362,54 +410,6 @@
    "category": "行业动态",
    "source": "Rohan Paul",
    "pub": "10-28 07:31"
-  },
-  {
-   "title": "Gemini 集成 Google SynthID 检测，可识别图片、视频和音频是否为 Google AI 生成",
-   "link": "https://aihot.news/items/t13kjmoalf8m0luymjchvrysk",
-   "summary": "Google Gemini 宣布集成 SynthID 检测功能，用户只需在 Gemini 中询问“Is this AI generated?”，即可检查图片、视频或音频文件是否由 Google AI 生成。官方称此举帮助用户更有信心地浏览网络内容。",
-   "category": "AI 产品",
-   "source": "Gemini",
-   "pub": "10-28 04:00"
-  },
-  {
-   "title": "Azeem Azhar 图解 Anthropic S-1 财务数据",
-   "link": "https://aihot.news/items/xhwtx8zwvvmyou5emtd3dbzbn",
-   "summary": "Azeem Azhar 图解 Anthropic 的 S-1 文件，指出公司已从实验室变成有现金流和资金的业务，看起来能走向可靠盈利。增长仍高但放缓，超过 80% 的营收来自发布不到六个月的模型；Q3 因向基金会付款可能出现边际亏损，客户集中度问题不大。",
-   "category": "观点",
-   "source": "Azeem Azhar：Exponential View",
-   "pub": "10-28 01:31"
-  },
-  {
-   "title": "Anthropic 拟以特殊治理结构抵御 IPO 后股东的安全施压",
-   "link": "https://aihot.news/items/x9a9nhbuq2ncarw5i41jhryjc",
-   "summary": "Anthropic 计划通过长期受益信托和 Founder LLC 等独特治理结构上市，在公开市场融资的同时防止股东迫使公司削弱安全投入。信托的五名投票受托人可通过 Class T 股票任命七名董事中的四席，七位创始人则以 Founder LLC 掌握 50.1% 投票权。法学专家认为法律层面可隔绝逐利压力，但市场竞争、融资需求和创始人离开都可能侵蚀这些保障。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "10-28 00:51"
-  },
-  {
-   "title": "LangChain 解析自研设计 agent Content Studio 并开源其 harness",
-   "link": "https://aihot.news/items/l63udrrcunv0qy04ve4s71g02",
-   "summary": "LangChain 详解自家设计 agent Content Studio 如何在 Slack 中根据一条提示生成视频、幻灯片和社媒图等代码化资产，已累计产出超 3000 件资产、80 多套幻灯片，单次请求模型成本从约 $8 降至约 50 美分。",
-   "category": "教程",
-   "source": "LangChain：Blog",
-   "pub": "10-28 00:45"
-  },
-  {
-   "title": "Google DeepMind 发布实时交互世界模型 Genie 4",
-   "link": "https://aihot.news/items/l74eacnb38ytvm5hm8om7h7cs",
-   "summary": "Google DeepMind 发布世界模型 Genie 4，主打实时交互模拟、更强照片级真实感，并首次在实时世界模型中原生生成音频，包括环境声和可实时交互的人物对话。",
-   "category": "AI 模型",
-   "source": "Google DeepMind：Blog",
-   "pub": "10-28 00:01"
-  },
-  {
-   "title": "Every 解读 Anthropic S-1：上线超过六个月的模型贡献收入不足 20%",
-   "link": "https://aihot.news/items/p24kw8c06nmy1hzs3spvr4aha",
-   "summary": "Every 的 Context Window 通讯解读 Anthropic 周一提交的上市 S-1 文件，指出其重度依赖最新模型，发布超过六个月的模型收入占比不足 20%。",
-   "category": "观点",
-   "source": "Every：最新文章",
-   "pub": "10-28 00:00"
   }
  ]
 }
