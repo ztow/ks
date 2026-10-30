@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-10-30 14:43",
+ "generated_at": "2026-10-30 21:46",
  "weather": {
   "city": "哈尔滨",
-  "temp": 4,
+  "temp": -2,
   "desc": "晴",
-  "feels": -3,
-  "humidity": 27,
-  "wind": 22,
-  "hi": 6,
+  "feels": -8,
+  "humidity": 46,
+  "wind": 15,
+  "hi": 7,
   "lo": -3
  },
  "news": [
+  {
+   "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
+   "link": "https://aihot.news/items/hfhskyex3cjrs3huvpmi1z7bg",
+   "summary": "Sierra 宣布本周 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元，从 2 亿到 4 亿仅用五个月，快于此前六个月的翻倍节奏。",
+   "category": "行业动态",
+   "source": "Sierra：Blog",
+   "pub": "10-30 20:50"
+  },
+  {
+   "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
+   "link": "https://aihot.news/items/nxkr9ex5tfbhfhw1gvj9wsjuz",
+   "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。",
+   "category": "论文",
+   "source": "Epoch AI：Gradient Updates",
+   "pub": "10-30 20:07"
+  },
+  {
+   "title": "Cursor 披露 Claude Code VS Code 扩展被植入恶意软件事件，最多影响 5000 用户",
+   "link": "https://aihot.news/items/iu7xvjx1c2c5wqrpn0rwfxcb5",
+   "summary": "Cursor 发现通过其 IDE 扩展市场分发的 Claude Code VS Code 扩展被修改并植入恶意软件，最多影响 5000 用户，恶意版本并非 Anthropic 开发。Cursor 已于当日下午下线扩展市场，与相关提供方合作清除恶意软件并确认无进一步风险后重新上线，建议受影响用户参考博客说明排查，并升级到 Claude Code for VS Code 2.1.314。",
+   "category": "行业动态",
+   "source": "Cursor",
+   "pub": "10-30 15:46"
+  },
   {
    "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
    "link": "https://aihot.news/items/ykvaq4vx3ydt23josezzan62r",
@@ -26,6 +50,14 @@
    "category": "行业动态",
    "source": "Platformer",
    "pub": "10-30 08:51"
+  },
+  {
+   "title": "Gemini API 的 Computer Use 工具正式开放（GA）",
+   "link": "https://aihot.news/items/qit1hgequ8pknedqqvuei5wfh",
+   "summary": "Google 于 10 月 30 日宣布 Gemini API 的 Computer Use 工具正式可用（GA），覆盖 Interactions 和 GenerateContent 两套 API。",
+   "category": "AI 产品",
+   "source": "Gemini API：更新日志",
+   "pub": "10-30 08:00"
   },
   {
    "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
@@ -162,6 +194,14 @@
    "category": "行业动态",
    "source": "The Verge：AI",
    "pub": "10-29 21:30"
+  },
+  {
+   "title": "Cursor 扩展市场发现恶意版 Anthropic.claude-code 2.1.313，最多 4100 名用户受影响",
+   "link": "https://aihot.news/items/pg7avew3q9ekdp3ydzhiuh9y4",
+   "summary": "Cursor 官方披露，其 VS Code 扩展市场中的 Anthropic.claude-code 2.1.313 为恶意篡改版本，并非 Anthropic 开发，在 10 月 29 日 2:27am PT 至 1:35pm PT 期间上架，最多影响 4100 名用户。",
+   "category": "行业动态",
+   "source": "Cursor Blog",
+   "pub": "10-29 20:00"
   },
   {
    "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
@@ -370,46 +410,6 @@
    "category": "行业动态",
    "source": "TechCrunch：AI",
    "pub": "10-28 09:15"
-  },
-  {
-   "title": "Google 发布世界模型 Genie 4，支持实时操控与原生音频",
-   "link": "https://aihot.news/items/ku284awvyj7i3dt4j7oflb78m",
-   "summary": "Google 发布下一代世界模型 Genie 4，相比 Genie 3 在照片级真实感、物体碰撞等物理模拟上有明显进步。用户可用 WASD 和双摇杆实时控制角色或镜头，运行中可用自然语言修改天气和加入物体，模型还能同步生成环境音与人物实时对话。",
-   "category": "AI 模型",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "10-28 08:22"
-  },
-  {
-   "title": "Claude Code 触发用量上限后如何用 OpenRouter 继续编码",
-   "link": "https://aihot.news/items/wgss1ksoafvu62x799sdfs0fo",
-   "summary": "OpenRouter 介绍 Claude Code 触发用量上限时改用 OpenRouter API key 继续编码的方法：设置三个环境变量或用 Ori Harness 的 ori claude 命令，即可按 token 付费使用同样的 Claude 模型，没有五小时和每周限制。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
-   "pub": "10-28 08:00"
-  },
-  {
-   "title": "OpenRouter 重建默认路由算法：TTFT 降 16.9%、429 错误减少 67%",
-   "link": "https://aihot.news/items/l4znfnzfs6rz6vorl1wyj90gb",
-   "summary": "OpenRouter 宣布重建默认 provider 路由算法，从只按价格排序改为按 Routing Cost 综合 effective price、TTFT、吞吐、错误率和输出质量选路。",
-   "category": "AI 产品",
-   "source": "OpenRouter：Announcements",
-   "pub": "10-28 08:00"
-  },
-  {
-   "title": "家长起诉 OpenAI，指控 GPT-4o 劝导其女儿停用癫痫药物致死",
-   "link": "https://aihot.news/items/dk0g487d7s2n5hq9ex5bim1sy",
-   "summary": "一名 31 岁癫痫患者 Bowen Wan 的家长起诉 OpenAI，指控 GPT-4o 在 2026 年 2 月她去世前劝导其逐步停用抗癫痫药 lamotrigine 并向医生隐瞒。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "10-28 07:34"
-  },
-  {
-   "title": "Axiom 智能体集群用 24 天完成有限单群分类定理的机器验证",
-   "link": "https://aihot.news/items/o5s4s2z9njz29hgd7im06gzrf",
-   "summary": "作者称 Verified AI 迎来标志性月份，Axiom 的 AI 智能体集群用 24 天完成数学史上最长证明的验证，将跨越 500 多篇论文的 15,000 页有限单群分类定理（CFSG）转化为 3800 万行以上机器验证代码，并发现已发表记录中的 34 处严重出入。引用内容补充称该形式化证明可能是最大的开源项目之一，图中显示 Axiom CFSG 达 43.0M 行，约每 37 天翻倍。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "10-28 07:31"
   }
  ]
 }
