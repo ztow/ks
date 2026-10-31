@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-10-31 09:22",
+ "generated_at": "2026-10-31 18:08",
  "weather": {
   "city": "哈尔滨",
-  "temp": -3,
-  "desc": "晴",
+  "temp": -4,
+  "desc": "阴",
   "feels": -9,
-  "humidity": 38,
-  "wind": 16,
+  "humidity": 34,
+  "wind": 7,
   "hi": -1,
   "lo": -5
  },
  "news": [
+  {
+   "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
+   "link": "https://aihot.news/items/yqblvh40gus1ssc0rjvawh6fu",
+   "summary": "Anthropic 近日提交 IPO 招股文件，彭博社报道其计划未来在服务器、建筑和电力等领域投入近 9,000 亿美元债务。该公司资产负债表显示 1,175 亿美元负债和 1,120 亿美元现金，而租赁合同及数据中心、电力和 GPU 采购协议等表外义务未直接体现；Anthropic 计划通过增加收入和筹集资金支付这些负债。",
+   "category": "行业动态",
+   "source": "IT之家·人工智能",
+   "pub": "10-31 11:25"
+  },
+  {
+   "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
+   "link": "https://aihot.news/items/hx5dsruslfiiqhbsro2tvg1n8",
+   "summary": "据 The Information 报道、Bloomberg 佐证，Nvidia 正洽谈为 Nscale 在西弗吉尼亚为 Anthropic 建设的数据中心担保数十亿美元债务融资，Anthropic 已就首栋建筑签署 446 亿美元合同。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "10-31 09:20"
+  },
   {
    "title": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用",
    "link": "https://aihot.news/items/akdeq33m7cpr8m7zsfgvfiz5c",
@@ -394,22 +410,6 @@
    "category": "AI 产品",
    "source": "Microsoft：Official Blog",
    "pub": "10-29 00:51"
-  },
-  {
-   "title": "GitHub Universe 2026 发布 GitHub Copilot app、Copilot Fusion 等智能体产品",
-   "link": "https://aihot.news/items/xonc43xgcx39303i40k8022rl",
-   "summary": "GitHub 在 GitHub Universe 2026 上提出把 GitHub 打造为完整软件交付系统的愿景，并发布多项产品：GitHub Copilot app 面向智能体交付。",
-   "category": "AI 产品",
-   "source": "GitHub Blog",
-   "pub": "10-29 00:09"
-  },
-  {
-   "title": "GitHub Octoverse 2026：开发活动创新高，超 40% 的 PR 由智能体起草",
-   "link": "https://aihot.news/items/s3m3uzabqoxxed9ae50b73qvc",
-   "summary": "GitHub 发布 2026 年度 Octoverse 报告：过去 12 个月开发者推送代码 179 亿次，超过 2024 和 2025 年之和，合并 PR 达 13 亿次。",
-   "category": "行业动态",
-   "source": "GitHub Blog",
-   "pub": "10-29 00:07"
   }
  ]
 }
