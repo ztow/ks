@@ -1,16 +1,56 @@
 {
- "generated_at": "2026-10-31 04:19",
+ "generated_at": "2026-10-31 09:22",
  "weather": {
   "city": "哈尔滨",
-  "temp": -5,
+  "temp": -3,
   "desc": "晴",
-  "feels": -10,
-  "humidity": 53,
-  "wind": 13,
+  "feels": -9,
+  "humidity": 38,
+  "wind": 16,
   "hi": -1,
-  "lo": -6
+  "lo": -5
  },
  "news": [
+  {
+   "title": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用",
+   "link": "https://aihot.news/items/akdeq33m7cpr8m7zsfgvfiz5c",
+   "summary": "Figma 宣布 Figma Weave，一个面向持续产出需求的创意团队平台，并把 Weave 创作工作流与 Figma 画框连接起来。Weave 用连接的节点承载图像和视频的生成与编辑，支持分支探索、多模型对比、色彩校正、合成、裁剪、Painter 等编辑节点；工作流可打包成 Weave tool 让团队成员一键运行，社区工具发布已上线。",
+   "category": "AI 产品",
+   "source": "Figma AI / Agent / Make",
+   "pub": "10-31 08:58"
+  },
+  {
+   "title": "阿里巴巴与Apple合作，千问集成至Apple智能，11月4日开放测试",
+   "link": "https://aihot.news/items/cbggw7imkzd4c01ifblroln6v",
+   "summary": "10月31日阿里巴巴宣布与Apple合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问的文本与图像理解、内容生成能力。功能11月4日起随iOS开发者Beta开放测试，12月iOS 27.3正式发布时推出；用户可自主选择开通，请求与回复不用于模型训练。",
+   "category": "行业动态",
+   "source": "公众号：千问APP",
+   "pub": "10-31 08:03"
+  },
+  {
+   "title": "OpenRouter 教程：用 Agent SDK 搭建常驻 AI Agent 监控 Hacker News",
+   "link": "https://aihot.news/items/upl3hjjdokqe13w3ieo9opr0v",
+   "summary": "OpenRouter 发布教程，演示用 @openrouter/agent 0.11.0 在 TypeScript 中搭建定时运行的常驻 AI Agent，监控 Hacker News 并生成摘要。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "10-31 08:00"
+  },
+  {
+   "title": "Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件",
+   "link": "https://aihot.news/items/la0qb77ds4znf2r7ub14a3bqz",
+   "summary": "Wiz 研究团队梳理 10 月内至少九个 AI 开发者平台披露的安全事件，包括 Fireworks AI、Lightning AI、Railway、Warp、OpenCode 等，多起报告指向凭据窃取、agent swarm 攻击和以“蒸馏”为目的的窃取。",
+   "category": "论文",
+   "source": "Wiz：Research",
+   "pub": "10-31 06:51"
+  },
+  {
+   "title": "科技巨头 AI 资本开支超 7400 亿美元，投资者担忧升温引发市场下跌",
+   "link": "https://aihot.news/items/fxxkgtzpf2pb8xjnhu4jtis0b",
+   "summary": "Alphabet、Amazon、Meta、Microsoft 今年计划资本开支合计超 7400 亿美元，投资者情绪从奖励大额投入转向担忧负自由现金流、债务攀升与回报不确定。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "10-31 05:17"
+  },
   {
    "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
    "link": "https://aihot.news/items/cms82puwtmpssdpbjmajoopr9",
@@ -97,6 +137,14 @@
    "summary": "Google 于 10 月 30 日宣布 Gemini API 的 Computer Use 工具正式可用（GA），覆盖 Interactions 和 GenerateContent 两套 API。",
    "category": "AI 产品",
    "source": "Gemini API：更新日志",
+   "pub": "10-30 08:00"
+  },
+  {
+   "title": "OpenAI 汇编各方法庭之友意见，主张 AI 训练应适用合理使用原则",
+   "link": "https://aihot.news/items/oas684tt9kpeds9cq7vgjvo1x",
+   "summary": "OpenAI 整理了在《纽约时报》诉讼中提交给法院的多份支持合理使用的法庭之友意见摘要，作者包括图书馆协会、法律学者、独立创作者和美国政府等。各意见书主张 AI 训练具有转换性、不构成版权法认可的市场损害，并警告限缩合理使用将阻碍科研进展与美国经济繁荣；完整文件可在法院公开卷宗查阅。",
+   "category": "行业动态",
+   "source": "OpenAI：官网动态",
    "pub": "10-30 08:00"
   },
   {
@@ -202,14 +250,6 @@
    "category": "AI 产品",
    "source": "Unsloth",
    "pub": "10-29 22:27"
-  },
-  {
-   "title": "404 Media 起底 Proton 内部 AI 转型之争：CEO Andy Yen 强推 AI 引发恐惧文化",
-   "link": "https://aihot.news/items/x7qd347blfo2409za7srbypzw",
-   "summary": "404 Media 采访九名现任与离职 Proton 员工并查阅内部文件，报道 CEO Andy Yen 强推 AI 转型引发的内部冲突。10 月公司 90% 代码由 AI 编写，多使用 Anthropic 的 Claude；Yen 称今年是最后一年招聘工程师，并宣布将以可能决定去留的重新面试评估员工 AI 使用情况。",
-   "category": "行业动态",
-   "source": "404 Media",
-   "pub": "10-29 22:21"
   },
   {
    "title": "SemiAnalysis 分析师解读 Anthropic S-1 招股书背后的 AI 经济账",
@@ -370,46 +410,6 @@
    "category": "行业动态",
    "source": "GitHub Blog",
    "pub": "10-29 00:07"
-  },
-  {
-   "title": "a16z 调研 100 位 CISO：AI 如何改写 2027 年安全议程",
-   "link": "https://aihot.news/items/ja57b43t7h52wid2g4zu6vw2t",
-   "summary": "a16z 发布对 100 名千人员以上企业 CISO 的调研，87% 预期 2027 年安全支出增长，主要受 AI 威胁和自身 AI 部署扩大攻击面驱动。2027 年最受关注的七项安全举措全部与 AI 相关，其中 SOC 自动化获最多首选票，内部 AI agent 安全、SOC 自动化和进攻性安全升幅最大，但 AI SOC 工具生产环境使用率仅 18%。",
-   "category": "观点",
-   "source": "a16z：News",
-   "pub": "10-29 00:00"
-  },
-  {
-   "title": "OpenMOSS 发布开源图像生成模型 MOSS-Image，主打长文本渲染与可编辑布局",
-   "link": "https://aihot.news/items/wykbrcxndw1zv255b9y2usj7v",
-   "summary": "OpenMOSS 发布开放权重图像生成模型 MOSS-Image，采用 5B 参数单流 DiT 从零预训练，支持最长 4K token 提示词、中英文长文本渲染和可编辑的 JSON Layout。",
-   "category": "AI 模型",
-   "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI",
-   "pub": "10-29 00:00"
-  },
-  {
-   "title": "面壁智能发布并开源 MiniCPM-OCR 系列：1.3B 解析模型与 2B 判别模型",
-   "link": "https://aihot.news/items/zd8g1y3609zl72lnwis70owqt",
-   "summary": "面壁智能发布并开源 MiniCPM-OCR 系列。MiniCPM-OCR 1.0（1.3B）在 Real5-OmniDocBench 取得 93.68 分、OCRBench v2 取得 54.7 分的 SOTA，经 DSpark 加速后吞吐达 1.217 页/秒，端到端效率提升 55%。",
-   "category": "AI 模型",
-   "source": "公众号：面壁智能",
-   "pub": "10-28 19:38"
-  },
-  {
-   "title": "Cathedral 用 AI 智能体侵入 Anthropic 内部系统，双方对事件范围说法不一",
-   "link": "https://aihot.news/items/klkmnzle2z7p5y6cl477ce7sg",
-   "summary": "网络安全初创公司 Cathedral 通过第三方业务软件渗入 Anthropic 内部系统，称其 AI 智能体在不到十二小时内接触到会议记录、薪资数据和 Slack 消息，并借漏洞赏金计划披露问题。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "10-28 18:56"
-  },
-  {
-   "title": "OpenAI 员工撰文探讨 AI 进入企业组织架构的三种方式",
-   "link": "https://aihot.news/items/neprl0bcwv1mo2pd4dk1lvpjr",
-   "summary": "OpenAI 员工 Hemanth Asirvatham 和 Elliott Mokski 发表下一篇经济系列文章，探讨 AI 进入企业组织架构的三种情形：在每位员工之下形成 AI 劳动力 basement、作为同事穿插在现有组织图中、以及夹在人类之间充当协调层。",
-   "category": "观点",
-   "source": "OpenAI：官网动态",
-   "pub": "10-28 18:00"
   }
  ]
 }
