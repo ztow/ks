@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-11-01 06:08",
+ "generated_at": "2026-11-01 15:04",
  "weather": {
   "city": "哈尔滨",
-  "temp": -4,
-  "desc": "阴",
-  "feels": -10,
-  "humidity": 33,
-  "wind": 10,
-  "hi": -1,
+  "temp": -2,
+  "desc": "晴",
+  "feels": -8,
+  "humidity": 34,
+  "wind": 13,
+  "hi": -2,
   "lo": -7
  },
  "news": [
+  {
+   "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
+   "link": "https://aihot.news/items/f6dxzur6d4pwjdhvm1x6m5rfp",
+   "summary": "作者引述OpenAI凌晨更新的帮助文档称，从12月开始Plus和Pro用户的ChatGPT聊天与Codex用量将合并为同一Token额度，仅Instant聊天不受影响。作者回顾此前按条数计费的历史、一个月内Codex Pro额度先降后恢复的运营反复，以及社区在GitHub上提issue抗议的反应，认为合并与IPO预期下的算力成本压力有关。",
+   "category": "行业动态",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-01 08:22"
+  },
+  {
+   "title": "OpenRouter 教程：用 Responses API 构建可在 Linux 沙箱验证 bug 的 AI 代码审查脚本",
+   "link": "https://aihot.news/items/yww15c701iat30p8ttjf029ij",
+   "summary": "OpenRouter 发布教程，介绍一个 233 行、仅用标准库的 review.py，通过 Responses API 组合 Files API、Shell 沙箱工具和 Apply Patch 工具，把变更文件上传到托管 Linux 沙箱，让模型实际运行检查确认 bug 并返回 V4A 补丁。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "11-01 08:00"
+  },
+  {
+   "title": "美国白宫科技顾问萨克斯称 Anthropic 可能成为资本主义史上最伟大企业",
+   "link": "https://aihot.news/items/dpm21l66z2iizblehsdg09c8t",
+   "summary": "美国白宫科学与技术顾问会议主席戴维·萨克斯在 All-In 播客分析 Anthropic 的 S-1 文件，称其很可能成为资本主义历史上最伟大企业，也可能是回报最高的风险投资项目。",
+   "category": "观点",
+   "source": "IT之家·人工智能",
+   "pub": "11-01 06:56"
+  },
   {
    "title": "彭博社统计：Alphabet、Meta、微软、亚马逊、甲骨文承诺投入超3万亿美元建AI基础设施",
    "link": "https://aihot.news/items/htfc0ler37j2h4hoqll6jewz3",
@@ -386,30 +410,6 @@
    "category": "行业动态",
    "source": "Rohan Paul",
    "pub": "10-29 01:11"
-  },
-  {
-   "title": "犹他州 10 个州政府部门 34 名开发者试点使用 Claude Code",
-   "link": "https://aihot.news/items/fbxzb7x7fzbjn0dmf367ywxrm",
-   "summary": "Boris Cherny 介绍犹他州向 10 个州政府部门的 34 名开发者提供了 Claude Code。试点显示 80% 的开发者在 30 分钟内搭好可用环境，71% 的开发者在为期四周的试点结束前报告节省了 20 小时以上时间。该推文引用了 Anthropic 与 GSA 合作将 Claude 以 40% 折扣提供给联邦及各级政府的公告作为背景。",
-   "category": "行业动态",
-   "source": "Boris Cherny",
-   "pub": "10-29 01:09"
-  },
-  {
-   "title": "Google 发布 Gemini 4 Carbon：AA Index v5.0 登顶，网络安全基准领先",
-   "link": "https://aihot.news/items/hoim4l9scskfj0obspicyucpw",
-   "summary": "Sundar Pichai 宣布 Google 推出 Gemini 4 Carbon，称其在更新后的 Artificial Analysis Intelligence Index v5.0 以 59 分排名第一。",
-   "category": "AI 模型",
-   "source": "Sundar Pichai",
-   "pub": "10-29 01:01"
-  },
-  {
-   "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
-   "link": "https://aihot.news/items/fjeloaahylonpc0pv5tduusud",
-   "summary": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
-   "category": "AI 模型",
-   "source": "Google DeepMind：Blog",
-   "pub": "10-29 01:00"
   }
  ]
 }
