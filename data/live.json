@@ -1,16 +1,24 @@
 {
- "generated_at": "2026-11-02 00:33",
+ "generated_at": "2026-11-02 06:33",
  "weather": {
   "city": "哈尔滨",
-  "temp": -8,
+  "temp": -9,
   "desc": "晴",
-  "feels": -12,
-  "humidity": 52,
-  "wind": 2,
+  "feels": -13,
+  "humidity": 74,
+  "wind": 4,
   "hi": 1,
   "lo": -9
  },
  "news": [
+  {
+   "title": "Claude Code 技巧：任务变难时输入 ultrathink 提升当前回合推理努力",
+   "link": "https://aihot.news/items/mhw3rtr5o13p5777y7el9tczk",
+   "summary": "Addy Osmani 分享 Claude Code 技巧：当任务比预期更难时，在 Claude 工作期间输入 ultrathink，可提升该回合剩余部分的推理努力，该功能适用于最新版本的终端。他引用 @dmwlff 的帖子，其中提到 ultrathink 已回归 Claude Code CLI，此前因显得怪异且可能令人困惑曾被关闭。",
+   "category": "教程",
+   "source": "Addy Osmani",
+   "pub": "11-02 04:09"
+  },
   {
    "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
    "link": "https://aihot.news/items/f6dxzur6d4pwjdhvm1x6m5rfp",
@@ -402,14 +410,6 @@
    "category": "观点",
    "source": "Ed Zitron 长文 / Where’s Your Ed At",
    "pub": "10-29 01:51"
-  },
-  {
-   "title": "Anthropic IPO 文件披露现金及短期投资达 131.7B 美元，超过 Amazon 和 Microsoft",
-   "link": "https://aihot.news/items/vidjbhx5bf45wdl488kst1wv8",
-   "summary": "Anthropic 的 IPO 文件显示其现金及短期投资达 $131.7B，超过 Amazon 和 Microsoft，在美国非银行公司中仅次于 Berkshire Hathaway 和 Alphabet。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "10-29 01:11"
   }
  ]
 }
