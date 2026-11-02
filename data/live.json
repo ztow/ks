@@ -1,16 +1,56 @@
 {
- "generated_at": "2026-11-02 15:07",
+ "generated_at": "2026-11-03 03:56",
  "weather": {
   "city": "哈尔滨",
-  "temp": 0,
-  "desc": "阴",
-  "feels": -5,
-  "humidity": 34,
-  "wind": 9,
-  "hi": 0,
-  "lo": -9
+  "temp": -1,
+  "desc": "多云",
+  "feels": -6,
+  "humidity": 71,
+  "wind": 11,
+  "hi": 1,
+  "lo": -4
  },
  "news": [
+  {
+   "title": "OpenAI 训练并部署激活分类器作为前沿模型安全监控层",
+   "link": "https://aihot.news/items/wlmiqh13694tqabyvu6nzvlrs",
+   "summary": "OpenAI 自 GPT-5.6 起在其最强模型的内部和外部流量上部署激活分类器（probes），利用模型内部激活逐 token 实时评分，可在生成中途阻断违规回复和工具调用并交由推理模型复审。实验显示 probes 比更大的文本分类器对测试的越狱攻击更鲁棒，准确率随模型能力提升，且在后训练各检查点间迁移良好，但需为新基础模型重新训练，且只能检测可显式训练的已知违规类型。",
+   "category": "论文",
+   "source": "OpenAI：Alignment 研究博客",
+   "pub": "11-03 04:00"
+  },
+  {
+   "title": "Anthropic 季度营收增长十二倍至近 170 亿美元，但净亏损达 233 亿美元",
+   "link": "https://aihot.news/items/owfopy087lszd1cpfp3c82pxv",
+   "summary": "据 Bloomberg 与 The Information，Anthropic 该季度营收近 170 亿美元，为一年前的十二倍，但运营成本达 175 亿美元，季度净亏损 233 亿美元，高于去年同期的 121 亿美元。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "11-03 00:26"
+  },
+  {
+   "title": "Anthropic 更新 IPO 文件首次披露第三季度财报，从盈利 9.74 亿美元转为亏损 5.67 亿美元",
+   "link": "https://aihot.news/items/xvemmg9p83lxqktk7mc47zhcr",
+   "summary": "Anthropic 更新 S-1 IPO 文件并首次披露第三季度业绩，经营利润从二季度盈利 9.74 亿美元转为三季度亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-03 00:01"
+  },
+  {
+   "title": "OpenAI 推出 Grid Protectors 计划，从 Georgia 校园开始支持电网削峰",
+   "link": "https://aihot.news/items/sxbs5a90fgybhyucacmzvrc6w",
+   "summary": "OpenAI 推出 Grid Protectors 计划，与电力公司、监管机构和政策制定者合作，让未来算力校园在电网紧张时降低用电需求，首站为 Effingham County 校园。",
+   "category": "行业动态",
+   "source": "OpenAI：官网动态",
+   "pub": "11-02 23:00"
+  },
+  {
+   "title": "腾讯混元发布 Hyra 2.0：让通用 agent 研发可复用的科学工具与模型",
+   "link": "https://aihot.news/items/l37ydaic43icz85huclc2io6c",
+   "summary": "腾讯混元发布 Hyra 2.0，将自动化科研重点从直接解题转向由 agent 研发和升级科学模型、工作流与软件工具。系统采用 Overall、Mission、Worker 三层分工，接入企业微信、计算平台和代码仓库的实际研发环境，成果已公开在 GitHub 仓库。",
+   "category": "AI 产品",
+   "source": "公众号：腾讯混元",
+   "pub": "11-02 18:06"
+  },
   {
    "title": "数字生命卡兹克分享折腾一年的Agent自动化系统架构",
    "link": "https://aihot.news/items/dzwfvd9xp6v4qaj6olxezpier",
@@ -18,6 +58,14 @@
    "category": "教程",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-02 08:19"
+  },
+  {
+   "title": "Claude Platform 推出 message threads 公测，降低长会话智能体延迟",
+   "link": "https://aihot.news/items/sg5u3u91kw42j1grtyp3ny65n",
+   "summary": "Anthropic 在 Claude Platform 推出 message threads 公测，智能体每轮只需发送新增消息而无需重发全部对话历史，从而缩短首 token 时间。",
+   "category": "AI 产品",
+   "source": "Claude：Blog",
+   "pub": "11-02 08:00"
   },
   {
    "title": "Claude Code 技巧：任务变难时输入 ultrathink 提升当前回合推理努力",
@@ -362,54 +410,6 @@
    "category": "教程",
    "source": "Addy Osmani",
    "pub": "10-29 14:13"
-  },
-  {
-   "title": "vLLM 发布 Mistral Large 4 Day 0 支持",
-   "link": "https://aihot.news/items/x6x8nkxn5mqc55umit3clj1tf",
-   "summary": "vLLM 团队宣布对 Mistral 新旗舰模型 Mistral Large 4 提供 Day 0 支持，该模型为 1T 参数、每 token 激活 49B 的原生多模态 MoE 模型，采用 MLA 稀疏注意力加 DSA top-k 索引器、跨层 KV 共享、NoPE、SSMax 和 LeRoPE 等新架构，并内置 DSpark 推测解码草稿器与 Pixtral 视觉编码器。",
-   "category": "AI 产品",
-   "source": "vLLM 官方博客",
-   "pub": "10-29 08:00"
-  },
-  {
-   "title": "Mistral Large 4（Le Chonk）登陆 Hugging Face：1T 参数 MoE 多模态开源权重模型",
-   "link": "https://aihot.news/items/upsd8u37hkkquohy3w3sjvszi",
-   "summary": "Hugging Face 发布 Mistral Large 4（Le Chonk）的上线博客，模型为多模态多语言 MoE 架构，总参数约 1T、激活 49B、上下文窗口 1M token。",
-   "category": "AI 模型",
-   "source": "Hugging Face 官方团队博客",
-   "pub": "10-29 08:00"
-  },
-  {
-   "title": "OpenRouter 教程：用 LLM 从 PDF 中抽取表格",
-   "link": "https://aihot.news/items/l928e49lwysm0ymgmhyjrkc3z",
-   "summary": "OpenRouter 发布教程，讲解如何把 PDF 以文件形式连同严格 JSON schema 发给能读文件的模型，让表格以带类型的行返回，括号亏损、千分位和脚注标记等清理都写进字段描述。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
-   "pub": "10-29 08:00"
-  },
-  {
-   "title": "Factory 发布 Droid 1.0，以程序化工具调用构建企业级 Agent harness",
-   "link": "https://aihot.news/items/gjz7lj8j6ojjyj80vkkhy786v",
-   "summary": "Factory 发布 Droid 1.0，一个模型无关的 agent harness，主打程序化工具调用（PTC），模型通过编写 JavaScript 程序在沙箱中一次执行数百个工具调用。",
-   "category": "AI 产品",
-   "source": "Factory 研究 / 产品",
-   "pub": "10-29 08:00"
-  },
-  {
-   "title": "Anthropic 报告：Claude 研究模型在 Chrome、Safari、Android、Windows、Linux 发现漏洞并串联 5 条攻击链",
-   "link": "https://aihot.news/items/jpt1eeuj2p1mgrxbufuv3ntdn",
-   "summary": "Anthropic 于 10 月 27 日发布研究报告，称一个未公开的内部 Claude 研究模型在 Chrome、Safari、Android、Windows 和 Linux 中发现漏洞，串联出 5 条可实际运行的攻击链，相关漏洞已按协调披露流程报告并修复。",
-   "category": "论文",
-   "source": "IT之家·人工智能",
-   "pub": "10-29 06:35"
-  },
-  {
-   "title": "Alphabet Q3 财报：年化收入达 5000 亿美元，Google Cloud 增长 103%",
-   "link": "https://aihot.news/items/m5st8pvirbas7phreshbzkrc9",
-   "summary": "Sundar Pichai 发布 Alphabet Q3 业绩：年化收入 run rate 达 5000 亿美元，总收入同比增长 25%。Google Cloud 收入增长 103%，1P 模型 API 每分钟处理近 32B tokens（环比增 40%）；Search 查询同比增速为五年来最高，并提到 Argon、Carbon 领跑前沿及最新世界模型 Genie 4。",
-   "category": "行业动态",
-   "source": "Sundar Pichai",
-   "pub": "10-29 04:05"
   }
  ]
 }
