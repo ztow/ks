@@ -1,16 +1,24 @@
 {
- "generated_at": "2026-11-02 06:33",
+ "generated_at": "2026-11-02 15:07",
  "weather": {
   "city": "哈尔滨",
-  "temp": -9,
-  "desc": "晴",
-  "feels": -13,
-  "humidity": 74,
-  "wind": 4,
-  "hi": 1,
+  "temp": 0,
+  "desc": "阴",
+  "feels": -5,
+  "humidity": 34,
+  "wind": 9,
+  "hi": 0,
   "lo": -9
  },
  "news": [
+  {
+   "title": "数字生命卡兹克分享折腾一年的Agent自动化系统架构",
+   "link": "https://aihot.news/items/dzwfvd9xp6v4qaj6olxezpier",
+   "summary": "自媒体作者卡兹克分享自己搭建近一年的Agent自动化系统，核心是把任务起点从人身上移开，由事件触发Agent工作。系统分为自动化中台、Agent执行、CI中台和飞书决策四层：中台用rules.json统一管理事件触发和Agent调度，本地MacMini跑Agent任务，自建CI中台完成审查、检查、合并、发布、核实五步，只在删数据、花钱、改方向等关键决策时通过飞书卡片找作者拍板。",
+   "category": "教程",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-02 08:19"
+  },
   {
    "title": "Claude Code 技巧：任务变难时输入 ultrathink 提升当前回合推理努力",
    "link": "https://aihot.news/items/mhw3rtr5o13p5777y7el9tczk",
@@ -402,14 +410,6 @@
    "category": "行业动态",
    "source": "Sundar Pichai",
    "pub": "10-29 04:05"
-  },
-  {
-   "title": "Ed Zitron 长文解析 Anthropic S-1：称其把散户当作退出流动性",
-   "link": "https://aihot.news/items/x2h1bp5shee6v508nw7pjtvas",
-   "summary": "Ed Zitron 撰文批评 Anthropic 的 S-1 招股书，指其仅披露 Q2 盈利数据、省略 Q3 现金状况和付款明细，是在公司基本面变化前误导投资者。",
-   "category": "观点",
-   "source": "Ed Zitron 长文 / Where’s Your Ed At",
-   "pub": "10-29 01:51"
   }
  ]
 }
