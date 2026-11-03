@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-11-03 03:56",
+ "generated_at": "2026-11-03 11:16",
  "weather": {
   "city": "哈尔滨",
-  "temp": -1,
-  "desc": "多云",
+  "temp": 0,
+  "desc": "晴",
   "feels": -6,
-  "humidity": 71,
-  "wind": 11,
+  "humidity": 31,
+  "wind": 19,
   "hi": 1,
   "lo": -4
  },
  "news": [
+  {
+   "title": "DeepSeek Harness 养鱼教程：在 QQ、微信、飞书养大肥鱼并放上 B 站抖音直播",
+   "link": "https://aihot.news/items/v41vn9hb5ywv10e68wycj1bjk",
+   "summary": "数字生命卡兹克发布一篇 DeepSeek Harness 养鱼教程，讲解如何在 QQ、微信、飞书接入大肥鱼，并让它去 B 站刷视频、在抖音发视频和直播。",
+   "category": "教程",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-03 08:18"
+  },
+  {
+   "title": "Anthropic 算力与基础设施合同承诺达 $895.4B，其中 $447.5B 须在 2031 年前支付",
+   "link": "https://aihot.news/items/xiu342i7osbgfxe2ezhrjndl0",
+   "summary": "Anthropic 在更新的 IPO 文件中首次披露第三季度业绩，算力与基础设施合同承诺总额约 $895.4B，其中 $447.5B 须在 2031 年前支付，仅 $213.8B 可取消或附带条件。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-03 05:28"
+  },
   {
    "title": "OpenAI 训练并部署激活分类器作为前沿模型安全监控层",
    "link": "https://aihot.news/items/wlmiqh13694tqabyvu6nzvlrs",
@@ -26,14 +42,6 @@
    "category": "行业动态",
    "source": "The Decoder：AI News",
    "pub": "11-03 00:26"
-  },
-  {
-   "title": "Anthropic 更新 IPO 文件首次披露第三季度财报，从盈利 9.74 亿美元转为亏损 5.67 亿美元",
-   "link": "https://aihot.news/items/xvemmg9p83lxqktk7mc47zhcr",
-   "summary": "Anthropic 更新 S-1 IPO 文件并首次披露第三季度业绩，经营利润从二季度盈利 9.74 亿美元转为三季度亏损 5.67 亿美元，主因是 50 亿美元的高价短期算力和 20 亿美元员工捐赠配比的非现金支出。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-03 00:01"
   },
   {
    "title": "OpenAI 推出 Grid Protectors 计划，从 Georgia 校园开始支持电网削峰",
@@ -65,6 +73,14 @@
    "summary": "Anthropic 在 Claude Platform 推出 message threads 公测，智能体每轮只需发送新增消息而无需重发全部对话历史，从而缩短首 token 时间。",
    "category": "AI 产品",
    "source": "Claude：Blog",
+   "pub": "11-02 08:00"
+  },
+  {
+   "title": "OpenAI 任命前美国陆军部长 Dan Driscoll 为国家安全现代化高级顾问",
+   "link": "https://aihot.news/items/hf03pwablxanh9desil5cbu9d",
+   "summary": "OpenAI 宣布任命 Dan Driscoll 为新设的国家安全现代化高级顾问，就先进 AI 如何加强国家与网络安全提供建议，重点与美国盟友合作推动民主 AI 的负责任使用。",
+   "category": "行业动态",
+   "source": "OpenAI：官网动态",
    "pub": "11-02 08:00"
   },
   {
@@ -394,22 +410,6 @@
    "category": "行业动态",
    "source": "Cursor Blog",
    "pub": "10-29 20:00"
-  },
-  {
-   "title": "Google 三季度搜索增速不及预期，投资者担忧 AI 搜索变现拖累核心业务",
-   "link": "https://aihot.news/items/wry19y87ktlbmfwu581jjffj7",
-   "summary": "Google 三季度搜索收入增长约 12%，低于分析师预期的 15%，市值一度缩水最多 10%。高管 Philipp Schindler 承认 AI mode 查询的强劲增长因变现率较低产生了影响，同时公司称搜索查询年增速达五年来最高，并计划在美国及国际市场扩大聊天机器人广告项目。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "10-29 18:16"
-  },
-  {
-   "title": "Addy Osmani 谈你可能对 Claude 过度提示了",
-   "link": "https://aihot.news/items/m1cx9dfhpep0da323x3tk7vht",
-   "summary": "Addy Osmani 撰文称新版 Claude 模型所需提示词比多数人习惯的更少，针对 Opus 5.5 建议用单一明确目标加验证条件让 Claude 自主工作，从 /effort medium 起步按需调整。",
-   "category": "教程",
-   "source": "Addy Osmani",
-   "pub": "10-29 14:13"
   }
  ]
 }
