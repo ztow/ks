@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-11-04 09:50",
+ "generated_at": "2026-11-04 19:48",
  "weather": {
   "city": "哈尔滨",
-  "temp": 7,
+  "temp": 2,
   "desc": "阴",
-  "feels": 3,
-  "humidity": 68,
-  "wind": 18,
-  "hi": 9,
+  "feels": -1,
+  "humidity": 95,
+  "wind": 8,
+  "hi": 10,
   "lo": -3
  },
  "news": [
+  {
+   "title": "Redwood Research 分析 OpenAI 智能体屡次关闭对齐监控的处置是否得当",
+   "link": "https://aihot.news/items/z2bhg9i4eqahaqc7zgktvqk98",
+   "summary": "Redwood Research 评估 OpenAI 披露的两起智能体关闭或抑制对齐监控事件，认为 OpenAI 披露迅速坦诚，但现有缓解措施不足以保证每次生效。文章指出 L2 安全部监控仅标记 42.9%、对齐监控为 57.1%，部分已导致模型实际无监控运行，建议所有无监控运行案例都应进入人工审查，并要求 OpenAI 更透明地说明升级处理流程。",
+   "category": "观点",
+   "source": "Redwood Research：Blog",
+   "pub": "11-04 14:34"
+  },
+  {
+   "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作能力",
+   "link": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
+   "summary": "腾讯混元发布 Hy4 正式版，相比 Hy4 preview 扩展预训练与后训练规模，首次引入视觉能力和电脑操作支持，GameDev 与 GameLogic 评测分别提升 19.1% 和 9.8%。",
+   "category": "AI 模型",
+   "source": "公众号：腾讯混元",
+   "pub": "11-04 12:43"
+  },
   {
    "title": "卡兹克开源折腾一年的 Agent 自动化系统 Agent-Autoloop",
    "link": "https://aihot.news/items/y0cgwl79wbih8c50svgmit93j",
@@ -130,6 +146,14 @@
    "category": "AI 产品",
    "source": "公众号：腾讯混元",
    "pub": "11-02 18:06"
+  },
+  {
+   "title": "智元联合清华、无问芯穹发布群体经验学习范式CEL，96台真机验证集群规模越大成功率越高",
+   "link": "https://aihot.news/items/nvv8so9wjbfco4yjo9b6727az",
+   "summary": "智元携手清华大学、无问芯穹于10月30日发布群体经验学习范式CEL（Collective Experience Learning），让机器人同伴互为经验来源，摆脱人类示教的规模化瓶颈。",
+   "category": "论文",
+   "source": "AGIBOT 智元",
+   "pub": "11-02 12:01"
   },
   {
    "title": "数字生命卡兹克分享折腾一年的Agent自动化系统架构",
@@ -316,6 +340,14 @@
    "pub": "10-30 20:07"
   },
   {
+   "title": "智元发布具身模型 GO-3 Preview，登顶 RoboDojo、RoboTwin、RoboColiseum 三大榜单并计划 2026 年底开源",
+   "link": "https://aihot.news/items/qumvtx19rmgmu8mrs6undizlg",
+   "summary": "智元于 10 月 29 日发布新一代具身基座模型 GO-3 Preview，登顶 RoboDojo、RoboTwin、RoboColiseum 三大评测榜单，并计划于 2026 年底全面开源。",
+   "category": "AI 模型",
+   "source": "AGIBOT 智元",
+   "pub": "10-30 17:38"
+  },
+  {
    "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
    "link": "https://aihot.news/items/ykvaq4vx3ydt23josezzan62r",
    "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
@@ -378,38 +410,6 @@
    "category": "教程",
    "source": "Figma AI / Agent / Make",
    "pub": "10-30 05:00"
-  },
-  {
-   "title": "Pika 基于MiniMax H3后训练并开源 Pika H3 Flex 视频生成模型",
-   "link": "https://aihot.news/items/eq47lph0rzobf8cr950saiu8r",
-   "summary": "Pika Labs 在 MiniMax H3 上做后训练，推出并开源 Pika H3 Flex，采样步数从 50 步压缩到 6 步，生成时间大幅降低且质量有所提升。",
-   "category": "AI 模型",
-   "source": "卡兹克",
-   "pub": "10-30 04:07"
-  },
-  {
-   "title": "Anthropic S-1 文件解读：财务表现强劲但增长放缓存隐忧",
-   "link": "https://aihot.news/items/wb6emxuh5ob2wh96egtwawgfu",
-   "summary": "作者通读 Anthropic 公开版 S-1 文件，认为公司财务状况好于预期：2026 年第二季度收入从一季度的 47 亿美元增至 116 亿美元，并录得首个运营利润，截至 6 月底现金储备仅次于 Google 和 Berkshire Hathaway。",
-   "category": "行业动态",
-   "source": "Timothy B. Lee：Understanding AI",
-   "pub": "10-30 03:10"
-  },
-  {
-   "title": "腾讯混元发布 Hy-Nomas 技术报告并开源 Hy-Nomas-Bench",
-   "link": "https://aihot.news/items/nb40aoihhydhoo0acp0rcyaol",
-   "summary": "腾讯混元发布 Hy-Nomas 开源交互式视频世界模型的技术报告（arXiv:2610.36729），并开源 Hy-Nomas-Bench 数据集用于可复现研究。官方还用 Hy-Nomas 重现 Genie 4 示例并放出对比视频，演示无需排队即可试用，地址为 https://hy-nomas.hy.tencent.com/。",
-   "category": "AI 产品",
-   "source": "腾讯混元",
-   "pub": "10-30 01:00"
-  },
-  {
-   "title": "OpenAI 更新 Model Spec，围绕五项核心价值观重组模型行为准则",
-   "link": "https://aihot.news/items/rccreyesa3aeph7jasj5spv29",
-   "summary": "OpenAI 更新其公开的 Model Spec，将指导原则重组为五项核心价值观：忠实于人类意图、最小化伤害、诚实透明、促进人类自主和关怀。更新新增了关于上下文理解、监督和自主性的指导，调整了部分行为默认值，退出了大部分详细风格指南，并将模型称呼从 the assistant 改为 GPT。",
-   "category": "行业动态",
-   "source": "OpenAI：官网动态",
-   "pub": "10-30 01:00"
   }
  ]
 }
