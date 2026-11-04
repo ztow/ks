@@ -1,16 +1,48 @@
 {
- "generated_at": "2026-11-04 19:48",
+ "generated_at": "2026-11-05 04:14",
  "weather": {
   "city": "哈尔滨",
-  "temp": 2,
+  "temp": -2,
   "desc": "阴",
-  "feels": -1,
-  "humidity": 95,
-  "wind": 8,
-  "hi": 10,
-  "lo": -3
+  "feels": -6,
+  "humidity": 96,
+  "wind": 9,
+  "hi": 0,
+  "lo": -9
  },
  "news": [
+  {
+   "title": "Moonshot AI 在 HuggingFace 开放 2.8T 参数 Kimi K3.1 Pro 权重",
+   "link": "https://aihot.news/items/se9yjzn1asv817vcahsxd5zpw",
+   "summary": "Moonshot AI（@Kimi_Moonshot）在 HuggingFace 开放 Kimi K3.1 Pro 权重（https://huggingface.co/moonshotai/Kimi-K3.1-Pro）。",
+   "category": "AI 模型",
+   "source": "Rohan Paul",
+   "pub": "11-05 03:16"
+  },
+  {
+   "title": "美国中期选举中选民广泛否决 AI 数据中心提案",
+   "link": "https://aihot.news/items/rt92cw12z1dsqozka4y4wzl2v",
+   "summary": "美国中期选举中，13 个州逾 40 项数据中心相关提案里至少 38 项被否决，6 个城市直接禁止数据中心，12 个限制其用电功率。",
+   "category": "行业动态",
+   "source": "404 Media",
+   "pub": "11-05 01:58"
+  },
+  {
+   "title": "可灵 Kling 4.0 Flash 全面开放，支持官网、API、MCP 和 Adobe 插件接入",
+   "link": "https://aihot.news/items/dh8lnoo1i3xiq7a12azrnmmwf",
+   "summary": "可灵AI 宣布 Kling 4.0 Flash 现已向所有用户全面开放，可通过 Kling AI 官网和 API 使用。同时支持通过 MCP、CLI 及 AI 插件接入，创作者还可在 Adobe Photoshop、Premiere Pro 和 After Effects 中通过可灵插件调用该模型，体验入口为 klingai.com。",
+   "category": "AI 产品",
+   "source": "公众号：可灵AI",
+   "pub": "11-04 23:00"
+  },
+  {
+   "title": "OpenAI 宣布收购 Code Storage 背后公司 Pierre",
+   "link": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx",
+   "summary": "OpenAI 宣布收购 Pierre Computer Company，即 Code Storage 及多款开源开发者工具背后的公司。其 Trees 和 Diffs 库已被用于 Codex 应用的文件浏览与代码变更审阅；交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，功能将逐步并入 Codex，交割尚待监管批准。",
+   "category": "行业动态",
+   "source": "OpenAI：官网动态",
+   "pub": "11-04 22:30"
+  },
   {
    "title": "Redwood Research 分析 OpenAI 智能体屡次关闭对齐监控的处置是否得当",
    "link": "https://aihot.news/items/z2bhg9i4eqahaqc7zgktvqk98",
@@ -34,6 +66,14 @@
    "category": "教程",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-04 08:19"
+  },
+  {
+   "title": "Factory 收购 HumanLayer，并将开源其平台",
+   "link": "https://aihot.news/items/cc4sa2q738kbc1y9hj6agvta7",
+   "summary": "Factory 宣布收购 HumanLayer，联合创始人 Dex Horthy 和 Kyle Mistele 加入，共同构建面向企业和开发者的自主进化软件。HumanLayer 团队自 2025 年初深度使用编码 Agent，曾提出 Agent swarms 和 Research/Plan/Implement 框架。",
+   "category": "行业动态",
+   "source": "Factory 研究 / 产品",
+   "pub": "11-04 08:00"
   },
   {
    "title": "AMD 发布 2026 年三季度财报，预计 2027 年营收增长超 80%",
@@ -370,46 +410,6 @@
    "category": "AI 产品",
    "source": "Gemini API：更新日志",
    "pub": "10-30 08:00"
-  },
-  {
-   "title": "OpenAI 汇编各方法庭之友意见，主张 AI 训练应适用合理使用原则",
-   "link": "https://aihot.news/items/oas684tt9kpeds9cq7vgjvo1x",
-   "summary": "OpenAI 整理了在《纽约时报》诉讼中提交给法院的多份支持合理使用的法庭之友意见摘要，作者包括图书馆协会、法律学者、独立创作者和美国政府等。各意见书主张 AI 训练具有转换性、不构成版权法认可的市场损害，并警告限缩合理使用将阻碍科研进展与美国经济繁荣；完整文件可在法院公开卷宗查阅。",
-   "category": "行业动态",
-   "source": "OpenAI：官网动态",
-   "pub": "10-30 08:00"
-  },
-  {
-   "title": "OpenRouter 实测 Claude Opus vs Sonnet vs Haiku 5.5 该选哪个",
-   "link": "https://aihot.news/items/gzcwy89nkjreenv5eu1qaysdi",
-   "summary": "OpenRouter 实测 Claude Opus 5.5、Sonnet 5.5 与 Haiku 5.5 三档模型，建议默认用 Sonnet 5.5，高频与子智能体任务用 Haiku 5.5，长且容错成本高的任务用 Opus 5.5。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
-   "pub": "10-30 08:00"
-  },
-  {
-   "title": "Jassy 称 AWS 五到十年内将成为万亿美元营收业务，2026 年 capex 约 2200 亿美元",
-   "link": "https://aihot.news/items/fxmexzrmo7pw52vc5j6ej17kl",
-   "summary": "Amazon CEO Andy Jassy 在周四的季度财报电话会议上表示，AWS 未来五到十年内可以成为年营收万亿美元的业务，2026 年现金 capex 预计约 2200 亿美元，大部分投向 AWS，2027 年还将大幅增加。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "10-30 07:42"
-  },
-  {
-   "title": "Google 市值蒸发 5000 亿美元，AI 概要冲击搜索广告引发华尔街担忧",
-   "link": "https://aihot.news/items/puushryi79v0flh2um3a70xnw",
-   "summary": "Alphabet 因 AI 搜索概要影响广告收入，单日市值从 3.97 万亿跌至 3.46 万亿美元，缩水超 5000 亿美元。该季度总营收增 25% 至 1276 亿美元，云业务营收增 103% 至近 310 亿美元，但利润下降 25%，自由现金流为负超 90 亿美元。",
-   "category": "行业动态",
-   "source": "Hacker News：AI 热帖",
-   "pub": "10-30 05:29"
-  },
-  {
-   "title": "Figma 讲解如何训练专用画布编辑模型",
-   "link": "https://aihot.news/items/z9kqlhsgiz11fvlk3aodm6seg",
-   "summary": "Figma 介绍其为 agent 自研 Figma 编辑模型的训练方法，先用超过 25 万条合成样本做 SFT，让早期 Llama 3.3 70B 在编辑任务上接近当时顶级模型，后转向 RL 并结合确定性校验器与视觉评委做评测。",
-   "category": "教程",
-   "source": "Figma AI / Agent / Make",
-   "pub": "10-30 05:00"
   }
  ]
 }
