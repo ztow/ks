@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-11-04 03:56",
+ "generated_at": "2026-11-04 09:50",
  "weather": {
   "city": "哈尔滨",
-  "temp": 0,
+  "temp": 7,
   "desc": "阴",
-  "feels": -5,
-  "humidity": 46,
-  "wind": 14,
-  "hi": 10,
-  "lo": -2
+  "feels": 3,
+  "humidity": 68,
+  "wind": 18,
+  "hi": 9,
+  "lo": -3
  },
  "news": [
+  {
+   "title": "卡兹克开源折腾一年的 Agent 自动化系统 Agent-Autoloop",
+   "link": "https://aihot.news/items/y0cgwl79wbih8c50svgmit93j",
+   "summary": "作者开源其打磨一年的 Agent 自动化系统 Agent-Autoloop，地址为 https://github.com/KKKKhazix/agent-autoloop。",
+   "category": "教程",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-04 08:19"
+  },
+  {
+   "title": "AMD 发布 2026 年三季度财报，预计 2027 年营收增长超 80%",
+   "link": "https://aihot.news/items/ir9nzccipff0uowu3tghi4n3o",
+   "summary": "AMD 公布 2026 年三季度财报，预计 2027 年营收增长超 80%，高于分析师建模的 77%，CEO Lisa Su 称数据中心芯片将占明年销售额的 80%。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-04 07:14"
+  },
   {
    "title": "Ed Zitron 解析 OpenAI 1.25 万亿美元估值融资与 Anthropic S-1/A 中的万亿级算力承诺",
    "link": "https://aihot.news/items/zv5dl1agqwo6tkmhdamy17lt5",
@@ -52,6 +68,14 @@
    "pub": "11-03 08:18"
   },
   {
+   "title": "OpenHands 与 Snowflake 推出基于现有 agent harness 的模型后训练方案",
+   "link": "https://aihot.news/items/recqqiy27l866jfbhjk0cusqh",
+   "summary": "OpenHands 与 Snowflake AI Research 合作，让开发者无需在独立 RL 框架中重建 harness，即可用现有 OpenHands Agent SDK 配置和 Harbor 格式任务对开源权重模型做 RL 后训练，训练由 Snowflake Cortex Training 提供 GPU 支持。",
+   "category": "教程",
+   "source": "OpenHands 官方博客",
+   "pub": "11-03 08:00"
+  },
+  {
    "title": "Revolut 将约 2000 名工程师迁移到自托管 GLM 编码",
    "link": "https://aihot.news/items/op93lgz2xx0ck3znfm724ebfu",
    "summary": "据 Revolut AI 运营负责人 David Abitbol，公司把约 2000 名工程师迁到自托管 GLM 做编码，将 Claude Code 和 Codex 列为例外。",
@@ -82,6 +106,14 @@
    "category": "行业动态",
    "source": "The Decoder：AI News",
    "pub": "11-03 00:26"
+  },
+  {
+   "title": "Cognition 发布2026年11月实用安全指南：从 Binance 被盗到 Claude Code Cursor 扩展投毒的应对清单",
+   "link": "https://aihot.news/items/dmvn8r8406f7g9vutizbxqesj",
+   "summary": "Cognition 发布2026年11月实用安全指南，回顾近期重大安全事件并给出公司可执行的安全加固清单。",
+   "category": "教程",
+   "source": "Cognition 模型 / Devin 博客",
+   "pub": "11-03 00:00"
   },
   {
    "title": "OpenAI 推出 Grid Protectors 计划，从 Georgia 校园开始支持电网削峰",
@@ -378,38 +410,6 @@
    "category": "行业动态",
    "source": "OpenAI：官网动态",
    "pub": "10-30 01:00"
-  },
-  {
-   "title": "Codex 宣布即日起 Pro 及 Business Premium 各档位用量上限翻倍",
-   "link": "https://aihot.news/items/funx6p4g0gju509j6n0oyxmqu",
-   "summary": "Tibo 宣布即日起将 Pro 100/200/500 档位与 Business Premium 的所有用量上限翻倍。Pro 200 的上限不会下调，Work 与 Codex 用量保持不变；dots 的扩展用量上限继续提供，且仍与默认用量分开计算，后续还会通过更好的模型和效率改进提升实际可用量。",
-   "category": "AI 产品",
-   "source": "Tibo",
-   "pub": "10-30 00:56"
-  },
-  {
-   "title": "Gemini 新增文档、PDF、演示文稿和表格的直接生成、预览与编辑功能",
-   "link": "https://aihot.news/items/nfbnpnzdrebu4kbq6uqxhkc2h",
-   "summary": "Google Gemini 宣布可直接在应用内生成、预览和编辑文档、PDF、演示文稿、表格等多种文件。支持把手写笔记转成 PDF 学习指南、手动调整内容、高亮部分让 Gemini 修改文字或视觉元素，并可继续追问。",
-   "category": "AI 产品",
-   "source": "Gemini",
-   "pub": "10-30 00:36"
-  },
-  {
-   "title": "Manus 联合创始人复盘：用 Manus 重建 Manus 的内部实验",
-   "link": "https://aihot.news/items/jwesxv6ocruk1r44ar9hj14i0",
-   "summary": "Manus 联合创始人张涛撰文复盘公司全面转向人机协作开发的内部实验，介绍内部工具 Mono 如何统一仓库上下文并让单人端到端交付需求，工程师同时推进 10 到 20 个请求已成常态。文章涵盖工程、产品和营销三个团队，总结了自主性需要可验证终点线、瓶颈从工程转向产品决策等经验，也指出注意力碎片化、信息分散和权限设计等未解决的问题。",
-   "category": "教程",
-   "source": "Manus：Blog",
-   "pub": "10-30 00:00"
-  },
-  {
-   "title": "OpenAI 详解如何监控前沿模型的失对齐行为",
-   "link": "https://aihot.news/items/e234ewhx82g2zh3z2bgcjxx7d",
-   "summary": "OpenAI 在 Alignment 博客介绍其针对前沿模型（如 GPT-6 Astra）的多层失对齐监控系统，覆盖训练、评估、内部使用和部分外部部署。",
-   "category": "论文",
-   "source": "OpenAI：Alignment 研究博客",
-   "pub": "10-30 00:00"
   }
  ]
 }
