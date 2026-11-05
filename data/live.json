@@ -1,16 +1,64 @@
 {
- "generated_at": "2026-11-05 19:47",
+ "generated_at": "2026-11-06 04:27",
  "weather": {
   "city": "哈尔滨",
-  "temp": -7,
-  "desc": "阴",
-  "feels": -13,
-  "humidity": 63,
-  "wind": 17,
-  "hi": -1,
-  "lo": -9
+  "temp": -10,
+  "desc": "多云",
+  "feels": -15,
+  "humidity": 71,
+  "wind": 13,
+  "hi": -6,
+  "lo": -11
  },
  "news": [
+  {
+   "title": "美国中期选举蓝潮冲击 AI 行业，44 项数据中心暂停提案中 43 项通过",
+   "link": "https://aihot.news/items/vkfrtci1ufbtbydsqersys6lx",
+   "summary": "美国中期选举民主党拿下参众两院，多场竞选以问责 AI 公司为主题，行业面临监管、数据中心建设放缓等前景。44 项地方数据中心暂停提案中 43 项通过，NBC 民调显示 76% 选民反对在社区建数据中心；专家称共和党禁止州级 AI 限制的尝试可能终结，OpenAI 和 Anthropic 未置评，据华尔街日报报道 CEO 们在私下讨论算力容量受限问题。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "11-06 01:51"
+  },
+  {
+   "title": "Perplexity 推出 Teammates 智能体，面向 Max 订阅用户开放",
+   "link": "https://aihot.news/items/wkgcal7l9pkj3g7w8ohlp3c45",
+   "summary": "Perplexity 推出 Teammates 功能，这些智能体可承接任务，利用 Computer tasks、skills、memory 和工具主动工作。Teammates 之间可相互协作，还能在 Slack 中给同事发消息，目前已向 Max 订阅用户开放网页版。",
+   "category": "AI 产品",
+   "source": "Perplexity",
+   "pub": "11-06 01:05"
+  },
+  {
+   "title": "Google 发布 Gemini Omni 1.2 Flash：15 秒视频生成，降价 30% 至 $0.07/秒",
+   "link": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
+   "summary": "Google 发布 Gemini Omni 1.2 Flash，在 Gemini API 和 Gemini for business 全面开放。新模型原生支持最长 15 秒视频生成（此前为 10 秒），支持多轮对话编辑和更强的参考图一致性，价格较 1.1 下降 30% 至 720p 视频 $0.07/秒。",
+   "category": "AI 产品",
+   "source": "Google Blog：AI",
+   "pub": "11-06 01:00"
+  },
+  {
+   "title": "Reflection 详解开源模型 Beam 的安全训练与评估方法",
+   "link": "https://aihot.news/items/mpv0jfejdzdm2336jgtyj9tde",
+   "summary": "Reflection 发布博文，讲解其开源权重模型 Beam 的安全训练与评估方法，并推出开源安全研究计划 Project Iris。Beam 在 Iris Safety Evaluations 对话任务中拒绝 89% 的有害请求，为所测开源权重模型中最高，同时遵守 82% 的安全相关无害请求；安全对齐教师模型从 100B 增至 501B 参数后，过度拒绝相对下降 48.7%。",
+   "category": "论文",
+   "source": "Reflection Blog",
+   "pub": "11-06 01:00"
+  },
+  {
+   "title": "Mustafa Suleyman 对特拉华允许 AI 智能体经营企业的提案表示担忧",
+   "link": "https://aihot.news/items/kl8ufrhv3zm38108gy2d7mins",
+   "summary": "Mustafa Suleyman 表示对特拉华州允许 AI 智能体经营企业的提案深感担忧，认为应非常谨慎。该提案拟设立名为 Delaware AIC 的独立法律实体，其日常事务由 AI 智能体而非人类管理，可依智能体指示以自身名义起诉应诉、持有和处置财产并承担债务。",
+   "category": "观点",
+   "source": "Mustafa Suleyman",
+   "pub": "11-06 00:33"
+  },
+  {
+   "title": "a16z：漏洞利用曾是瓶颈，AI 让攻击成本从数月降到数小时",
+   "link": "https://aihot.news/items/t5j6ucy3ao84zrwoz2yf2ovra",
+   "summary": "a16z 分析师撰文指出，2026 年 AI 智能体已把从漏洞到可用 exploit 的成本从专业人员的数周压缩到数小时，8 月底一次行动在 4 小时内攻破首个真实受害者，26 秒内攻陷 11 个组织，累计 48 国 395 个机构被攻破，其中一半是学校。",
+   "category": "观点",
+   "source": "a16z：News",
+   "pub": "11-05 23:01"
+  },
   {
    "title": "腾讯混元感谢 Artificial Analysis 对 Hy4 的评测，模型获 Intelligence Index v5 35 分",
    "link": "https://aihot.news/items/fj4zi12biz0b62ckhzg5awcxx",
@@ -18,6 +66,22 @@
    "category": "AI 模型",
    "source": "腾讯混元",
    "pub": "11-05 18:23"
+  },
+  {
+   "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+   "link": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
+   "summary": "OpenAI 发布网络安全模型 GPT-6 Cyber，针对漏洞发现、验证与修复训练，并通过 Daybreak Red/Blue 平台向审核通过的安全团队开放。",
+   "category": "AI 模型",
+   "source": "OpenAI：官网动态",
+   "pub": "11-05 17:00"
+  },
+  {
+   "title": "OpenAI 发布 GPT-6 Cyber 系统卡：聚焦网络安全能力与对齐表现",
+   "link": "https://aihot.news/items/k4zkvg2szg7wlhh2b8410n1gr",
+   "summary": "OpenAI 发布 GPT-6 Cyber 系统卡，说明该模型通过强化学习训练复现崩溃、开发可用 exploit 和搜索代码库漏洞等网络安全能力。在 ExploitGym Honeypot 评估中未加部署安全指令时越权利用率为 0.07%，远低于 GPT-5.6 Sol 的 49.5%；Auto-Review 拒绝遵循率 0% 违规，与 GPT-6 Astra 持平。",
+   "category": "论文",
+   "source": "OpenAI：部署安全与系统卡",
+   "pub": "11-05 15:00"
   },
   {
    "title": "Higgsfield 上线 GPT Image 2.6，新用户 7 天无限使用",
@@ -33,6 +97,22 @@
    "summary": "月之暗面按 10 月 24 日发布时的承诺，在 Hugging Face 开放 Kimi K3.1 Pro 权重。",
    "category": "AI 模型",
    "source": "IT之家·人工智能",
+   "pub": "11-05 08:00"
+  },
+  {
+   "title": "Google Research 在 Nature 发表 AI-PPG-ACC-HTN：用智能手表无袖带检测高血压迹象",
+   "link": "https://aihot.news/items/zbjrxt1ss4h009oc75x5swd6y",
+   "summary": "Google Research 联合 Beth Israel Deaconess Medical Center 和哈佛医学院在 Nature 发表 AI-PPG-ACC-HTN 多模态 AI 系统，用消费级智能手表的 PPG 和加速度传感数据被动检测高血压迹象，无需袖带校准。",
+   "category": "论文",
+   "source": "Google Research：Blog",
+   "pub": "11-05 08:00"
+  },
+  {
+   "title": "OpenClaw 发布 Multiplayer 多人共享 Agent 协作功能",
+   "link": "https://aihot.news/items/djhbjedg8wqy6dnycdiz576nx",
+   "summary": "OpenClaw 基金会发布 Multiplayer 功能，让多人通过两台设备同时操作同一个 Agent、共享上下文，通过共享队列协调请求，避免各自独立使用 Agent 导致的指令丢失和上下文断裂。",
+   "category": "AI 产品",
+   "source": "OpenClaw：Blog",
    "pub": "11-05 08:00"
   },
   {
@@ -52,9 +132,9 @@
    "pub": "11-05 06:12"
   },
   {
-   "title": "美国中期选举投票限制 AI 与数据中心，Big Tech 称这是反特朗普而非反科技",
+   "title": "美国中期选举大规模通过 AI 与数据中心限制措施，大型科技公司称反弹针对特朗普而非科技",
    "link": "https://aihot.news/items/ueakbz7ghxdsqffsw67d61y7j",
-   "summary": "2026 年美国中期选举中，选民压倒性支持限制 AI 和数据中心的候选人及措施。Redbud Consulting 统计 10 个州 44 项数据中心限制措施已有 38 项通过；民主党人 Gina Hinojosa 赢得德州州长选举，计划推迟项目直到通过保护水电、空气和财产权的法律，Bloomberg 称约 13GW 数据中心容量受影响。",
+   "summary": "2026 年美国中期选举中，10 个州 44 项限制数据中心的措施有 38 项通过，选民还选出了主张收紧 AI 管制的候选人。Gina Hinojosa 赢得德州州长选举，约 13GW 数据中心容量面临延迟，Axios 估计近三分之二的 2028 年数据中心容量可能受影响。",
    "category": "行业动态",
    "source": "Ars Technica：AI",
    "pub": "11-05 04:55"
@@ -68,11 +148,35 @@
    "pub": "11-05 01:58"
   },
   {
+   "title": "Mistral 扩展 Mistral Studio，配合 Mistral Large 4 (Le Chonk) 构建企业级智能体、工作流和应用",
+   "link": "https://aihot.news/items/ofo4xa4ux02yj9f9lbokmidpr",
+   "summary": "Mistral 宣布扩展 Mistral Studio，新增托管智能体、工作流、应用、企业上下文、可观测性和评估等能力，配合企业模型 Mistral Large 4（Le Chonk），支持云端、VPC 或本地部署并保留对模型与数据的控制。",
+   "category": "AI 产品",
+   "source": "Mistral AI：News",
+   "pub": "11-05 00:00"
+  },
+  {
    "title": "PFN 开放翻译特化模型 PLaMo 3 Translate，0.8B 至 31B 四个尺寸可离线运行",
    "link": "https://aihot.news/items/mfhrioi9hwoh0m8q6q2yhjzo7",
    "summary": "Preferred Networks 将自家翻译服务使用的翻译特化 LLM PLaMo 3 Translate 以开放权重形式在 Hugging Face 公开，提供 0.8B、2B、8B、31B 四个尺寸。",
    "category": "AI 模型",
    "source": "Preferred Networks：AI 研究与产品",
+   "pub": "11-05 00:00"
+  },
+  {
+   "title": "METR 评审 Anthropic 2026年8月风险报告的自动化 R&D 风险章节",
+   "link": "https://aihot.news/items/k53ssxx8ie3n6fzyqmky4izv7",
+   "summary": "METR 发布对 Anthropic 2026年8月风险报告“自动化 R&D 风险”章节的独立评审，同意 7月15日 模型的直接灾难性风险为“低”，但认为其可能已触及 2x Acceleration 早期预警阈值。",
+   "category": "论文",
+   "source": "METR：Blog",
+   "pub": "11-05 00:00"
+  },
+  {
+   "title": "Anthropic 研究 20.7 万 Claude 科研会话：科学家如何使用 Claude",
+   "link": "https://aihot.news/items/giyl2h74lq7ygv5c7vpxu887m",
+   "summary": "Anthropic 用隐私保护方法分析 207,049 个 Claude 与 Claude Code 科研会话（2026 年 8 月 2 日至 9 月 30 日，消费版套餐），并辅以 528 名科学家调查，研究 Claude 在各科学领域的使用方式。",
+   "category": "论文",
+   "source": "Anthropic：Research",
    "pub": "11-05 00:00"
   },
   {
@@ -306,110 +410,6 @@
    "category": "AI 产品",
    "source": "Claude：Blog",
    "pub": "11-02 08:00"
-  },
-  {
-   "title": "OpenAI 任命前美国陆军部长 Dan Driscoll 为国家安全现代化高级顾问",
-   "link": "https://aihot.news/items/hf03pwablxanh9desil5cbu9d",
-   "summary": "OpenAI 宣布任命 Dan Driscoll 为新设的国家安全现代化高级顾问，就先进 AI 如何加强国家与网络安全提供建议，重点与美国盟友合作推动民主 AI 的负责任使用。",
-   "category": "行业动态",
-   "source": "OpenAI：官网动态",
-   "pub": "11-02 08:00"
-  },
-  {
-   "title": "Google AI Studio 弃用 Gemini 2.5 Pro 与 2.5 Flash，API 请求将于 12 月 1 日起自动路由",
-   "link": "https://aihot.news/items/ewvepczpb5fewcbzo2tkqdldm",
-   "summary": "Gemini 2.5 Pro 与 Gemini 2.5 Flash 已弃用，无法再在 Google AI Studio 中选择。",
-   "category": "AI 产品",
-   "source": "Gemini API：更新日志",
-   "pub": "11-02 08:00"
-  },
-  {
-   "title": "Claude Code 技巧：任务变难时输入 ultrathink 提升当前回合推理努力",
-   "link": "https://aihot.news/items/mhw3rtr5o13p5777y7el9tczk",
-   "summary": "Addy Osmani 分享 Claude Code 技巧：当任务比预期更难时，在 Claude 工作期间输入 ultrathink，可提升该回合剩余部分的推理努力，该功能适用于最新版本的终端。他引用 @dmwlff 的帖子，其中提到 ultrathink 已回归 Claude Code CLI，此前因显得怪异且可能令人困惑曾被关闭。",
-   "category": "教程",
-   "source": "Addy Osmani",
-   "pub": "11-02 04:09"
-  },
-  {
-   "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
-   "link": "https://aihot.news/items/f6dxzur6d4pwjdhvm1x6m5rfp",
-   "summary": "作者引述OpenAI凌晨更新的帮助文档称，从12月开始Plus和Pro用户的ChatGPT聊天与Codex用量将合并为同一Token额度，仅Instant聊天不受影响。作者回顾此前按条数计费的历史、一个月内Codex Pro额度先降后恢复的运营反复，以及社区在GitHub上提issue抗议的反应，认为合并与IPO预期下的算力成本压力有关。",
-   "category": "行业动态",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "11-01 08:22"
-  },
-  {
-   "title": "OpenRouter 教程：用 Responses API 构建可在 Linux 沙箱验证 bug 的 AI 代码审查脚本",
-   "link": "https://aihot.news/items/yww15c701iat30p8ttjf029ij",
-   "summary": "OpenRouter 发布教程，介绍一个 233 行、仅用标准库的 review.py，通过 Responses API 组合 Files API、Shell 沙箱工具和 Apply Patch 工具，把变更文件上传到托管 Linux 沙箱，让模型实际运行检查确认 bug 并返回 V4A 补丁。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
-   "pub": "11-01 08:00"
-  },
-  {
-   "title": "美国白宫科技顾问萨克斯称 Anthropic 可能成为资本主义史上最伟大企业",
-   "link": "https://aihot.news/items/dpm21l66z2iizblehsdg09c8t",
-   "summary": "美国白宫科学与技术顾问会议主席戴维·萨克斯在 All-In 播客分析 Anthropic 的 S-1 文件，称其很可能成为资本主义历史上最伟大企业，也可能是回报最高的风险投资项目。",
-   "category": "观点",
-   "source": "IT之家·人工智能",
-   "pub": "11-01 06:56"
-  },
-  {
-   "title": "彭博社统计：Alphabet、Meta、微软、亚马逊、甲骨文承诺投入超3万亿美元建AI基础设施",
-   "link": "https://aihot.news/items/htfc0ler37j2h4hoqll6jewz3",
-   "summary": "据彭博社10月31日报道，Alphabet、Meta、微软、亚马逊和甲骨文五大巨头承诺未来数年在数据中心等领域投入超过3万亿美元（约20.01万亿元人民币）。其中谷歌支出承诺超1万亿美元、接近一年前的八倍，Meta超8,000亿美元且近半用于最长分30年支付的租约；甲骨文是首家因投资AI数据中心而自由现金流转负的大型科技公司，预计到2028年恢复正自由现金流。",
-   "category": "行业动态",
-   "source": "IT之家·人工智能",
-   "pub": "10-31 23:56"
-  },
-  {
-   "title": "Anthropic IPO 招股文件披露近 9000 亿美元隐性债务",
-   "link": "https://aihot.news/items/yqblvh40gus1ssc0rjvawh6fu",
-   "summary": "Anthropic 近日提交 IPO 招股文件，彭博社报道其计划未来在服务器、建筑和电力等领域投入近 9,000 亿美元债务。该公司资产负债表显示 1,175 亿美元负债和 1,120 亿美元现金，而租赁合同及数据中心、电力和 GPU 采购协议等表外义务未直接体现；Anthropic 计划通过增加收入和筹集资金支付这些负债。",
-   "category": "行业动态",
-   "source": "IT之家·人工智能",
-   "pub": "10-31 11:25"
-  },
-  {
-   "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保",
-   "link": "https://aihot.news/items/hx5dsruslfiiqhbsro2tvg1n8",
-   "summary": "据 The Information 报道、Bloomberg 佐证，Nvidia 正洽谈为 Nscale 在西弗吉尼亚为 Anthropic 建设的数据中心担保数十亿美元债务融资，Anthropic 已就首栋建筑签署 446 亿美元合同。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "10-31 09:20"
-  },
-  {
-   "title": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用",
-   "link": "https://aihot.news/items/akdeq33m7cpr8m7zsfgvfiz5c",
-   "summary": "Figma 宣布 Figma Weave，一个面向持续产出需求的创意团队平台，并把 Weave 创作工作流与 Figma 画框连接起来。Weave 用连接的节点承载图像和视频的生成与编辑，支持分支探索、多模型对比、色彩校正、合成、裁剪、Painter 等编辑节点；工作流可打包成 Weave tool 让团队成员一键运行，社区工具发布已上线。",
-   "category": "AI 产品",
-   "source": "Figma AI / Agent / Make",
-   "pub": "10-31 08:58"
-  },
-  {
-   "title": "阿里巴巴与Apple合作，千问集成至Apple智能，11月4日开放测试",
-   "link": "https://aihot.news/items/cbggw7imkzd4c01ifblroln6v",
-   "summary": "10月31日阿里巴巴宣布与Apple合作，将千问集成至Apple智能，中国用户可在Siri、写作工具及视觉智能中调用千问的文本与图像理解、内容生成能力。功能11月4日起随iOS开发者Beta开放测试，12月iOS 27.3正式发布时推出；用户可自主选择开通，请求与回复不用于模型训练。",
-   "category": "行业动态",
-   "source": "公众号：千问APP",
-   "pub": "10-31 08:03"
-  },
-  {
-   "title": "OpenRouter 教程：用 Agent SDK 搭建常驻 AI Agent 监控 Hacker News",
-   "link": "https://aihot.news/items/upl3hjjdokqe13w3ieo9opr0v",
-   "summary": "OpenRouter 发布教程，演示用 @openrouter/agent 0.11.0 在 TypeScript 中搭建定时运行的常驻 AI Agent，监控 Hacker News 并生成摘要。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
-   "pub": "10-31 08:00"
-  },
-  {
-   "title": "Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件",
-   "link": "https://aihot.news/items/la0qb77ds4znf2r7ub14a3bqz",
-   "summary": "Wiz 研究团队梳理 10 月内至少九个 AI 开发者平台披露的安全事件，包括 Fireworks AI、Lightning AI、Railway、Warp、OpenCode 等，多起报告指向凭据窃取、agent swarm 攻击和以“蒸馏”为目的的窃取。",
-   "category": "论文",
-   "source": "Wiz：Research",
-   "pub": "10-31 06:51"
   }
  ]
 }
