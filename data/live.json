@@ -1,16 +1,24 @@
 {
- "generated_at": "2026-11-05 09:57",
+ "generated_at": "2026-11-05 19:47",
  "weather": {
   "city": "哈尔滨",
-  "temp": -1,
+  "temp": -7,
   "desc": "阴",
-  "feels": -6,
-  "humidity": 71,
-  "wind": 13,
+  "feels": -13,
+  "humidity": 63,
+  "wind": 17,
   "hi": -1,
   "lo": -9
  },
  "news": [
+  {
+   "title": "腾讯混元感谢 Artificial Analysis 对 Hy4 的评测，模型获 Intelligence Index v5 35 分",
+   "link": "https://aihot.news/items/fj4zi12biz0b62ckhzg5awcxx",
+   "summary": "腾讯混元转发并感谢 Artificial Analysis 对其最新模型 Hy4 的评测。Hy4 在 Artificial Analysis Intelligence Index v5 得 35 分，与中国实验室模型中仅次于 Kimi K3.1 Pro（46 分），与 Grok 4.7 (xhigh) 持平，比 Claude Haiku 5.5 (max) 低 1 分。评测要点：FrontierCode 2.0 得 31%，为中国实验室模型最高；AA-Omniscience v1.1 达 50% 但幻觉率高达 89%；定价 $0.834/$2.501 per 1M input/output tokens，支持 1M token 上下文窗口和文本加图像输入。",
+   "category": "AI 模型",
+   "source": "腾讯混元",
+   "pub": "11-05 18:23"
+  },
   {
    "title": "Higgsfield 上线 GPT Image 2.6，新用户 7 天无限使用",
    "link": "https://aihot.news/items/lcdap1o18bh6bt70ij66nakij",
@@ -65,6 +73,14 @@
    "summary": "Preferred Networks 将自家翻译服务使用的翻译特化 LLM PLaMo 3 Translate 以开放权重形式在 Hugging Face 公开，提供 0.8B、2B、8B、31B 四个尺寸。",
    "category": "AI 模型",
    "source": "Preferred Networks：AI 研究与产品",
+   "pub": "11-05 00:00"
+  },
+  {
+   "title": "Goodfire 提出 mechanistic shaping 框架 用内部表征抑制模型走捷径",
+   "link": "https://aihot.news/items/d9a7dr6n3w0nh5p2facdqqguu",
+   "summary": "Goodfire Research 发布论文提出 mechanistic shaping 框架，通过 reliance shaping 和 expression shaping 在训练中惩罚模型对特定内部概念的依赖或表达，使模型以正确方式解题而非仅答对。",
+   "category": "论文",
+   "source": "Goodfire Research",
    "pub": "11-05 00:00"
   },
   {
@@ -394,22 +410,6 @@
    "category": "论文",
    "source": "Wiz：Research",
    "pub": "10-31 06:51"
-  },
-  {
-   "title": "科技巨头 AI 资本开支超 7400 亿美元，投资者担忧升温引发市场下跌",
-   "link": "https://aihot.news/items/fxxkgtzpf2pb8xjnhu4jtis0b",
-   "summary": "Alphabet、Amazon、Meta、Microsoft 今年计划资本开支合计超 7400 亿美元，投资者情绪从奖励大额投入转向担忧负自由现金流、债务攀升与回报不确定。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "10-31 05:17"
-  },
-  {
-   "title": "Project Suncatcher 在轨道卫星上运行 TPU，Gemma 模型首次在太空完成推理并回传回应",
-   "link": "https://aihot.news/items/cms82puwtmpssdpbjmajoopr9",
-   "summary": "Philipp Schmid 转引 Sundar Pichai 的消息：Google Project Suncatcher 在数周前发射原型卫星后，成功向轨道发送指令、启动 TPU、运行提示词，并在地面收到了首个完整回应（一首 haiku），作者称 Gemma 4 成为首个在太空运行的大语言模型。",
-   "category": "行业动态",
-   "source": "Philipp Schmid",
-   "pub": "10-31 02:28"
   }
  ]
 }
