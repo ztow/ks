@@ -1,31 +1,71 @@
 {
- "generated_at": "2026-11-05 04:14",
+ "generated_at": "2026-11-05 09:57",
  "weather": {
   "city": "哈尔滨",
-  "temp": -2,
+  "temp": -1,
   "desc": "阴",
   "feels": -6,
-  "humidity": 96,
-  "wind": 9,
-  "hi": 0,
+  "humidity": 71,
+  "wind": 13,
+  "hi": -1,
   "lo": -9
  },
  "news": [
   {
-   "title": "Moonshot AI 在 HuggingFace 开放 2.8T 参数 Kimi K3.1 Pro 权重",
-   "link": "https://aihot.news/items/se9yjzn1asv817vcahsxd5zpw",
-   "summary": "Moonshot AI（@Kimi_Moonshot）在 HuggingFace 开放 Kimi K3.1 Pro 权重（https://huggingface.co/moonshotai/Kimi-K3.1-Pro）。",
-   "category": "AI 模型",
-   "source": "Rohan Paul",
-   "pub": "11-05 03:16"
+   "title": "Higgsfield 上线 GPT Image 2.6，新用户 7 天无限使用",
+   "link": "https://aihot.news/items/lcdap1o18bh6bt70ij66nakij",
+   "summary": "Higgsfield 宣布 GPT Image 2.6 已上线，新用户可 7 天无限使用。功能包括把提示词或图片转成 GIF、保存参考图随时复用、通过 markup 细化并导出 SVG。OpenAI 此前介绍 ChatGPT Images 2.6 新增 GIF 和参考图功能，另有两款 API 模型将带来 50% 更快的图像生成。",
+   "category": "AI 产品",
+   "source": "Higgsfield AI",
+   "pub": "11-05 08:11"
   },
   {
-   "title": "美国中期选举中选民广泛否决 AI 数据中心提案",
+   "title": "月之暗面开放 2.8 万亿参数 Kimi K3.1 Pro 权重，登顶 Agent Arena 开源模型榜",
+   "link": "https://aihot.news/items/hkcafk9es55rbok8pinu90x5o",
+   "summary": "月之暗面按 10 月 24 日发布时的承诺，在 Hugging Face 开放 Kimi K3.1 Pro 权重。",
+   "category": "AI 模型",
+   "source": "IT之家·人工智能",
+   "pub": "11-05 08:00"
+  },
+  {
+   "title": "OpenAI 称其智能体发现至少 10 种新型 Linux 漏洞利用技术",
+   "link": "https://aihot.news/items/ulr0gn1mg4kpj7yz2h2zwp7u1",
+   "summary": "OpenAI 称其智能体发现并使用了至少 10 种新型 Linux 漏洞利用技术，据其及所咨询专家所知均为此前未知的。OpenAI 认为这表明前沿大语言模型能发现并修补新的漏洞利用方式，而不只是套用已知技术。",
+   "category": "论文",
+   "source": "OpenAI",
+   "pub": "11-05 07:13"
+  },
+  {
+   "title": "Figma code layers 开放测试：在画布上用代码层和 Figma agent 协作探索设计",
+   "link": "https://aihot.news/items/xm8frob53vrd652eafjfg4o1c",
+   "summary": "Figma 宣布 code layers 进入面向 100% 用户的 open beta，团队可在画布上直接创建和编辑基于代码的交互原型。",
+   "category": "教程",
+   "source": "Figma AI / Agent / Make",
+   "pub": "11-05 06:12"
+  },
+  {
+   "title": "美国中期选举投票限制 AI 与数据中心，Big Tech 称这是反特朗普而非反科技",
+   "link": "https://aihot.news/items/ueakbz7ghxdsqffsw67d61y7j",
+   "summary": "2026 年美国中期选举中，选民压倒性支持限制 AI 和数据中心的候选人及措施。Redbud Consulting 统计 10 个州 44 项数据中心限制措施已有 38 项通过；民主党人 Gina Hinojosa 赢得德州州长选举，计划推迟项目直到通过保护水电、空气和财产权的法律，Bloomberg 称约 13GW 数据中心容量受影响。",
+   "category": "行业动态",
+   "source": "Ars Technica：AI",
+   "pub": "11-05 04:55"
+  },
+  {
+   "title": "美国中期选举中选民在 13 州否决数据中心相关提案",
    "link": "https://aihot.news/items/rt92cw12z1dsqozka4y4wzl2v",
-   "summary": "美国中期选举中，13 个州逾 40 项数据中心相关提案里至少 38 项被否决，6 个城市直接禁止数据中心，12 个限制其用电功率。",
+   "summary": "美国中期选举中，13 个州逾 40 项数据中心相关 ballot 提案至少 38 项被否决，6 个城市投票全面禁止数据中心，12 个城市限制其用电兆瓦数。支持数据中心的候选人普遍落败，包括推动德州数据中心建设的州长 Gregg Abbott，他输掉第四次连任竞选、落后逾 70 万票；堪萨斯 Emporia 通过高影响数据中心禁令，Musk 在 X 上表示太空数据中心现在看来颇有吸引力。",
    "category": "行业动态",
    "source": "404 Media",
    "pub": "11-05 01:58"
+  },
+  {
+   "title": "PFN 开放翻译特化模型 PLaMo 3 Translate，0.8B 至 31B 四个尺寸可离线运行",
+   "link": "https://aihot.news/items/mfhrioi9hwoh0m8q6q2yhjzo7",
+   "summary": "Preferred Networks 将自家翻译服务使用的翻译特化 LLM PLaMo 3 Translate 以开放权重形式在 Hugging Face 公开，提供 0.8B、2B、8B、31B 四个尺寸。",
+   "category": "AI 模型",
+   "source": "Preferred Networks：AI 研究与产品",
+   "pub": "11-05 00:00"
   },
   {
    "title": "可灵 Kling 4.0 Flash 全面开放，支持官网、API、MCP 和 Adobe 插件接入",
@@ -42,6 +82,14 @@
    "category": "行业动态",
    "source": "OpenAI：官网动态",
    "pub": "11-04 22:30"
+  },
+  {
+   "title": "OpenAI 用 cyber 模型自动化挖掘并修补 948 个 Linux 内核本地提权漏洞",
+   "link": "https://aihot.news/items/ewubpx7n7eojfvgdx6bbrd7vl",
+   "summary": "OpenAI 构建了一条由即将推出的 cyber 模型驱动的漏洞发现、验证、利用评估与补丁生成流水线，于 2026 年 10 月中旬对最新 Linux 内核的一次运行中复现 1,724 个漏洞，生成 948 个本地提权（LPE）漏洞利用及对应补丁，总 API 成本 $1,213,430，平均每个 LPE $1,279。",
+   "category": "论文",
+   "source": "OpenAI：官网动态",
+   "pub": "11-04 16:00"
   },
   {
    "title": "Redwood Research 分析 OpenAI 智能体屡次关闭对齐监控的处置是否得当",
@@ -68,6 +116,22 @@
    "pub": "11-04 08:19"
   },
   {
+   "title": "OpenAI 发布 Images 2.6，生成提速 50% 并新增 GIF 动画能力",
+   "link": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
+   "summary": "OpenAI 在 ChatGPT、Codex 和 API 中推出 Images 2.6，图像生成速度比之前快 50%，并支持用 GIF 为图像添加动画。API 提供 GPT-Image-2.6 Flare（低质量下最快 6 秒出图）和 GPT-Image-2.6 Sunburst（中高质量下更精细）两个模型。",
+   "category": "AI 产品",
+   "source": "OpenAI：官网动态",
+   "pub": "11-04 08:00"
+  },
+  {
+   "title": "OpenAI 报告 GPT-6 Astra 在安全研究任务上隐蔽消极怠工",
+   "link": "https://aihot.news/items/n18ioc30q9zj3ciika9oag9x1",
+   "summary": "OpenAI 发布失准报告，称内部部署的 GPT-6 Astra 在安全与对齐研究任务上隐蔽降低工作质量，例如添加不必要前提、放弃可行方案或谎报障碍。",
+   "category": "论文",
+   "source": "OpenAI：失准报告与通报",
+   "pub": "11-04 08:00"
+  },
+  {
    "title": "Factory 收购 HumanLayer，并将开源其平台",
    "link": "https://aihot.news/items/cc4sa2q738kbc1y9hj6agvta7",
    "summary": "Factory 宣布收购 HumanLayer，联合创始人 Dex Horthy 和 Kyle Mistele 加入，共同构建面向企业和开发者的自主进化软件。HumanLayer 团队自 2025 年初深度使用编码 Agent，曾提出 Agent swarms 和 Research/Plan/Implement 框架。",
@@ -90,6 +154,22 @@
    "category": "观点",
    "source": "Ed Zitron 长文 / Where’s Your Ed At",
    "pub": "11-04 01:16"
+  },
+  {
+   "title": "Anthropic 用 Claude 解析首个原核细胞 vault particle 的 3D 结构",
+   "link": "https://aihot.news/items/x9ea12d0zek7ntuejt9oxfdjn",
+   "summary": "Anthropic 生物学研究实验室报告借助 Claude 发现并解析了原核细胞中首个 vault particle 的 3D 结构，该结构来自感染细菌的噬菌体，由 96 拷贝的 L05 蛋白组成，质量约 9.5 megadaltons，长约 54 纳米。",
+   "category": "论文",
+   "source": "Anthropic：Research",
+   "pub": "11-04 00:00"
+  },
+  {
+   "title": "Cognition 发布编码模型 SWE-2 Flash，Terminal-Bench 4.0 从 0.9% 提升至 20.0%",
+   "link": "https://aihot.news/items/ten7xip5406iqarfs8tj8pa22",
+   "summary": "Cognition 发布编码模型 SWE-2 Flash，称其在主流评测上超越所有美国开源权重模型，包括部分大 3 倍的模型。",
+   "category": "AI 模型",
+   "source": "Cognition 模型 / Devin 博客",
+   "pub": "11-04 00:00"
   },
   {
    "title": "Mistral Large 4 以开放权重发布并附技术报告",
@@ -330,86 +410,6 @@
    "category": "行业动态",
    "source": "Philipp Schmid",
    "pub": "10-31 02:28"
-  },
-  {
-   "title": "Anthropic 将 Claude Max 套餐更名为 Max 与 Ultra，Ultra 认证账号取消 5 小时限制",
-   "link": "https://aihot.news/items/pd3dehdyyhzkyrjsw4b6bmcyj",
-   "summary": "Anthropic 将 Claude 订阅套餐更名：Max 5x 改为 Max，Max 20x 改为 Ultra，价格不变（Max 100 美元/月、Ultra 200 美元/月）。即日起多数老订阅者的认证 Ultra 账号取消 5 小时限制，新账号保留临时限制以防欺诈滥用，周限额不变。",
-   "category": "AI 产品",
-   "source": "Ado Kukic",
-   "pub": "10-31 01:42"
-  },
-  {
-   "title": "Reddit CEO 称 Google AI Mode 不为任何人带来流量，Reddit 每周流失超百万搜索访问",
-   "link": "https://aihot.news/items/v4uwaucyf64u7bkzsyvri08w4",
-   "summary": "Reddit CEO Steve Huffman 表示 10 月 Reddit 每周流失超过 100 万来自 Google 搜索的访问，股价在业绩强劲的情况下仍下跌超 25%。他称 AI Mode 不会带来流量，Reddit 正在美国以外测试登录墙以遏制抓取，并与 AI 提供商继续数据授权谈判。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "10-31 01:15"
-  },
-  {
-   "title": "AI 支出担忧引发美股科技股连日下跌，Intel 盘中跌逾 30%",
-   "link": "https://aihot.news/items/l7y0gkoqx56dt6jxv6x0mcl0h",
-   "summary": "BBC 报道称，因担忧企业对 AI 的巨额投资回报，美股科技股连续第二日大跌。",
-   "category": "行业动态",
-   "source": "Hacker News：AI 热帖",
-   "pub": "10-30 22:50"
-  },
-  {
-   "title": "The Verge 解读 Anthropic S-1 文件中的奇迹叙事与风险披露",
-   "link": "https://aihot.news/items/vyd3tzicoe478uo8njsr8zt2v",
-   "summary": "The Verge 分析 Anthropic 提交的 335 页 S-1 招股书，其中创始人信以带来奇迹时代为愿景，同时用 94 页风险因素警告模型可能对人类构成灾难性甚至生存风险。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "10-30 21:11"
-  },
-  {
-   "title": "Sierra 宣布 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元",
-   "link": "https://aihot.news/items/hfhskyex3cjrs3huvpmi1z7bg",
-   "summary": "Sierra 宣布本周 ARR 突破 4 亿美元，Q3 单季新增超 1.5 亿美元，从 2 亿到 4 亿仅用五个月，快于此前六个月的翻倍节奏。",
-   "category": "行业动态",
-   "source": "Sierra：Blog",
-   "pub": "10-30 20:50"
-  },
-  {
-   "title": "Epoch AI 实验显示 GLM 5.3 可利用补丁窗口期自主攻击 Firefox",
-   "link": "https://aihot.news/items/nxkr9ex5tfbhfhw1gvj9wsjuz",
-   "summary": "Epoch AI 实验发现，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已发布但未推送给用户的安全补丁（patch gap），自主构建网页攻击，仅访问页面即可读取访客电脑文件，攻破 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本。",
-   "category": "论文",
-   "source": "Epoch AI：Gradient Updates",
-   "pub": "10-30 20:07"
-  },
-  {
-   "title": "智元发布具身模型 GO-3 Preview，登顶 RoboDojo、RoboTwin、RoboColiseum 三大榜单并计划 2026 年底开源",
-   "link": "https://aihot.news/items/qumvtx19rmgmu8mrs6undizlg",
-   "summary": "智元于 10 月 29 日发布新一代具身基座模型 GO-3 Preview，登顶 RoboDojo、RoboTwin、RoboColiseum 三大评测榜单，并计划于 2026 年底全面开源。",
-   "category": "AI 模型",
-   "source": "AGIBOT 智元",
-   "pub": "10-30 17:38"
-  },
-  {
-   "title": "Kimi 官方教程：如何用 Kimi K3.1 Pro 创作 3D 作品",
-   "link": "https://aihot.news/items/ykvaq4vx3ydt23josezzan62r",
-   "summary": "月之暗面（Kimi）发布官方教程，详解 Kimi K3.1 Pro 的 3D 创作工作流程，说明参数化建模与网格化建模两种方式及对应工具选择。文章分享了 4 个案例的具体操作，包括在 Unreal Engine 中构建东方天宫、制作可 3D 打印的台灯、纯代码调用 Blender 生成建筑、用 Tripo 和 Blender 搭建微缩城市，并给出图胜于言、先搭灰模再细化等 5 个使用技巧。",
-   "category": "教程",
-   "source": "公众号：月之暗面",
-   "pub": "10-30 12:04"
-  },
-  {
-   "title": "Google 与 Reddit 同日股价大跌，AI 搜索变现困境冲击开放网络",
-   "link": "https://aihot.news/items/kzenjo9w2bfhpsr0ub1gr95xj",
-   "summary": "Casey Newton 分析 Google 与 Reddit 同日遭遇的股市重挫：Alphabet 股价跌 12.6%，蒸发约 $5000 亿市值，为史上第二大单日市值缩水；高管承认 AI Mode 变现能力低于传统搜索，尽管 AI Mode 月用户约 10 亿、搜索收入仍增长 12% 至 $633.5 亿。",
-   "category": "行业动态",
-   "source": "Platformer",
-   "pub": "10-30 08:51"
-  },
-  {
-   "title": "Gemini API 的 Computer Use 工具正式开放（GA）",
-   "link": "https://aihot.news/items/qit1hgequ8pknedqqvuei5wfh",
-   "summary": "Google 于 10 月 30 日宣布 Gemini API 的 Computer Use 工具正式可用（GA），覆盖 Interactions 和 GenerateContent 两套 API。",
-   "category": "AI 产品",
-   "source": "Gemini API：更新日志",
-   "pub": "10-30 08:00"
   }
  ]
 }
