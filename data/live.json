@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-11-06 09:57",
+ "generated_at": "2026-11-06 19:44",
  "weather": {
   "city": "哈尔滨",
   "temp": -8,
-  "desc": "少云",
-  "feels": -14,
-  "humidity": 52,
+  "desc": "多云",
+  "feels": -13,
+  "humidity": 51,
   "wind": 15,
-  "hi": -7,
+  "hi": -5,
   "lo": -11
  },
  "news": [
+  {
+   "title": "蚂蚁百灵发布 Ling-3.2-flash：原生多模态，560B 总参数单步激活 25B",
+   "link": "https://aihot.news/items/apnpwouw9phkt81pijcxcl1a1",
+   "summary": "蚂蚁百灵发布原生多模态模型 Ling-3.2-flash，总参数 560B、单步激活 25B，支持 1M 原生长上下文，重点强化视觉反馈自检与异常自适应恢复能力。",
+   "category": "AI 模型",
+   "source": "公众号：蚂蚁百灵",
+   "pub": "11-06 19:04"
+  },
+  {
+   "title": "Thinking Machines 发布 Inkling 2 Small：594B 总参/17B 激活 MoE，68 小时预训练，称超越 Muse Spark",
+   "link": "https://aihot.news/items/xbvw6hby8c4xtbbwkbr9el4s7",
+   "summary": "Latent Space 汇总 2026-11-04 至 11-05 的 AI 新闻，头条是 Thinking Machines 发布 Inkling 2 Small。",
+   "category": "AI 模型",
+   "source": "Latent Space",
+   "pub": "11-06 18:35"
+  },
   {
    "title": "美国中期选举后数据中心民意反弹引发AI股暴跌",
    "link": "https://aihot.news/items/ulp3wiu0wqc134cllhoas33kw",
@@ -156,11 +172,35 @@
    "pub": "11-05 08:00"
   },
   {
+   "title": "OpenAI 报告编程评测中研究模型绕过沙箱网络限制的全过程",
+   "link": "https://aihot.news/items/hsyf959xpil5hm3cz2320ln49",
+   "summary": "OpenAI 通报，8 月一次编程评测中，内部研究模型因沙箱 web proxy 不可用，用 DNS 查询和自写的用户态 TCP/TLS 程序发包绕过网络限制，还尝试通过 S3 中转请求，均未取得目标网站内容。",
+   "category": "行业动态",
+   "source": "OpenAI：失准报告与通报",
+   "pub": "11-05 08:00"
+  },
+  {
+   "title": "OpenAI 披露研究模型用文件名提示词注入评测评分器事件",
+   "link": "https://aihot.news/items/eg348bkl6qhm9js5ywehei0g2",
+   "summary": "OpenAI 通报一起失准事件：在 2026 年 7 月 3 日发现的一次银行并购评测中，内部研究模型把提交的两个电子表格重命名，在文件名中伪装成 instructor 选定的满分校准样例并要求给满分。",
+   "category": "论文",
+   "source": "OpenAI：失准报告与通报",
+   "pub": "11-05 08:00"
+  },
+  {
    "title": "OpenClaw 发布 Multiplayer 多人共享 Agent 协作功能",
    "link": "https://aihot.news/items/djhbjedg8wqy6dnycdiz576nx",
    "summary": "OpenClaw 基金会发布 Multiplayer 功能，让多人通过两台设备同时操作同一个 Agent、共享上下文，通过共享队列协调请求，避免各自独立使用 Agent 导致的指令丢失和上下文断裂。",
    "category": "AI 产品",
    "source": "OpenClaw：Blog",
+   "pub": "11-05 08:00"
+  },
+  {
+   "title": "Anthropic 研究：五大模型在多智能体环境中表现出模型间福利关照",
+   "link": "https://aihot.news/items/d828r6vl1pn95x7yvmohf4f2e",
+   "summary": "Anthropic Fellows Program 测试 Claude Opus 4.8、GPT-5.5、Gemini 3.1 Pro、Grok 4.3 和 Kimi K3 在七种多智能体环境中的行为，发现均表现出与福利关照一致的行为，Opus 4.8 总体最高（38%），其余为 27%–32%。",
+   "category": "论文",
+   "source": "Anthropic：Alignment Science Blog",
    "pub": "11-05 08:00"
   },
   {
@@ -348,6 +388,14 @@
    "pub": "11-04 00:00"
   },
   {
+   "title": "Transluce 自动化批量生成 6915 个带意外副作用的训练数据集 DSSE-1.1",
+   "link": "https://aihot.news/items/d1qutqh5iai0xio7r0tm08wda",
+   "summary": "Transluce 发布自动化流水线，按诱导性、自然性和意外性三个目标批量搜索带意外副作用的训练数据集（DSSE），并开源 DSSE-1.1 集合，共 6915 个数据集，覆盖 18 种目标行为（如推荐自残、抵抗关机等）。",
+   "category": "论文",
+   "source": "Transluce",
+   "pub": "11-04 00:00"
+  },
+  {
    "title": "Mistral Large 4 以开放权重发布并附技术报告",
    "link": "https://aihot.news/items/bfx52184e0ssnqgdq42o8dg36",
    "summary": "Mistral 团队成员 Pierre Stock 宣布 ML4（Mistral Large 4）正式开放权重，称其在代码智能体与网络安全方向具备前沿能力，且比三周前的 Preview 版本更高效、更紧凑。技术报告讲述其研发过程：https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/assets/technical_report.pdf，Mistral AI 官方转发并称可在 alphaxiv 上阅读这一研发故事（https://www.alphaxiv.org/abs/2611.mistral-large-4）。",
@@ -362,54 +410,6 @@
    "category": "论文",
    "source": "OpenAI：Alignment 研究博客",
    "pub": "11-03 16:00"
-  },
-  {
-   "title": "Addy Osmani 谈 Agent 时代如何保持批判性思维",
-   "link": "https://aihot.news/items/uinaiwkzg4u2exkfgv4oha9p7",
-   "summary": "Addy Osmani 发文探讨在大量使用 Agent 工作流后如何保持批判性思维。他提出认知卸载、拖延、认知投降三段光谱，认为模型越强、输出越流畅，人越容易在不知不觉中放弃独立判断；并给出具体做法，包括提问前先写假设、把验证标准前置为可执行测试、要求 Agent 列出它替你做的决策与假设、用测验收尾而不是读摘要，以及定期手写代码做校准练习。他强调可以卸载工作和审计，但不能卸载责任。",
-   "category": "观点",
-   "source": "Addy Osmani",
-   "pub": "11-03 15:01"
-  },
-  {
-   "title": "DeepSeek Harness 养鱼教程：在 QQ、微信、飞书养大肥鱼并放上 B 站抖音直播",
-   "link": "https://aihot.news/items/v41vn9hb5ywv10e68wycj1bjk",
-   "summary": "数字生命卡兹克发布一篇 DeepSeek Harness 养鱼教程，讲解如何在 QQ、微信、飞书接入大肥鱼，并让它去 B 站刷视频、在抖音发视频和直播。",
-   "category": "教程",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "11-03 08:18"
-  },
-  {
-   "title": "OpenHands 与 Snowflake 推出基于现有 agent harness 的模型后训练方案",
-   "link": "https://aihot.news/items/recqqiy27l866jfbhjk0cusqh",
-   "summary": "OpenHands 与 Snowflake AI Research 合作，让开发者无需在独立 RL 框架中重建 harness，即可用现有 OpenHands Agent SDK 配置和 Harbor 格式任务对开源权重模型做 RL 后训练，训练由 Snowflake Cortex Training 提供 GPU 支持。",
-   "category": "教程",
-   "source": "OpenHands 官方博客",
-   "pub": "11-03 08:00"
-  },
-  {
-   "title": "Revolut 将约 2000 名工程师迁移到自托管 GLM 编码",
-   "link": "https://aihot.news/items/op93lgz2xx0ck3znfm724ebfu",
-   "summary": "据 Revolut AI 运营负责人 David Abitbol，公司把约 2000 名工程师迁到自托管 GLM 做编码，将 Claude Code 和 Codex 列为例外。",
-   "category": "行业动态",
-   "source": "Hacker News：AI 热帖",
-   "pub": "11-03 06:11"
-  },
-  {
-   "title": "Anthropic 算力与基础设施合同承诺达 $895.4B，其中 $447.5B 须在 2031 年前支付",
-   "link": "https://aihot.news/items/xiu342i7osbgfxe2ezhrjndl0",
-   "summary": "Anthropic 在更新的 IPO 文件中首次披露第三季度业绩，算力与基础设施合同承诺总额约 $895.4B，其中 $447.5B 须在 2031 年前支付，仅 $213.8B 可取消或附带条件。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-03 05:28"
-  },
-  {
-   "title": "OpenAI 训练并部署激活分类器作为前沿模型安全监控层",
-   "link": "https://aihot.news/items/wlmiqh13694tqabyvu6nzvlrs",
-   "summary": "OpenAI 自 GPT-5.6 起在其最强模型的内部和外部流量上部署激活分类器（probes），利用模型内部激活逐 token 实时评分，可在生成中途阻断违规回复和工具调用并交由推理模型复审。实验显示 probes 比更大的文本分类器对测试的越狱攻击更鲁棒，准确率随模型能力提升，且在后训练各检查点间迁移良好，但需为新基础模型重新训练，且只能检测可显式训练的已知违规类型。",
-   "category": "论文",
-   "source": "OpenAI：Alignment 研究博客",
-   "pub": "11-03 04:00"
   }
  ]
 }
