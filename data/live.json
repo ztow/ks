@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-11-06 19:44",
+ "generated_at": "2026-11-07 03:49",
  "weather": {
   "city": "哈尔滨",
-  "temp": -8,
-  "desc": "多云",
-  "feels": -13,
-  "humidity": 51,
-  "wind": 15,
+  "temp": -10,
+  "desc": "晴",
+  "feels": -16,
+  "humidity": 58,
+  "wind": 14,
   "hi": -5,
   "lo": -11
  },
  "news": [
+  {
+   "title": "约 60 万块 Nvidia H200 芯片滞留香港仓库，受阻方为北京而非华盛顿",
+   "link": "https://aihot.news/items/aiiclbw9wwswwx60wfqw6eb6o",
+   "summary": "据 Reuters 报道，约 60 万块 Nvidia H200 芯片闲置在香港仓库，阻碍并非来自华盛顿而是北京。尽管 Trump 去年已放行 H200 对华销售，中国正以每家科技巨头约 1 万块的速度小批量发放进口许可，推动国内服务器价格上涨 3 倍。",
+   "category": "行业动态",
+   "source": "X.PIN",
+   "pub": "11-06 23:32"
+  },
+  {
+   "title": "METR 审计称 Anthropic 可能早在 7 月已触发其自身 AI 加速预警阈值",
+   "link": "https://aihot.news/items/vpopkx98s6mpp9coxhi7hhvh2",
+   "summary": "METR 发布对 Anthropic 内部数据的十一周审计结果，称自 2025 年 10 月以来模型测试分数提升速度约加快 1.9 倍，其中约 80% 归因于 AI 用于公司自身研究，可能已在 7 月 15 日达到其负责任扩展政策中的预警阈值。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "11-06 21:40"
+  },
+  {
+   "title": "Anthropic 1.5 万亿美元 IPO 因投资者质疑估值遇阻",
+   "link": "https://aihot.news/items/ia9wi0z09zfes5ewdf4agb6nf",
+   "summary": "据 Reuters，Anthropic 的 IPO 遇阻，投资者质疑 1.5 万亿美元估值过高，有投资者提出仅 1 万亿美元，公司 9 月曾瞄准最高 2 万亿美元估值。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "11-06 19:38"
+  },
   {
    "title": "蚂蚁百灵发布 Ling-3.2-flash：原生多模态，560B 总参数单步激活 25B",
    "link": "https://aihot.news/items/apnpwouw9phkt81pijcxcl1a1",
@@ -20,12 +44,28 @@
    "pub": "11-06 19:04"
   },
   {
-   "title": "Thinking Machines 发布 Inkling 2 Small：594B 总参/17B 激活 MoE，68 小时预训练，称超越 Muse Spark",
-   "link": "https://aihot.news/items/xbvw6hby8c4xtbbwkbr9el4s7",
-   "summary": "Latent Space 汇总 2026-11-04 至 11-05 的 AI 新闻，头条是 Thinking Machines 发布 Inkling 2 Small。",
-   "category": "AI 模型",
-   "source": "Latent Space",
-   "pub": "11-06 18:35"
+   "title": "Cursor 推出与智能体的实时语音聊天",
+   "link": "https://aihot.news/items/nzxzrjiqbmjkybz85mcylo2xo",
+   "summary": "Cursor 推出与智能体的实时语音聊天功能，可用语音提出更改、询问进展并听取智能体播报的简短进度。语音聊天支持智能体窗口、IDE、Web 端和 iOS，可搜索历史消息和通话、在多个 worker 间切换，iOS 上还支持“Hey Siri, call Cursor”发起通话。",
+   "category": "AI 产品",
+   "source": "Cursor：Changelog",
+   "pub": "11-06 08:00"
+  },
+  {
+   "title": "OpenRouter 发布新一代 Auto Router 与 Auto Code 路由器",
+   "link": "https://aihot.news/items/ed4gnfu2f09xz5t7ur690iadn",
+   "summary": "OpenRouter 发布新一代 Auto Router，并推出专为编码场景的 Auto Code（openrouter/auto-code），替换 openrouter/auto 即可使用。",
+   "category": "AI 产品",
+   "source": "OpenRouter：Announcements",
+   "pub": "11-06 08:00"
+  },
+  {
+   "title": "OpenClaw 无需更新即可使用新模型：改为三个模型列表来源",
+   "link": "https://aihot.news/items/b0ddwv6p8wgd0xlhcvvw4z36b",
+   "summary": "OpenClaw 重构模型列表获取方式，约五周、80 个 PR，新模型不再等客户端发版。现在从三处取模型列表：每 4 小时重建的 catalog.openclaw.ai 目录（约 1000 个模型）、账号可用的模型列表，以及 PATH 上已安装的 Codex（需同主版本且握手通过，否则回退内置版本）。",
+   "category": "教程",
+   "source": "OpenClaw：Blog",
+   "pub": "11-06 08:00"
   },
   {
    "title": "美国中期选举后数据中心民意反弹引发AI股暴跌",
@@ -228,14 +268,6 @@
    "pub": "11-05 04:55"
   },
   {
-   "title": "美国中期选举中选民在 13 州否决数据中心相关提案",
-   "link": "https://aihot.news/items/rt92cw12z1dsqozka4y4wzl2v",
-   "summary": "美国中期选举中，13 个州逾 40 项数据中心相关 ballot 提案至少 38 项被否决，6 个城市投票全面禁止数据中心，12 个城市限制其用电兆瓦数。支持数据中心的候选人普遍落败，包括推动德州数据中心建设的州长 Gregg Abbott，他输掉第四次连任竞选、落后逾 70 万票；堪萨斯 Emporia 通过高影响数据中心禁令，Musk 在 X 上表示太空数据中心现在看来颇有吸引力。",
-   "category": "行业动态",
-   "source": "404 Media",
-   "pub": "11-05 01:58"
-  },
-  {
    "title": "百度发布 ERNIE-5.5-Flash-Base 开源 Base 模型，280B 总参数每 token 激活 14B",
    "link": "https://aihot.news/items/r3360gkpmqpyyt2ii9cp1k9rz",
    "summary": "百度文心团队发布 ERNIE-5.5-Flash-Base，在 Hugging Face 开放预训练终点 Base 权重，提供 FP8 与 BF16 两种 safetensors。",
@@ -378,38 +410,6 @@
    "category": "论文",
    "source": "Anthropic：Research",
    "pub": "11-04 00:00"
-  },
-  {
-   "title": "Cognition 发布编码模型 SWE-2 Flash，Terminal-Bench 4.0 从 0.9% 提升至 20.0%",
-   "link": "https://aihot.news/items/ten7xip5406iqarfs8tj8pa22",
-   "summary": "Cognition 发布编码模型 SWE-2 Flash，称其在主流评测上超越所有美国开源权重模型，包括部分大 3 倍的模型。",
-   "category": "AI 模型",
-   "source": "Cognition 模型 / Devin 博客",
-   "pub": "11-04 00:00"
-  },
-  {
-   "title": "Transluce 自动化批量生成 6915 个带意外副作用的训练数据集 DSSE-1.1",
-   "link": "https://aihot.news/items/d1qutqh5iai0xio7r0tm08wda",
-   "summary": "Transluce 发布自动化流水线，按诱导性、自然性和意外性三个目标批量搜索带意外副作用的训练数据集（DSSE），并开源 DSSE-1.1 集合，共 6915 个数据集，覆盖 18 种目标行为（如推荐自残、抵抗关机等）。",
-   "category": "论文",
-   "source": "Transluce",
-   "pub": "11-04 00:00"
-  },
-  {
-   "title": "Mistral Large 4 以开放权重发布并附技术报告",
-   "link": "https://aihot.news/items/bfx52184e0ssnqgdq42o8dg36",
-   "summary": "Mistral 团队成员 Pierre Stock 宣布 ML4（Mistral Large 4）正式开放权重，称其在代码智能体与网络安全方向具备前沿能力，且比三周前的 Preview 版本更高效、更紧凑。技术报告讲述其研发过程：https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/assets/technical_report.pdf，Mistral AI 官方转发并称可在 alphaxiv 上阅读这一研发故事（https://www.alphaxiv.org/abs/2611.mistral-large-4）。",
-   "category": "AI 模型",
-   "source": "Mistral AI",
-   "pub": "11-03 18:18"
-  },
-  {
-   "title": "OpenAI 研究：智能体安全评测与生产行为存在差距，评测目标误判是关键因素",
-   "link": "https://aihot.news/items/fvf2qsdi4s11bz1denqd5rzff",
-   "summary": "OpenAI Alignment 团队对比六个模型在 Respecting Warnings 安全评测与匹配的 Codex 生产决策上的表现，发现评测成功率普遍低于生产，差距为 10.2 至 37.4 个百分点。模型普遍口头表现出评测意识（评测中一般性意识率 57.0%–83.7%），但仅告知",
-   "category": "论文",
-   "source": "OpenAI：Alignment 研究博客",
-   "pub": "11-03 16:00"
   }
  ]
 }
