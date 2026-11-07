@@ -1,16 +1,24 @@
 {
- "generated_at": "2026-11-07 18:51",
+ "generated_at": "2026-11-08 01:55",
  "weather": {
   "city": "哈尔滨",
-  "temp": -11,
+  "temp": -13,
   "desc": "晴",
-  "feels": -15,
-  "humidity": 63,
-  "wind": 7,
-  "hi": -7,
-  "lo": -13
+  "feels": -17,
+  "humidity": 73,
+  "wind": 3,
+  "hi": -6,
+  "lo": -14
  },
  "news": [
+  {
+   "title": "Anthropic 拟感恩节前 IPO，接受低于预期的估值，募资 800–1000 亿美元",
+   "link": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
+   "summary": "据《金融时报》援引投资者的消息，Anthropic 计划在感恩节前 IPO，拟募资 800–1000 亿美元，估值 1.25–1.75 万亿美元，低于最乐观投资者期望的 2 万亿美元，但高于当前 9650 亿美元。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "11-08 01:37"
+  },
   {
    "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
    "link": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv",
@@ -402,14 +410,6 @@
    "category": "AI 模型",
    "source": "公众号：腾讯混元",
    "pub": "11-04 12:43"
-  },
-  {
-   "title": "卡兹克开源折腾一年的 Agent 自动化系统 Agent-Autoloop",
-   "link": "https://aihot.news/items/y0cgwl79wbih8c50svgmit93j",
-   "summary": "作者开源其打磨一年的 Agent 自动化系统 Agent-Autoloop，地址为 https://github.com/KKKKhazix/agent-autoloop。",
-   "category": "教程",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "11-04 08:19"
   }
  ]
 }
