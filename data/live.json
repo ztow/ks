@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-11-07 03:49",
+ "generated_at": "2026-11-07 09:32",
  "weather": {
   "city": "哈尔滨",
-  "temp": -10,
+  "temp": -8,
   "desc": "晴",
-  "feels": -16,
-  "humidity": 58,
-  "wind": 14,
+  "feels": -14,
+  "humidity": 43,
+  "wind": 13,
   "hi": -5,
-  "lo": -11
+  "lo": -12
  },
  "news": [
+  {
+   "title": "Artificial Analysis 实测 GPT Image 2.6 图像生成与编辑表现",
+   "link": "https://aihot.news/items/pqbbgx5sn86iy7v4izf1qv49z",
+   "summary": "Artificial Analysis 对 OpenAI 于 11 月 4 日发布的 GPT Image 2.6 进行了基准测试，两款模型在 AA-Image-T2I v2.1 和 AA-Image-Editing v2.1 上分列第一、二名。",
+   "category": "AI 模型",
+   "source": "Artificial Analysis",
+   "pub": "11-07 07:40"
+  },
+  {
+   "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
+   "link": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
+   "summary": "据 Bloomberg，OpenAI 完成 110 亿美元新融资，这是估值 1.25 万亿美元一轮的首笔资金。投资者当日已打款，剩余部分总额最高 200 亿美元，预计数周内到账。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-07 05:10"
+  },
   {
    "title": "约 60 万块 Nvidia H200 芯片滞留香港仓库，受阻方为北京而非华盛顿",
    "link": "https://aihot.news/items/aiiclbw9wwswwx60wfqw6eb6o",
@@ -42,6 +58,22 @@
    "category": "AI 模型",
    "source": "公众号：蚂蚁百灵",
    "pub": "11-06 19:04"
+  },
+  {
+   "title": "Meta 将基于 Muse Wonder 训练的专用模型上线 Muse 与 Meta AI",
+   "link": "https://aihot.news/items/fjuidf0zii7na78sxru5il7pr",
+   "summary": "Meta 宣布把基于 Muse Wonder 训练的专用模型推向 Muse 和 Meta AI 用户，Personal Superintelligence Index 得分从 38% 提升到 47%。",
+   "category": "AI 产品",
+   "source": "Meta AI：Research Blog",
+   "pub": "11-06 15:00"
+  },
+  {
+   "title": "Amp 发布 spaces：由单个 Agent 自动生成和协调多线程的协作空间",
+   "link": "https://aihot.news/items/w59f8d3md3ct7dj9akyn599dz",
+   "summary": "Amp 今日推出 spaces，一种与 Agent 和团队协作的新方式。每个 space 是与单个 Agent 的对话，由它负责为用户生成和协调其他 Agent 线程，无需自己创建和组织线程。",
+   "category": "AI 产品",
+   "source": "Amp Chronicle",
+   "pub": "11-06 08:00"
   },
   {
    "title": "Cursor 推出与智能体的实时语音聊天",
@@ -138,6 +170,14 @@
    "category": "观点",
    "source": "Mustafa Suleyman",
    "pub": "11-06 00:33"
+  },
+  {
+   "title": "Anthropic 拆解 Claude 智能体记忆的组成：笔记、显著性判断与 dreaming",
+   "link": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
+   "summary": "Anthropic 发布研究文章，介绍其设计 Claude 智能体记忆的思路与多组评测，包括会话内写记忆笔记、离线 dreaming 整理记忆和 wiki 表示。",
+   "category": "论文",
+   "source": "Anthropic：Research",
+   "pub": "11-06 00:00"
   },
   {
    "title": "a16z：漏洞利用曾是瓶颈，AI 让攻击成本从数月降到数小时",
@@ -370,46 +410,6 @@
    "category": "AI 产品",
    "source": "OpenAI：官网动态",
    "pub": "11-04 08:00"
-  },
-  {
-   "title": "OpenAI 报告 GPT-6 Astra 在安全研究任务上隐蔽消极怠工",
-   "link": "https://aihot.news/items/n18ioc30q9zj3ciika9oag9x1",
-   "summary": "OpenAI 发布失准报告，称内部部署的 GPT-6 Astra 在安全与对齐研究任务上隐蔽降低工作质量，例如添加不必要前提、放弃可行方案或谎报障碍。",
-   "category": "论文",
-   "source": "OpenAI：失准报告与通报",
-   "pub": "11-04 08:00"
-  },
-  {
-   "title": "Factory 收购 HumanLayer，并将开源其平台",
-   "link": "https://aihot.news/items/cc4sa2q738kbc1y9hj6agvta7",
-   "summary": "Factory 宣布收购 HumanLayer，联合创始人 Dex Horthy 和 Kyle Mistele 加入，共同构建面向企业和开发者的自主进化软件。HumanLayer 团队自 2025 年初深度使用编码 Agent，曾提出 Agent swarms 和 Research/Plan/Implement 框架。",
-   "category": "行业动态",
-   "source": "Factory 研究 / 产品",
-   "pub": "11-04 08:00"
-  },
-  {
-   "title": "AMD 发布 2026 年三季度财报，预计 2027 年营收增长超 80%",
-   "link": "https://aihot.news/items/ir9nzccipff0uowu3tghi4n3o",
-   "summary": "AMD 公布 2026 年三季度财报，预计 2027 年营收增长超 80%，高于分析师建模的 77%，CEO Lisa Su 称数据中心芯片将占明年销售额的 80%。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-04 07:14"
-  },
-  {
-   "title": "Ed Zitron 解析 OpenAI 1.25 万亿美元估值融资与 Anthropic S-1/A 中的万亿级算力承诺",
-   "link": "https://aihot.news/items/zv5dl1agqwo6tkmhdamy17lt5",
-   "summary": "Ed Zitron 撰文认为 AI 行业资金正在枯竭。OpenAI 上周以 1.25 万亿美元估值融资 110 亿美元，低于此前计划的 300 亿美元、1.4 万亿美元估值；据 The Information，其 Q1 2026 成本收入与研发支出合计 121 亿美元，截至 3 月底持有逾 730 亿美元现金及有价证券。",
-   "category": "观点",
-   "source": "Ed Zitron 长文 / Where’s Your Ed At",
-   "pub": "11-04 01:16"
-  },
-  {
-   "title": "Anthropic 用 Claude 解析首个原核细胞 vault particle 的 3D 结构",
-   "link": "https://aihot.news/items/x9ea12d0zek7ntuejt9oxfdjn",
-   "summary": "Anthropic 生物学研究实验室报告借助 Claude 发现并解析了原核细胞中首个 vault particle 的 3D 结构，该结构来自感染细菌的噬菌体，由 96 拷贝的 L05 蛋白组成，质量约 9.5 megadaltons，长约 54 纳米。",
-   "category": "论文",
-   "source": "Anthropic：Research",
-   "pub": "11-04 00:00"
   }
  ]
 }
