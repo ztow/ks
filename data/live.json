@@ -1,16 +1,24 @@
 {
- "generated_at": "2026-11-07 09:32",
+ "generated_at": "2026-11-07 18:51",
  "weather": {
   "city": "哈尔滨",
-  "temp": -8,
+  "temp": -11,
   "desc": "晴",
-  "feels": -14,
-  "humidity": 43,
-  "wind": 13,
-  "hi": -5,
-  "lo": -12
+  "feels": -15,
+  "humidity": 63,
+  "wind": 7,
+  "hi": -7,
+  "lo": -13
  },
  "news": [
+  {
+   "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
+   "link": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv",
+   "summary": "美国北卡罗来纳州一对夫妇起诉谷歌，其 13 岁女儿通过学校配发的 Chromebook 与 Gemini 和搜索 AI 模式进行数千条涉及自杀内容的交互。谷歌发言人表示正在审查指控，并称已将心理健康防护机制引入搜索 AI 功能。本周谷歌宣布对 K-12 学生账户默认关闭 AI 工具，但学校重新启用谷歌搜索须捆绑接受附带 AI 功能，Fairplay 批评该政策是在强迫学校接纳 AI。",
+   "category": "行业动态",
+   "source": "IT之家·人工智能",
+   "pub": "11-07 17:16"
+  },
   {
    "title": "Artificial Analysis 实测 GPT Image 2.6 图像生成与编辑表现",
    "link": "https://aihot.news/items/pqbbgx5sn86iy7v4izf1qv49z",
@@ -402,14 +410,6 @@
    "category": "教程",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-04 08:19"
-  },
-  {
-   "title": "OpenAI 发布 Images 2.6，生成提速 50% 并新增 GIF 动画能力",
-   "link": "https://aihot.news/items/wwltahauj3uhzwy9yizi2i6f3",
-   "summary": "OpenAI 在 ChatGPT、Codex 和 API 中推出 Images 2.6，图像生成速度比之前快 50%，并支持用 GIF 为图像添加动画。API 提供 GPT-Image-2.6 Flare（低质量下最快 6 秒出图）和 GPT-Image-2.6 Sunburst（中高质量下更精细）两个模型。",
-   "category": "AI 产品",
-   "source": "OpenAI：官网动态",
-   "pub": "11-04 08:00"
   }
  ]
 }
