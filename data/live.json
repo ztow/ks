@@ -1,16 +1,24 @@
 {
- "generated_at": "2026-11-08 22:01",
+ "generated_at": "2026-11-09 04:06",
  "weather": {
   "city": "哈尔滨",
-  "temp": -8,
-  "desc": "多云",
-  "feels": -14,
-  "humidity": 56,
-  "wind": 12,
-  "hi": -5,
-  "lo": -14
+  "temp": -10,
+  "desc": "晴",
+  "feels": -15,
+  "humidity": 72,
+  "wind": 9,
+  "hi": -6,
+  "lo": -12
  },
  "news": [
+  {
+   "title": "GPT-Image-2.6 实测：10 个 GIF 玩法提示词与三项新能力评测",
+   "link": "https://aihot.news/items/kss7rjmanc8dv5mpj60jtdzgd",
+   "summary": "作者实测前两天上线的 GPT-Image-2.6，整理出 10 个 GIF 玩法提示词（黏土定格动画、表情包、剪辑贴纸、loading 图、PPT 动态图表、爆炸拆解图等）并测试三项新能力。",
+   "category": "教程",
+   "source": "卡尔的 AI 沃茨",
+   "pub": "11-08 22:22"
+  },
   {
    "title": "Anthropic 拟感恩节前 IPO，接受低于预期的估值，募资 800–1000 亿美元",
    "link": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
@@ -188,9 +196,9 @@
    "pub": "11-06 00:33"
   },
   {
-   "title": "Anthropic 拆解 Claude 智能体记忆的组成：笔记、显著性判断与 dreaming",
+   "title": "Anthropic 详解 Claude 智能体记忆的组件：笔记、dreaming 与知识 wiki",
    "link": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
-   "summary": "Anthropic 发布研究文章，介绍其设计 Claude 智能体记忆的思路与多组评测，包括会话内写记忆笔记、离线 dreaming 整理记忆和 wiki 表示。",
+   "summary": "Anthropic 发文拆解 Claude 智能体记忆的组成与设计思路，将记忆分为笔记、记忆表示和注入上下文等层次，并介绍用 dreaming（空闲期反思日志）来纠错和构建 wiki。",
    "category": "论文",
    "source": "Anthropic：Research",
    "pub": "11-06 00:00"
@@ -356,9 +364,9 @@
    "pub": "11-05 00:00"
   },
   {
-   "title": "Anthropic 研究 20.7 万 Claude 科研会话：科学家如何使用 Claude",
+   "title": "Anthropic 研究 20.7 万会话中科研人员如何使用 Claude",
    "link": "https://aihot.news/items/giyl2h74lq7ygv5c7vpxu887m",
-   "summary": "Anthropic 用隐私保护方法分析 207,049 个 Claude 与 Claude Code 科研会话（2026 年 8 月 2 日至 9 月 30 日，消费版套餐），并辅以 528 名科学家调查，研究 Claude 在各科学领域的使用方式。",
+   "summary": "Anthropic 用隐私保护方法分析 2026 年 8 月 2 日至 9 月 30 日的 207,049 个 Claude 与 Claude Code 科研会话，发现科学家主要用于数据分析（占 Claude 会话 33.7%、Claude Code 48.1%）和写作，而构思与数据收集的使用低于其重要性排名。",
    "category": "论文",
    "source": "Anthropic：Research",
    "pub": "11-05 00:00"
@@ -402,14 +410,6 @@
    "category": "观点",
    "source": "Redwood Research：Blog",
    "pub": "11-04 14:34"
-  },
-  {
-   "title": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作能力",
-   "link": "https://aihot.news/items/z6j7q1gcuwsjjpx3qbtnvl2b3",
-   "summary": "腾讯混元发布 Hy4 正式版，相比 Hy4 preview 扩展预训练与后训练规模，首次引入视觉能力和电脑操作支持，GameDev 与 GameLogic 评测分别提升 19.1% 和 9.8%。",
-   "category": "AI 模型",
-   "source": "公众号：腾讯混元",
-   "pub": "11-04 12:43"
   }
  ]
 }
