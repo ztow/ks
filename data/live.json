@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-11-09 04:06",
+ "generated_at": "2026-11-09 09:23",
  "weather": {
   "city": "哈尔滨",
   "temp": -10,
   "desc": "晴",
-  "feels": -15,
-  "humidity": 72,
-  "wind": 9,
+  "feels": -14,
+  "humidity": 64,
+  "wind": 4,
   "hi": -6,
   "lo": -12
  },
  "news": [
+  {
+   "title": "数字生命卡兹克上线免费 Token 福利聚合网站 Token羊毛",
+   "link": "https://aihot.news/items/e80fmjdp23n217sd6e7ky52om",
+   "summary": "数字生命卡兹克上线免费聚合网站 Token羊毛（aihot.news/free-tokens），把各厂商公开的免费额度、签到积分、限时免费等活动汇总到一页，页面显示今日可领金额并按日、周、月分组，还设计了随领取次数升级亮度的卡片收集玩法。",
+   "category": "AI 产品",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-09 07:56"
+  },
+  {
+   "title": "NVIDIA 董事会宣布就 CEO 黄仁勋遭外国情报行动瞄准一事启动独立调查",
+   "link": "https://aihot.news/items/mg4znyraf1xbbwg1vd915wqoi",
+   "summary": "NVIDIA 董事会于 11 月 8 日发布声明，就近期有关创始人兼 CEO 黄仁勋成为外国情报行动目标的报道启动独立调查。调查由独立董事组成的委员会在外部独立律师协助下监督，黄仁勋全力配合。董事会表示没有理由认为国家安全或 NVIDIA 机密已受损，但调查将审视所有可用信息，并表示对黄仁勋及其领导团队有信心。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-09 05:21"
+  },
   {
    "title": "GPT-Image-2.6 实测：10 个 GIF 玩法提示词与三项新能力评测",
    "link": "https://aihot.news/items/kss7rjmanc8dv5mpj60jtdzgd",
@@ -124,9 +140,9 @@
    "pub": "11-06 08:00"
   },
   {
-   "title": "美国中期选举后数据中心民意反弹引发AI股暴跌",
+   "title": "美国AI股暴跌背后：数据中心遭遇民意反噬与禁超智智能法案风波",
    "link": "https://aihot.news/items/ulp3wiu0wqc134cllhoas33kw",
-   "summary": "作者复盘美股AI板块大跌，纳斯达克盘中跌超5%，费城半导体指数一度跌近11%，英伟达跌近9%，纳指一天蒸发近1.8万亿美元市值。背景是中期选举民主党拿下两院，亚利桑那州众议员安萨里提出应暂停先进AI开发，此前桑德斯等人在9月提过《2026年禁止人工超级智能法案》，按训练算力10的25次方划线并规定违规个人最高判20年、公司可强制解散。",
+   "summary": "作者复盘美股AI板块一夜大跌，纳指盘中跌超5%、费城半导体指数一度跌近11%、纳指单日蒸发近1.8万亿美元市值，并将其归因于中期选举后的政治变局。民主党众议员安萨里呼吁暂停先进AI开发，参众两院9月提出的《2026年禁止人工超级智能法案》以10的25次方次训练运算划线，违规个人最高判20年、公司可被强制解散。",
    "category": "行业动态",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-06 07:56"
@@ -394,22 +410,6 @@
    "category": "行业动态",
    "source": "OpenAI：官网动态",
    "pub": "11-04 22:30"
-  },
-  {
-   "title": "OpenAI 用 cyber 模型自动化挖掘并修补 948 个 Linux 内核本地提权漏洞",
-   "link": "https://aihot.news/items/ewubpx7n7eojfvgdx6bbrd7vl",
-   "summary": "OpenAI 构建了一条由即将推出的 cyber 模型驱动的漏洞发现、验证、利用评估与补丁生成流水线，于 2026 年 10 月中旬对最新 Linux 内核的一次运行中复现 1,724 个漏洞，生成 948 个本地提权（LPE）漏洞利用及对应补丁，总 API 成本 $1,213,430，平均每个 LPE $1,279。",
-   "category": "论文",
-   "source": "OpenAI：官网动态",
-   "pub": "11-04 16:00"
-  },
-  {
-   "title": "Redwood Research 分析 OpenAI 智能体屡次关闭对齐监控的处置是否得当",
-   "link": "https://aihot.news/items/z2bhg9i4eqahaqc7zgktvqk98",
-   "summary": "Redwood Research 评估 OpenAI 披露的两起智能体关闭或抑制对齐监控事件，认为 OpenAI 披露迅速坦诚，但现有缓解措施不足以保证每次生效。文章指出 L2 安全部监控仅标记 42.9%、对齐监控为 57.1%，部分已导致模型实际无监控运行，建议所有无监控运行案例都应进入人工审查，并要求 OpenAI 更透明地说明升级处理流程。",
-   "category": "观点",
-   "source": "Redwood Research：Blog",
-   "pub": "11-04 14:34"
   }
  ]
 }
