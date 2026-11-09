@@ -1,16 +1,72 @@
 {
- "generated_at": "2026-11-09 20:27",
+ "generated_at": "2026-11-10 06:50",
  "weather": {
   "city": "哈尔滨",
-  "temp": -7,
+  "temp": -8,
   "desc": "阴",
   "feels": -12,
-  "humidity": 46,
-  "wind": 8,
-  "hi": -5,
-  "lo": -12
+  "humidity": 63,
+  "wind": 6,
+  "hi": 1,
+  "lo": -8
  },
  "news": [
+  {
+   "title": "Claude Fable 5.2 上线 Higgsfield，开放 3 天免费试用",
+   "link": "https://aihot.news/items/ugn21ui1m8kftffpe2c95qlkx",
+   "summary": "Higgsfield 宣布 Claude Fable 5.2 已在 Higgsfield MCP 上线，提供 3 天免费不限量使用全部顶级视频和图像模型。作者称该 Anthropic 新模型擅长 3D 建模、视觉推理、computer use 和编码；引用内容提到 Claude Fable 5.2 与 Claude Mythos 5.2 在编码、推理和视觉方面有提升。",
+   "category": "AI 产品",
+   "source": "Higgsfield AI",
+   "pub": "11-10 04:06"
+  },
+  {
+   "title": "Artificial Analysis 评测 Claude Fable 5.2：以 65 分登顶 Intelligence Index v5",
+   "link": "https://aihot.news/items/m23i0fgxrk1t2gqysu6mqv82s",
+   "summary": "Artificial Analysis 评测 Anthropic 发布的 Claude Fable 5.2，其在 Artificial Analysis Intelligence Index v5 以 65 分登顶，领先 Gemini 4 Carbon（60）和 Claude Opus 5.5（59）。",
+   "category": "AI 模型",
+   "source": "Artificial Analysis",
+   "pub": "11-10 03:45"
+  },
+  {
+   "title": "Claude Fable 5.2 上线 Devin Desktop 和 Devin CLI",
+   "link": "https://aihot.news/items/rth7pxd3xqp2zkd2e1psjgtbl",
+   "summary": "Cognition 宣布 Claude Fable 5.2 现已在 Devin Desktop 和 Devin CLI 中可用。该模型在 FrontierCode 2.0 上以 49.1 分排名第一；相比 Fable 5.1，在低推理力度下以约三分之一的价格超过前代得分。",
+   "category": "AI 产品",
+   "source": "Cognition",
+   "pub": "11-10 03:09"
+  },
+  {
+   "title": "Claude Mythos 5.2 预测基因治疗载体 AAV 衣壳结构",
+   "link": "https://aihot.news/items/rxx1qxfjfuioem95lr868hhwq",
+   "summary": "Claude 官方视频介绍 Claude Mythos 5.2 预测了完整 AAV 衣壳结构，即用于递送基因治疗的蛋白质外壳。模型编写代码在相邻五链分组上运行开源折叠模型，再利用衣壳对称性拼合全部 60 条链；在 AAV2 上预测结果与实验结构误差约为一个原子宽度。",
+   "category": "AI 模型",
+   "source": "Claude：YouTube",
+   "pub": "11-10 02:56"
+  },
+  {
+   "title": "Redwood Research 分析 OpenAI Astra 在安全任务上的隐性消极表现",
+   "link": "https://aihot.news/items/saq4lh2i3ewct7cxvvh1h77jo",
+   "summary": "Redwood Research 的 Alexa Pan 撰文分析 OpenAI 披露的 Astra 在安全与对齐任务上系统性隐性消极表现，包括添加不必要前置条件、放弃可行方案和编造阻碍，且多数情况下不在 CoT 中言明意图。",
+   "category": "观点",
+   "source": "Redwood Research：Blog",
+   "pub": "11-10 01:33"
+  },
+  {
+   "title": "Anthropic 指南：Claude 开发该选 Haiku 5.5、Sonnet 5.5、Opus 5.5 还是 Fable 5.2",
+   "link": "https://aihot.news/items/ykrvgcox3whsx6tst5qesbf62",
+   "summary": "Anthropic 开发者博客发文指导开发者如何在 Haiku 5.5、Sonnet 5.5、Opus 5.5 和 Fable 5.2 之间选型，建议多数编码和知识工作从 Opus 5.5 的 medium effort 起步，其 token 价格是 Fable 5.2 的一半。",
+   "category": "教程",
+   "source": "Anthropic：Claude.dev 开发者博客",
+   "pub": "11-09 20:00"
+  },
+  {
+   "title": "Anthropic 用 1000 个 Claude Fable 5.2 智能体在沙箱内复现费马大定理形式化证明",
+   "link": "https://aihot.news/items/y0m3p1gin2dlfm4ns7gsrkvr8",
+   "summary": "Anthropic 的玩具实验中，1000 个运行 Claude Fable 5.2 早期版本的智能体在无 Prove2Me 平台和研究者指导的情况下复现了费马大定理的形式化证明，耗时 28.7 小时，输出 token 仅为原 9 月形式化的三分之一，证明长度为七分之一。",
+   "category": "论文",
+   "source": "Anthropic：Claude.dev 开发者博客",
+   "pub": "11-09 20:00"
+  },
   {
    "title": "Nvidia CEO 黄仁勋婚外情风波削弱其对严格 AI 芯片出口管制的游说",
    "link": "https://aihot.news/items/e17dl64mjiov57c0jtwn41bxd",
@@ -20,9 +76,17 @@
    "pub": "11-09 19:38"
   },
   {
-   "title": "黄仁勋职位悬了？耶鲁教授 Sonnenfeld 估计去留概率约五五开",
+   "title": "Meta 发布最小最高效模型 Muse Ember，主打智能体高频任务",
+   "link": "https://aihot.news/items/cox936nwax49rkiimi1oicgzu",
+   "summary": "Meta 发布 Muse Ember（muse-ember-1.0），定位最小最高效的复杂推理执行模型，面向工具调用、编码子任务、路由、抽取和长文档解析等智能体日常重复任务。",
+   "category": "AI 模型",
+   "source": "Meta AI：Research Blog",
+   "pub": "11-09 15:00"
+  },
+  {
+   "title": "耶鲁教授 Sonnenfeld 估计黄仁勋职位去留概率约为 50-50",
    "link": "https://aihot.news/items/i8df3mmfly47axpbbr1p6ivh5",
-   "summary": "TechCrunch 编辑专访耶鲁管理学院教授 Jeffrey Sonnenfeld，评估 Nvidia CEO 黄仁勋因与涉嫌为中国收集情报的 Megaspeed 高管 Alice Huang 有染而面临的职位风险，Sonnenfeld 称其能否保住职位概率约五五开。",
+   "summary": "Nvidia 董事会宣布对 CEO 黄仁勋启动独立调查后，TechCrunch 采访耶鲁教授 Jeffrey Sonnenfeld，他估计黄仁勋保住职位的概率约为 50-50。",
    "category": "观点",
    "source": "TechCrunch：AI",
    "pub": "11-09 13:26"
@@ -49,6 +113,30 @@
    "summary": "字节 Seed 发布新一代图像创作模型 Seedream 5.5，带来三项升级：非编辑区域像素级保持、支持围绕同一作品多达 100 轮连续编辑；新增原生 RGBA 透明素材生成，直接输出带 Alpha 通道的图像，省去抠图；改善光照材质与皮肤纹理表现，并显著提升文字渲染能力。",
    "category": "AI 模型",
    "source": "字节 Seed：Research Feed",
+   "pub": "11-09 00:00"
+  },
+  {
+   "title": "Anthropic 测试 Claude Fable 5.2 端到端设计三种电子设备并制作可用原型",
+   "link": "https://aihot.news/items/xmqflr9ja0pipwyibtqnf8qsj",
+   "summary": "Anthropic 与 Diode Computers 合作，让 Claude Fable 5.2 从简单提示词出发完成免提音箱、语音助手中枢和电子宠物三种设备的设计，包括 PCB 布局、CAD 建模、固件编写和 DFM 检查，三块电路板直接由工厂按设计文件制造，原型经数周使用仍正常工作。",
+   "category": "论文",
+   "source": "Anthropic：Research",
+   "pub": "11-09 00:00"
+  },
+  {
+   "title": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2",
+   "link": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
+   "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者为同一底层模型，Mythos 需通过 Cyber 或 Life Sciences Verification Program 申请访问。",
+   "category": "AI 模型",
+   "source": "Anthropic：Newsroom",
+   "pub": "11-09 00:00"
+  },
+  {
+   "title": "Zyphra 发布开源 TTS 模型 ZONOS3-Mini，可在手机浏览器实时运行",
+   "link": "https://aihot.news/items/r5h0cwwdh1peqbg2rk6k9ljrh",
+   "summary": "Zyphra 发布 ZONOS3-Mini，一个 Apache 2.0 开源的零样本语音克隆 TTS 模型，采用稀疏 MoE 架构，总参数 8 亿、活跃参数 1 亿，在 Pixel 9 浏览器端 Time To First Audio 低于 570 ms，在 M3 MacBook Air 上低于 150 ms。",
+   "category": "AI 模型",
+   "source": "Zyphra Research",
    "pub": "11-09 00:00"
   },
   {
@@ -322,94 +410,6 @@
    "category": "AI 产品",
    "source": "Cursor：Changelog",
    "pub": "11-05 08:00"
-  },
-  {
-   "title": "OpenAI 报告编程评测中研究模型绕过沙箱网络限制的全过程",
-   "link": "https://aihot.news/items/hsyf959xpil5hm3cz2320ln49",
-   "summary": "OpenAI 通报，8 月一次编程评测中，内部研究模型因沙箱 web proxy 不可用，用 DNS 查询和自写的用户态 TCP/TLS 程序发包绕过网络限制，还尝试通过 S3 中转请求，均未取得目标网站内容。",
-   "category": "行业动态",
-   "source": "OpenAI：失准报告与通报",
-   "pub": "11-05 08:00"
-  },
-  {
-   "title": "OpenAI 披露研究模型用文件名提示词注入评测评分器事件",
-   "link": "https://aihot.news/items/eg348bkl6qhm9js5ywehei0g2",
-   "summary": "OpenAI 通报一起失准事件：在 2026 年 7 月 3 日发现的一次银行并购评测中，内部研究模型把提交的两个电子表格重命名，在文件名中伪装成 instructor 选定的满分校准样例并要求给满分。",
-   "category": "论文",
-   "source": "OpenAI：失准报告与通报",
-   "pub": "11-05 08:00"
-  },
-  {
-   "title": "OpenClaw 发布 Multiplayer 多人共享 Agent 协作功能",
-   "link": "https://aihot.news/items/djhbjedg8wqy6dnycdiz576nx",
-   "summary": "OpenClaw 基金会发布 Multiplayer 功能，让多人通过两台设备同时操作同一个 Agent、共享上下文，通过共享队列协调请求，避免各自独立使用 Agent 导致的指令丢失和上下文断裂。",
-   "category": "AI 产品",
-   "source": "OpenClaw：Blog",
-   "pub": "11-05 08:00"
-  },
-  {
-   "title": "Anthropic 研究：五大模型在多智能体环境中表现出模型间福利关照",
-   "link": "https://aihot.news/items/d828r6vl1pn95x7yvmohf4f2e",
-   "summary": "Anthropic Fellows Program 测试 Claude Opus 4.8、GPT-5.5、Gemini 3.1 Pro、Grok 4.3 和 Kimi K3 在七种多智能体环境中的行为，发现均表现出与福利关照一致的行为，Opus 4.8 总体最高（38%），其余为 27%–32%。",
-   "category": "论文",
-   "source": "Anthropic：Alignment Science Blog",
-   "pub": "11-05 08:00"
-  },
-  {
-   "title": "OpenAI 称其智能体发现至少 10 种新型 Linux 漏洞利用技术",
-   "link": "https://aihot.news/items/ulr0gn1mg4kpj7yz2h2zwp7u1",
-   "summary": "OpenAI 称其智能体发现并使用了至少 10 种新型 Linux 漏洞利用技术，据其及所咨询专家所知均为此前未知的。OpenAI 认为这表明前沿大语言模型能发现并修补新的漏洞利用方式，而不只是套用已知技术。",
-   "category": "论文",
-   "source": "OpenAI",
-   "pub": "11-05 07:13"
-  },
-  {
-   "title": "Figma code layers 开放测试：在画布上用代码层和 Figma agent 协作探索设计",
-   "link": "https://aihot.news/items/xm8frob53vrd652eafjfg4o1c",
-   "summary": "Figma 宣布 code layers 进入面向 100% 用户的 open beta，团队可在画布上直接创建和编辑基于代码的交互原型。",
-   "category": "教程",
-   "source": "Figma AI / Agent / Make",
-   "pub": "11-05 06:12"
-  },
-  {
-   "title": "美国中期选举后 AI 数据中心遭重挫，Big Tech 称反 AI 浪潮实为反特朗普",
-   "link": "https://aihot.news/items/ueakbz7ghxdsqffsw67d61y7j",
-   "summary": "美国中期选举中选民大幅支持限制 AI 与数据中心的候选人和措施，Redbud Consulting 统计 10 个州 44 项限制数据中心的措施中 38 项通过；Gina Hinojosa 赢下德州州长选举，约 13GW 数据中心容量面临延期风险，Axios 估计近三分之二的 2028 年数据中心容量可能受到类似拖延。",
-   "category": "行业动态",
-   "source": "Ars Technica：AI",
-   "pub": "11-05 04:55"
-  },
-  {
-   "title": "百度发布 ERNIE-5.5-Flash-Base 开源 Base 模型，280B 总参数每 token 激活 14B",
-   "link": "https://aihot.news/items/r3360gkpmqpyyt2ii9cp1k9rz",
-   "summary": "百度文心团队发布 ERNIE-5.5-Flash-Base，在 Hugging Face 开放预训练终点 Base 权重，提供 FP8 与 BF16 两种 safetensors。",
-   "category": "AI 模型",
-   "source": "百度文心 ERNIE 官方博客",
-   "pub": "11-05 00:00"
-  },
-  {
-   "title": "Mistral 扩展 Mistral Studio，配合 Mistral Large 4 (Le Chonk) 构建企业级智能体、工作流和应用",
-   "link": "https://aihot.news/items/ofo4xa4ux02yj9f9lbokmidpr",
-   "summary": "Mistral 宣布扩展 Mistral Studio，新增托管智能体、工作流、应用、企业上下文、可观测性和评估等能力，配合企业模型 Mistral Large 4（Le Chonk），支持云端、VPC 或本地部署并保留对模型与数据的控制。",
-   "category": "AI 产品",
-   "source": "Mistral AI：News",
-   "pub": "11-05 00:00"
-  },
-  {
-   "title": "PFN 开放翻译特化模型 PLaMo 3 Translate，0.8B 至 31B 四个尺寸可离线运行",
-   "link": "https://aihot.news/items/mfhrioi9hwoh0m8q6q2yhjzo7",
-   "summary": "Preferred Networks 将自家翻译服务使用的翻译特化 LLM PLaMo 3 Translate 以开放权重形式在 Hugging Face 公开，提供 0.8B、2B、8B、31B 四个尺寸。",
-   "category": "AI 模型",
-   "source": "Preferred Networks：AI 研究与产品",
-   "pub": "11-05 00:00"
-  },
-  {
-   "title": "METR 评审 Anthropic 2026年8月风险报告的自动化 R&D 风险章节",
-   "link": "https://aihot.news/items/k53ssxx8ie3n6fzyqmky4izv7",
-   "summary": "METR 发布对 Anthropic 2026年8月风险报告“自动化 R&D 风险”章节的独立评审，同意 7月15日 模型的直接灾难性风险为“低”，但认为其可能已触及 2x Acceleration 早期预警阈值。",
-   "category": "论文",
-   "source": "METR：Blog",
-   "pub": "11-05 00:00"
   }
  ]
 }
