@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-11-09 09:23",
+ "generated_at": "2026-11-09 20:27",
  "weather": {
   "city": "哈尔滨",
-  "temp": -10,
-  "desc": "晴",
-  "feels": -14,
-  "humidity": 64,
-  "wind": 4,
-  "hi": -6,
+  "temp": -7,
+  "desc": "阴",
+  "feels": -12,
+  "humidity": 46,
+  "wind": 8,
+  "hi": -5,
   "lo": -12
  },
  "news": [
+  {
+   "title": "Nvidia CEO 黄仁勋婚外情风波削弱其对严格 AI 芯片出口管制的游说",
+   "link": "https://aihot.news/items/e17dl64mjiov57c0jtwn41bxd",
+   "summary": "据 Bloomberg 报道，Nvidia CEO 黄仁勋在全员备忘录中承认与被美国情报机构认定为疑似中国情报人员线人的 Alice Huang（Huang Le）存在婚外关系，董事会已启动独立董事主导的调查。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "11-09 19:38"
+  },
+  {
+   "title": "黄仁勋职位悬了？耶鲁教授 Sonnenfeld 估计去留概率约五五开",
+   "link": "https://aihot.news/items/i8df3mmfly47axpbbr1p6ivh5",
+   "summary": "TechCrunch 编辑专访耶鲁管理学院教授 Jeffrey Sonnenfeld，评估 Nvidia CEO 黄仁勋因与涉嫌为中国收集情报的 Megaspeed 高管 Alice Huang 有染而面临的职位风险，Sonnenfeld 称其能否保住职位概率约五五开。",
+   "category": "观点",
+   "source": "TechCrunch：AI",
+   "pub": "11-09 13:26"
+  },
   {
    "title": "数字生命卡兹克上线免费 Token 福利聚合网站 Token羊毛",
    "link": "https://aihot.news/items/e80fmjdp23n217sd6e7ky52om",
@@ -26,6 +42,22 @@
    "category": "行业动态",
    "source": "Rohan Paul",
    "pub": "11-09 05:21"
+  },
+  {
+   "title": "字节发布 Seedream 5.5 图像创作模型：支持 100 轮编辑与原生 RGBA 透明输出",
+   "link": "https://aihot.news/items/xsvt2hlwuovul9sdvazcw7cxk",
+   "summary": "字节 Seed 发布新一代图像创作模型 Seedream 5.5，带来三项升级：非编辑区域像素级保持、支持围绕同一作品多达 100 轮连续编辑；新增原生 RGBA 透明素材生成，直接输出带 Alpha 通道的图像，省去抠图；改善光照材质与皮肤纹理表现，并显著提升文字渲染能力。",
+   "category": "AI 模型",
+   "source": "字节 Seed：Research Feed",
+   "pub": "11-09 00:00"
+  },
+  {
+   "title": "百度发布 ERNIE Evolve 自动研究系统，公开任务超最好纪录并落地 ERNIE-5.5-Flash 推理优化",
+   "link": "https://aihot.news/items/h6vimc0xpjwbjfampr34ym5ol",
+   "summary": "百度文心团队发布自动研究系统 ERNIE Evolve，用双层循环组织研究方向选择与实验迭代，由 Director、Selector、Executor、Evaluator 和 Reviewer 分工推进研究。",
+   "category": "AI 产品",
+   "source": "百度文心 ERNIE 官方博客",
+   "pub": "11-09 00:00"
   },
   {
    "title": "GPT-Image-2.6 实测：10 个 GIF 玩法提示词与三项新能力评测",
@@ -340,9 +372,9 @@
    "pub": "11-05 06:12"
   },
   {
-   "title": "美国中期选举大规模通过 AI 与数据中心限制措施，大型科技公司称反弹针对特朗普而非科技",
+   "title": "美国中期选举后 AI 数据中心遭重挫，Big Tech 称反 AI 浪潮实为反特朗普",
    "link": "https://aihot.news/items/ueakbz7ghxdsqffsw67d61y7j",
-   "summary": "2026 年美国中期选举中，10 个州 44 项限制数据中心的措施有 38 项通过，选民还选出了主张收紧 AI 管制的候选人。Gina Hinojosa 赢得德州州长选举，约 13GW 数据中心容量面临延迟，Axios 估计近三分之二的 2028 年数据中心容量可能受影响。",
+   "summary": "美国中期选举中选民大幅支持限制 AI 与数据中心的候选人和措施，Redbud Consulting 统计 10 个州 44 项限制数据中心的措施中 38 项通过；Gina Hinojosa 赢下德州州长选举，约 13GW 数据中心容量面临延期风险，Axios 估计近三分之二的 2028 年数据中心容量可能受到类似拖延。",
    "category": "行业动态",
    "source": "Ars Technica：AI",
    "pub": "11-05 04:55"
@@ -378,38 +410,6 @@
    "category": "论文",
    "source": "METR：Blog",
    "pub": "11-05 00:00"
-  },
-  {
-   "title": "Anthropic 研究 20.7 万会话中科研人员如何使用 Claude",
-   "link": "https://aihot.news/items/giyl2h74lq7ygv5c7vpxu887m",
-   "summary": "Anthropic 用隐私保护方法分析 2026 年 8 月 2 日至 9 月 30 日的 207,049 个 Claude 与 Claude Code 科研会话，发现科学家主要用于数据分析（占 Claude 会话 33.7%、Claude Code 48.1%）和写作，而构思与数据收集的使用低于其重要性排名。",
-   "category": "论文",
-   "source": "Anthropic：Research",
-   "pub": "11-05 00:00"
-  },
-  {
-   "title": "Goodfire 提出 mechanistic shaping 框架 用内部表征抑制模型走捷径",
-   "link": "https://aihot.news/items/d9a7dr6n3w0nh5p2facdqqguu",
-   "summary": "Goodfire Research 发布论文提出 mechanistic shaping 框架，通过 reliance shaping 和 expression shaping 在训练中惩罚模型对特定内部概念的依赖或表达，使模型以正确方式解题而非仅答对。",
-   "category": "论文",
-   "source": "Goodfire Research",
-   "pub": "11-05 00:00"
-  },
-  {
-   "title": "可灵 Kling 4.0 Flash 全面开放，支持官网、API、MCP 和 Adobe 插件接入",
-   "link": "https://aihot.news/items/dh8lnoo1i3xiq7a12azrnmmwf",
-   "summary": "可灵AI 宣布 Kling 4.0 Flash 现已向所有用户全面开放，可通过 Kling AI 官网和 API 使用。同时支持通过 MCP、CLI 及 AI 插件接入，创作者还可在 Adobe Photoshop、Premiere Pro 和 After Effects 中通过可灵插件调用该模型，体验入口为 klingai.com。",
-   "category": "AI 产品",
-   "source": "公众号：可灵AI",
-   "pub": "11-04 23:00"
-  },
-  {
-   "title": "OpenAI 宣布收购 Code Storage 背后公司 Pierre",
-   "link": "https://aihot.news/items/c39s97tylya5njp0nro6dwvbx",
-   "summary": "OpenAI 宣布收购 Pierre Computer Company，即 Code Storage 及多款开源开发者工具背后的公司。其 Trees 和 Diffs 库已被用于 Codex 应用的文件浏览与代码变更审阅；交割后 Pierre 的开源项目将继续开源，Code Storage 客户可继续使用，功能将逐步并入 Codex，交割尚待监管批准。",
-   "category": "行业动态",
-   "source": "OpenAI：官网动态",
-   "pub": "11-04 22:30"
   }
  ]
 }
