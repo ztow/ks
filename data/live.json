@@ -1,16 +1,64 @@
 {
- "generated_at": "2026-11-10 06:50",
+ "generated_at": "2026-11-10 15:57",
  "weather": {
   "city": "哈尔滨",
-  "temp": -8,
+  "temp": -1,
   "desc": "阴",
-  "feels": -12,
-  "humidity": 63,
-  "wind": 6,
+  "feels": -5,
+  "humidity": 45,
+  "wind": 4,
   "hi": 1,
   "lo": -8
  },
  "news": [
+  {
+   "title": "Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目",
+   "link": "https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go",
+   "summary": "作者转发 Anthropic 的 Alex Albert 分享的提示词：对每个项目运行同一条指令，让 Claude 通读整个项目，找出损坏、不一致、低效或不再需要的内容，确定的问题直接修复，其余列出供人工审查。作者补充可用 /doctor prompt-audit 和 /skill-doctor 优化上下文文件并清理不必要的技能。",
+   "category": "教程",
+   "source": "Ado Kukic",
+   "pub": "11-10 12:17"
+  },
+  {
+   "title": "据报道 Anthropic 推进 IPO，计划下周四或周五挂牌",
+   "link": "https://aihot.news/items/d4f8o2c9r7r8b7fsdqnpev3eu",
+   "summary": "据 The Wall Street Journal 报道，Anthropic 将在本周设定估值区间，计划下周四或周五开始交易。部分机构投资者正推动估值低于上周讨论的 1.5 万亿美元目标，该数字已低于几个月前传闻的 2 万亿美元。报道还提到其主要竞争对手 OpenAI 上周融资 110 亿美元后估值约为 1.25 万亿美元，低于其最初寻求的 200 亿美元融资规模。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-10 09:27"
+  },
+  {
+   "title": "The Verge 梳理黄仁勋与 Megaspeed 高管丑闻对 Nvidia 出口管制游说的影响",
+   "link": "https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri",
+   "summary": "The Verge 依据《纽约时报》等报道梳理 Nvidia CEO 黄仁勋与新加坡云服务商 Megaspeed 高管 Alice Huang 的婚外情风波。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "11-10 07:51"
+  },
+  {
+   "title": "实测 Claude Fable 5.2：一次直出视频与 3D 网页，审美与细节表现突出",
+   "link": "https://aihot.news/items/po2cdt1whxfqyfew3e81l8mb0",
+   "summary": "Anthropic 凌晨正式发布 Claude Fable 5.2，作者第一时间实测视频动效、Three.js 3D 场景和苹果静安店 3D 网页等 10 个任务，全部一次直出，未发现生成视频中的事实错误。",
+   "category": "AI 模型",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-10 07:21"
+  },
+  {
+   "title": "做空机构 Culper Research 曾在丑闻爆发前六个月提示 Nvidia CEO 与疑似中国间谍的关系",
+   "link": "https://aihot.news/items/zqvokl37rwbvoxzfk3c2v7964",
+   "summary": "Nvidia 间谍丑闻爆发前六个月，做空机构 Culper Research 已在 5 月 13 日报告中质疑 CEO 黄仁勋与 Megaspeed 高管 Alice Huang 关系“异常密切”。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-10 06:46"
+  },
+  {
+   "title": "Figma 官方讲解画布智能体的 6 种实用方法",
+   "link": "https://aihot.news/items/lko5m98q1kk1dlcjihvk527w8",
+   "summary": "Figma 官方介绍了在其画布上使用 Figma agent 的六种方法，覆盖从设计初期探索到交付前细节的各个阶段。",
+   "category": "教程",
+   "source": "Figma AI / Agent / Make",
+   "pub": "11-10 05:46"
+  },
   {
    "title": "Claude Fable 5.2 上线 Higgsfield，开放 3 天免费试用",
    "link": "https://aihot.news/items/ugn21ui1m8kftffpe2c95qlkx",
@@ -98,14 +146,6 @@
    "category": "AI 产品",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-09 07:56"
-  },
-  {
-   "title": "NVIDIA 董事会宣布就 CEO 黄仁勋遭外国情报行动瞄准一事启动独立调查",
-   "link": "https://aihot.news/items/mg4znyraf1xbbwg1vd915wqoi",
-   "summary": "NVIDIA 董事会于 11 月 8 日发布声明，就近期有关创始人兼 CEO 黄仁勋成为外国情报行动目标的报道启动独立调查。调查由独立董事组成的委员会在外部独立律师协助下监督，黄仁勋全力配合。董事会表示没有理由认为国家安全或 NVIDIA 机密已受损，但调查将审视所有可用信息，并表示对黄仁勋及其领导团队有信心。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-09 05:21"
   },
   {
    "title": "字节发布 Seedream 5.5 图像创作模型：支持 100 轮编辑与原生 RGBA 透明输出",
@@ -370,46 +410,6 @@
    "category": "论文",
    "source": "OpenAI：部署安全与系统卡",
    "pub": "11-05 15:00"
-  },
-  {
-   "title": "Thinking Machines Lab 发布 Inkling 2 Small：594B 参数 MoE 模型，下周开放 Apache 2.0 权重",
-   "link": "https://aihot.news/items/bu8612ca3e1uyxjppk56ef1wl",
-   "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small，为 594B 总参数、17B 激活的 MoE 模型，支持图像输入与 variable effort，Artificial Analysis Intelligence Index 得分 31。",
-   "category": "AI 模型",
-   "source": "Thinking Machines Lab：News",
-   "pub": "11-05 15:00"
-  },
-  {
-   "title": "Higgsfield 上线 GPT Image 2.6，新用户 7 天无限使用",
-   "link": "https://aihot.news/items/lcdap1o18bh6bt70ij66nakij",
-   "summary": "Higgsfield 宣布 GPT Image 2.6 已上线，新用户可 7 天无限使用。功能包括把提示词或图片转成 GIF、保存参考图随时复用、通过 markup 细化并导出 SVG。OpenAI 此前介绍 ChatGPT Images 2.6 新增 GIF 和参考图功能，另有两款 API 模型将带来 50% 更快的图像生成。",
-   "category": "AI 产品",
-   "source": "Higgsfield AI",
-   "pub": "11-05 08:11"
-  },
-  {
-   "title": "月之暗面开放 2.8 万亿参数 Kimi K3.1 Pro 权重，登顶 Agent Arena 开源模型榜",
-   "link": "https://aihot.news/items/hkcafk9es55rbok8pinu90x5o",
-   "summary": "月之暗面按 10 月 24 日发布时的承诺，在 Hugging Face 开放 Kimi K3.1 Pro 权重。",
-   "category": "AI 模型",
-   "source": "IT之家·人工智能",
-   "pub": "11-05 08:00"
-  },
-  {
-   "title": "Google Research 在 Nature 发表 AI-PPG-ACC-HTN：用智能手表无袖带检测高血压迹象",
-   "link": "https://aihot.news/items/zbjrxt1ss4h009oc75x5swd6y",
-   "summary": "Google Research 联合 Beth Israel Deaconess Medical Center 和哈佛医学院在 Nature 发表 AI-PPG-ACC-HTN 多模态 AI 系统，用消费级智能手表的 PPG 和加速度传感数据被动检测高血压迹象，无需袖带校准。",
-   "category": "论文",
-   "source": "Google Research：Blog",
-   "pub": "11-05 08:00"
-  },
-  {
-   "title": "Cursor 推出应用构建功能，描述需求即可构建、部署并分享在线应用",
-   "link": "https://aihot.news/items/m5s02uukcl0id6rn7t08f6ya3",
-   "summary": "Cursor 推出新功能，用户在 Cursor 中启动云端智能体并描述需求，即可完成应用搭建、Postgres 数据库配置、基于 Cursor SSO 的身份验证和托管部署，并生成可访问的在线链接。",
-   "category": "AI 产品",
-   "source": "Cursor：Changelog",
-   "pub": "11-05 08:00"
   }
  ]
 }
