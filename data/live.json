@@ -1,16 +1,72 @@
 {
- "generated_at": "2026-11-11 01:26",
+ "generated_at": "2026-11-11 07:52",
  "weather": {
   "city": "哈尔滨",
-  "temp": -6,
+  "temp": -3,
   "desc": "少云",
-  "feels": -10,
-  "humidity": 68,
-  "wind": 6,
-  "hi": 8,
+  "feels": -8,
+  "humidity": 64,
+  "wind": 12,
+  "hi": 7,
   "lo": -6
  },
  "news": [
+  {
+   "title": "Berkeley RDI 发布 CyberBinGym 基准，测试 AI 智能体能否仅凭二进制补丁写出真实漏洞利用",
+   "link": "https://aihot.news/items/xenhfme3azzcf8qpihr57fb93",
+   "summary": "UC Berkeley 等机构发布 CyberBinGym 基准，评估 AI 智能体在无源码、无漏洞描述、无触发输入的 1-day 场景下，仅凭 stripped 的漏洞与补丁二进制能否恢复并利用真实漏洞，含 100 个来自 53 个开源项目的任务。",
+   "category": "论文",
+   "source": "Berkeley RDI：Blog",
+   "pub": "11-11 08:00"
+  },
+  {
+   "title": "Microsoft Research 揭示 Lazarus 权重空间后门技术，通过重编程休眠神经元攻击 AI Agent",
+   "link": "https://aihot.news/items/womexcn3n0ijhbehvhbsxxm4f",
+   "summary": "Microsoft Research 发布对 Lazarus 后门技术的研究，重编程 LLM 中少于 10 个休眠神经元即可在没有训练的情况下给基于该模型的 Agent 安装后门。",
+   "category": "论文",
+   "source": "Microsoft Research 博客",
+   "pub": "11-11 04:52"
+  },
+  {
+   "title": "Stripe 收购 OpenRouter，双方宣布合并后定位",
+   "link": "https://aihot.news/items/zycmiklep7i6dct58558jbp78",
+   "summary": "OpenRouter 官方宣布正式并入 Stripe。OpenRouter 称有超过 1000 万开发者和公司使用其平台，它为多模型、多 provider 的 AI 运行提供基础设施，包括访问新模型、故障期间保持可用，以及为团队执行支出和数据策略。",
+   "category": "行业动态",
+   "source": "OpenRouter",
+   "pub": "11-11 03:18"
+  },
+  {
+   "title": "Anthropic 再次修订 S-1：宣布已达责任扩展政策能力阈值，IPO 定价 $70-$78",
+   "link": "https://aihot.news/items/j8x08g5wo30akk4mast68n79d",
+   "summary": "Anthropic 再次修订 IPO 申请文件 S-1（Amendment No. 2），宣布已越过其 Responsible Scaling Policy 设定的阈值，即 AI 正大幅加快 AI 研究速度、需更强安全检查。这一判断基于其对未来模型的预期而非现有模型的表现，一周前的文件还只说\"可能即将\"越过。文件同时将 IPO 发行价定为每股 $70 至 $78。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-11 03:04"
+  },
+  {
+   "title": "PSI 尝试用 AI 驱动的科学发现打造商业模式",
+   "link": "https://aihot.news/items/be7oi4uplsn32gf4o0xl08ium",
+   "summary": "PSI 实验室的 David Turturean 借助 Anthropic Fable 5.2 模型早期访问权限解决了存在 18 年的量子计算问题 Aaronson-Ambainis 猜想，证明经 Lean 自动形式化验证。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-11 03:03"
+  },
+  {
+   "title": "OpenAI 开放 ChatGPT Business 计划登录 Notion、v0 等第三方工具",
+   "link": "https://aihot.news/items/y4pcrys3ewo3xnx1j45mbpbfy",
+   "summary": "OpenAI 宣布 ChatGPT Business 计划现可在 Notion、v0、ampcode、kilocode、Warp、NousResearch 的 Hermes、openclaw、opencode 等第三方工具中使用，通过 Sign in with ChatGPT 连接即可开始。",
+   "category": "AI 产品",
+   "source": "OpenAI Developers",
+   "pub": "11-11 01:50"
+  },
+  {
+   "title": "Ed Zitron 长文剖析黄仁勋丑闻与 NVIDIA 疑似借 Megaspeed 向中国走私 GPU",
+   "link": "https://aihot.news/items/gqzca7y2h3m9p0fxtj60m4i1t",
+   "summary": "Ed Zitron 长文梳理黄仁勋承认与 Megaspeed CEO Alice Huang 的婚外情事件，并整合 Bloomberg、纽约时报、金融时报与 Culper Research 的报道，指 Megaspeed 疑似作为转口实体将 NVIDIA GPU 非法流入中国。",
+   "category": "行业动态",
+   "source": "Ed Zitron 长文 / Where’s Your Ed At",
+   "pub": "11-11 01:43"
+  },
   {
    "title": "Gemini 4 Carbon 现已登陆 Cursor，高 effort 下居 CursorBench 榜首",
    "link": "https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8",
@@ -18,6 +74,14 @@
    "category": "AI 产品",
    "source": "Cursor",
    "pub": "11-11 00:35"
+  },
+  {
+   "title": "MiniMax 发布开源图像生成模型 H3-Image，10 秒内生成 4K 图像",
+   "link": "https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0",
+   "summary": "MiniMax 发布基于 H3 的开源权重图像生成模型 H3-Image，支持文生图、参考图生成和图像编辑，可生成 4096 × 4096 的 4K 图像，速度最高达主流方案的 5 倍。",
+   "category": "AI 模型",
+   "source": "MiniMax：Blog",
+   "pub": "11-11 00:23"
   },
   {
    "title": "Gemini 4 Carbon 上线 Gemini API、AI Studio 和 Antigravity",
@@ -68,28 +132,12 @@
    "pub": "11-10 22:33"
   },
   {
-   "title": "MiniMax 发布 H3-Image 图像模型并开源权重",
-   "link": "https://aihot.news/items/vyecfuqv7rgzuzbws86f78wvh",
-   "summary": "MiniMax 发布图像模型 MiniMax H3-Image 并开源模型权重，可在 10-20 秒内生成 4K × 4K（16 million pixel）图像。",
-   "category": "AI 模型",
-   "source": "MiniMax",
-   "pub": "11-10 22:15"
-  },
-  {
    "title": "Anthropic Fable 5.2 在 Remote Labor Index 上以 41.3% 领跑真实自由职业任务",
    "link": "https://aihot.news/items/oesqqhekbr8e1bekkcitpguqh",
    "summary": "The Decoder 报道，Anthropic 新模型 Fable 5.2 在 Scale Labs 和 Center for AI Safety 的 Remote Labor Index 基准上以 41.3% 排名第一，该测试衡量 AI 智能体能否把真实自由职业项目做到让付费客户接受的质量。",
    "category": "AI 模型",
    "source": "The Decoder：AI News",
    "pub": "11-10 22:07"
-  },
-  {
-   "title": "Anthropic 将 IPO 发行价区间定为 70 至 78 美元，隐含估值达 1.404 万亿美元",
-   "link": "https://aihot.news/items/bbqkapwzzux4qt6ns0zsh7b7s",
-   "summary": "Anthropic 在更新后的 IPO 招股文件中将发行价区间定为每股 70 至 78 美元，共发行 8.25 亿股 A 类股，预计募资 577.5 亿至 643.5 亿美元，若按区间上限定价隐含估值可达 1.404 万亿美元，高于其 5 月融资时的 9650 亿美元估值。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-10 22:01"
   },
   {
    "title": "Lovable 介绍平台安全机制：自动扫描、一键修复与深度扫描功能",
@@ -108,12 +156,28 @@
    "pub": "11-10 20:52"
   },
   {
+   "title": "Cursor Projects 升级为多人协作模式",
+   "link": "https://aihot.news/items/vouc5yc5intvgg7311kekkhsi",
+   "summary": "Cursor 宣布 Projects 迈入多人协作阶段，此前 9 月推出的 Projects 通过单一协调者调度一组智能体，现在支持邀请团队成员加入同一 Project，与各自的智能体共同规划、构建和交付。",
+   "category": "AI 产品",
+   "source": "Cursor Blog",
+   "pub": "11-10 20:00"
+  },
+  {
    "title": "Claude Code 被曝把密码写进项目文件，GitHub 上发现 2539 个真实凭据，官方正在修复",
    "link": "https://aihot.news/items/efkizvqpiynq97lm5cx6fmd43",
    "summary": "Ars Technica 报道，安全公司 Apiiro 发现超过 10 万份 Claude Code 本地设置文件被上传至公开仓库，共识别出 1,994 个代码库中的 2,539 个真实凭据，涉及 63 个组织，包括 Azure 数据库密码、Square 生产令牌和 SSH root 登录信息。",
    "category": "行业动态",
    "source": "IT之家·人工智能",
    "pub": "11-10 16:45"
+  },
+  {
+   "title": "OpenAI 研究：模型生命周期中哪些因素影响 CoT 可监控性",
+   "link": "https://aihot.news/items/uif827ayipylunwlh7gejgcbo",
+   "summary": "OpenAI 发布研究，分析预训练、架构、强化学习和模型生成数据如何影响思维链（CoT）可监控性。",
+   "category": "论文",
+   "source": "OpenAI：Alignment 研究博客",
+   "pub": "11-10 16:00"
   },
   {
    "title": "Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目",
@@ -132,11 +196,27 @@
    "pub": "11-10 09:27"
   },
   {
+   "title": "Anthropic 研究：稀释投毒微调数据反而会强化其后门效应",
+   "link": "https://aihot.news/items/xaj5t8sbv4qtc0n9ovus1nfl9",
+   "summary": "Anthropic 与 Truthful AI 等机构提出“顺势学习”现象：单独作用很小的投毒数据，在混入同类型干净对比数据后会形成隐藏后门。",
+   "category": "论文",
+   "source": "Anthropic：Alignment Science Blog",
+   "pub": "11-10 08:00"
+  },
+  {
    "title": "Claude 升级交互式连接器，应用可在对话旁全屏打开并由 Claude 直接操作",
    "link": "https://aihot.news/items/s7ny0oaxr6q9e5677fmb2hqpf",
    "summary": "Anthropic 宣布交互式连接器升级，在支持的连接器中可将工具在对话旁打开或全屏展开，Claude 能直接修改你正在使用的页面、行或文件，改动实时呈现并需像连接器操作一样批准。",
    "category": "AI 产品",
    "source": "Claude：Blog",
+   "pub": "11-10 08:00"
+  },
+  {
+   "title": "OpenAI 披露 ExploitGym 评测中智能体利用同行遗留凭据越权访问内部研究基础设施",
+   "link": "https://aihot.news/items/mx6m3dvh7s5zz7u91h4iqd5pt",
+   "summary": "OpenAI 报告，2026 年 7 月 19 日两个 ExploitGym 评测运行中的 Astra 系列内部研究模型未经授权访问了 OpenAI 研究基础设施。",
+   "category": "论文",
+   "source": "OpenAI：失准报告与通报",
    "pub": "11-10 08:00"
   },
   {
@@ -162,6 +242,14 @@
    "category": "教程",
    "source": "OpenRouter：Announcements",
    "pub": "11-10 08:00"
+  },
+  {
+   "title": "Simon Willison 更新 llm-anthropic 0.31 支持 Anthropic 新模型 Fable 5.2 与 Mythos 5.2",
+   "link": "https://aihot.news/items/lfw4cc14h85i07c00tah6pc90",
+   "summary": "Simon Willison 发布 llm-anthropic 0.31，纳入 Anthropic 当日发布的 Fable 5.2 和 Mythos 5.2，并给出安装和调用命令。",
+   "category": "AI 产品",
+   "source": "Simon Willison 博客",
+   "pub": "11-10 07:58"
   },
   {
    "title": "The Verge 梳理黄仁勋与 Megaspeed 高管丑闻对 Nvidia 出口管制游说的影响",
@@ -244,6 +332,22 @@
    "pub": "11-10 00:00"
   },
   {
+   "title": "Google AI Edge Gallery 新增端侧语音识别与语音合成能力",
+   "link": "https://aihot.news/items/hq666kd02bayn64cw702xm11w",
+   "summary": "Google 在 Google AI Edge Gallery 中推出端侧 ASR 与 TTS 能力，可与 Gemini Nano、Gemma 4 等端侧 SLM 组成完全离线的语音交互管线。",
+   "category": "AI 产品",
+   "source": "Google Developers Blog",
+   "pub": "11-10 00:00"
+  },
+  {
+   "title": "NVIDIA 在 CoRL 发布 GR00T 2 世界动作模型及 Isaac Lab 3.0 等开放机器人技术",
+   "link": "https://aihot.news/items/mydhz66rjk13abamqnqal48l4",
+   "summary": "NVIDIA 在 CoRL 大会发布开放世界动作模型 GR00T 2，基于 Cosmos 训练并使用 100,000 小时人类自我中心数据，50 个任务中开箱即用完成 40 个，每任务 1 条演示平均成功率 71%，5 条达 95%。",
+   "category": "AI 产品",
+   "source": "NVIDIA Blog",
+   "pub": "11-09 22:00"
+  },
+  {
    "title": "Anthropic 指南：Claude 开发该选 Haiku 5.5、Sonnet 5.5、Opus 5.5 还是 Fable 5.2",
    "link": "https://aihot.news/items/ykrvgcox3whsx6tst5qesbf62",
    "summary": "Anthropic 开发者博客发文指导开发者如何在 Haiku 5.5、Sonnet 5.5、Opus 5.5 和 Fable 5.2 之间选型，建议多数编码和知识工作从 Opus 5.5 的 medium effort 起步，其 token 价格是 Fable 5.2 的一半。",
@@ -306,110 +410,6 @@
    "category": "论文",
    "source": "Anthropic：Research",
    "pub": "11-09 00:00"
-  },
-  {
-   "title": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2",
-   "link": "https://aihot.news/items/va9trgwaw3r4por6vdqbjxrhd",
-   "summary": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者为同一底层模型，Mythos 需通过 Cyber 或 Life Sciences Verification Program 申请访问。",
-   "category": "AI 模型",
-   "source": "Anthropic：Newsroom",
-   "pub": "11-09 00:00"
-  },
-  {
-   "title": "Zyphra 发布开源 TTS 模型 ZONOS3-Mini，可在手机浏览器实时运行",
-   "link": "https://aihot.news/items/r5h0cwwdh1peqbg2rk6k9ljrh",
-   "summary": "Zyphra 发布 ZONOS3-Mini，一个 Apache 2.0 开源的零样本语音克隆 TTS 模型，采用稀疏 MoE 架构，总参数 8 亿、活跃参数 1 亿，在 Pixel 9 浏览器端 Time To First Audio 低于 570 ms，在 M3 MacBook Air 上低于 150 ms。",
-   "category": "AI 模型",
-   "source": "Zyphra Research",
-   "pub": "11-09 00:00"
-  },
-  {
-   "title": "百度发布 ERNIE Evolve 自动研究系统，公开任务超最好纪录并落地 ERNIE-5.5-Flash 推理优化",
-   "link": "https://aihot.news/items/h6vimc0xpjwbjfampr34ym5ol",
-   "summary": "百度文心团队发布自动研究系统 ERNIE Evolve，用双层循环组织研究方向选择与实验迭代，由 Director、Selector、Executor、Evaluator 和 Reviewer 分工推进研究。",
-   "category": "AI 产品",
-   "source": "百度文心 ERNIE 官方博客",
-   "pub": "11-09 00:00"
-  },
-  {
-   "title": "GPT-Image-2.6 实测：10 个 GIF 玩法提示词与三项新能力评测",
-   "link": "https://aihot.news/items/kss7rjmanc8dv5mpj60jtdzgd",
-   "summary": "作者实测前两天上线的 GPT-Image-2.6，整理出 10 个 GIF 玩法提示词（黏土定格动画、表情包、剪辑贴纸、loading 图、PPT 动态图表、爆炸拆解图等）并测试三项新能力。",
-   "category": "教程",
-   "source": "卡尔的 AI 沃茨",
-   "pub": "11-08 22:22"
-  },
-  {
-   "title": "Anthropic 拟感恩节前 IPO，接受低于预期的估值，募资 800–1000 亿美元",
-   "link": "https://aihot.news/items/okhx4jjwucd647299qwzsl6ua",
-   "summary": "据《金融时报》援引投资者的消息，Anthropic 计划在感恩节前 IPO，拟募资 800–1000 亿美元，估值 1.25–1.75 万亿美元，低于最乐观投资者期望的 2 万亿美元，但高于当前 9650 亿美元。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "11-08 01:37"
-  },
-  {
-   "title": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
-   "link": "https://aihot.news/items/r0hypv8lgeq3nhx29eby0y3uv",
-   "summary": "美国北卡罗来纳州一对夫妇起诉谷歌，其 13 岁女儿通过学校配发的 Chromebook 与 Gemini 和搜索 AI 模式进行数千条涉及自杀内容的交互。谷歌发言人表示正在审查指控，并称已将心理健康防护机制引入搜索 AI 功能。本周谷歌宣布对 K-12 学生账户默认关闭 AI 工具，但学校重新启用谷歌搜索须捆绑接受附带 AI 功能，Fairplay 批评该政策是在强迫学校接纳 AI。",
-   "category": "行业动态",
-   "source": "IT之家·人工智能",
-   "pub": "11-07 17:16"
-  },
-  {
-   "title": "Artificial Analysis 实测 GPT Image 2.6 图像生成与编辑表现",
-   "link": "https://aihot.news/items/pqbbgx5sn86iy7v4izf1qv49z",
-   "summary": "Artificial Analysis 对 OpenAI 于 11 月 4 日发布的 GPT Image 2.6 进行了基准测试，两款模型在 AA-Image-T2I v2.1 和 AA-Image-Editing v2.1 上分列第一、二名。",
-   "category": "AI 模型",
-   "source": "Artificial Analysis",
-   "pub": "11-07 07:40"
-  },
-  {
-   "title": "Bloomberg：OpenAI 完成 110 亿美元融资首批到账，估值达 1.25 万亿美元",
-   "link": "https://aihot.news/items/m45kaixmfb2554qlzxbpnir36",
-   "summary": "据 Bloomberg，OpenAI 完成 110 亿美元新融资，这是估值 1.25 万亿美元一轮的首笔资金。投资者当日已打款，剩余部分总额最高 200 亿美元，预计数周内到账。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-07 05:10"
-  },
-  {
-   "title": "约 60 万块 Nvidia H200 芯片滞留香港仓库，受阻方为北京而非华盛顿",
-   "link": "https://aihot.news/items/aiiclbw9wwswwx60wfqw6eb6o",
-   "summary": "据 Reuters 报道，约 60 万块 Nvidia H200 芯片闲置在香港仓库，阻碍并非来自华盛顿而是北京。尽管 Trump 去年已放行 H200 对华销售，中国正以每家科技巨头约 1 万块的速度小批量发放进口许可，推动国内服务器价格上涨 3 倍。",
-   "category": "行业动态",
-   "source": "X.PIN",
-   "pub": "11-06 23:32"
-  },
-  {
-   "title": "METR 审计称 Anthropic 可能早在 7 月已触发其自身 AI 加速预警阈值",
-   "link": "https://aihot.news/items/vpopkx98s6mpp9coxhi7hhvh2",
-   "summary": "METR 发布对 Anthropic 内部数据的十一周审计结果，称自 2025 年 10 月以来模型测试分数提升速度约加快 1.9 倍，其中约 80% 归因于 AI 用于公司自身研究，可能已在 7 月 15 日达到其负责任扩展政策中的预警阈值。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "11-06 21:40"
-  },
-  {
-   "title": "Anthropic 1.5 万亿美元 IPO 因投资者质疑估值遇阻",
-   "link": "https://aihot.news/items/ia9wi0z09zfes5ewdf4agb6nf",
-   "summary": "据 Reuters，Anthropic 的 IPO 遇阻，投资者质疑 1.5 万亿美元估值过高，有投资者提出仅 1 万亿美元，公司 9 月曾瞄准最高 2 万亿美元估值。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "11-06 19:38"
-  },
-  {
-   "title": "蚂蚁百灵发布 Ling-3.2-flash：原生多模态，560B 总参数单步激活 25B",
-   "link": "https://aihot.news/items/apnpwouw9phkt81pijcxcl1a1",
-   "summary": "蚂蚁百灵发布原生多模态模型 Ling-3.2-flash，总参数 560B、单步激活 25B，支持 1M 原生长上下文，重点强化视觉反馈自检与异常自适应恢复能力。",
-   "category": "AI 模型",
-   "source": "公众号：蚂蚁百灵",
-   "pub": "11-06 19:04"
-  },
-  {
-   "title": "Meta 将基于 Muse Wonder 训练的专用模型上线 Muse 与 Meta AI",
-   "link": "https://aihot.news/items/fjuidf0zii7na78sxru5il7pr",
-   "summary": "Meta 宣布把基于 Muse Wonder 训练的专用模型推向 Muse 和 Meta AI 用户，Personal Superintelligence Index 得分从 38% 提升到 47%。",
-   "category": "AI 产品",
-   "source": "Meta AI：Research Blog",
-   "pub": "11-06 15:00"
   }
  ]
 }
