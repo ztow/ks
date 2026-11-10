@@ -1,16 +1,120 @@
 {
- "generated_at": "2026-11-10 15:57",
+ "generated_at": "2026-11-11 01:26",
  "weather": {
   "city": "哈尔滨",
-  "temp": -1,
-  "desc": "阴",
-  "feels": -5,
-  "humidity": 45,
-  "wind": 4,
-  "hi": 1,
-  "lo": -8
+  "temp": -6,
+  "desc": "少云",
+  "feels": -10,
+  "humidity": 68,
+  "wind": 6,
+  "hi": 8,
+  "lo": -6
  },
  "news": [
+  {
+   "title": "Gemini 4 Carbon 现已登陆 Cursor，高 effort 下居 CursorBench 榜首",
+   "link": "https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8",
+   "summary": "Cursor 宣布 Gemini 4 Carbon 已可在 Cursor 中使用。官方称在高 effort 设置下，该模型以 60.4% 的得分位居 CursorBench 4.0 榜首，配图还标注其成本为 $9.22。",
+   "category": "AI 产品",
+   "source": "Cursor",
+   "pub": "11-11 00:35"
+  },
+  {
+   "title": "Gemini 4 Carbon 上线 Gemini API、AI Studio 和 Antigravity",
+   "link": "https://aihot.news/items/o6jzg6bjiaufh8no2rf1tep7u",
+   "summary": "Philipp Schmid 介绍 Gemini 4 Carbon 现已可在 Gemini API、Google AI Studio 和 Antigravity（限 Google AI Ultra 订阅者）中使用。",
+   "category": "AI 产品",
+   "source": "Philipp Schmid",
+   "pub": "11-11 00:06"
+  },
+  {
+   "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+   "link": "https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx",
+   "summary": "Google DeepMind 正式向开发者、企业、科学家和普通用户开放 Gemini 4 Carbon，定位为其最强前沿模型，主打网络安全能力与复杂知识工作、软件工程、科学推理中的长程智能体工作流。",
+   "category": "AI 模型",
+   "source": "Google DeepMind：Blog",
+   "pub": "11-11 00:03"
+  },
+  {
+   "title": "Wiz 讲解如何评估 AI 智能体的网络安全能力",
+   "link": "https://aihot.news/items/momr4yrt6hhhfeuzjfqz6ryqy",
+   "summary": "Wiz Research 介绍其 Cyber Model Arena v3.9 的基准设计方法，该基准覆盖 26 个模型、59 个智能体和 327 道挑战，分代码漏洞、API 安全、Web 安全和云安全四类。",
+   "category": "论文",
+   "source": "Wiz：Research",
+   "pub": "11-11 00:03"
+  },
+  {
+   "title": "Google DeepMind 用 AlphaProof Code 对 Signal 协议机器码完成形式化安全验证",
+   "link": "https://aihot.news/items/t9g33uqn3lfwm8cr1kr2fvnp7",
+   "summary": "Google DeepMind 发布 AlphaProof Code 多智能体形式化验证框架，并首次对广泛部署协议 Signal 的生产机器码完成形式化安全验证。",
+   "category": "论文",
+   "source": "Rohan Paul",
+   "pub": "11-10 23:38"
+  },
+  {
+   "title": "Gary Marcus 质疑 Anthropic 1.4 万亿美元 IPO 估值",
+   "link": "https://aihot.news/items/yshr81morbvxs39fq2y2rw6rg",
+   "summary": "Gary Marcus 评论 Anthropic 拟以最高 1.4 万亿美元估值 IPO，称该公司除一个异常季度外从未盈利，未来负债接近 9000 亿美元。他引用 Q2 环比增长 147% 而 Q3 降至 47% 的数据，认为 tokenmaxxing 退潮与中国竞品崛起使万亿估值失去依据，并援引 S-1 中公司自认成本将上升、收入增速难以为继的表述。",
+   "category": "观点",
+   "source": "Gary Marcus：The Road to AI We Can Trust",
+   "pub": "11-10 22:37"
+  },
+  {
+   "title": "The Information 报道称与英伟达 CEO 黄仁勋相关人士向中国买家转手 75 亿美元硬件",
+   "link": "https://aihot.news/items/f1z5v9nswvnu4w2plxd4tg22t",
+   "summary": "据 The Information 报道，与英伟达 CEO 黄仁勋有染的 Alice Huang（无亲属关系）与丈夫和姐姐在中国和新加坡建立采购网络，涉资 75 亿美元。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-10 22:33"
+  },
+  {
+   "title": "MiniMax 发布 H3-Image 图像模型并开源权重",
+   "link": "https://aihot.news/items/vyecfuqv7rgzuzbws86f78wvh",
+   "summary": "MiniMax 发布图像模型 MiniMax H3-Image 并开源模型权重，可在 10-20 秒内生成 4K × 4K（16 million pixel）图像。",
+   "category": "AI 模型",
+   "source": "MiniMax",
+   "pub": "11-10 22:15"
+  },
+  {
+   "title": "Anthropic Fable 5.2 在 Remote Labor Index 上以 41.3% 领跑真实自由职业任务",
+   "link": "https://aihot.news/items/oesqqhekbr8e1bekkcitpguqh",
+   "summary": "The Decoder 报道，Anthropic 新模型 Fable 5.2 在 Scale Labs 和 Center for AI Safety 的 Remote Labor Index 基准上以 41.3% 排名第一，该测试衡量 AI 智能体能否把真实自由职业项目做到让付费客户接受的质量。",
+   "category": "AI 模型",
+   "source": "The Decoder：AI News",
+   "pub": "11-10 22:07"
+  },
+  {
+   "title": "Anthropic 将 IPO 发行价区间定为 70 至 78 美元，隐含估值达 1.404 万亿美元",
+   "link": "https://aihot.news/items/bbqkapwzzux4qt6ns0zsh7b7s",
+   "summary": "Anthropic 在更新后的 IPO 招股文件中将发行价区间定为每股 70 至 78 美元，共发行 8.25 亿股 A 类股，预计募资 577.5 亿至 643.5 亿美元，若按区间上限定价隐含估值可达 1.404 万亿美元，高于其 5 月融资时的 9650 亿美元估值。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-10 22:01"
+  },
+  {
+   "title": "Lovable 介绍平台安全机制：自动扫描、一键修复与深度扫描功能",
+   "link": "https://aihot.news/items/gbyp35reiyczetrirpyzycssq",
+   "summary": "Lovable 发布安全功能说明，介绍平台如何帮助无技术背景的开发者构建安全应用。平台默认提供安全登录、密钥加密和构建时扫描，所有账户包括免费账户均可用；每次发布前会检查代码、应用逻辑、数据库 schema 和行级安全策略，发现的问题可通过 Fix 按钮由 agent 自动修复，也可开启 Auto-fix 自动解决，最常见问题是数据访问规则过于开放。",
+   "category": "教程",
+   "source": "Lovable Blog",
+   "pub": "11-10 22:00"
+  },
+  {
+   "title": "n8n Labs 发布本机个人智能体 Nod 研究预览版",
+   "link": "https://aihot.news/items/yrk09s03tcgcxsxq8jh0npjk0",
+   "summary": "n8n 发布 n8n Labs 首个实验项目 Nod 的研究预览版，一个独立于 n8n 的开源个人智能体，可在 Mac 或 Windows 本机的沙盒和浏览器中代用户完成取消订阅、比价、订酒店等任务，无需 n8n 账号或云服务。",
+   "category": "AI 产品",
+   "source": "n8n Blog",
+   "pub": "11-10 20:52"
+  },
+  {
+   "title": "Claude Code 被曝把密码写进项目文件，GitHub 上发现 2539 个真实凭据，官方正在修复",
+   "link": "https://aihot.news/items/efkizvqpiynq97lm5cx6fmd43",
+   "summary": "Ars Technica 报道，安全公司 Apiiro 发现超过 10 万份 Claude Code 本地设置文件被上传至公开仓库，共识别出 1,994 个代码库中的 2,539 个真实凭据，涉及 63 个组织，包括 Azure 数据库密码、Square 生产令牌和 SSH root 登录信息。",
+   "category": "行业动态",
+   "source": "IT之家·人工智能",
+   "pub": "11-10 16:45"
+  },
   {
    "title": "Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目",
    "link": "https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go",
@@ -26,6 +130,38 @@
    "category": "行业动态",
    "source": "TechCrunch：AI",
    "pub": "11-10 09:27"
+  },
+  {
+   "title": "Claude 升级交互式连接器，应用可在对话旁全屏打开并由 Claude 直接操作",
+   "link": "https://aihot.news/items/s7ny0oaxr6q9e5677fmb2hqpf",
+   "summary": "Anthropic 宣布交互式连接器升级，在支持的连接器中可将工具在对话旁打开或全屏展开，Claude 能直接修改你正在使用的页面、行或文件，改动实时呈现并需像连接器操作一样批准。",
+   "category": "AI 产品",
+   "source": "Claude：Blog",
+   "pub": "11-10 08:00"
+  },
+  {
+   "title": "OpenRouter 实测最佳 OCR 模型：Claude Opus 5.5 最准，Mistral OCR 性价比最高",
+   "link": "https://aihot.news/items/k4yeadirrsze4hfymnfr0vk12",
+   "summary": "OpenRouter 用 8 张自制扫描页（264 项关键值）实测 15 个视觉模型、Mistral OCR 和 Tesseract 做 OCR 的表现。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "11-10 08:00"
+  },
+  {
+   "title": "Anthropic 发布 Claude Whiteboards 和 Claude Sheets，Claude Dashboards 转正为 Claude Data",
+   "link": "https://aihot.news/items/c1fodrvts3po1pprz70weooju",
+   "summary": "Anthropic 推出 Claude Whiteboards 和 Claude Sheets 测试版，Claude Dashboards 正式可用并更名为 Claude Data，三款产品面向所有付费计划开放。",
+   "category": "AI 产品",
+   "source": "Claude：Blog",
+   "pub": "11-10 08:00"
+  },
+  {
+   "title": "OpenRouter 教程：用 JSON Schema、工具调用或决策模型获取任意 LLM 的结构化输出",
+   "link": "https://aihot.news/items/b44e0p0xgg4j6d7wyei4fy5rl",
+   "summary": "OpenRouter 发布教程，讲解从任意 LLM 获取可靠结构化输出的三种方式：支持 structured outputs 的模型发送严格 JSON Schema，只支持工具的模型强制单次工具调用，只需标签时用 Jev 决策模型。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "11-10 08:00"
   },
   {
    "title": "The Verge 梳理黄仁勋与 Megaspeed 高管丑闻对 Nvidia 出口管制游说的影响",
@@ -98,6 +234,14 @@
    "category": "观点",
    "source": "Redwood Research：Blog",
    "pub": "11-10 01:33"
+  },
+  {
+   "title": "Anthropic 启动 IPO 路演，拟发行 8.25 亿股 A 类普通股并申请以代码 ANT 上市纳斯达克",
+   "link": "https://aihot.news/items/wrxlh5gesmj36fresoxbriak2",
+   "summary": "Anthropic 启动拟议 IPO 路演，拟发行 825,000,000 股 A 类普通股，其中 801,351,354 股由 Anthropic 发售、23,648,646 股由部分现有股东出售，Anthropic 不获后者出售所得款项。",
+   "category": "行业动态",
+   "source": "Anthropic：Newsroom",
+   "pub": "11-10 00:00"
   },
   {
    "title": "Anthropic 指南：Claude 开发该选 Haiku 5.5、Sonnet 5.5、Opus 5.5 还是 Fable 5.2",
@@ -266,150 +410,6 @@
    "category": "AI 产品",
    "source": "Meta AI：Research Blog",
    "pub": "11-06 15:00"
-  },
-  {
-   "title": "Amp 发布 spaces：由单个 Agent 自动生成和协调多线程的协作空间",
-   "link": "https://aihot.news/items/w59f8d3md3ct7dj9akyn599dz",
-   "summary": "Amp 今日推出 spaces，一种与 Agent 和团队协作的新方式。每个 space 是与单个 Agent 的对话，由它负责为用户生成和协调其他 Agent 线程，无需自己创建和组织线程。",
-   "category": "AI 产品",
-   "source": "Amp Chronicle",
-   "pub": "11-06 08:00"
-  },
-  {
-   "title": "Cursor 推出与智能体的实时语音聊天",
-   "link": "https://aihot.news/items/nzxzrjiqbmjkybz85mcylo2xo",
-   "summary": "Cursor 推出与智能体的实时语音聊天功能，可用语音提出更改、询问进展并听取智能体播报的简短进度。语音聊天支持智能体窗口、IDE、Web 端和 iOS，可搜索历史消息和通话、在多个 worker 间切换，iOS 上还支持“Hey Siri, call Cursor”发起通话。",
-   "category": "AI 产品",
-   "source": "Cursor：Changelog",
-   "pub": "11-06 08:00"
-  },
-  {
-   "title": "OpenRouter 发布新一代 Auto Router 与 Auto Code 路由器",
-   "link": "https://aihot.news/items/ed4gnfu2f09xz5t7ur690iadn",
-   "summary": "OpenRouter 发布新一代 Auto Router，并推出专为编码场景的 Auto Code（openrouter/auto-code），替换 openrouter/auto 即可使用。",
-   "category": "AI 产品",
-   "source": "OpenRouter：Announcements",
-   "pub": "11-06 08:00"
-  },
-  {
-   "title": "OpenClaw 无需更新即可使用新模型：改为三个模型列表来源",
-   "link": "https://aihot.news/items/b0ddwv6p8wgd0xlhcvvw4z36b",
-   "summary": "OpenClaw 重构模型列表获取方式，约五周、80 个 PR，新模型不再等客户端发版。现在从三处取模型列表：每 4 小时重建的 catalog.openclaw.ai 目录（约 1000 个模型）、账号可用的模型列表，以及 PATH 上已安装的 Codex（需同主版本且握手通过，否则回退内置版本）。",
-   "category": "教程",
-   "source": "OpenClaw：Blog",
-   "pub": "11-06 08:00"
-  },
-  {
-   "title": "美国AI股暴跌背后：数据中心遭遇民意反噬与禁超智智能法案风波",
-   "link": "https://aihot.news/items/ulp3wiu0wqc134cllhoas33kw",
-   "summary": "作者复盘美股AI板块一夜大跌，纳指盘中跌超5%、费城半导体指数一度跌近11%、纳指单日蒸发近1.8万亿美元市值，并将其归因于中期选举后的政治变局。民主党众议员安萨里呼吁暂停先进AI开发，参众两院9月提出的《2026年禁止人工超级智能法案》以10的25次方次训练运算划线，违规个人最高判20年、公司可被强制解散。",
-   "category": "行业动态",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "11-06 07:56"
-  },
-  {
-   "title": "OpenAI：ChatGPT 与 API 每周生成图像超 40 亿张，8 周前为 30 亿",
-   "link": "https://aihot.news/items/z16tksw5l40w2edrohnozslkl",
-   "summary": "OpenAI 相关负责人称，目前 ChatGPT 与 API 每周生成的图像超过 40 亿张，高于仅 8 周前的每周超 30 亿张。其转发的 @OpenAI 内容还提到 ChatGPT Images 2.6 新增 GIF 与参考图支持，API 将迎来两个图像生成速度提升 50% 的新模型。",
-   "category": "行业动态",
-   "source": "Tibo",
-   "pub": "11-06 06:24"
-  },
-  {
-   "title": "美股单日蒸发 3.2 万亿美元，Nasdaq 创 2025 年 4 月以来最大跌幅",
-   "link": "https://aihot.news/items/czctc3kqzf5wru8fhsbnhvxt7",
-   "summary": "11 月 5 日华尔街市值蒸发 3.2 万亿美元，Nasdaq 综合指数跌 5.52%，投资者恐慌民主党掌控国会将放缓高杠杆 AI 支出热潮。Nvidia 跌 9.3% 抹去 2026 年涨幅，费城半导体指数跌 12.3%，SanDisk 跌 22%，Micron、Western Digital 和 AMD 各跌 17%。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-06 05:50"
-  },
-  {
-   "title": "李飞飞宣传 World Labs 发布 Frameboy，可实时体验 Atlas 世界模型",
-   "link": "https://aihot.news/items/m725rhhdt7a38zdd3aappeofn",
-   "summary": "李飞飞转发 World Labs 官方账号，宣传其新发布的 Frameboy demo，可用于实时探索世界。Frameboy 是两个月前发布的自回归世界模型 Atlas 的高度优化版本，从云端 GPU 流式传输，最高可达 15 fps，支持像素级相机控制。",
-   "category": "AI 产品",
-   "source": "Fei-Fei Li",
-   "pub": "11-06 04:21"
-  },
-  {
-   "title": "美国中期选举蓝潮冲击 AI 行业，44 项数据中心暂停提案中 43 项通过",
-   "link": "https://aihot.news/items/vkfrtci1ufbtbydsqersys6lx",
-   "summary": "美国中期选举民主党拿下参众两院，多场竞选以问责 AI 公司为主题，行业面临监管、数据中心建设放缓等前景。44 项地方数据中心暂停提案中 43 项通过，NBC 民调显示 76% 选民反对在社区建数据中心；专家称共和党禁止州级 AI 限制的尝试可能终结，OpenAI 和 Anthropic 未置评，据华尔街日报报道 CEO 们在私下讨论算力容量受限问题。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "11-06 01:51"
-  },
-  {
-   "title": "Perplexity 推出 Teammates 智能体，面向 Max 订阅用户开放",
-   "link": "https://aihot.news/items/wkgcal7l9pkj3g7w8ohlp3c45",
-   "summary": "Perplexity 推出 Teammates 功能，这些智能体可承接任务，利用 Computer tasks、skills、memory 和工具主动工作。Teammates 之间可相互协作，还能在 Slack 中给同事发消息，目前已向 Max 订阅用户开放网页版。",
-   "category": "AI 产品",
-   "source": "Perplexity",
-   "pub": "11-06 01:05"
-  },
-  {
-   "title": "Google 发布 Gemini Omni 1.2 Flash：15 秒视频生成，降价 30% 至 $0.07/秒",
-   "link": "https://aihot.news/items/yjwroxww17lcg4ntcu9ruo105",
-   "summary": "Google 发布 Gemini Omni 1.2 Flash，在 Gemini API 和 Gemini for business 全面开放。新模型原生支持最长 15 秒视频生成（此前为 10 秒），支持多轮对话编辑和更强的参考图一致性，价格较 1.1 下降 30% 至 720p 视频 $0.07/秒。",
-   "category": "AI 产品",
-   "source": "Google Blog：AI",
-   "pub": "11-06 01:00"
-  },
-  {
-   "title": "Reflection 详解开源模型 Beam 的安全训练与评估方法",
-   "link": "https://aihot.news/items/mpv0jfejdzdm2336jgtyj9tde",
-   "summary": "Reflection 发布博文，讲解其开源权重模型 Beam 的安全训练与评估方法，并推出开源安全研究计划 Project Iris。Beam 在 Iris Safety Evaluations 对话任务中拒绝 89% 的有害请求，为所测开源权重模型中最高，同时遵守 82% 的安全相关无害请求；安全对齐教师模型从 100B 增至 501B 参数后，过度拒绝相对下降 48.7%。",
-   "category": "论文",
-   "source": "Reflection Blog",
-   "pub": "11-06 01:00"
-  },
-  {
-   "title": "Mustafa Suleyman 对特拉华允许 AI 智能体经营企业的提案表示担忧",
-   "link": "https://aihot.news/items/kl8ufrhv3zm38108gy2d7mins",
-   "summary": "Mustafa Suleyman 表示对特拉华州允许 AI 智能体经营企业的提案深感担忧，认为应非常谨慎。该提案拟设立名为 Delaware AIC 的独立法律实体，其日常事务由 AI 智能体而非人类管理，可依智能体指示以自身名义起诉应诉、持有和处置财产并承担债务。",
-   "category": "观点",
-   "source": "Mustafa Suleyman",
-   "pub": "11-06 00:33"
-  },
-  {
-   "title": "Anthropic 详解 Claude 智能体记忆的组件：笔记、dreaming 与知识 wiki",
-   "link": "https://aihot.news/items/d28mrqwr7h7tl8b8jcse4b449",
-   "summary": "Anthropic 发文拆解 Claude 智能体记忆的组成与设计思路，将记忆分为笔记、记忆表示和注入上下文等层次，并介绍用 dreaming（空闲期反思日志）来纠错和构建 wiki。",
-   "category": "论文",
-   "source": "Anthropic：Research",
-   "pub": "11-06 00:00"
-  },
-  {
-   "title": "a16z：漏洞利用曾是瓶颈，AI 让攻击成本从数月降到数小时",
-   "link": "https://aihot.news/items/t5j6ucy3ao84zrwoz2yf2ovra",
-   "summary": "a16z 分析师撰文指出，2026 年 AI 智能体已把从漏洞到可用 exploit 的成本从专业人员的数周压缩到数小时，8 月底一次行动在 4 小时内攻破首个真实受害者，26 秒内攻陷 11 个组织，累计 48 国 395 个机构被攻破，其中一半是学校。",
-   "category": "观点",
-   "source": "a16z：News",
-   "pub": "11-05 23:01"
-  },
-  {
-   "title": "腾讯混元感谢 Artificial Analysis 对 Hy4 的评测，模型获 Intelligence Index v5 35 分",
-   "link": "https://aihot.news/items/fj4zi12biz0b62ckhzg5awcxx",
-   "summary": "腾讯混元转发并感谢 Artificial Analysis 对其最新模型 Hy4 的评测。Hy4 在 Artificial Analysis Intelligence Index v5 得 35 分，与中国实验室模型中仅次于 Kimi K3.1 Pro（46 分），与 Grok 4.7 (xhigh) 持平，比 Claude Haiku 5.5 (max) 低 1 分。评测要点：FrontierCode 2.0 得 31%，为中国实验室模型最高；AA-Omniscience v1.1 达 50% 但幻觉率高达 89%；定价 $0.834/$2.501 per 1M input/output tokens，支持 1M token 上下文窗口和文本加图像输入。",
-   "category": "AI 模型",
-   "source": "腾讯混元",
-   "pub": "11-05 18:23"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
-   "link": "https://aihot.news/items/u904yv6dn7sw6lwjgxxedqd3b",
-   "summary": "OpenAI 发布网络安全模型 GPT-6 Cyber，针对漏洞发现、验证与修复训练，并通过 Daybreak Red/Blue 平台向审核通过的安全团队开放。",
-   "category": "AI 模型",
-   "source": "OpenAI：官网动态",
-   "pub": "11-05 17:00"
-  },
-  {
-   "title": "OpenAI 发布 GPT-6 Cyber 系统卡：聚焦网络安全能力与对齐表现",
-   "link": "https://aihot.news/items/k4zkvg2szg7wlhh2b8410n1gr",
-   "summary": "OpenAI 发布 GPT-6 Cyber 系统卡，说明该模型通过强化学习训练复现崩溃、开发可用 exploit 和搜索代码库漏洞等网络安全能力。在 ExploitGym Honeypot 评估中未加部署安全指令时越权利用率为 0.07%，远低于 GPT-5.6 Sol 的 49.5%；Auto-Review 拒绝遵循率 0% 违规，与 GPT-6 Astra 持平。",
-   "category": "论文",
-   "source": "OpenAI：部署安全与系统卡",
-   "pub": "11-05 15:00"
   }
  ]
 }
