@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-11-11 07:52",
+ "generated_at": "2026-11-11 15:27",
  "weather": {
   "city": "哈尔滨",
-  "temp": -3,
-  "desc": "少云",
-  "feels": -8,
-  "humidity": 64,
-  "wind": 12,
+  "temp": 6,
+  "desc": "阴",
+  "feels": 1,
+  "humidity": 50,
+  "wind": 13,
   "hi": 7,
   "lo": -6
  },
  "news": [
+  {
+   "title": "WSJ：Anthropic 7 位创始人 IPO 各套现约 2.5 亿美元并保留控制权",
+   "link": "https://aihot.news/items/ajjv9abs8vd20j05emcig98ai",
+   "summary": "WSJ 报道，Anthropic 7 位创始人将在 IPO 中各出售约 2.5 亿美元股票，每人保留约 180 亿美元持仓。据公司文件，每人出售近 3.4M 股，发行价区间预计 70 至 78 美元，上市预计下周进行，估值接近 1.3 万亿美元，募资 800 亿美元以上，部分通过包括 Google 在内的私募配售。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-11 13:47"
+  },
+  {
+   "title": "Anthropic 修订版 S1 文件披露与 Microsoft 和 Google 超 100 亿美元级新算力协议",
+   "link": "https://aihot.news/items/xshgfc1vcvgrdkvnomagmefwy",
+   "summary": "Anthropic 在当日修订的 S1 文件中披露与 Microsoft 和 Google 达成超 100 亿美元的新协议。Microsoft 承诺到 2033 年 6 月支出至少 472 亿、最高 492 亿美元，Google 最低承诺从约 1145 亿升至约 1213 亿美元，两笔均不可撤销、无论是否使用容量都须付款。文件还提到上季度短期算力支出 50 亿美元且价格明显更高。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-11 12:14"
+  },
+  {
+   "title": "Anthropic 投资需求火热，承销商拟将 IPO 目标估值上调回 $1.5T 或更高",
+   "link": "https://aihot.news/items/m7ul4psbkb5zyp0t254fr986o",
+   "summary": "FT 报道，因投资者需求旺盛，Anthropic 承销商计划上调 IPO 定价，把目标估值拉回 $1.5T 或更高。周二文件设定 $70-$78 的发行区间，计入员工期权和受限股后对应 $1.26T-$1.41T 估值；若定价超出区间，募资将超过 $100B，其中 Google、Nvidia 和 Microsoft 将按 IPO 价格投资 $26B。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-11 08:58"
+  },
   {
    "title": "Berkeley RDI 发布 CyberBinGym 基准，测试 AI 智能体能否仅凭二进制补丁写出真实漏洞利用",
    "link": "https://aihot.news/items/xenhfme3azzcf8qpihr57fb93",
@@ -18,6 +42,30 @@
    "category": "论文",
    "source": "Berkeley RDI：Blog",
    "pub": "11-11 08:00"
+  },
+  {
+   "title": "OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本",
+   "link": "https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4",
+   "summary": "OpenRouter 实测同一 GitHub 任务下 MCP、CLI 与 skill 的 token 成本：在 Claude Sonnet 5.5 上 CLI 用 1。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "11-11 08:00"
+  },
+  {
+   "title": "OpenRouter 实测 fp8 与 fp4 量化对模型质量和价格的影响",
+   "link": "https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb",
+   "summary": "OpenRouter 发布量化解析文章，讲解 LLM 量化原理，并报告 2026 年 10 月 20 日对 1455 个 provider 端点和 Qwen3.8 27B 六个端点的实测。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "11-11 08:00"
+  },
+  {
+   "title": "Claude Fable 5.2 实测观察：大模型正用代码吞噬审美与创作",
+   "link": "https://aihot.news/items/uditkv6u7rrzmtj1nx7pxbgjj",
+   "summary": "作者实测 Claude Fable 5.2 与 Gemini 4 Carbon 并对比后认为，Fable 5.2 的突出差异在于审美，这是无法用 Benchmark 评估但可直观感受的东西。",
+   "category": "观点",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-11 07:56"
   },
   {
    "title": "Microsoft Research 揭示 Lazarus 权重空间后门技术，通过重编程休眠神经元攻击 AI Agent",
@@ -106,6 +154,14 @@
    "category": "论文",
    "source": "Wiz：Research",
    "pub": "11-11 00:03"
+  },
+  {
+   "title": "百度发布 ERNIE 5.5 Flash Preview，权重将于 11 月 25 日前开源",
+   "link": "https://aihot.news/items/qd3f4j2hd0t98tqf28iv7pu2j",
+   "summary": "百度发布 ERNIE 5.5 Flash Preview，是基于此前 Base 模型的首个后训练版本，总参数 280B、激活参数 14B，支持 1M 上下文。模型 API 已在千帆平台上线，权重将于 11 月 25 日前开源；官方展示了游戏开发、3D 建模、知识工作、视频创作等 Agent 场景成果，并称该版本为后训练中间版本，正式版仍将持续优化。",
+   "category": "AI 模型",
+   "source": "百度文心 ERNIE 官方博客",
+   "pub": "11-11 00:00"
   },
   {
    "title": "Google DeepMind 用 AlphaProof Code 对 Signal 协议机器码完成形式化安全验证",
@@ -354,62 +410,6 @@
    "category": "教程",
    "source": "Anthropic：Claude.dev 开发者博客",
    "pub": "11-09 20:00"
-  },
-  {
-   "title": "Anthropic 用 1000 个 Claude Fable 5.2 智能体在沙箱内复现费马大定理形式化证明",
-   "link": "https://aihot.news/items/y0m3p1gin2dlfm4ns7gsrkvr8",
-   "summary": "Anthropic 的玩具实验中，1000 个运行 Claude Fable 5.2 早期版本的智能体在无 Prove2Me 平台和研究者指导的情况下复现了费马大定理的形式化证明，耗时 28.7 小时，输出 token 仅为原 9 月形式化的三分之一，证明长度为七分之一。",
-   "category": "论文",
-   "source": "Anthropic：Claude.dev 开发者博客",
-   "pub": "11-09 20:00"
-  },
-  {
-   "title": "Nvidia CEO 黄仁勋婚外情风波削弱其对严格 AI 芯片出口管制的游说",
-   "link": "https://aihot.news/items/e17dl64mjiov57c0jtwn41bxd",
-   "summary": "据 Bloomberg 报道，Nvidia CEO 黄仁勋在全员备忘录中承认与被美国情报机构认定为疑似中国情报人员线人的 Alice Huang（Huang Le）存在婚外关系，董事会已启动独立董事主导的调查。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "11-09 19:38"
-  },
-  {
-   "title": "Meta 发布最小最高效模型 Muse Ember，主打智能体高频任务",
-   "link": "https://aihot.news/items/cox936nwax49rkiimi1oicgzu",
-   "summary": "Meta 发布 Muse Ember（muse-ember-1.0），定位最小最高效的复杂推理执行模型，面向工具调用、编码子任务、路由、抽取和长文档解析等智能体日常重复任务。",
-   "category": "AI 模型",
-   "source": "Meta AI：Research Blog",
-   "pub": "11-09 15:00"
-  },
-  {
-   "title": "耶鲁教授 Sonnenfeld 估计黄仁勋职位去留概率约为 50-50",
-   "link": "https://aihot.news/items/i8df3mmfly47axpbbr1p6ivh5",
-   "summary": "Nvidia 董事会宣布对 CEO 黄仁勋启动独立调查后，TechCrunch 采访耶鲁教授 Jeffrey Sonnenfeld，他估计黄仁勋保住职位的概率约为 50-50。",
-   "category": "观点",
-   "source": "TechCrunch：AI",
-   "pub": "11-09 13:26"
-  },
-  {
-   "title": "数字生命卡兹克上线免费 Token 福利聚合网站 Token羊毛",
-   "link": "https://aihot.news/items/e80fmjdp23n217sd6e7ky52om",
-   "summary": "数字生命卡兹克上线免费聚合网站 Token羊毛（aihot.news/free-tokens），把各厂商公开的免费额度、签到积分、限时免费等活动汇总到一页，页面显示今日可领金额并按日、周、月分组，还设计了随领取次数升级亮度的卡片收集玩法。",
-   "category": "AI 产品",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "11-09 07:56"
-  },
-  {
-   "title": "字节发布 Seedream 5.5 图像创作模型：支持 100 轮编辑与原生 RGBA 透明输出",
-   "link": "https://aihot.news/items/xsvt2hlwuovul9sdvazcw7cxk",
-   "summary": "字节 Seed 发布新一代图像创作模型 Seedream 5.5，带来三项升级：非编辑区域像素级保持、支持围绕同一作品多达 100 轮连续编辑；新增原生 RGBA 透明素材生成，直接输出带 Alpha 通道的图像，省去抠图；改善光照材质与皮肤纹理表现，并显著提升文字渲染能力。",
-   "category": "AI 模型",
-   "source": "字节 Seed：Research Feed",
-   "pub": "11-09 00:00"
-  },
-  {
-   "title": "Anthropic 测试 Claude Fable 5.2 端到端设计三种电子设备并制作可用原型",
-   "link": "https://aihot.news/items/xmqflr9ja0pipwyibtqnf8qsj",
-   "summary": "Anthropic 与 Diode Computers 合作，让 Claude Fable 5.2 从简单提示词出发完成免提音箱、语音助手中枢和电子宠物三种设备的设计，包括 PCB 布局、CAD 建模、固件编写和 DFM 检查，三块电路板直接由工厂按设计文件制造，原型经数周使用仍正常工作。",
-   "category": "论文",
-   "source": "Anthropic：Research",
-   "pub": "11-09 00:00"
   }
  ]
 }
