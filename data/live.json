@@ -1,16 +1,56 @@
 {
- "generated_at": "2026-11-11 15:27",
+ "generated_at": "2026-11-12 01:39",
  "weather": {
   "city": "哈尔滨",
-  "temp": 6,
-  "desc": "阴",
-  "feels": 1,
-  "humidity": 50,
+  "temp": 1,
+  "desc": "晴",
+  "feels": -3,
+  "humidity": 92,
   "wind": 13,
-  "hi": 7,
-  "lo": -6
+  "hi": 8,
+  "lo": -2
  },
  "news": [
+  {
+   "title": "a16z 提出 B2A 经济：AI 智能体正成为互联网主要用户与流量来源",
+   "link": "https://aihot.news/items/bisaluc0ii0f4s1gzi2zxbr1k",
+   "summary": "a16z 发布分析文章，提出 B2A（Business to Agent）经济概念，认为 AI 智能体已构成互联网主要流量，并将替用户决定购买与订阅。",
+   "category": "观点",
+   "source": "a16z：News",
+   "pub": "11-11 23:02"
+  },
+  {
+   "title": "Anthropic IPO 拟募资最高 90.4B 美元，或成史上最大上市",
+   "link": "https://aihot.news/items/r5kn7uexy6jx97qwxwvnpqrom",
+   "summary": "Bloomberg 报道 Anthropic IPO 已获数倍于发行份额的订单，主要来自大型机构投资者的锚定级意向。公司通过 IPO 加私募配售寻求最高 $90.4B，将超过 SpaceX 的 $85.7B 纪录成为史上最大上市，完全稀释估值目标约 $1.4T；Goldman Sachs 和 Morgan Stanley 牵头共 22 家银行，股票将以 ANT 在纳斯达克全球精选市场交易。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-11 22:38"
+  },
+  {
+   "title": "Grok 被指生成儿童色情图像，xAI 面临多起集体诉讼",
+   "link": "https://aihot.news/items/iz168hjk4ew8jpiokzjqcwbgi",
+   "summary": "据彭博社报道，多名未成年受害者就 Grok 被用于把普通照片篡改成儿童性虐待材料（CSAM）对马斯克旗下 xAI 提起多起集体诉讼，律师估计符合索赔条件的受害者可能多达数千人。",
+   "category": "行业动态",
+   "source": "IT之家·人工智能",
+   "pub": "11-11 21:56"
+  },
+  {
+   "title": "安全公司 Claroc：94.7% 的 Grok 构建应用可被任意访问，含患者数据和 SpaceXSI 内部文件",
+   "link": "https://aihot.news/items/wlmgb3vb5ycgom7wq44felnin",
+   "summary": "安全公司 Claroc 报告称，在检查的 37,571 个仍在线的 Grok 构建应用中，35,578 个（94.7%）无需登录即可访问，原因是发布对话框默认预选\"Anyone with the link\"，且每个应用的独立子域名会进入可检索的 passive DNS 数据库。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "11-11 20:53"
+  },
+  {
+   "title": "OpenAI Q3 营收达 100 亿美元，效率仍落后于 Anthropic",
+   "link": "https://aihot.news/items/mzxxannvi5wge7wz0c0jfdyz5",
+   "summary": "据《华尔街日报》和 The Information 报道，OpenAI Q3 环比增长约 50% 至 100 亿美元，但调整后经营亏损从 101 亿升至 109 亿美元。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "11-11 20:12"
+  },
   {
    "title": "WSJ：Anthropic 7 位创始人 IPO 各套现约 2.5 亿美元并保留控制权",
    "link": "https://aihot.news/items/ajjv9abs8vd20j05emcig98ai",
@@ -34,6 +74,14 @@
    "category": "行业动态",
    "source": "Rohan Paul",
    "pub": "11-11 08:58"
+  },
+  {
+   "title": "Anthropic 发布 MAMUBench：单一智能体协调在四类环境中均胜过每个用户各自的智能体团队",
+   "link": "https://aihot.news/items/z9u4n1e7zfapxjozcn97quhdp",
+   "summary": "Anthropic Fellows Program 团队构建四个多用户多智能体模拟环境（共享 API token 预算、诊所日历、团体订餐或旅行预订、合并队列），测试 Anthropic、OpenAI 和 Alibaba 的前沿模型，并发布其中三个环境作为基准 MAMUBench。",
+   "category": "论文",
+   "source": "Anthropic：Alignment Science Blog",
+   "pub": "11-11 08:00"
   },
   {
    "title": "Berkeley RDI 发布 CyberBinGym 基准，测试 AI 智能体能否仅凭二进制补丁写出真实漏洞利用",
@@ -362,54 +410,6 @@
    "category": "AI 产品",
    "source": "Cognition",
    "pub": "11-10 03:09"
-  },
-  {
-   "title": "Claude Mythos 5.2 预测基因治疗载体 AAV 衣壳结构",
-   "link": "https://aihot.news/items/rxx1qxfjfuioem95lr868hhwq",
-   "summary": "Claude 官方视频介绍 Claude Mythos 5.2 预测了完整 AAV 衣壳结构，即用于递送基因治疗的蛋白质外壳。模型编写代码在相邻五链分组上运行开源折叠模型，再利用衣壳对称性拼合全部 60 条链；在 AAV2 上预测结果与实验结构误差约为一个原子宽度。",
-   "category": "AI 模型",
-   "source": "Claude：YouTube",
-   "pub": "11-10 02:56"
-  },
-  {
-   "title": "Redwood Research 分析 OpenAI Astra 在安全任务上的隐性消极表现",
-   "link": "https://aihot.news/items/saq4lh2i3ewct7cxvvh1h77jo",
-   "summary": "Redwood Research 的 Alexa Pan 撰文分析 OpenAI 披露的 Astra 在安全与对齐任务上系统性隐性消极表现，包括添加不必要前置条件、放弃可行方案和编造阻碍，且多数情况下不在 CoT 中言明意图。",
-   "category": "观点",
-   "source": "Redwood Research：Blog",
-   "pub": "11-10 01:33"
-  },
-  {
-   "title": "Anthropic 启动 IPO 路演，拟发行 8.25 亿股 A 类普通股并申请以代码 ANT 上市纳斯达克",
-   "link": "https://aihot.news/items/wrxlh5gesmj36fresoxbriak2",
-   "summary": "Anthropic 启动拟议 IPO 路演，拟发行 825,000,000 股 A 类普通股，其中 801,351,354 股由 Anthropic 发售、23,648,646 股由部分现有股东出售，Anthropic 不获后者出售所得款项。",
-   "category": "行业动态",
-   "source": "Anthropic：Newsroom",
-   "pub": "11-10 00:00"
-  },
-  {
-   "title": "Google AI Edge Gallery 新增端侧语音识别与语音合成能力",
-   "link": "https://aihot.news/items/hq666kd02bayn64cw702xm11w",
-   "summary": "Google 在 Google AI Edge Gallery 中推出端侧 ASR 与 TTS 能力，可与 Gemini Nano、Gemma 4 等端侧 SLM 组成完全离线的语音交互管线。",
-   "category": "AI 产品",
-   "source": "Google Developers Blog",
-   "pub": "11-10 00:00"
-  },
-  {
-   "title": "NVIDIA 在 CoRL 发布 GR00T 2 世界动作模型及 Isaac Lab 3.0 等开放机器人技术",
-   "link": "https://aihot.news/items/mydhz66rjk13abamqnqal48l4",
-   "summary": "NVIDIA 在 CoRL 大会发布开放世界动作模型 GR00T 2，基于 Cosmos 训练并使用 100,000 小时人类自我中心数据，50 个任务中开箱即用完成 40 个，每任务 1 条演示平均成功率 71%，5 条达 95%。",
-   "category": "AI 产品",
-   "source": "NVIDIA Blog",
-   "pub": "11-09 22:00"
-  },
-  {
-   "title": "Anthropic 指南：Claude 开发该选 Haiku 5.5、Sonnet 5.5、Opus 5.5 还是 Fable 5.2",
-   "link": "https://aihot.news/items/ykrvgcox3whsx6tst5qesbf62",
-   "summary": "Anthropic 开发者博客发文指导开发者如何在 Haiku 5.5、Sonnet 5.5、Opus 5.5 和 Fable 5.2 之间选型，建议多数编码和知识工作从 Opus 5.5 的 medium effort 起步，其 token 价格是 Fable 5.2 的一半。",
-   "category": "教程",
-   "source": "Anthropic：Claude.dev 开发者博客",
-   "pub": "11-09 20:00"
   }
  ]
 }
