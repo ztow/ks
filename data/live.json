@@ -1,20 +1,60 @@
 {
- "generated_at": "2026-11-12 01:39",
+ "generated_at": "2026-11-12 09:15",
  "weather": {
   "city": "哈尔滨",
-  "temp": 1,
-  "desc": "晴",
-  "feels": -3,
-  "humidity": 92,
-  "wind": 13,
+  "temp": 4,
+  "desc": "阴",
+  "feels": 0,
+  "humidity": 90,
+  "wind": 19,
   "hi": 8,
   "lo": -2
  },
  "news": [
   {
-   "title": "a16z 提出 B2A 经济：AI 智能体正成为互联网主要用户与流量来源",
+   "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
+   "link": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
+   "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "11-12 08:00"
+  },
+  {
+   "title": "WSJ 报道 Nvidia 董事会接近决定是否罢免 CEO 黄仁勋",
+   "link": "https://aihot.news/items/aoxmmcsudy1gf9xmti7slu1wd",
+   "summary": "WSJ 报道，Nvidia 董事会此前公开支持黄仁勋，如今接近决定是否罢免这位创始人 CEO。起因是黄仁勋与一名被指为中国情报人员的女子交往，随后又曝出与一名 Nvidia 员工的第二段婚外情；周日开始独立调查时董事会表示没有理由认为 Nvidia 机密泄露。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-12 07:43"
+  },
+  {
+   "title": "Runway 开源 27B 世界动作模型 Praxis-1，权重采用 Apache 2.0 许可",
+   "link": "https://aihot.news/items/bx3sq4dxfqblyztkuiktiz0wv",
+   "summary": "Runway 宣布世界动作模型 Praxis-1 以 Apache 2.0 开放权重面向所有人开放。该模型为 27B 参数 MoE 扩散 Transformer，同时预测视频与动作，在 NVIDIA RoboLab-120 榜单以 46.2% 成功率居首，超过 FLUX 3 Action（42.9%）、Cosmos3 Nano（36.8%）和 π0.5（28.0%）。",
+   "category": "AI 模型",
+   "source": "Runway：News",
+   "pub": "11-12 07:25"
+  },
+  {
+   "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策",
+   "link": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
+   "summary": "Google 推出 Gemini Decisions API，由新模型 Gemini Decision 1 驱动，可在 150-250ms 端到端延迟内对文本、图像、音频、视频和 PDF（最多 256K tokens）一次性评估最多 1000 个是/否、多选和评分题。",
+   "category": "AI 产品",
+   "source": "Google Blog：AI",
+   "pub": "11-12 02:00"
+  },
+  {
+   "title": "Claude Code 中如何选择 Fable 5.2 与 Opus 等模型",
+   "link": "https://aihot.news/items/ep5oqt7m4l7gn3tqieilznmuk",
+   "summary": "Claude 发布视频教程，讲解在 Claude Code 中何时使用 Fable 5.2、Opus 5.5，何时降级到 Sonnet 5.5 或 Haiku 5.5，以及如何把一个任务拆分给多个模型。视频覆盖复杂编码与开放式技术工作、低成本明确任务等场景，并提供在自有任务上测量各模型表现的指南链接；可用性与用量限制因套餐而异。",
+   "category": "教程",
+   "source": "Claude：YouTube",
+   "pub": "11-12 01:30"
+  },
+  {
+   "title": "a16z 提出 B2A 经济：AI 智能体正成为新的流量与分发渠道",
    "link": "https://aihot.news/items/bisaluc0ii0f4s1gzi2zxbr1k",
-   "summary": "a16z 发布分析文章，提出 B2A（Business to Agent）经济概念，认为 AI 智能体已构成互联网主要流量，并将替用户决定购买与订阅。",
+   "summary": "a16z 发布文章提出 B2A 经济概念，认为 AI 智能体已占大多数网络流量，正从回答问题转向代替用户完成任务和消费。",
    "category": "观点",
    "source": "a16z：News",
    "pub": "11-11 23:02"
@@ -370,46 +410,6 @@
    "category": "AI 模型",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-10 07:21"
-  },
-  {
-   "title": "做空机构 Culper Research 曾在丑闻爆发前六个月提示 Nvidia CEO 与疑似中国间谍的关系",
-   "link": "https://aihot.news/items/zqvokl37rwbvoxzfk3c2v7964",
-   "summary": "Nvidia 间谍丑闻爆发前六个月，做空机构 Culper Research 已在 5 月 13 日报告中质疑 CEO 黄仁勋与 Megaspeed 高管 Alice Huang 关系“异常密切”。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-10 06:46"
-  },
-  {
-   "title": "Figma 官方讲解画布智能体的 6 种实用方法",
-   "link": "https://aihot.news/items/lko5m98q1kk1dlcjihvk527w8",
-   "summary": "Figma 官方介绍了在其画布上使用 Figma agent 的六种方法，覆盖从设计初期探索到交付前细节的各个阶段。",
-   "category": "教程",
-   "source": "Figma AI / Agent / Make",
-   "pub": "11-10 05:46"
-  },
-  {
-   "title": "Claude Fable 5.2 上线 Higgsfield，开放 3 天免费试用",
-   "link": "https://aihot.news/items/ugn21ui1m8kftffpe2c95qlkx",
-   "summary": "Higgsfield 宣布 Claude Fable 5.2 已在 Higgsfield MCP 上线，提供 3 天免费不限量使用全部顶级视频和图像模型。作者称该 Anthropic 新模型擅长 3D 建模、视觉推理、computer use 和编码；引用内容提到 Claude Fable 5.2 与 Claude Mythos 5.2 在编码、推理和视觉方面有提升。",
-   "category": "AI 产品",
-   "source": "Higgsfield AI",
-   "pub": "11-10 04:06"
-  },
-  {
-   "title": "Artificial Analysis 评测 Claude Fable 5.2：以 65 分登顶 Intelligence Index v5",
-   "link": "https://aihot.news/items/m23i0fgxrk1t2gqysu6mqv82s",
-   "summary": "Artificial Analysis 评测 Anthropic 发布的 Claude Fable 5.2，其在 Artificial Analysis Intelligence Index v5 以 65 分登顶，领先 Gemini 4 Carbon（60）和 Claude Opus 5.5（59）。",
-   "category": "AI 模型",
-   "source": "Artificial Analysis",
-   "pub": "11-10 03:45"
-  },
-  {
-   "title": "Claude Fable 5.2 上线 Devin Desktop 和 Devin CLI",
-   "link": "https://aihot.news/items/rth7pxd3xqp2zkd2e1psjgtbl",
-   "summary": "Cognition 宣布 Claude Fable 5.2 现已在 Devin Desktop 和 Devin CLI 中可用。该模型在 FrontierCode 2.0 上以 49.1 分排名第一；相比 Fable 5.1，在低推理力度下以约三分之一的价格超过前代得分。",
-   "category": "AI 产品",
-   "source": "Cognition",
-   "pub": "11-10 03:09"
   }
  ]
 }
