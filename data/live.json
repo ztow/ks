@@ -1,20 +1,36 @@
 {
- "generated_at": "2026-11-12 09:15",
+ "generated_at": "2026-11-12 20:06",
  "weather": {
   "city": "哈尔滨",
-  "temp": 4,
-  "desc": "阴",
-  "feels": 0,
-  "humidity": 90,
-  "wind": 19,
+  "temp": -1,
+  "desc": "晴",
+  "feels": -4,
+  "humidity": 83,
+  "wind": 6,
   "hi": 8,
   "lo": -2
  },
  "news": [
   {
+   "title": "Anthropic 官宣首次公开募股（IPO）",
+   "link": "https://aihot.news/items/k99zjo9hbtous9r6vmmz7pxyh",
+   "summary": "Anthropic 官方宣布启动首次公开募股（IPO），并公布入口 ipo.anthropic.com。Anthropic 已向 SEC 提交注册声明及招股说明书，证券在注册声明生效前不得出售，初步招股说明书可经高盛与摩根士丹利获取。",
+   "category": "行业动态",
+   "source": "Anthropic",
+   "pub": "11-12 19:30"
+  },
+  {
    "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
    "link": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
    "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
+   "pub": "11-12 08:00"
+  },
+  {
+   "title": "OpenRouter 详解自纠错网站本地化流水线：GPT-6.1 Sol 翻译 7 种语言全站约 $460",
+   "link": "https://aihot.news/items/cve017k4le2q7l8x1bfr2xdjx",
+   "summary": "OpenRouter 上线简体中文、日语等 7 种语言 Beta 本地化，并详解配套的自纠错翻译流水线：GPT-6.1 Sol 翻译 16,918 条字符串，经代码检查、同模型校验和每日 AI 审查重试，最坏情况每条约 20 次模型调用。全站重译 7 种语言约 $460，约为 Smartling 机器翻译牌价的 6%，错误报告会转化为术语规则、风格注释或评测用例。",
    "category": "教程",
    "source": "OpenRouter：Announcements",
    "pub": "11-12 08:00"
@@ -394,22 +410,6 @@
    "category": "AI 产品",
    "source": "Simon Willison 博客",
    "pub": "11-10 07:58"
-  },
-  {
-   "title": "The Verge 梳理黄仁勋与 Megaspeed 高管丑闻对 Nvidia 出口管制游说的影响",
-   "link": "https://aihot.news/items/kci32x4hgxrdl0v5o4xrjlxri",
-   "summary": "The Verge 依据《纽约时报》等报道梳理 Nvidia CEO 黄仁勋与新加坡云服务商 Megaspeed 高管 Alice Huang 的婚外情风波。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "11-10 07:51"
-  },
-  {
-   "title": "实测 Claude Fable 5.2：一次直出视频与 3D 网页，审美与细节表现突出",
-   "link": "https://aihot.news/items/po2cdt1whxfqyfew3e81l8mb0",
-   "summary": "Anthropic 凌晨正式发布 Claude Fable 5.2，作者第一时间实测视频动效、Three.js 3D 场景和苹果静安店 3D 网页等 10 个任务，全部一次直出，未发现生成视频中的事实错误。",
-   "category": "AI 模型",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "11-10 07:21"
   }
  ]
 }
