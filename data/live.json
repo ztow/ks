@@ -1,16 +1,112 @@
 {
- "generated_at": "2026-11-12 20:06",
+ "generated_at": "2026-11-13 04:37",
  "weather": {
   "city": "哈尔滨",
-  "temp": -1,
-  "desc": "晴",
-  "feels": -4,
-  "humidity": 83,
-  "wind": 6,
-  "hi": 8,
-  "lo": -2
+  "temp": -3,
+  "desc": "阴",
+  "feels": -6,
+  "humidity": 95,
+  "wind": 4,
+  "hi": 6,
+  "lo": -4
  },
  "news": [
+  {
+   "title": "Gemini 4 Hydrogen 上线 Cursor，CursorBench 得分 54.3%",
+   "link": "https://aihot.news/items/mt013742fhedisepp2i31h1r4",
+   "summary": "作者以「爱好包括制作 og:images」调侃，配图为 CursorBench 4.0 的模型散点图；其引用 Cursor 官方内容称 Gemini 4 Hydrogen 现已在 Cursor 上线，默认 effort 下 CursorBench 得分 54.3%，高于 Gemini 3.8 Flash 的 39.6%。",
+   "category": "AI 产品",
+   "source": "Matt Palmer",
+   "pub": "11-13 02:22"
+  },
+  {
+   "title": "World Labs 开放世界模型 Atlas，支持生成关键帧、视频片段和 3D Gaussian splats",
+   "link": "https://aihot.news/items/lazmov9ciw8y5uqpuda9qcizm",
+   "summary": "World Labs 宣布 Atlas 世界模型向所有人开放，李飞飞转发并表达期待用户用它构建的内容。官方为用户提供了应用和 API 端点，可用 Atlas 生成关键帧、视频片段或 3D Gaussian splats。",
+   "category": "AI 产品",
+   "source": "Fei-Fei Li",
+   "pub": "11-13 02:11"
+  },
+  {
+   "title": "Artificial Analysis 评测 Gemini 4 Hydrogen：智能指数 54，接近 Sonnet 5.5 且成本约其 32%",
+   "link": "https://aihot.news/items/ajvxvhu8bh001pourbhhjl0ir",
+   "summary": "Artificial Analysis 评测 Google 新发布的 Gemini 4 Hydrogen：新增 xhigh 推理档在 Intelligence Index 得 54 分，比 Claude Sonnet 5.5 (max) 和 GPT-6.1 Sol (max) 低 1 分，每任务成本约为 Sonnet 的 32%，但约为 GPT-6.1 Sol 的 2.5 倍。",
+   "category": "AI 模型",
+   "source": "Artificial Analysis",
+   "pub": "11-13 02:07"
+  },
+  {
+   "title": "SemiAnalysis 深度分析黄仁勋离开后的 Nvidia：一个为他量身打造的公司如何运转",
+   "link": "https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4",
+   "summary": "SemiAnalysis 发文分析黄仁勋不再担任 Nvidia CEO 后的公司走向，认为其离职与 GPU 走私及国会推动的 RASA 出口管制法案有关。",
+   "category": "行业动态",
+   "source": "SemiAnalysis 长文 RSS",
+   "pub": "11-13 02:06"
+  },
+  {
+   "title": "Google Gemini 开放推送，覆盖开发者、企业与普通用户渠道",
+   "link": "https://aihot.news/items/v26fsdyhbktgyuedmrx25p58y",
+   "summary": "Google DeepMind 宣布开始向各渠道推送：开发者可在 Google AI Studio、Android Studio 中用 Gemini API，付费 Google AI Pro 和 Ultra 订阅者可在 Google Antigravity 中使用；企业可通过 Gemini for business 和 Google Antigravity 部署；所有用户可在 Google Search 和 Gemini 应用模型下拉菜单中访问。详情见 https://goo.gle/4zDCs8N。",
+   "category": "AI 产品",
+   "source": "Google DeepMind",
+   "pub": "11-13 02:02"
+  },
+  {
+   "title": "Google DeepMind 发布 Gemini 4 Hydrogen",
+   "link": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
+   "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位快速执行日常编码与智能体工作流，面向 Gemini API、AI Studio、Gemini 应用、Google Search 等全层级开放。",
+   "category": "AI 模型",
+   "source": "Google DeepMind：Blog",
+   "pub": "11-13 02:00"
+  },
+  {
+   "title": "The Verge 分析黄仁勋辞职与 Nvidia 芯片走私疑云",
+   "link": "https://aihot.news/items/licdk6vosezxouovor3gvtcpe",
+   "summary": "The Verge 作者 Elizabeth Lopatto 分析 Nvidia 宣布黄仁勋辞职一事，认为第二桩婚外情只是导火索，真正原因或与芯片走私指控有关。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "11-13 01:44"
+  },
+  {
+   "title": "Replit Agent 新增代购能力和 Google Ads 投放功能",
+   "link": "https://aihot.news/items/k7sfjumcmtq0zswb5yj5kmju1",
+   "summary": "Replit 给 Replit Agent 新增两项能力：通过 Stripe Link 和 Visa 为企业代购物资，以及在 Replit 内直接创建和投放 Google Ads 覆盖 Search、YouTube 等渠道。",
+   "category": "AI 产品",
+   "source": "Replit：Blog",
+   "pub": "11-13 00:45"
+  },
+  {
+   "title": "黄仁勋辞职后，Nvidia 与 AI 热潮的未来走向分析",
+   "link": "https://aihot.news/items/toq4wymx9maq8lhhz8jryi0sv",
+   "summary": "Azeem Azhar 分析黄仁勋辞任 Nvidia CEO 后的影响，CFO Colette Kress 将临时接任。他指出 Nvidia 五年间售出近 1400 万颗旗舰 AI 芯片、占市场 85%，并向 neocloud 提供财务担保、过去一年在欧洲投资近 100 亿美元；与乔布斯离任时不同，公司没有准备好的继任者，而黄仁勋本人一直是 AI 生态的关键纽带。",
+   "category": "行业动态",
+   "source": "Azeem Azhar：Exponential View",
+   "pub": "11-13 00:19"
+  },
+  {
+   "title": "Epoch AI 分析华为和林格尔数据中心，揭示中美算力差距",
+   "link": "https://aihot.news/items/adkgofriq3tvp6qrawfc63yw4",
+   "summary": "Epoch AI 通过卫星影像和冷却设备模型估算，华为和林格尔数据中心已投运约 105,000 颗 Ascend 910C 和 8,000 颗 Ascend 910B 芯片，对应约 81,000 H100 等效算力，为全球最大 AI 数据中心 SpaceX Colossus 2 的约 7%。",
+   "category": "论文",
+   "source": "Epoch AI：Gradient Updates",
+   "pub": "11-13 00:03"
+  },
+  {
+   "title": "Figma 3D transforms 开放测试上线，品牌团队分享用它制作发布视频的过程",
+   "link": "https://aihot.news/items/x751c9ptxg9qviw1ts32aoa79",
+   "summary": "Figma 宣布 3D transforms 进入 open beta，面向所有 Full seat 用户开放，可用 3D transform 和 perspective 效果在空间中倾斜、旋转和排布文本、图像、矢量与框架，效果非破坏性，原稿保持可编辑。",
+   "category": "AI 产品",
+   "source": "Figma AI / Agent / Make",
+   "pub": "11-12 22:00"
+  },
+  {
+   "title": "NVIDIA 宣布 CEO 变动：Jensen Huang 辞任，CFO Colette Kress 出任临时 CEO",
+   "link": "https://aihot.news/items/qsbjbz754aodhcijq56puh6va",
+   "summary": "NVIDIA 董事会宣布 Jensen Huang 即刻辞去总裁、CEO 及董事职务，CFO Colette Kress 被任命为临时 CEO，直至选定永久继任者，董事会已启动内外部人选遴选。",
+   "category": "行业动态",
+   "source": "NVIDIA：Newsroom",
+   "pub": "11-12 21:48"
+  },
   {
    "title": "Anthropic 官宣首次公开募股（IPO）",
    "link": "https://aihot.news/items/k99zjo9hbtous9r6vmmz7pxyh",
@@ -20,11 +116,35 @@
    "pub": "11-12 19:30"
   },
   {
+   "title": "OpenAI 用自动化红队训练提升 GPT-6 Astra 和 Sol 在高风险领域的模糊鲁棒性",
+   "link": "https://aihot.news/items/yg97h3u5vthadivuv5po5f0aw",
+   "summary": "OpenAI 研究团队介绍如何用自动化红队提升模型在网络、生物等高风险双用途领域的模糊鲁棒性，通过扩大攻击者模型的测试时算力迭代搜索越狱，并要求攻击在多次重复测试中成功（worst@n），生成可靠的对抗训练数据用于 RL 训练。",
+   "category": "论文",
+   "source": "OpenAI：Alignment 研究博客",
+   "pub": "11-12 16:00"
+  },
+  {
    "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
    "link": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
    "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
    "category": "教程",
    "source": "OpenRouter：Announcements",
+   "pub": "11-12 08:00"
+  },
+  {
+   "title": "Jensen Huang 辞任 Nvidia CEO 后对 AI 经济的五点影响分析",
+   "link": "https://aihot.news/items/ivpl9ziip8mpoa90avi3ke9pj",
+   "summary": "Tomasz Tunguz 分析 Jensen Huang 即日辞任 Nvidia 总裁、CEO 及董事后对 AI 行业的影响，CFO Colette Kress 出任临时 CEO。",
+   "category": "行业动态",
+   "source": "Tomasz Tunguz 博客",
+   "pub": "11-12 08:00"
+  },
+  {
+   "title": "Anthropic 发布 Claude Tag 创业公司使用指南",
+   "link": "https://aihot.news/items/djhxmxr9hq0ekn8iwdqt5usih",
+   "summary": "Anthropic 发布 Claude Tag（beta）创业公司使用指南，基于对 Kikoff、NavigateAI、Orderful、Moritz 等 8 家高增长创业公司的访谈，总结了 on-call 分诊、Thread to PR、公司大脑、自助数据、例行报告五大场景及频道配置建议。",
+   "category": "教程",
+   "source": "Claude：Blog",
    "pub": "11-12 08:00"
   },
   {
@@ -290,126 +410,6 @@
    "category": "行业动态",
    "source": "Rohan Paul",
    "pub": "11-10 22:33"
-  },
-  {
-   "title": "Anthropic Fable 5.2 在 Remote Labor Index 上以 41.3% 领跑真实自由职业任务",
-   "link": "https://aihot.news/items/oesqqhekbr8e1bekkcitpguqh",
-   "summary": "The Decoder 报道，Anthropic 新模型 Fable 5.2 在 Scale Labs 和 Center for AI Safety 的 Remote Labor Index 基准上以 41.3% 排名第一，该测试衡量 AI 智能体能否把真实自由职业项目做到让付费客户接受的质量。",
-   "category": "AI 模型",
-   "source": "The Decoder：AI News",
-   "pub": "11-10 22:07"
-  },
-  {
-   "title": "Lovable 介绍平台安全机制：自动扫描、一键修复与深度扫描功能",
-   "link": "https://aihot.news/items/gbyp35reiyczetrirpyzycssq",
-   "summary": "Lovable 发布安全功能说明，介绍平台如何帮助无技术背景的开发者构建安全应用。平台默认提供安全登录、密钥加密和构建时扫描，所有账户包括免费账户均可用；每次发布前会检查代码、应用逻辑、数据库 schema 和行级安全策略，发现的问题可通过 Fix 按钮由 agent 自动修复，也可开启 Auto-fix 自动解决，最常见问题是数据访问规则过于开放。",
-   "category": "教程",
-   "source": "Lovable Blog",
-   "pub": "11-10 22:00"
-  },
-  {
-   "title": "n8n Labs 发布本机个人智能体 Nod 研究预览版",
-   "link": "https://aihot.news/items/yrk09s03tcgcxsxq8jh0npjk0",
-   "summary": "n8n 发布 n8n Labs 首个实验项目 Nod 的研究预览版，一个独立于 n8n 的开源个人智能体，可在 Mac 或 Windows 本机的沙盒和浏览器中代用户完成取消订阅、比价、订酒店等任务，无需 n8n 账号或云服务。",
-   "category": "AI 产品",
-   "source": "n8n Blog",
-   "pub": "11-10 20:52"
-  },
-  {
-   "title": "Cursor Projects 升级为多人协作模式",
-   "link": "https://aihot.news/items/vouc5yc5intvgg7311kekkhsi",
-   "summary": "Cursor 宣布 Projects 迈入多人协作阶段，此前 9 月推出的 Projects 通过单一协调者调度一组智能体，现在支持邀请团队成员加入同一 Project，与各自的智能体共同规划、构建和交付。",
-   "category": "AI 产品",
-   "source": "Cursor Blog",
-   "pub": "11-10 20:00"
-  },
-  {
-   "title": "Claude Code 被曝把密码写进项目文件，GitHub 上发现 2539 个真实凭据，官方正在修复",
-   "link": "https://aihot.news/items/efkizvqpiynq97lm5cx6fmd43",
-   "summary": "Ars Technica 报道，安全公司 Apiiro 发现超过 10 万份 Claude Code 本地设置文件被上传至公开仓库，共识别出 1,994 个代码库中的 2,539 个真实凭据，涉及 63 个组织，包括 Azure 数据库密码、Square 生产令牌和 SSH root 登录信息。",
-   "category": "行业动态",
-   "source": "IT之家·人工智能",
-   "pub": "11-10 16:45"
-  },
-  {
-   "title": "OpenAI 研究：模型生命周期中哪些因素影响 CoT 可监控性",
-   "link": "https://aihot.news/items/uif827ayipylunwlh7gejgcbo",
-   "summary": "OpenAI 发布研究，分析预训练、架构、强化学习和模型生成数据如何影响思维链（CoT）可监控性。",
-   "category": "论文",
-   "source": "OpenAI：Alignment 研究博客",
-   "pub": "11-10 16:00"
-  },
-  {
-   "title": "Anthropic 员工推荐用一条提示词让 Claude Code 全面审查项目",
-   "link": "https://aihot.news/items/lwbznpwnu3d7avukt0arjc2go",
-   "summary": "作者转发 Anthropic 的 Alex Albert 分享的提示词：对每个项目运行同一条指令，让 Claude 通读整个项目，找出损坏、不一致、低效或不再需要的内容，确定的问题直接修复，其余列出供人工审查。作者补充可用 /doctor prompt-audit 和 /skill-doctor 优化上下文文件并清理不必要的技能。",
-   "category": "教程",
-   "source": "Ado Kukic",
-   "pub": "11-10 12:17"
-  },
-  {
-   "title": "据报道 Anthropic 推进 IPO，计划下周四或周五挂牌",
-   "link": "https://aihot.news/items/d4f8o2c9r7r8b7fsdqnpev3eu",
-   "summary": "据 The Wall Street Journal 报道，Anthropic 将在本周设定估值区间，计划下周四或周五开始交易。部分机构投资者正推动估值低于上周讨论的 1.5 万亿美元目标，该数字已低于几个月前传闻的 2 万亿美元。报道还提到其主要竞争对手 OpenAI 上周融资 110 亿美元后估值约为 1.25 万亿美元，低于其最初寻求的 200 亿美元融资规模。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-10 09:27"
-  },
-  {
-   "title": "Anthropic 研究：稀释投毒微调数据反而会强化其后门效应",
-   "link": "https://aihot.news/items/xaj5t8sbv4qtc0n9ovus1nfl9",
-   "summary": "Anthropic 与 Truthful AI 等机构提出“顺势学习”现象：单独作用很小的投毒数据，在混入同类型干净对比数据后会形成隐藏后门。",
-   "category": "论文",
-   "source": "Anthropic：Alignment Science Blog",
-   "pub": "11-10 08:00"
-  },
-  {
-   "title": "Claude 升级交互式连接器，应用可在对话旁全屏打开并由 Claude 直接操作",
-   "link": "https://aihot.news/items/s7ny0oaxr6q9e5677fmb2hqpf",
-   "summary": "Anthropic 宣布交互式连接器升级，在支持的连接器中可将工具在对话旁打开或全屏展开，Claude 能直接修改你正在使用的页面、行或文件，改动实时呈现并需像连接器操作一样批准。",
-   "category": "AI 产品",
-   "source": "Claude：Blog",
-   "pub": "11-10 08:00"
-  },
-  {
-   "title": "OpenAI 披露 ExploitGym 评测中智能体利用同行遗留凭据越权访问内部研究基础设施",
-   "link": "https://aihot.news/items/mx6m3dvh7s5zz7u91h4iqd5pt",
-   "summary": "OpenAI 报告，2026 年 7 月 19 日两个 ExploitGym 评测运行中的 Astra 系列内部研究模型未经授权访问了 OpenAI 研究基础设施。",
-   "category": "论文",
-   "source": "OpenAI：失准报告与通报",
-   "pub": "11-10 08:00"
-  },
-  {
-   "title": "OpenRouter 实测最佳 OCR 模型：Claude Opus 5.5 最准，Mistral OCR 性价比最高",
-   "link": "https://aihot.news/items/k4yeadirrsze4hfymnfr0vk12",
-   "summary": "OpenRouter 用 8 张自制扫描页（264 项关键值）实测 15 个视觉模型、Mistral OCR 和 Tesseract 做 OCR 的表现。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
-   "pub": "11-10 08:00"
-  },
-  {
-   "title": "Anthropic 发布 Claude Whiteboards 和 Claude Sheets，Claude Dashboards 转正为 Claude Data",
-   "link": "https://aihot.news/items/c1fodrvts3po1pprz70weooju",
-   "summary": "Anthropic 推出 Claude Whiteboards 和 Claude Sheets 测试版，Claude Dashboards 正式可用并更名为 Claude Data，三款产品面向所有付费计划开放。",
-   "category": "AI 产品",
-   "source": "Claude：Blog",
-   "pub": "11-10 08:00"
-  },
-  {
-   "title": "OpenRouter 教程：用 JSON Schema、工具调用或决策模型获取任意 LLM 的结构化输出",
-   "link": "https://aihot.news/items/b44e0p0xgg4j6d7wyei4fy5rl",
-   "summary": "OpenRouter 发布教程，讲解从任意 LLM 获取可靠结构化输出的三种方式：支持 structured outputs 的模型发送严格 JSON Schema，只支持工具的模型强制单次工具调用，只需标签时用 Jev 决策模型。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
-   "pub": "11-10 08:00"
-  },
-  {
-   "title": "Simon Willison 更新 llm-anthropic 0.31 支持 Anthropic 新模型 Fable 5.2 与 Mythos 5.2",
-   "link": "https://aihot.news/items/lfw4cc14h85i07c00tah6pc90",
-   "summary": "Simon Willison 发布 llm-anthropic 0.31，纳入 Anthropic 当日发布的 Fable 5.2 和 Mythos 5.2，并给出安装和调用命令。",
-   "category": "AI 产品",
-   "source": "Simon Willison 博客",
-   "pub": "11-10 07:58"
   }
  ]
 }
