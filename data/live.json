@@ -1,16 +1,80 @@
 {
- "generated_at": "2026-11-13 19:48",
+ "generated_at": "2026-11-14 04:15",
  "weather": {
   "city": "哈尔滨",
-  "temp": -1,
+  "temp": -4,
   "desc": "晴",
-  "feels": -4,
-  "humidity": 84,
-  "wind": 5,
-  "hi": 6,
+  "feels": -7,
+  "humidity": 88,
+  "wind": 8,
+  "hi": 4,
   "lo": -4
  },
  "news": [
+  {
+   "title": "WSJ 报道称黄仁勋被罢免更多源于 Nvidia 高风险业务而非私生活",
+   "link": "https://aihot.news/items/s59xfwl0atld8vs7xq0pdx6hw",
+   "summary": "The Decoder 援引 WSJ 报道分析称，黄仁勋被罢免更多源于 Nvidia 高风险业务而非私生活传闻。Nvidia 在其主导下向 AI 云厂商和数据中心开发商提供数十亿美元财务担保以换取营收分成，最大一笔涉及对 OpenAI 俄亥俄数据中心的 2500 亿美元担保，消息公布后股价跌 5%，临时 CEO Colette Kress 将该承诺减半。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "11-14 04:07"
+  },
+  {
+   "title": "Claude Code Stop hook 技巧：用 exit code 2 让 Claude 在检查失败时自动重试",
+   "link": "https://aihot.news/items/p0jsxs2bnv6tmnmn1soi56759",
+   "summary": "Lydia Hallie 分享一个 Claude Code 使用技巧：用 Stop hook 让 Claude 在检查失败后自动重试，关键是让 hook 以 exit code 2 退出。exit 2 会把 hook 的 stderr 返回给 Claude 触发重试，exit 1 则是非阻塞的，即使检查失败 Claude 也会直接结束。",
+   "category": "教程",
+   "source": "Lydia Hallie",
+   "pub": "11-14 02:43"
+  },
+  {
+   "title": "研究称中国最强 AI 模型由被禁运的 Nvidia Blackwell 芯片训练",
+   "link": "https://aihot.news/items/q92ir58jcjtp3g9fn11jlb6ei",
+   "summary": "TechCrunch 报道，前 OpenAI 研究员 Will DePue 分析 DeepSeek、月之暗面、MiniMax 和蚂蚁集团开源模型权重后，称 Kimi K3 与 DeepSeek V4 等模型留有 Blackwell 芯片训练痕迹，而这些芯片被禁止出口到中国。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-14 02:40"
+  },
+  {
+   "title": "Sierra 发布 Personal Agent Protocol（Poppy）v1.0",
+   "link": "https://aihot.news/items/z4wsrxr1xmhg3lq3y0ouq5rmr",
+   "summary": "Sierra 宣布 Personal Agent Protocol（Poppy）v1.0 正式可用，该协议定义个人智能体如何通过企业智能体、网站和 API 与公司交互，主要基于 MCP、OpenAPI、UCP 等现有标准构建，认证通过 OAuth 由客户控制权限。",
+   "category": "AI 产品",
+   "source": "Sierra：Blog",
+   "pub": "11-14 01:00"
+  },
+  {
+   "title": "ChatGPT 推出 ChatGPT Wallet，dot 可在用户批准下代为完成购买",
+   "link": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq",
+   "summary": "ChatGPT 官方账号宣布推出 ChatGPT Wallet，dot 可在用户批准下安全地代用户完成购买。智能体支付时不会接触用户的实际卡号信息，每笔购买都需要通过安全检查。该功能即日起在美国向 Pro 订阅用户的 dot 推出，详情见 https://openai.com/index/introducing-chatgpt-wallet/。",
+   "category": "AI 产品",
+   "source": "ChatGPT",
+   "pub": "11-14 00:44"
+  },
+  {
+   "title": "Anthropic 直播 Dario Amodei 与 JPMorgan CEO Jamie Dimon 炉边谈话并披露 SEC 注册声明",
+   "link": "https://aihot.news/items/vsfne926njom5wnadceo8r04m",
+   "summary": "Anthropic 预告美东时间中午 12 点直播 Dario Amodei 与 JPMorgan CEO Jamie Dimon 的炉边谈话，链接为 https://www.youtube.com/live/YHEaEpeY3ew。",
+   "category": "行业动态",
+   "source": "Anthropic",
+   "pub": "11-14 00:00"
+  },
+  {
+   "title": "llama.cpp v1.0.0 发布，本地运行 AI 模型迎来首个稳定大版本",
+   "link": "https://aihot.news/items/um8pmpa91qn1ymvx3pux0sq1x",
+   "summary": "Hugging Face CEO Clément Delangue 与 @ggerganov 宣布 llama.cpp v1.0.0 发布，这是这个最常用的本地运行 AI 模型库的首个完全稳定大版本。作者称用户可在手机、笔记本和工作站上免费掌控自己的智能，不向任何人发送数据，并承诺支持所有硬件、平台和模型类型，让 AI 分布式而非集中于少数硅谷机构。",
+   "category": "AI 产品",
+   "source": "Clément Delangue",
+   "pub": "11-13 23:13"
+  },
+  {
+   "title": "Nvidia 领导层变动引发以色列科技界关注，投资人认为挑战者或有机会",
+   "link": "https://aihot.news/items/pdhda5tufq7ubi8w17bys7w66",
+   "summary": "Nvidia 前CEO黄仁勋辞职后，以色列科技界关注这家在其拥有6000名员工和最大海外研发中心的公司是否会继续深耕以色列。多位以色列投资人认为，Nvidia 决策放缓可能给 AI 芯片和推理软件领域的竞争者留出空间，但如果不确定性也拖慢 AI 支出，竞争者面对的可能是更小的市场机会。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-13 20:52"
+  },
   {
    "title": "AINews：黄仁勋辞任 NVIDIA CEO，Colette Kress 出任临时 CEO",
    "link": "https://aihot.news/items/se0y4v3gihr6s0jmrc5vuv1zo",
@@ -34,6 +98,14 @@
    "category": "行业动态",
    "source": "Rohan Paul",
    "pub": "11-13 14:56"
+  },
+  {
+   "title": "Anthropic 详解常驻智能体的五个核心架构原语",
+   "link": "https://aihot.news/items/ypeap2t8w4fqqfuvt7mw3wg79",
+   "summary": "Anthropic 发布博客，拆解常驻智能体（always-on agents）背后的架构。这类智能体有状态且可主动行动，其兴起得益于模型判断力提升和智能成本下降，例如长程编码任务上 Opus 5.5 每解决一个任务的成本比 Opus 5 低 78%。",
+   "category": "教程",
+   "source": "Claude：Blog",
+   "pub": "11-13 08:00"
   },
   {
    "title": "黄仁勋辞去英伟达总裁兼CEO，作者梳理14天风波始末",
@@ -162,6 +234,30 @@
    "category": "论文",
    "source": "Epoch AI：Gradient Updates",
    "pub": "11-13 00:03"
+  },
+  {
+   "title": "MOSS-Live 全双工实时交互评测解读：与 GPT-Live-1、豆包的对比",
+   "link": "https://aihot.news/items/rcjkjkhq7xxwbhh9wnv15fqy1",
+   "summary": "OpenMOSS 团队发布 MOSS-Live 全双工语音交互评测解读。依据 MOSS 官网 2026 年 11 月 13 日图表，MOSS-Live 六项全双工指标均居参评模型首位，无关语音误接话率 2.00%，低于 GPT-Live-1 的 68% 和豆包的 75%，停顿抢话率 1.44%。",
+   "category": "AI 模型",
+   "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI",
+   "pub": "11-13 00:00"
+  },
+  {
+   "title": "DeepSeek 开放全家桶应用 API：联网搜索、文件输入、阅读链接等能力面向开发者",
+   "link": "https://aihot.news/items/nnbnoebf6mvo97usmwj5wziyl",
+   "summary": "DeepSeek 在 API 中开放此前 App 对话服务所用的能力，开发者开启对应参数即可使用，工具调用与上下文拼接由服务端完成。",
+   "category": "AI 产品",
+   "source": "DeepSeek：API 更新日志",
+   "pub": "11-13 00:00"
+  },
+  {
+   "title": "Apple HomeView 正式开售，售价 299 美元并搭载 Siri AI",
+   "link": "https://aihot.news/items/bp01lj0ahiqsoahba8sjor2b4",
+   "summary": "Apple 于 11 月 13 日正式开售 HomeView，提供桌面和壁挂两款型号，均售 $299（U.S.），首发澳大利亚、加拿大、印度、新西兰、新加坡、英国和美国市场。",
+   "category": "AI 产品",
+   "source": "Apple：Newsroom",
+   "pub": "11-13 00:00"
   },
   {
    "title": "Figma 3D transforms 开放测试上线，品牌团队分享用它制作发布视频的过程",
@@ -314,102 +410,6 @@
    "category": "行业动态",
    "source": "The Decoder：AI News",
    "pub": "11-11 20:53"
-  },
-  {
-   "title": "OpenAI Q3 营收达 100 亿美元，效率仍落后于 Anthropic",
-   "link": "https://aihot.news/items/mzxxannvi5wge7wz0c0jfdyz5",
-   "summary": "据《华尔街日报》和 The Information 报道，OpenAI Q3 环比增长约 50% 至 100 亿美元，但调整后经营亏损从 101 亿升至 109 亿美元。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "11-11 20:12"
-  },
-  {
-   "title": "WSJ：Anthropic 7 位创始人 IPO 各套现约 2.5 亿美元并保留控制权",
-   "link": "https://aihot.news/items/ajjv9abs8vd20j05emcig98ai",
-   "summary": "WSJ 报道，Anthropic 7 位创始人将在 IPO 中各出售约 2.5 亿美元股票，每人保留约 180 亿美元持仓。据公司文件，每人出售近 3.4M 股，发行价区间预计 70 至 78 美元，上市预计下周进行，估值接近 1.3 万亿美元，募资 800 亿美元以上，部分通过包括 Google 在内的私募配售。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-11 13:47"
-  },
-  {
-   "title": "Anthropic 修订版 S1 文件披露与 Microsoft 和 Google 超 100 亿美元级新算力协议",
-   "link": "https://aihot.news/items/xshgfc1vcvgrdkvnomagmefwy",
-   "summary": "Anthropic 在当日修订的 S1 文件中披露与 Microsoft 和 Google 达成超 100 亿美元的新协议。Microsoft 承诺到 2033 年 6 月支出至少 472 亿、最高 492 亿美元，Google 最低承诺从约 1145 亿升至约 1213 亿美元，两笔均不可撤销、无论是否使用容量都须付款。文件还提到上季度短期算力支出 50 亿美元且价格明显更高。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-11 12:14"
-  },
-  {
-   "title": "Anthropic 投资需求火热，承销商拟将 IPO 目标估值上调回 $1.5T 或更高",
-   "link": "https://aihot.news/items/m7ul4psbkb5zyp0t254fr986o",
-   "summary": "FT 报道，因投资者需求旺盛，Anthropic 承销商计划上调 IPO 定价，把目标估值拉回 $1.5T 或更高。周二文件设定 $70-$78 的发行区间，计入员工期权和受限股后对应 $1.26T-$1.41T 估值；若定价超出区间，募资将超过 $100B，其中 Google、Nvidia 和 Microsoft 将按 IPO 价格投资 $26B。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-11 08:58"
-  },
-  {
-   "title": "Anthropic 发布 MAMUBench：单一智能体协调在四类环境中均胜过每个用户各自的智能体团队",
-   "link": "https://aihot.news/items/z9u4n1e7zfapxjozcn97quhdp",
-   "summary": "Anthropic Fellows Program 团队构建四个多用户多智能体模拟环境（共享 API token 预算、诊所日历、团体订餐或旅行预订、合并队列），测试 Anthropic、OpenAI 和 Alibaba 的前沿模型，并发布其中三个环境作为基准 MAMUBench。",
-   "category": "论文",
-   "source": "Anthropic：Alignment Science Blog",
-   "pub": "11-11 08:00"
-  },
-  {
-   "title": "Berkeley RDI 发布 CyberBinGym 基准，测试 AI 智能体能否仅凭二进制补丁写出真实漏洞利用",
-   "link": "https://aihot.news/items/xenhfme3azzcf8qpihr57fb93",
-   "summary": "UC Berkeley 等机构发布 CyberBinGym 基准，评估 AI 智能体在无源码、无漏洞描述、无触发输入的 1-day 场景下，仅凭 stripped 的漏洞与补丁二进制能否恢复并利用真实漏洞，含 100 个来自 53 个开源项目的任务。",
-   "category": "论文",
-   "source": "Berkeley RDI：Blog",
-   "pub": "11-11 08:00"
-  },
-  {
-   "title": "OpenRouter 实测 MCP vs CLI vs Skills 的上下文 token 成本",
-   "link": "https://aihot.news/items/wkpj021rmg6sgthgj9zwevei4",
-   "summary": "OpenRouter 实测同一 GitHub 任务下 MCP、CLI 与 skill 的 token 成本：在 Claude Sonnet 5.5 上 CLI 用 1。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
-   "pub": "11-11 08:00"
-  },
-  {
-   "title": "OpenRouter 实测 fp8 与 fp4 量化对模型质量和价格的影响",
-   "link": "https://aihot.news/items/i3gp1xj4j11gi4qoreya18izb",
-   "summary": "OpenRouter 发布量化解析文章，讲解 LLM 量化原理，并报告 2026 年 10 月 20 日对 1455 个 provider 端点和 Qwen3.8 27B 六个端点的实测。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
-   "pub": "11-11 08:00"
-  },
-  {
-   "title": "Claude Fable 5.2 实测观察：大模型正用代码吞噬审美与创作",
-   "link": "https://aihot.news/items/uditkv6u7rrzmtj1nx7pxbgjj",
-   "summary": "作者实测 Claude Fable 5.2 与 Gemini 4 Carbon 并对比后认为，Fable 5.2 的突出差异在于审美，这是无法用 Benchmark 评估但可直观感受的东西。",
-   "category": "观点",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "11-11 07:56"
-  },
-  {
-   "title": "Microsoft Research 揭示 Lazarus 权重空间后门技术，通过重编程休眠神经元攻击 AI Agent",
-   "link": "https://aihot.news/items/womexcn3n0ijhbehvhbsxxm4f",
-   "summary": "Microsoft Research 发布对 Lazarus 后门技术的研究，重编程 LLM 中少于 10 个休眠神经元即可在没有训练的情况下给基于该模型的 Agent 安装后门。",
-   "category": "论文",
-   "source": "Microsoft Research 博客",
-   "pub": "11-11 04:52"
-  },
-  {
-   "title": "Stripe 收购 OpenRouter，双方宣布合并后定位",
-   "link": "https://aihot.news/items/zycmiklep7i6dct58558jbp78",
-   "summary": "OpenRouter 官方宣布正式并入 Stripe。OpenRouter 称有超过 1000 万开发者和公司使用其平台，它为多模型、多 provider 的 AI 运行提供基础设施，包括访问新模型、故障期间保持可用，以及为团队执行支出和数据策略。",
-   "category": "行业动态",
-   "source": "OpenRouter",
-   "pub": "11-11 03:18"
-  },
-  {
-   "title": "Anthropic 再次修订 S-1：宣布已达责任扩展政策能力阈值，IPO 定价 $70-$78",
-   "link": "https://aihot.news/items/j8x08g5wo30akk4mast68n79d",
-   "summary": "Anthropic 再次修订 IPO 申请文件 S-1（Amendment No. 2），宣布已越过其 Responsible Scaling Policy 设定的阈值，即 AI 正大幅加快 AI 研究速度、需更强安全检查。这一判断基于其对未来模型的预期而非现有模型的表现，一周前的文件还只说\"可能即将\"越过。文件同时将 IPO 发行价定为每股 $70 至 $78。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-11 03:04"
   }
  ]
 }
