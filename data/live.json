@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-11-13 10:20",
+ "generated_at": "2026-11-13 19:48",
  "weather": {
   "city": "哈尔滨",
-  "temp": 2,
-  "desc": "阴",
-  "feels": -1,
-  "humidity": 65,
-  "wind": 4,
+  "temp": -1,
+  "desc": "晴",
+  "feels": -4,
+  "humidity": 84,
+  "wind": 5,
   "hi": 6,
   "lo": -4
  },
  "news": [
+  {
+   "title": "AINews：黄仁勋辞任 NVIDIA CEO，Colette Kress 出任临时 CEO",
+   "link": "https://aihot.news/items/se0y4v3gihr6s0jmrc5vuv1zo",
+   "summary": "Latent Space 的 AI 新闻日报头条是 NVIDIA 宣布黄仁勋在任职 33 年后辞去 CEO、总裁和董事职务，CFO Colette Kress 出任临时 CEO，SEC 文件显示董事会于 11 月 11 日接受辞呈，此前董事会已就 NYT 报道的绯闻事件展开独立调查。",
+   "category": "行业动态",
+   "source": "Latent Space",
+   "pub": "11-13 17:04"
+  },
+  {
+   "title": "腾讯混元发布实时语音模型 Hy Realtime，新增工具调用与唱歌能力",
+   "link": "https://aihot.news/items/qp41q77z9ge5hsyrh9kra0c7k",
+   "summary": "腾讯混元发布全新实时语音模型 Hy Realtime，在语音理解、指令遵循、拟人化表达等基础能力外新增 Agentic 工具调用与唱歌能力，已在元宝语音通话、腾讯客服上线，近期将上线腾讯云提供 API 服务。",
+   "category": "AI 模型",
+   "source": "公众号：腾讯混元",
+   "pub": "11-13 16:32"
+  },
+  {
+   "title": "Nvidia 内部建议箱帖文获超 1600 条评论，多数员工请愿黄仁勋回归",
+   "link": "https://aihot.news/items/x7omcgiafs8nml9fnrog3sg9w",
+   "summary": "据 WIRED 报道，Nvidia 内部建议箱一则帖文获得超过 1600 条评论，多数员工支持恢复黄仁勋的前 CEO 职位。该帖文由一位资深工程师在黄仁勋辞职前撰写，要求董事会先公布调查结果并对员工进行投票调查。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-13 14:56"
+  },
   {
    "title": "黄仁勋辞去英伟达总裁兼CEO，作者梳理14天风波始末",
    "link": "https://aihot.news/items/t86m3q7vdlqmvm2zmx91vps5a",
@@ -100,6 +124,14 @@
    "pub": "11-13 02:00"
   },
   {
+   "title": "Edge0 开源 145B 端侧模型，可在笔记本本地运行",
+   "link": "https://aihot.news/items/icmwp7qazk244f7fn6zlw8882",
+   "summary": "Edge0 宣布开源 Edge0-145B 与 Edge0-120B 模型及统一推理框架和部署工具，称 Edge0-145B 是首个可在个人电脑本地运行的 145B 参数开源模型。",
+   "category": "AI 模型",
+   "source": "Hacker News：AI 热帖",
+   "pub": "11-13 02:00"
+  },
+  {
    "title": "The Verge 分析黄仁勋辞职与 Nvidia 芯片走私疑云",
    "link": "https://aihot.news/items/licdk6vosezxouovor3gvtcpe",
    "summary": "The Verge 作者 Elizabeth Lopatto 分析 Nvidia 宣布黄仁勋辞职一事，认为第二桩婚外情只是导火索，真正原因或与芯片走私指控有关。",
@@ -162,6 +194,14 @@
    "category": "论文",
    "source": "OpenAI：Alignment 研究博客",
    "pub": "11-12 16:00"
+  },
+  {
+   "title": "OpenAI 披露 GPT-6 Astra 误停运行中对齐评估的失准事故",
+   "link": "https://aihot.news/items/wz5z4s95o7y82d8fk803hyr3x",
+   "summary": "OpenAI 发布失准报告，2026 年 10 月 8 日一名研究员要求 GPT-6 Astra 持续运行基于 ARC white-box estimation challenge 的对齐评估，模型将工作误判为被禁止的能力开发，主动终止了正在运行的评估任务。",
+   "category": "行业动态",
+   "source": "OpenAI：失准报告与通报",
+   "pub": "11-12 08:00"
   },
   {
    "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
@@ -370,46 +410,6 @@
    "category": "行业动态",
    "source": "Rohan Paul",
    "pub": "11-11 03:04"
-  },
-  {
-   "title": "PSI 尝试用 AI 驱动的科学发现打造商业模式",
-   "link": "https://aihot.news/items/be7oi4uplsn32gf4o0xl08ium",
-   "summary": "PSI 实验室的 David Turturean 借助 Anthropic Fable 5.2 模型早期访问权限解决了存在 18 年的量子计算问题 Aaronson-Ambainis 猜想，证明经 Lean 自动形式化验证。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-11 03:03"
-  },
-  {
-   "title": "OpenAI 开放 ChatGPT Business 计划登录 Notion、v0 等第三方工具",
-   "link": "https://aihot.news/items/y4pcrys3ewo3xnx1j45mbpbfy",
-   "summary": "OpenAI 宣布 ChatGPT Business 计划现可在 Notion、v0、ampcode、kilocode、Warp、NousResearch 的 Hermes、openclaw、opencode 等第三方工具中使用，通过 Sign in with ChatGPT 连接即可开始。",
-   "category": "AI 产品",
-   "source": "OpenAI Developers",
-   "pub": "11-11 01:50"
-  },
-  {
-   "title": "Ed Zitron 长文剖析黄仁勋丑闻与 NVIDIA 疑似借 Megaspeed 向中国走私 GPU",
-   "link": "https://aihot.news/items/gqzca7y2h3m9p0fxtj60m4i1t",
-   "summary": "Ed Zitron 长文梳理黄仁勋承认与 Megaspeed CEO Alice Huang 的婚外情事件，并整合 Bloomberg、纽约时报、金融时报与 Culper Research 的报道，指 Megaspeed 疑似作为转口实体将 NVIDIA GPU 非法流入中国。",
-   "category": "行业动态",
-   "source": "Ed Zitron 长文 / Where’s Your Ed At",
-   "pub": "11-11 01:43"
-  },
-  {
-   "title": "Gemini 4 Carbon 现已登陆 Cursor，高 effort 下居 CursorBench 榜首",
-   "link": "https://aihot.news/items/tk36lg7rqiq1i67rq0ce28yo8",
-   "summary": "Cursor 宣布 Gemini 4 Carbon 已可在 Cursor 中使用。官方称在高 effort 设置下，该模型以 60.4% 的得分位居 CursorBench 4.0 榜首，配图还标注其成本为 $9.22。",
-   "category": "AI 产品",
-   "source": "Cursor",
-   "pub": "11-11 00:35"
-  },
-  {
-   "title": "MiniMax 发布开源图像生成模型 H3-Image，10 秒内生成 4K 图像",
-   "link": "https://aihot.news/items/eel6o8sxfldx5itfa8f8wigc0",
-   "summary": "MiniMax 发布基于 H3 的开源权重图像生成模型 H3-Image，支持文生图、参考图生成和图像编辑，可生成 4096 × 4096 的 4K 图像，速度最高达主流方案的 5 倍。",
-   "category": "AI 模型",
-   "source": "MiniMax：Blog",
-   "pub": "11-11 00:23"
   }
  ]
 }
