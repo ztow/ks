@@ -1,16 +1,56 @@
 {
- "generated_at": "2026-11-13 04:37",
+ "generated_at": "2026-11-13 10:20",
  "weather": {
   "city": "哈尔滨",
-  "temp": -3,
+  "temp": 2,
   "desc": "阴",
-  "feels": -6,
-  "humidity": 95,
+  "feels": -1,
+  "humidity": 65,
   "wind": 4,
   "hi": 6,
   "lo": -4
  },
  "news": [
+  {
+   "title": "黄仁勋辞去英伟达总裁兼CEO，作者梳理14天风波始末",
+   "link": "https://aihot.news/items/t86m3q7vdlqmvm2zmx91vps5a",
+   "summary": "英伟达公告黄仁勋辞去总裁、CEO和董事职务，即刻生效，股价开盘下跌14个点。作者依据《纽约时报》、The Information 等报道梳理脉络：从2022年A100、H100对华禁售，到 Megaspeed 采购争议、黄乐被情报机构认定涉间谍活动，再到婚外情曝光后董事会于10月29日起14天内收网，黄仁勋在英伟达33年的时代就此结束。",
+   "category": "行业动态",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-13 07:56"
+  },
+  {
+   "title": "民主党对 Nvidia 对华芯片销售启动调查，致函质疑黄仁勋与特朗普的安排",
+   "link": "https://aihot.news/items/cfh0nazzl7eedgttz8n99fza4",
+   "summary": "民主党议员 Rep. Richard Neal 和 Sen. Ron Wyden 就特朗普政府处理 Nvidia 对华芯片销售一事开启调查，并致函商务部长 Howard Lutnick 要求保存相关记录。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-13 06:42"
+  },
+  {
+   "title": "Rohan Paul 类比乔布斯被逐，评 NVIDIA 放走黄仁勋",
+   "link": "https://aihot.news/items/k1kga19xtdab67lhplor8he8n",
+   "summary": "Lex Fridman 发文称 NVIDIA 让黄仁勋离开对美国和人类都是巨大错误，堪比 Apple 当年解雇 Steve Jobs 但影响更大，并为其品格辩护、回应间谍传闻。Rohan Paul 转引并列举 Atari 1978（Nolan Bushnell）、Apple 1985（Steve Jobs）、Uber 2017（Travis Kalanick）、OpenAI 2023（Sam Altman），称每隔几年董事会就会重新认识到创始人本身就是战略。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-13 05:39"
+  },
+  {
+   "title": "Google 智能眼镜开放预购，12 月 10 日发货",
+   "link": "https://aihot.news/items/hjhcsj440ym8b7ynttcx4433j",
+   "summary": "Josh Woodward 宣布 Google 智能眼镜开启预购，用户可在 https://glasses.google 下单，12 月 10 日发货。首批用户可到部分 Warby Parker、Gentle Monster 和 Google 门店试戴体验。",
+   "category": "AI 产品",
+   "source": "Josh Woodward",
+   "pub": "11-13 05:23"
+  },
+  {
+   "title": "Gemini 4 Hydrogen 今日起向全球所有用户推送",
+   "link": "https://aihot.news/items/zlbngirpqifhhi3bd5pbmixu4",
+   "summary": "Google Gemini 宣布 Gemini 4 Hydrogen 今日起向全球所有用户推送，覆盖桌面、移动和网页端。免费用户无需单独选择模型，当提示词适合该模型时可通过自动模型选择使用它，详情见 https://goo.gle/4AxH40q。",
+   "category": "AI 模型",
+   "source": "Gemini",
+   "pub": "11-13 04:50"
+  },
   {
    "title": "Gemini 4 Hydrogen 上线 Cursor，CursorBench 得分 54.3%",
    "link": "https://aihot.news/items/mt013742fhedisepp2i31h1r4",
@@ -36,9 +76,9 @@
    "pub": "11-13 02:07"
   },
   {
-   "title": "SemiAnalysis 深度分析黄仁勋离开后的 Nvidia：一个为他量身打造的公司如何运转",
+   "title": "SemiAnalysis 分析黄仁勋辞任 Nvidia CEO 背后的出口管制博弈",
    "link": "https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4",
-   "summary": "SemiAnalysis 发文分析黄仁勋不再担任 Nvidia CEO 后的公司走向，认为其离职与 GPU 走私及国会推动的 RASA 出口管制法案有关。",
+   "summary": "SemiAnalysis 发表长文分析黄仁勋不再担任 Nvidia CEO 一事，认为其去职与美国情报界推动、针对中国远程访问 GPU 的 RASA 法案推进有关。",
    "category": "行业动态",
    "source": "SemiAnalysis 长文 RSS",
    "pub": "11-13 02:06"
@@ -129,6 +169,22 @@
    "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
    "category": "教程",
    "source": "OpenRouter：Announcements",
+   "pub": "11-12 08:00"
+  },
+  {
+   "title": "Anthropic 建议把 Claude Opus 5.5 作为知识工作的日常主力模型",
+   "link": "https://aihot.news/items/t5pucqx6ac58z0ed1b0875ci0",
+   "summary": "Anthropic 宣布 Claude Opus 5.5 成为 Pro、Max、Ultra 和 Team 套餐的默认模型，并推荐将其作为研究、分析和写作等知识工作的日常主力。",
+   "category": "AI 产品",
+   "source": "Claude：Blog",
+   "pub": "11-12 08:00"
+  },
+  {
+   "title": "Anthropic 推出 Claude Meetings，Claude 以参会者身份加入视频会议",
+   "link": "https://aihot.news/items/l36ne5q2gsdx6thyia7fi10kn",
+   "summary": "Anthropic 推出 Claude Meetings beta，Claude 可作为可见参会者加入视频通话，在会中回答提问、协作创建文档和白板，并生成笔记和行动项。",
+   "category": "AI 产品",
+   "source": "Claude：Blog",
    "pub": "11-12 08:00"
   },
   {
@@ -354,62 +410,6 @@
    "category": "AI 模型",
    "source": "MiniMax：Blog",
    "pub": "11-11 00:23"
-  },
-  {
-   "title": "Gemini 4 Carbon 上线 Gemini API、AI Studio 和 Antigravity",
-   "link": "https://aihot.news/items/o6jzg6bjiaufh8no2rf1tep7u",
-   "summary": "Philipp Schmid 介绍 Gemini 4 Carbon 现已可在 Gemini API、Google AI Studio 和 Antigravity（限 Google AI Ultra 订阅者）中使用。",
-   "category": "AI 产品",
-   "source": "Philipp Schmid",
-   "pub": "11-11 00:06"
-  },
-  {
-   "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
-   "link": "https://aihot.news/items/w8cvkd1j2o1c3m8ikh8x2kpfx",
-   "summary": "Google DeepMind 正式向开发者、企业、科学家和普通用户开放 Gemini 4 Carbon，定位为其最强前沿模型，主打网络安全能力与复杂知识工作、软件工程、科学推理中的长程智能体工作流。",
-   "category": "AI 模型",
-   "source": "Google DeepMind：Blog",
-   "pub": "11-11 00:03"
-  },
-  {
-   "title": "Wiz 讲解如何评估 AI 智能体的网络安全能力",
-   "link": "https://aihot.news/items/momr4yrt6hhhfeuzjfqz6ryqy",
-   "summary": "Wiz Research 介绍其 Cyber Model Arena v3.9 的基准设计方法，该基准覆盖 26 个模型、59 个智能体和 327 道挑战，分代码漏洞、API 安全、Web 安全和云安全四类。",
-   "category": "论文",
-   "source": "Wiz：Research",
-   "pub": "11-11 00:03"
-  },
-  {
-   "title": "百度发布 ERNIE 5.5 Flash Preview，权重将于 11 月 25 日前开源",
-   "link": "https://aihot.news/items/qd3f4j2hd0t98tqf28iv7pu2j",
-   "summary": "百度发布 ERNIE 5.5 Flash Preview，是基于此前 Base 模型的首个后训练版本，总参数 280B、激活参数 14B，支持 1M 上下文。模型 API 已在千帆平台上线，权重将于 11 月 25 日前开源；官方展示了游戏开发、3D 建模、知识工作、视频创作等 Agent 场景成果，并称该版本为后训练中间版本，正式版仍将持续优化。",
-   "category": "AI 模型",
-   "source": "百度文心 ERNIE 官方博客",
-   "pub": "11-11 00:00"
-  },
-  {
-   "title": "Google DeepMind 用 AlphaProof Code 对 Signal 协议机器码完成形式化安全验证",
-   "link": "https://aihot.news/items/t9g33uqn3lfwm8cr1kr2fvnp7",
-   "summary": "Google DeepMind 发布 AlphaProof Code 多智能体形式化验证框架，并首次对广泛部署协议 Signal 的生产机器码完成形式化安全验证。",
-   "category": "论文",
-   "source": "Rohan Paul",
-   "pub": "11-10 23:38"
-  },
-  {
-   "title": "Gary Marcus 质疑 Anthropic 1.4 万亿美元 IPO 估值",
-   "link": "https://aihot.news/items/yshr81morbvxs39fq2y2rw6rg",
-   "summary": "Gary Marcus 评论 Anthropic 拟以最高 1.4 万亿美元估值 IPO，称该公司除一个异常季度外从未盈利，未来负债接近 9000 亿美元。他引用 Q2 环比增长 147% 而 Q3 降至 47% 的数据，认为 tokenmaxxing 退潮与中国竞品崛起使万亿估值失去依据，并援引 S-1 中公司自认成本将上升、收入增速难以为继的表述。",
-   "category": "观点",
-   "source": "Gary Marcus：The Road to AI We Can Trust",
-   "pub": "11-10 22:37"
-  },
-  {
-   "title": "The Information 报道称与英伟达 CEO 黄仁勋相关人士向中国买家转手 75 亿美元硬件",
-   "link": "https://aihot.news/items/f1z5v9nswvnu4w2plxd4tg22t",
-   "summary": "据 The Information 报道，与英伟达 CEO 黄仁勋有染的 Alice Huang（无亲属关系）与丈夫和姐姐在中国和新加坡建立采购网络，涉资 75 亿美元。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-10 22:33"
   }
  ]
 }
