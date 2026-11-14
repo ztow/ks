@@ -1,16 +1,56 @@
 {
- "generated_at": "2026-11-14 04:15",
+ "generated_at": "2026-11-14 09:56",
  "weather": {
   "city": "哈尔滨",
-  "temp": -4,
-  "desc": "晴",
-  "feels": -7,
-  "humidity": 88,
+  "temp": 0,
+  "desc": "阴",
+  "feels": -4,
+  "humidity": 62,
   "wind": 8,
   "hi": 4,
-  "lo": -4
+  "lo": -5
  },
  "news": [
+  {
+   "title": "美联储金融稳定报告：AI成为华尔街头号金融风险",
+   "link": "https://aihot.news/items/xzt8t0xkgj3mm17k11s2yo3d4",
+   "summary": "美联储发布金融稳定报告，纽约联储调查显示87%的市场人士将AI列为首要金融风险，高于春季的50%。报告称对超级智能的市场热情推高股票估值；截至10月AI基础设施债务超6800亿美元，约为2023年全年的5倍、占投资级公司借贷约31%；最大银行对大型科技、数据中心建设及融资工具的风险敞口接近1万亿美元。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-14 07:54"
+  },
+  {
+   "title": "Dario Amodei 回应市场动荡：Anthropic IPO 前称对时机并不在意",
+   "link": "https://aihot.news/items/dl9ehywczofu8vp5sj62s6j4n",
+   "summary": "Dario Amodei 在纽约 JPMorgan 活动上与 Jamie Dimon 对谈，对 Anthropic IPO 路演期间的市场动荡不以为意，称对上市时机和市场状况不太在意。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-14 07:39"
+  },
+  {
+   "title": "Jensen Huang 离任或给 AI 创业融资留下大缺口，投资人和创始人担忧",
+   "link": "https://aihot.news/items/kq4awkrys4uz37b7gsvj5r1dj",
+   "summary": "Nvidia CEO Jensen Huang 正式辞职，创投圈认为其继任者 Colette Kress 更保守，短期难延续他每年数十亿美元、今年已参与 105 轮的投资节奏。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-14 06:43"
+  },
+  {
+   "title": "NVIDIA 副总裁 Bryan Catanzaro 澄清要求恢复 Jensen 职务的信件系伪造",
+   "link": "https://aihot.news/items/kei20gkia8a0vhknc859jsfqr",
+   "summary": "Rohan Paul 转发 NVIDIA 应用深度学习研究副总裁 Bryan Catanzaro 的声明：网上流传一封要求 NVIDIA 董事会恢复 Jensen Huang 职务、并声称有他参与的信件，Catanzaro 明确该信是伪造的，即使真实他也不会签署。他表示对 Jensen 离开 NVIDIA 感到悲痛，同时完全支持董事会，并称与 Colette 共事多年，全力支持她。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-14 05:27"
+  },
+  {
+   "title": "Claude Duet 向美国等待名单上的 Pro、Max 和 Ultra 订阅者发出全部邀请",
+   "link": "https://aihot.news/items/ajfypca37l5knyrnij49v5ofz",
+   "summary": "Anthropic 的 Claude Duet 更新：截至昨日在等待名单上的全部美国 Pro、Max 和 Ultra 订阅者均已收到邀请，等待名单入口为 https://claude.com/product/claude-duet。研究预览附带限额重置，Pro 为 3 次，Max 和 Ultra 为 1 次；官方计划很快向美国以外更多国家开放，并继续征集反馈。",
+   "category": "AI 产品",
+   "source": "Ado Kukic",
+   "pub": "11-14 04:22"
+  },
   {
    "title": "WSJ 报道称黄仁勋被罢免更多源于 Nvidia 高风险业务而非私生活",
    "link": "https://aihot.news/items/s59xfwl0atld8vs7xq0pdx6hw",
@@ -18,6 +58,14 @@
    "category": "行业动态",
    "source": "The Decoder：AI News",
    "pub": "11-14 04:07"
+  },
+  {
+   "title": "Nvidia 危机与 Anthropic IPO 前夜的 Cerebral Valley AI Summit 现场观察",
+   "link": "https://aihot.news/items/p1mfh9oe0xbq4evyru5pp1ikt",
+   "summary": "Newcomer 在旧金山 Cerebral Valley AI Summit 现场报道：Jensen Huang 因第二段婚外情披露辞职，Reuters 当天报道存在第三段，与会者多认为 Nvidia 短期无碍但生态承压，Databricks CEO 称其对整个生态是打击。",
+   "category": "行业动态",
+   "source": "Newcomer 新闻长文",
+   "pub": "11-14 03:27"
   },
   {
    "title": "Claude Code Stop hook 技巧：用 exit code 2 让 Claude 在检查失败时自动重试",
@@ -28,9 +76,9 @@
    "pub": "11-14 02:43"
   },
   {
-   "title": "研究称中国最强 AI 模型由被禁运的 Nvidia Blackwell 芯片训练",
+   "title": "研究报告称中国最强 AI 模型使用了被禁出口的 Nvidia Blackwell 芯片训练",
    "link": "https://aihot.news/items/q92ir58jcjtp3g9fn11jlb6ei",
-   "summary": "TechCrunch 报道，前 OpenAI 研究员 Will DePue 分析 DeepSeek、月之暗面、MiniMax 和蚂蚁集团开源模型权重后，称 Kimi K3 与 DeepSeek V4 等模型留有 Blackwell 芯片训练痕迹，而这些芯片被禁止出口到中国。",
+   "summary": "Will DePue 领导的非营利研究组织 Unemployment Labs 分析 DeepSeek、月之暗面、MiniMax 和蚂蚁集团开源模型权重，发现 Kimi K3 与 DeepSeek V4 等最受关注模型带有 Blackwell 芯片训练痕迹。",
    "category": "行业动态",
    "source": "TechCrunch：AI",
    "pub": "11-14 02:40"
@@ -76,6 +124,14 @@
    "pub": "11-13 20:52"
   },
   {
+   "title": "Cursor 披露安全事件调查结果，恶意 Claude Code 扩展波及最多 5000 用户",
+   "link": "https://aihot.news/items/e9o5h2c1o5f0xuh2bgqtc2w7k",
+   "summary": "Cursor 发布安全事件完整调查：攻击者利用 Fireworks 暴露的访问密钥读取用于模型训练的 coding agent trace，少于 0.01% 客户的 API 凭证暴露。",
+   "category": "行业动态",
+   "source": "Cursor Blog",
+   "pub": "11-13 20:00"
+  },
+  {
    "title": "AINews：黄仁勋辞任 NVIDIA CEO，Colette Kress 出任临时 CEO",
    "link": "https://aihot.news/items/se0y4v3gihr6s0jmrc5vuv1zo",
    "summary": "Latent Space 的 AI 新闻日报头条是 NVIDIA 宣布黄仁勋在任职 33 年后辞去 CEO、总裁和董事职务，CFO Colette Kress 出任临时 CEO，SEC 文件显示董事会于 11 月 11 日接受辞呈，此前董事会已就 NYT 报道的绯闻事件展开独立调查。",
@@ -105,6 +161,14 @@
    "summary": "Anthropic 发布博客，拆解常驻智能体（always-on agents）背后的架构。这类智能体有状态且可主动行动，其兴起得益于模型判断力提升和智能成本下降，例如长程编码任务上 Opus 5.5 每解决一个任务的成本比 Opus 5 低 78%。",
    "category": "教程",
    "source": "Claude：Blog",
+   "pub": "11-13 08:00"
+  },
+  {
+   "title": "Google 展示 Antigravity /teamwork 多智能体协作成果并开放给研究者使用",
+   "link": "https://aihot.news/items/h0obmlpmc44dqk1da164ca1z7",
+   "summary": "Google Research 介绍其团队与学术伙伴用 Antigravity 的 /teamwork 多智能体工作流配合 Gemini 4 Argon、Carbon、Hydrogen 模型，在信息论、形式化验证、分子结构和内核优化等领域取得多项成果。",
+   "category": "AI 产品",
+   "source": "Google Research：Blog",
    "pub": "11-13 08:00"
   },
   {
@@ -172,9 +236,9 @@
    "pub": "11-13 02:07"
   },
   {
-   "title": "SemiAnalysis 分析黄仁勋辞任 Nvidia CEO 背后的出口管制博弈",
+   "title": "SemiAnalysis 分析黄仁勋辞任 Nvidia 后的公司结构与出口管制走向",
    "link": "https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4",
-   "summary": "SemiAnalysis 发表长文分析黄仁勋不再担任 Nvidia CEO 一事，认为其去职与美国情报界推动、针对中国远程访问 GPU 的 RASA 法案推进有关。",
+   "summary": "SemiAnalysis 长文分析黄仁勋辞任 Nvidia CEO 后的连锁影响，作者推测其去职与 GPU 走私及美国推动 RASA 出口管制立法有关。文中指出公司约 60 名直管高管的扁平结构依赖黄本人，继任者 Colette Kress 为临时 CEO，Ian Buck 与 Jonah Alben 被视为技术侧人选但无人能全面接替。",
    "category": "行业动态",
    "source": "SemiAnalysis 长文 RSS",
    "pub": "11-13 02:06"
@@ -346,70 +410,6 @@
    "category": "教程",
    "source": "OpenRouter：Announcements",
    "pub": "11-12 08:00"
-  },
-  {
-   "title": "WSJ 报道 Nvidia 董事会接近决定是否罢免 CEO 黄仁勋",
-   "link": "https://aihot.news/items/aoxmmcsudy1gf9xmti7slu1wd",
-   "summary": "WSJ 报道，Nvidia 董事会此前公开支持黄仁勋，如今接近决定是否罢免这位创始人 CEO。起因是黄仁勋与一名被指为中国情报人员的女子交往，随后又曝出与一名 Nvidia 员工的第二段婚外情；周日开始独立调查时董事会表示没有理由认为 Nvidia 机密泄露。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-12 07:43"
-  },
-  {
-   "title": "Runway 开源 27B 世界动作模型 Praxis-1，权重采用 Apache 2.0 许可",
-   "link": "https://aihot.news/items/bx3sq4dxfqblyztkuiktiz0wv",
-   "summary": "Runway 宣布世界动作模型 Praxis-1 以 Apache 2.0 开放权重面向所有人开放。该模型为 27B 参数 MoE 扩散 Transformer，同时预测视频与动作，在 NVIDIA RoboLab-120 榜单以 46.2% 成功率居首，超过 FLUX 3 Action（42.9%）、Cosmos3 Nano（36.8%）和 π0.5（28.0%）。",
-   "category": "AI 模型",
-   "source": "Runway：News",
-   "pub": "11-12 07:25"
-  },
-  {
-   "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策",
-   "link": "https://aihot.news/items/r8hsm3m3munjwk1n3u885zszw",
-   "summary": "Google 推出 Gemini Decisions API，由新模型 Gemini Decision 1 驱动，可在 150-250ms 端到端延迟内对文本、图像、音频、视频和 PDF（最多 256K tokens）一次性评估最多 1000 个是/否、多选和评分题。",
-   "category": "AI 产品",
-   "source": "Google Blog：AI",
-   "pub": "11-12 02:00"
-  },
-  {
-   "title": "Claude Code 中如何选择 Fable 5.2 与 Opus 等模型",
-   "link": "https://aihot.news/items/ep5oqt7m4l7gn3tqieilznmuk",
-   "summary": "Claude 发布视频教程，讲解在 Claude Code 中何时使用 Fable 5.2、Opus 5.5，何时降级到 Sonnet 5.5 或 Haiku 5.5，以及如何把一个任务拆分给多个模型。视频覆盖复杂编码与开放式技术工作、低成本明确任务等场景，并提供在自有任务上测量各模型表现的指南链接；可用性与用量限制因套餐而异。",
-   "category": "教程",
-   "source": "Claude：YouTube",
-   "pub": "11-12 01:30"
-  },
-  {
-   "title": "a16z 提出 B2A 经济：AI 智能体正成为新的流量与分发渠道",
-   "link": "https://aihot.news/items/bisaluc0ii0f4s1gzi2zxbr1k",
-   "summary": "a16z 发布文章提出 B2A 经济概念，认为 AI 智能体已占大多数网络流量，正从回答问题转向代替用户完成任务和消费。",
-   "category": "观点",
-   "source": "a16z：News",
-   "pub": "11-11 23:02"
-  },
-  {
-   "title": "Anthropic IPO 拟募资最高 90.4B 美元，或成史上最大上市",
-   "link": "https://aihot.news/items/r5kn7uexy6jx97qwxwvnpqrom",
-   "summary": "Bloomberg 报道 Anthropic IPO 已获数倍于发行份额的订单，主要来自大型机构投资者的锚定级意向。公司通过 IPO 加私募配售寻求最高 $90.4B，将超过 SpaceX 的 $85.7B 纪录成为史上最大上市，完全稀释估值目标约 $1.4T；Goldman Sachs 和 Morgan Stanley 牵头共 22 家银行，股票将以 ANT 在纳斯达克全球精选市场交易。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-11 22:38"
-  },
-  {
-   "title": "Grok 被指生成儿童色情图像，xAI 面临多起集体诉讼",
-   "link": "https://aihot.news/items/iz168hjk4ew8jpiokzjqcwbgi",
-   "summary": "据彭博社报道，多名未成年受害者就 Grok 被用于把普通照片篡改成儿童性虐待材料（CSAM）对马斯克旗下 xAI 提起多起集体诉讼，律师估计符合索赔条件的受害者可能多达数千人。",
-   "category": "行业动态",
-   "source": "IT之家·人工智能",
-   "pub": "11-11 21:56"
-  },
-  {
-   "title": "安全公司 Claroc：94.7% 的 Grok 构建应用可被任意访问，含患者数据和 SpaceXSI 内部文件",
-   "link": "https://aihot.news/items/wlmgb3vb5ycgom7wq44felnin",
-   "summary": "安全公司 Claroc 报告称，在检查的 37,571 个仍在线的 Grok 构建应用中，35,578 个（94.7%）无需登录即可访问，原因是发布对话框默认预选\"Anyone with the link\"，且每个应用的独立子域名会进入可检索的 passive DNS 数据库。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "11-11 20:53"
   }
  ]
 }
