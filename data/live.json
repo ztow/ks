@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-11-14 09:56",
+ "generated_at": "2026-11-14 19:09",
  "weather": {
   "city": "哈尔滨",
   "temp": 0,
   "desc": "阴",
   "feels": -4,
-  "humidity": 62,
-  "wind": 8,
-  "hi": 4,
+  "humidity": 57,
+  "wind": 10,
+  "hi": 3,
   "lo": -5
  },
  "news": [
