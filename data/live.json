@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-11-14 19:09",
+ "generated_at": "2026-11-15 02:37",
  "weather": {
   "city": "哈尔滨",
-  "temp": 0,
+  "temp": -1,
   "desc": "阴",
-  "feels": -4,
-  "humidity": 57,
-  "wind": 10,
-  "hi": 3,
+  "feels": -6,
+  "humidity": 61,
+  "wind": 9,
+  "hi": 4,
   "lo": -5
  },
  "news": [
+  {
+   "title": "黄仁勋离开 Nvidia 后，亚洲各国政府如何回应",
+   "link": "https://aihot.news/items/ni18shok3lh70l1e49nazmgdc",
+   "summary": "黄仁勋离开 Nvidia 后，亚洲多国政府相继回应：韩国科技部称 Nvidia 重申将向韩国供应 260,000 块先进 GPU 并继续联合 AI 项目，台湾经济部长龚明鑫认为此事不太可能显著改变全球 AI 产业增长，日本产业省表示将密切关注 Nvidia。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-15 00:34"
+  },
+  {
+   "title": "Nathan Lambert 分析黄仁勋辞职后美国开源模型生态的真空",
+   "link": "https://aihot.news/items/np6dwfqwflqe7vfse9kkfxj1n",
+   "summary": "Nathan Lambert 撰文分析 Nvidia CEO 黄仁勋辞职对美国开源模型生态的冲击，认为 Nvidia 对开源模型的资金支持很可能随黄仁勋的离开而干涸，公司首要目标是稳住局面并向客户交付。",
+   "category": "观点",
+   "source": "Nathan Lambert：Interconnects",
+   "pub": "11-14 20:23"
+  },
+  {
+   "title": "黄仁勋离开 Nvidia：远见型创始人 CEO 时代落幕",
+   "link": "https://aihot.news/items/gslfz6uqr2sqy68cgv38i4tf0",
+   "summary": "The Verge 长文回顾黄仁勋因走私丑闻和婚外情指控离开 Nvidia，分析这位执掌首家 5 万亿美元公司、占标普 500 约 6% 的创始人的离去意味着什么。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "11-14 20:00"
+  },
   {
    "title": "美联储金融稳定报告：AI成为华尔街头号金融风险",
    "link": "https://aihot.news/items/xzt8t0xkgj3mm17k11s2yo3d4",
@@ -385,30 +409,6 @@
    "summary": "Anthropic 推出 Claude Meetings beta，Claude 可作为可见参会者加入视频通话，在会中回答提问、协作创建文档和白板，并生成笔记和行动项。",
    "category": "AI 产品",
    "source": "Claude：Blog",
-   "pub": "11-12 08:00"
-  },
-  {
-   "title": "Jensen Huang 辞任 Nvidia CEO 后对 AI 经济的五点影响分析",
-   "link": "https://aihot.news/items/ivpl9ziip8mpoa90avi3ke9pj",
-   "summary": "Tomasz Tunguz 分析 Jensen Huang 即日辞任 Nvidia 总裁、CEO 及董事后对 AI 行业的影响，CFO Colette Kress 出任临时 CEO。",
-   "category": "行业动态",
-   "source": "Tomasz Tunguz 博客",
-   "pub": "11-12 08:00"
-  },
-  {
-   "title": "Anthropic 发布 Claude Tag 创业公司使用指南",
-   "link": "https://aihot.news/items/djhxmxr9hq0ekn8iwdqt5usih",
-   "summary": "Anthropic 发布 Claude Tag（beta）创业公司使用指南，基于对 Kikoff、NavigateAI、Orderful、Moritz 等 8 家高增长创业公司的访谈，总结了 on-call 分诊、Thread to PR、公司大脑、自助数据、例行报告五大场景及频道配置建议。",
-   "category": "教程",
-   "source": "Claude：Blog",
-   "pub": "11-12 08:00"
-  },
-  {
-   "title": "OpenRouter 详解自纠错网站本地化流水线：GPT-6.1 Sol 翻译 7 种语言全站约 $460",
-   "link": "https://aihot.news/items/cve017k4le2q7l8x1bfr2xdjx",
-   "summary": "OpenRouter 上线简体中文、日语等 7 种语言 Beta 本地化，并详解配套的自纠错翻译流水线：GPT-6.1 Sol 翻译 16,918 条字符串，经代码检查、同模型校验和每日 AI 审查重试，最坏情况每条约 20 次模型调用。全站重译 7 种语言约 $460，约为 Smartling 机器翻译牌价的 6%，错误报告会转化为术语规则、风格注释或评测用例。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
    "pub": "11-12 08:00"
   }
  ]
