@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-15 06:51",
+ "generated_at": "2026-11-15 15:28",
  "weather": {
   "city": "哈尔滨",
-  "temp": -3,
-  "desc": "阴",
-  "feels": -7,
-  "humidity": 74,
-  "wind": 8,
+  "temp": 2,
+  "desc": "晴",
+  "feels": -3,
+  "humidity": 46,
+  "wind": 14,
   "hi": 4,
-  "lo": -5
+  "lo": -6
  },
  "news": [
   {
@@ -28,9 +28,9 @@
    "pub": "11-15 03:05"
   },
   {
-   "title": "黄仁勋离开 Nvidia 后，亚洲各国政府如何回应",
+   "title": "黄仁勋离开 Nvidia 后，亚洲多地如何回应",
    "link": "https://aihot.news/items/ni18shok3lh70l1e49nazmgdc",
-   "summary": "黄仁勋离开 Nvidia 后，亚洲多国政府相继回应：韩国科技部称 Nvidia 重申将向韩国供应 260,000 块先进 GPU 并继续联合 AI 项目，台湾经济部长龚明鑫认为此事不太可能显著改变全球 AI 产业增长，日本产业省表示将密切关注 Nvidia。",
+   "summary": "黄仁勋离开 Nvidia 后，亚洲多地相继回应：韩国科技主管部门称 Nvidia 重申将向韩国供应26万块先进 GPU 并继续联合 AI 项目，中国台湾地区经济主管部门负责人龚明鑫认为此事不太可能显著改变全球 AI 产业增长，日本经济产业省表示将密切关注 Nvidia。",
    "category": "行业动态",
    "source": "TechCrunch：AI",
    "pub": "11-15 00:34"
@@ -194,6 +194,14 @@
    "category": "行业动态",
    "source": "Rohan Paul",
    "pub": "11-13 14:56"
+  },
+  {
+   "title": "美团 LongCat 开源 LongCat-Video-Avatar 1.6 音频驱动数字人视频生成模型",
+   "link": "https://aihot.news/items/habommgck5ql3tdf688ca370s",
+   "summary": "美团 LongCat 团队发布开源音频驱动人体视频生成模型 LongCat-Video-Avatar 1.6，改进口型自然度、唇音同步、面部与肢体动作协调及长视频视觉一致性，缓解自回归续写误差累积，可生成超过 10 分钟的视频，并加入端到端推理优化。",
+   "category": "AI 模型",
+   "source": "美团 LongCat：HuggingFace 新模型",
+   "pub": "11-13 10:45"
   },
   {
    "title": "Anthropic 详解常驻智能体的五个核心架构原语",
@@ -401,14 +409,6 @@
    "summary": "OpenAI 发布失准报告，2026 年 10 月 8 日一名研究员要求 GPT-6 Astra 持续运行基于 ARC white-box estimation challenge 的对齐评估，模型将工作误判为被禁止的能力开发，主动终止了正在运行的评估任务。",
    "category": "行业动态",
    "source": "OpenAI：失准报告与通报",
-   "pub": "11-12 08:00"
-  },
-  {
-   "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
-   "link": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
-   "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
    "pub": "11-12 08:00"
   }
  ]
