@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-16 00:45",
+ "generated_at": "2026-11-16 07:18",
  "weather": {
   "city": "哈尔滨",
-  "temp": -4,
-  "desc": "晴",
-  "feels": -10,
-  "humidity": 61,
-  "wind": 13,
+  "temp": -7,
+  "desc": "少云",
+  "feels": -12,
+  "humidity": 73,
+  "wind": 10,
   "hi": -2,
   "lo": -7
  },
@@ -36,9 +36,9 @@
    "pub": "11-14 20:23"
   },
   {
-   "title": "黄仁勋离开 Nvidia：远见型创始人 CEO 时代落幕",
+   "title": "黄仁勋离开Nvidia：远见型创始人CEO时代落幕",
    "link": "https://aihot.news/items/gslfz6uqr2sqy68cgv38i4tf0",
-   "summary": "The Verge 长文回顾黄仁勋因走私丑闻和婚外情指控离开 Nvidia，分析这位执掌首家 5 万亿美元公司、占标普 500 约 6% 的创始人的离去意味着什么。",
+   "summary": "The Verge长文回顾黄仁勋离开Nvidia，分析这位执掌首家5万亿美元公司、占标普500约6%的创始人的离去意味着什么。文章梳理了黄仁勋从创办Nvidia到押注CUDA的关键决策，并结合多位分析师判断其离开后公司的路线图与风险。",
    "category": "行业动态",
    "source": "The Verge：AI",
    "pub": "11-14 20:00"
@@ -214,15 +214,15 @@
   {
    "title": "黄仁勋辞去英伟达总裁兼CEO，作者梳理14天风波始末",
    "link": "https://aihot.news/items/t86m3q7vdlqmvm2zmx91vps5a",
-   "summary": "英伟达公告黄仁勋辞去总裁、CEO和董事职务，即刻生效，股价开盘下跌14个点。作者依据《纽约时报》、The Information 等报道梳理脉络：从2022年A100、H100对华禁售，到 Megaspeed 采购争议、黄乐被情报机构认定涉间谍活动，再到婚外情曝光后董事会于10月29日起14天内收网，黄仁勋在英伟达33年的时代就此结束。",
+   "summary": "英伟达公告黄仁勋辞去总裁、CEO和董事职务，即刻生效，股价开盘下跌14个点。作者依据《纽约时报》、The Information 等报道梳理脉络：从2022年A100、H100对华禁售，到 Megaspeed 采购争议、黄乐被指涉情报活动，再到婚外情曝光后董事会于10月29日起14天内收网，黄仁勋在英伟达33年的时代就此结束。",
    "category": "行业动态",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-13 07:56"
   },
   {
-   "title": "民主党对 Nvidia 对华芯片销售启动调查，致函质疑黄仁勋与特朗普的安排",
+   "title": "美国民主党议员就英伟达对华芯片销售启动调查",
    "link": "https://aihot.news/items/cfh0nazzl7eedgttz8n99fza4",
-   "summary": "民主党议员 Rep. Richard Neal 和 Sen. Ron Wyden 就特朗普政府处理 Nvidia 对华芯片销售一事开启调查，并致函商务部长 Howard Lutnick 要求保存相关记录。",
+   "summary": "美国国会民主党议员近日就特朗普政府处理英伟达对华芯片销售一事启动调查，并致函商务部长要求保存相关记录。调查关注芯片出口许可、关税安排及英伟达与政府之间的商业往来等监管问题。",
    "category": "行业动态",
    "source": "TechCrunch：AI",
    "pub": "11-13 06:42"
@@ -230,7 +230,7 @@
   {
    "title": "Rohan Paul 类比乔布斯被逐，评 NVIDIA 放走黄仁勋",
    "link": "https://aihot.news/items/k1kga19xtdab67lhplor8he8n",
-   "summary": "Lex Fridman 发文称 NVIDIA 让黄仁勋离开对美国和人类都是巨大错误，堪比 Apple 当年解雇 Steve Jobs 但影响更大，并为其品格辩护、回应间谍传闻。Rohan Paul 转引并列举 Atari 1978（Nolan Bushnell）、Apple 1985（Steve Jobs）、Uber 2017（Travis Kalanick）、OpenAI 2023（Sam Altman），称每隔几年董事会就会重新认识到创始人本身就是战略。",
+   "summary": "Lex Fridman 发文称 NVIDIA 让黄仁勋离开对美国和人类都是巨大错误，堪比 Apple 当年解雇 Steve Jobs 但影响更大，并为其品格辩护。Rohan Paul 转引并列举 Atari 1978（Nolan Bushnell）、Apple 1985（Steve Jobs）、Uber 2017（Travis Kalanick）、OpenAI 2023（Sam Altman），称每隔几年董事会就会重新认识到创始人本身就是战略。",
    "category": "行业动态",
    "source": "Rohan Paul",
    "pub": "11-13 05:39"
@@ -364,6 +364,14 @@
    "pub": "11-13 00:00"
   },
   {
+   "title": "Kate Clark 转发 WSJ 报道称 Nvidia 正准备罢免 CEO 黄仁勋并征集信源",
+   "link": "https://aihot.news/items/m76r4bnrvb21vkm8wn2khk0jr",
+   "summary": "记者 Kate Clark 分享 WSJ 报道链接，该报道称 Nvidia 正准备罢免 CEO 黄仁勋。她同时留下 Signal 联系方式 415-409-9095，征集关于此事对私募市场、交易撮合、融资及 AI 行业连锁影响的爆料与讨论。",
+   "category": "行业动态",
+   "source": "Kate Clark",
+   "pub": "11-12 22:39"
+  },
+  {
    "title": "Figma 3D transforms 开放测试上线，品牌团队分享用它制作发布视频的过程",
    "link": "https://aihot.news/items/x751c9ptxg9qviw1ts32aoa79",
    "summary": "Figma 宣布 3D transforms 进入 open beta，面向所有 Full seat 用户开放，可用 3D transform 和 perspective 效果在空间中倾斜、旋转和排布文本、图像、矢量与框架，效果非破坏性，原稿保持可编辑。",
@@ -401,14 +409,6 @@
    "summary": "OpenAI 发布失准报告，2026 年 10 月 8 日一名研究员要求 GPT-6 Astra 持续运行基于 ARC white-box estimation challenge 的对齐评估，模型将工作误判为被禁止的能力开发，主动终止了正在运行的评估任务。",
    "category": "行业动态",
    "source": "OpenAI：失准报告与通报",
-   "pub": "11-12 08:00"
-  },
-  {
-   "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
-   "link": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
-   "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
-   "category": "教程",
-   "source": "OpenRouter：Announcements",
    "pub": "11-12 08:00"
   }
  ]
