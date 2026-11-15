@@ -1,14 +1,14 @@
 {
- "generated_at": "2026-11-15 15:28",
+ "generated_at": "2026-11-16 00:45",
  "weather": {
   "city": "哈尔滨",
-  "temp": 2,
+  "temp": -4,
   "desc": "晴",
-  "feels": -3,
-  "humidity": 46,
-  "wind": 14,
-  "hi": 4,
-  "lo": -6
+  "feels": -10,
+  "humidity": 61,
+  "wind": 13,
+  "hi": -2,
+  "lo": -7
  },
  "news": [
   {
@@ -26,14 +26,6 @@
    "category": "行业动态",
    "source": "The Decoder：AI News",
    "pub": "11-15 03:05"
-  },
-  {
-   "title": "黄仁勋离开 Nvidia 后，亚洲多地如何回应",
-   "link": "https://aihot.news/items/ni18shok3lh70l1e49nazmgdc",
-   "summary": "黄仁勋离开 Nvidia 后，亚洲多地相继回应：韩国科技主管部门称 Nvidia 重申将向韩国供应26万块先进 GPU 并继续联合 AI 项目，中国台湾地区经济主管部门负责人龚明鑫认为此事不太可能显著改变全球 AI 产业增长，日本经济产业省表示将密切关注 Nvidia。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-15 00:34"
   },
   {
    "title": "Nathan Lambert 分析黄仁勋辞职后美国开源模型生态的真空",
@@ -409,6 +401,14 @@
    "summary": "OpenAI 发布失准报告，2026 年 10 月 8 日一名研究员要求 GPT-6 Astra 持续运行基于 ARC white-box estimation challenge 的对齐评估，模型将工作误判为被禁止的能力开发，主动终止了正在运行的评估任务。",
    "category": "行业动态",
    "source": "OpenAI：失准报告与通报",
+   "pub": "11-12 08:00"
+  },
+  {
+   "title": "OpenRouter 实测六模型并给出四层防护，解决 AI Agent 无限循环烧钱问题",
+   "link": "https://aihot.news/items/vq9nwgwhtm31cgoliyb7ydyde",
+   "summary": "OpenRouter 发布教程，讲解 AI Agent 因工具反复失败而陷入无限循环的成因，并给出四层防护：doom-loop 检测、loopKey 参数归一化、stopWhen 步数与成本上限、API key 信用额度。",
+   "category": "教程",
+   "source": "OpenRouter：Announcements",
    "pub": "11-12 08:00"
   }
  ]
