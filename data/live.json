@@ -1,16 +1,120 @@
 {
- "generated_at": "2026-11-16 15:34",
+ "generated_at": "2026-11-17 03:58",
  "weather": {
   "city": "哈尔滨",
-  "temp": -3,
+  "temp": -8,
   "desc": "阴",
-  "feels": -8,
-  "humidity": 30,
-  "wind": 9,
-  "hi": -2,
+  "feels": -12,
+  "humidity": 56,
+  "wind": 7,
+  "hi": -1,
   "lo": -8
  },
  "news": [
+  {
+   "title": "FBI 警告开源 AI 渗透测试工具 Artex 被用于三小时内攻破企业网络",
+   "link": "https://aihot.news/items/zficxtnfx6piiwlefryulanmh",
+   "summary": "FBI 在最新网络安全公告中警告，黑客正利用开源 AI 渗透测试工具 Artex 自主发起攻击，部分入侵从锁定目标到主动攻陷在不到三小时内完成。该工具已被用于针对美国 IT 公司 ConnectWise 客户及韩国金融行业的网络攻击，攻击者利用弱口令、暴露凭证等简单漏洞快速渗透并窃取数据。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-17 01:36"
+  },
+  {
+   "title": "Redwood Research：Gemini 4 安全报告未能证明失控风险低",
+   "link": "https://aihot.news/items/naql5xzzrykngxhvhd6vin5yn",
+   "summary": "Redwood Research 发文批评 Google DeepMind 的 Gemini 4 Argon 与 Carbon 安全报告，认为其基于控制措施的安全论证存在严重弱点，不足以证明部署风险已可靠缓解。",
+   "category": "观点",
+   "source": "Redwood Research：Blog",
+   "pub": "11-17 01:21"
+  },
+  {
+   "title": "Microsoft Research 开源 TokenEconomizer 插件，让编码智能体从经验中省 token",
+   "link": "https://aihot.news/items/ub0r10tgaq7g5nnq01ciz9d17",
+   "summary": "UC Berkeley、Microsoft Research 与 Microsoft Security 开源 TokenEconomizer 插件，从智能体在同一仓库的历史会话中学习，在不修改智能体和底层模型的情况下降低成本。",
+   "category": "论文",
+   "source": "Microsoft Research 博客",
+   "pub": "11-17 01:01"
+  },
+  {
+   "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本",
+   "link": "https://aihot.news/items/ctdbuq2r9l6dakhxrm4pmd8ru",
+   "summary": "Databricks 推出 AI Index，将 Unity Gateway 上 10,000+ 家企业的匿名用量数据与基于私有代码库的编码 Agent 评测结合，每周更新并首次公开其内部评测套件。",
+   "category": "AI 产品",
+   "source": "Databricks：Blog",
+   "pub": "11-17 01:00"
+  },
+  {
+   "title": "OpenAI 发布免费 CSAM 检测图像分类器并升级 ChatGPT 儿童安全干预",
+   "link": "https://aihot.news/items/cidgb5cgquwqxtiydrzykwc2p",
+   "summary": "OpenAI 发布可检测 CSAM（含 AI 生成内容）的图像分类器，通过 API 向审核机构免费开放，测试显示可将需复审图像减少 48%，fal 实测 72% 高置信标记确认为新型 CSAM。同时 ChatGPT 上线新警告，在用户尝试查找涉儿童性剥削内容时打断并暂停访问 24 小时，还发布了面向开发者的 CSAM 治理指南和执法调查支持工具。",
+   "category": "AI 产品",
+   "source": "OpenAI：官网动态",
+   "pub": "11-17 01:00"
+  },
+  {
+   "title": "Gemini 4 Hydrogen 与 Carbon 如何按工作负载选型",
+   "link": "https://aihot.news/items/zo7ubny2zjk4qoqjdoiec91b8",
+   "summary": "Google DeepMind 的 Philipp Schmid 讲解如何在工作负载中选择 Gemini 4 Hydrogen 与 Carbon：Carbon 适合硬架构设计、调试、科学证明和安全审计，intro 价 $2/$10 至 11 月 30 日；Hydrogen 适合日常编码、交互应用和工具调用智能体，价格 $1.50/$7.50 per 1M。两款都可用 Carbon 负责规划编排、Hydrogen 负责执行的搭配，共享 1M-token 统一上下文窗口、95% implicit caching 和相同 Interactions API schema。",
+   "category": "教程",
+   "source": "Philipp Schmid",
+   "pub": "11-17 00:02"
+  },
+  {
+   "title": "Google 发布 Gemini 4 Carbon 与 Hydrogen，并推出 Decisions API 和自托管 agent 沙箱",
+   "link": "https://aihot.news/items/n3qi466u1gbxj2i8q7g5snhr0",
+   "summary": "Google 发布 Gemini 4 Carbon（gemini-4-carbon，1M 共享 token 池，11 月 30 日前 $2.00/$10.00 每 1M tokens。",
+   "category": "AI 模型",
+   "source": "Philipp Schmid",
+   "pub": "11-16 23:57"
+  },
+  {
+   "title": "美国收紧 AI 芯片出口管制，限制中国企业远程获取算力",
+   "link": "https://aihot.news/items/x6msqkehvwzry0904un629cqg",
+   "summary": "美国商务部发布临时规则，要求向全球数据中心出口 AI 芯片和服务器需申请许可，以阻止中国企业等通过远程访问境外算力绕过管制。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-16 23:02"
+  },
+  {
+   "title": "Lovable 推出 Drafts 功能，可并行探索应用改动而不影响线上版本",
+   "link": "https://aihot.news/items/v8ml9usyo7vicoqktyv5cdi0z",
+   "summary": "Lovable 推出 Drafts 功能，可创建应用的完整副本，从设计到数据库，让用户和团队并行试验不同想法而不触碰线上应用。每个 Draft 拥有独立聊天和预览，并自带示例数据便于查看效果；可创建任意数量的 Draft，接受后仍可在发布前通过 History 回滚，测试数据在接受或删除 Draft 时清除，不会混入真实用户数据。",
+   "category": "AI 产品",
+   "source": "Lovable Blog",
+   "pub": "11-16 21:30"
+  },
+  {
+   "title": "英伟达CEO黄仁勋辞职后风波持续，公司股价一周下跌14%",
+   "link": "https://aihot.news/items/rk143d9qa0j9gp3fdti162fy7",
+   "summary": "英伟达CEO黄仁勋于上周辞任，公司股价随之下跌14%，CFO Colette Kress出任临时CEO。辞职数小时后，路透社报道其第三段婚外情。事件还涉及公司芯片供应相关指控，国会议员已启动调查。报道称黄仁勋正联络盟友寻求回归，业内担心动荡加剧营收压力，可能促使公司在安全投入上有所松懈。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "11-16 21:00"
+  },
+  {
+   "title": "自媒体作者分享10条指挥Agent最常用的Prompt",
+   "link": "https://aihot.news/items/jqangh4mwcgcv6pwcv8ar7pga",
+   "summary": "作者让Agent整理出自己近两个月指挥Agent干活最常用的10条Prompt并分享，包括从第一性原理找根因、先对齐喜好再出3版方案、推演改动二阶三阶影响、假设最优方案错误找反例、分析Git历史识别可移除的历史包袱、评估新工程师接手的认知成本、复盘Bug和返工并沉淀成规则或Skill等。作者希望对大家指挥Agent开发有用。",
+   "category": "教程",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-16 18:05"
+  },
+  {
+   "title": "IMF 总裁警告全球经济过度依赖 AI，循环融资规模超 1 万亿美元",
+   "link": "https://aihot.news/items/leb3cw7nrt06nvf0ew7rkiqf7",
+   "summary": "IMF 总裁格奥尔基耶娃在东盟峰会期间表示，全球经济正依靠 AI 支撑，过度依赖可能危及金融稳定，IMF 估计 AI 企业间循环融资规模已超 1 万亿美元，其中约三分之二来自债务融资。她认为近期市场波动属于有序调整，不太可能演变成系统性风险，但最坏情景下美股可能在 2026 年下跌 20%，2028 年全球经济产出比基准预测低 1.1%。",
+   "category": "观点",
+   "source": "IT之家·人工智能",
+   "pub": "11-16 17:32"
+  },
+  {
+   "title": "OpenAI 与 Apollo Research、METR、Transluce、Goodfire 签约启动首阶段嵌入式安全评估",
+   "link": "https://aihot.news/items/qaj2npptre8jgn8xanq9ic965",
+   "summary": "OpenAI 宣布与四家独立评估机构 Apollo Research、METR、Transluce 和 Goodfire 签署协议，启动首阶段嵌入式安全评估。评估专家将获得模型 checkpoint、源码、训练数据和监控系统等内部资源，分别评估模型暗中违背开发者意图的可能性、模型内部可解释性、最大 RL 训练运行的未对齐行为以及后训练对齐评测的质量覆盖。",
+   "category": "行业动态",
+   "source": "OpenAI：官网动态",
+   "pub": "11-16 16:00"
+  },
   {
    "title": "腾讯混元发布 Hy4 flash：224B 总参数、1M 上下文的日常高性价比模型",
    "link": "https://aihot.news/items/u36vxmxeopbsx4if4lap30899",
@@ -44,12 +148,28 @@
    "pub": "11-16 10:00"
   },
   {
+   "title": "Hugging Face Inference Providers 语言模型路由切换为 OpenRouter",
+   "link": "https://aihot.news/items/v9a6479l3xc0c2m5xsd9bzo9o",
+   "summary": "Hugging Face 与 OpenRouter 合作，将语言模型的 Inference Providers 从自有路由切换到 OpenRouter，按实时价格、速度和可靠性为每次请求挑选最佳 provider，失败时自动重试到其他 provider，代码无需更改。",
+   "category": "行业动态",
+   "source": "Hugging Face 官方团队博客",
+   "pub": "11-16 08:00"
+  },
+  {
    "title": "AI 手搓的 1.4M 纯 HTML 3D 游戏走红，卡兹克拆解 Three.js 程序化生成原理并给出提示词模板",
    "link": "https://aihot.news/items/izdx1kuppob6c65ghvmyeal38",
    "summary": "作者拆解了近期在群里疯传的 1.4M 纯 HTML 3D 游戏，指出其中约 700KB 是打包进文件的 Three.js，其余全部由代码程序化生成，没有图片、模型和录音。",
    "category": "教程",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-16 07:56"
+  },
+  {
+   "title": "Anthropic 缩短协同漏洞披露政策时限",
+   "link": "https://aihot.news/items/hlcy3o9sbfz920grc9b6p86re",
+   "summary": "Anthropic 更新其协同漏洞披露（CVD）政策，将高危及严重漏洞的披露窗口从 90 天缩短至 30 天，其他问题缩短至 45 天，适用于 2027 年 1 月 1 日或之后报告给供应商的漏洞。",
+   "category": "行业动态",
+   "source": "Anthropic：Research",
+   "pub": "11-16 00:00"
   },
   {
    "title": "马斯克等高管联署请愿，要求 Nvidia 恢复黄仁勋 CEO 职务",
@@ -290,126 +410,6 @@
    "category": "AI 模型",
    "source": "Gemini",
    "pub": "11-13 04:50"
-  },
-  {
-   "title": "Gemini 4 Hydrogen 上线 Cursor，CursorBench 得分 54.3%",
-   "link": "https://aihot.news/items/mt013742fhedisepp2i31h1r4",
-   "summary": "作者以「爱好包括制作 og:images」调侃，配图为 CursorBench 4.0 的模型散点图；其引用 Cursor 官方内容称 Gemini 4 Hydrogen 现已在 Cursor 上线，默认 effort 下 CursorBench 得分 54.3%，高于 Gemini 3.8 Flash 的 39.6%。",
-   "category": "AI 产品",
-   "source": "Matt Palmer",
-   "pub": "11-13 02:22"
-  },
-  {
-   "title": "World Labs 开放世界模型 Atlas，支持生成关键帧、视频片段和 3D Gaussian splats",
-   "link": "https://aihot.news/items/lazmov9ciw8y5uqpuda9qcizm",
-   "summary": "World Labs 宣布 Atlas 世界模型向所有人开放，李飞飞转发并表达期待用户用它构建的内容。官方为用户提供了应用和 API 端点，可用 Atlas 生成关键帧、视频片段或 3D Gaussian splats。",
-   "category": "AI 产品",
-   "source": "Fei-Fei Li",
-   "pub": "11-13 02:11"
-  },
-  {
-   "title": "Artificial Analysis 评测 Gemini 4 Hydrogen：智能指数 54，接近 Sonnet 5.5 且成本约其 32%",
-   "link": "https://aihot.news/items/ajvxvhu8bh001pourbhhjl0ir",
-   "summary": "Artificial Analysis 评测 Google 新发布的 Gemini 4 Hydrogen：新增 xhigh 推理档在 Intelligence Index 得 54 分，比 Claude Sonnet 5.5 (max) 和 GPT-6.1 Sol (max) 低 1 分，每任务成本约为 Sonnet 的 32%，但约为 GPT-6.1 Sol 的 2.5 倍。",
-   "category": "AI 模型",
-   "source": "Artificial Analysis",
-   "pub": "11-13 02:07"
-  },
-  {
-   "title": "SemiAnalysis 分析黄仁勋辞任 Nvidia 后的公司结构与出口管制走向",
-   "link": "https://aihot.news/items/n73ab4h9gqlu6ucv69ynzxln4",
-   "summary": "SemiAnalysis 长文分析黄仁勋辞任 Nvidia CEO 后的连锁影响，作者推测其去职与 GPU 走私及美国推动 RASA 出口管制立法有关。文中指出公司约 60 名直管高管的扁平结构依赖黄本人，继任者 Colette Kress 为临时 CEO，Ian Buck 与 Jonah Alben 被视为技术侧人选但无人能全面接替。",
-   "category": "行业动态",
-   "source": "SemiAnalysis 长文 RSS",
-   "pub": "11-13 02:06"
-  },
-  {
-   "title": "Google Gemini 开放推送，覆盖开发者、企业与普通用户渠道",
-   "link": "https://aihot.news/items/v26fsdyhbktgyuedmrx25p58y",
-   "summary": "Google DeepMind 宣布开始向各渠道推送：开发者可在 Google AI Studio、Android Studio 中用 Gemini API，付费 Google AI Pro 和 Ultra 订阅者可在 Google Antigravity 中使用；企业可通过 Gemini for business 和 Google Antigravity 部署；所有用户可在 Google Search 和 Gemini 应用模型下拉菜单中访问。详情见 https://goo.gle/4zDCs8N。",
-   "category": "AI 产品",
-   "source": "Google DeepMind",
-   "pub": "11-13 02:02"
-  },
-  {
-   "title": "Google DeepMind 发布 Gemini 4 Hydrogen",
-   "link": "https://aihot.news/items/uy1ayrrlqx1snqsv4lub7whsa",
-   "summary": "Google DeepMind 发布 Gemini 4 Hydrogen，定位快速执行日常编码与智能体工作流，面向 Gemini API、AI Studio、Gemini 应用、Google Search 等全层级开放。",
-   "category": "AI 模型",
-   "source": "Google DeepMind：Blog",
-   "pub": "11-13 02:00"
-  },
-  {
-   "title": "Edge0 开源 145B 端侧模型，可在笔记本本地运行",
-   "link": "https://aihot.news/items/icmwp7qazk244f7fn6zlw8882",
-   "summary": "Edge0 宣布开源 Edge0-145B 与 Edge0-120B 模型及统一推理框架和部署工具，称 Edge0-145B 是首个可在个人电脑本地运行的 145B 参数开源模型。",
-   "category": "AI 模型",
-   "source": "Hacker News：AI 热帖",
-   "pub": "11-13 02:00"
-  },
-  {
-   "title": "The Verge 分析黄仁勋辞职与 Nvidia 芯片走私疑云",
-   "link": "https://aihot.news/items/licdk6vosezxouovor3gvtcpe",
-   "summary": "The Verge 作者 Elizabeth Lopatto 分析 Nvidia 宣布黄仁勋辞职一事，认为第二桩婚外情只是导火索，真正原因或与芯片走私指控有关。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "11-13 01:44"
-  },
-  {
-   "title": "Replit Agent 新增代购能力和 Google Ads 投放功能",
-   "link": "https://aihot.news/items/k7sfjumcmtq0zswb5yj5kmju1",
-   "summary": "Replit 给 Replit Agent 新增两项能力：通过 Stripe Link 和 Visa 为企业代购物资，以及在 Replit 内直接创建和投放 Google Ads 覆盖 Search、YouTube 等渠道。",
-   "category": "AI 产品",
-   "source": "Replit：Blog",
-   "pub": "11-13 00:45"
-  },
-  {
-   "title": "黄仁勋辞任 Nvidia CEO，Azeem Azhar 分析其对 AI 热潮的影响",
-   "link": "https://aihot.news/items/toq4wymx9maq8lhhz8jryi0sv",
-   "summary": "作者 Azeem Azhar 分析黄仁勋辞任 Nvidia CEO 一事：公司在未设接班政策的情况下由 CFO Colette Kress 临时接手。文章指出 Nvidia 五年间售出近 1400 万颗旗舰 AI 芯片、占 85% 市场，过去一年在欧洲投资近 100 亿美元，而黄仁勋本人是公司与 AI 生态的关键纽带。",
-   "category": "行业动态",
-   "source": "Azeem Azhar：Exponential View",
-   "pub": "11-13 00:19"
-  },
-  {
-   "title": "Epoch AI 分析华为和林格尔数据中心，揭示中美算力差距",
-   "link": "https://aihot.news/items/adkgofriq3tvp6qrawfc63yw4",
-   "summary": "Epoch AI 通过卫星影像和冷却设备模型估算，华为和林格尔数据中心已投运约 105,000 颗 Ascend 910C 和 8,000 颗 Ascend 910B 芯片，对应约 81,000 H100 等效算力，为全球最大 AI 数据中心 SpaceX Colossus 2 的约 7%。",
-   "category": "论文",
-   "source": "Epoch AI：Gradient Updates",
-   "pub": "11-13 00:03"
-  },
-  {
-   "title": "MOSS-Live 全双工实时交互评测解读：与 GPT-Live-1、豆包的对比",
-   "link": "https://aihot.news/items/rcjkjkhq7xxwbhh9wnv15fqy1",
-   "summary": "OpenMOSS 团队发布 MOSS-Live 全双工语音交互评测解读。依据 MOSS 官网 2026 年 11 月 13 日图表，MOSS-Live 六项全双工指标均居参评模型首位，无关语音误接话率 2.00%，低于 GPT-Live-1 的 68% 和豆包的 75%，停顿抢话率 1.44%。",
-   "category": "AI 模型",
-   "source": "OpenMOSS / 复旦NLP / 上海创智 / MOSI",
-   "pub": "11-13 00:00"
-  },
-  {
-   "title": "DeepSeek 开放全家桶应用 API：联网搜索、文件输入、阅读链接等能力面向开发者",
-   "link": "https://aihot.news/items/nnbnoebf6mvo97usmwj5wziyl",
-   "summary": "DeepSeek 在 API 中开放此前 App 对话服务所用的能力，开发者开启对应参数即可使用，工具调用与上下文拼接由服务端完成。",
-   "category": "AI 产品",
-   "source": "DeepSeek：API 更新日志",
-   "pub": "11-13 00:00"
-  },
-  {
-   "title": "Apple HomeView 正式开售，售价 299 美元并搭载 Siri AI",
-   "link": "https://aihot.news/items/bp01lj0ahiqsoahba8sjor2b4",
-   "summary": "Apple 于 11 月 13 日正式开售 HomeView，提供桌面和壁挂两款型号，均售 $299（U.S.），首发澳大利亚、加拿大、印度、新西兰、新加坡、英国和美国市场。",
-   "category": "AI 产品",
-   "source": "Apple：Newsroom",
-   "pub": "11-13 00:00"
-  },
-  {
-   "title": "Kate Clark 转发 WSJ 报道称 Nvidia 正准备罢免 CEO 黄仁勋并征集信源",
-   "link": "https://aihot.news/items/m76r4bnrvb21vkm8wn2khk0jr",
-   "summary": "记者 Kate Clark 分享 WSJ 报道链接，该报道称 Nvidia 正准备罢免 CEO 黄仁勋。她同时留下 Signal 联系方式 415-409-9095，征集关于此事对私募市场、交易撮合、融资及 AI 行业连锁影响的爆料与讨论。",
-   "category": "行业动态",
-   "source": "Kate Clark",
-   "pub": "11-12 22:39"
   }
  ]
 }
