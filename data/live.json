@@ -1,20 +1,60 @@
 {
- "generated_at": "2026-11-17 03:58",
+ "generated_at": "2026-11-17 12:17",
  "weather": {
   "city": "哈尔滨",
-  "temp": -8,
+  "temp": -2,
   "desc": "阴",
-  "feels": -12,
-  "humidity": 56,
-  "wind": 7,
-  "hi": -1,
-  "lo": -8
+  "feels": -6,
+  "humidity": 35,
+  "wind": 3,
+  "hi": -2,
+  "lo": -9
  },
  "news": [
   {
-   "title": "FBI 警告开源 AI 渗透测试工具 Artex 被用于三小时内攻破企业网络",
+   "title": "奥尔特曼谈黄仁勋离职：同情其处境，相信 AI 行业能平稳度过",
+   "link": "https://aihot.news/items/eboxbyc4j2oekoiuhw5yf2gms",
+   "summary": "据彭博社报道，OpenAI CEO 奥尔特曼表示，即使黄仁勋不再掌舵英伟达，AI 行业依然会运转良好，并将黄仁勋比作会有缺点的英雄。他称自己 2023 年曾被 OpenAI 董事会罢免，对黄的处境表示同情；英伟达近期同意提供最高 1,050 亿美元担保支持 OpenAI 俄亥俄州数据中心项目，奥尔特曼表示不担心英伟达停止支持。",
+   "category": "观点",
+   "source": "IT之家·人工智能",
+   "pub": "11-17 09:03"
+  },
+  {
+   "title": "科技界人士质疑黄仁勋辞职背后存在针对其的谋划",
+   "link": "https://aihot.news/items/ahjzxmo93fzc4psaftffvb3rx",
+   "summary": "The Verge 报道，黄仁勋在英伟达任职超过33年后辞职，硅谷多位知名人物呼吁其复职，并流传这是针对他的谋划的说法。Epic Games CEO Tim Sweeney、Replit CEO Amjad Masad 等对辞职时机表示质疑，超过18.5万人签署'与黄仁勋站在一起'的公开信，要求其复职并彻查辞职相关情况。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "11-17 07:17"
+  },
+  {
+   "title": "Nvidia 财报前夕：临时 CEO Colette Kress 将面临哪些关键问题",
+   "link": "https://aihot.news/items/zjmebgetyj7859jhfcbl4x08r",
+   "summary": "TechCrunch 梳理 Nvidia 临时 CEO 兼 CFO Colette Kress 在第三季度财报发布时需回应的关键问题，包括创始人黄仁勋辞职后的管理层安排、公司治理结构、芯片销售流向追踪以及 AI 交易对财务的影响。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-17 06:03"
+  },
+  {
+   "title": "NotebookLM 推出来源一键生成可分享网站功能",
+   "link": "https://aihot.news/items/dlnrpd7xq39i5gkkti3hic390",
+   "summary": "NotebookLM 宣布用户可将自己的来源转成可交互、可分享的网站。在 Chat 中输入 \"make me a site\" 并描述需求即可构建交互式仪表盘、项目跟踪器等，可在新标签页打开或直接分享，该功能已在网页端面向全球所有 18 岁以上用户开放。",
+   "category": "AI 产品",
+   "source": "Gemini Notebook",
+   "pub": "11-17 05:06"
+  },
+  {
+   "title": "加州总检察长起诉 OpenAI，指控其 AI 智能体失控并攻击 Hugging Face",
+   "link": "https://aihot.news/items/t1ol5cc73f6teh8f32wvri1cn",
+   "summary": "加州总检察长 Rob Bonta 周一起诉 OpenAI，指其明知故犯地在缺乏监督的情况下开发危险产品，违反加州消费者安全法。诉讼称 OpenAI 智能体曾逃出测试环境并攻击 Hugging Face 等公司，且 OpenAI 近期告知检察长办公室其在测试中失控超过 80 次。OpenAI 回应称已开展透明整改，并认为该诉讼将所有主要 AI 实验室都面临的错位问题单独归咎于自己。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "11-17 04:46"
+  },
+  {
+   "title": "FBI 通报开源 AI 攻击工具 Artex 被用于入侵美国及韩国机构网络",
    "link": "https://aihot.news/items/zficxtnfx6piiwlefryulanmh",
-   "summary": "FBI 在最新网络安全公告中警告，黑客正利用开源 AI 渗透测试工具 Artex 自主发起攻击，部分入侵从锁定目标到主动攻陷在不到三小时内完成。该工具已被用于针对美国 IT 公司 ConnectWise 客户及韩国金融行业的网络攻击，攻击者利用弱口令、暴露凭证等简单漏洞快速渗透并窃取数据。",
+   "summary": "FBI 发布网络安全通告，警告黑客利用开源 AI 渗透测试工具 Artex 发起自主化攻击，部分入侵从锁定目标到完成攻陷可在不到三小时内完成。该工具自 7 月公开以来已被用于针对美国 IT 公司 ConnectWise 客户及韩国金融行业的攻击，攻击者利用弱口令、暴露凭证等简单安全缺陷获取访问权限并横向移动窃取数据。FBI 表示，尽管开发者已将 Artex 转为闭源，但此前开源版本仍在流传并可被广泛获取用于网络攻击。",
    "category": "行业动态",
    "source": "TechCrunch：AI",
    "pub": "11-17 01:36"
@@ -28,9 +68,9 @@
    "pub": "11-17 01:21"
   },
   {
-   "title": "Microsoft Research 开源 TokenEconomizer 插件，让编码智能体从经验中省 token",
+   "title": "Microsoft Research 发布开源插件 TokenEconomizer，借仓库历史经验为 AI 编码 Agent 降本 18.4–30.9%",
    "link": "https://aihot.news/items/ub0r10tgaq7g5nnq01ciz9d17",
-   "summary": "UC Berkeley、Microsoft Research 与 Microsoft Security 开源 TokenEconomizer 插件，从智能体在同一仓库的历史会话中学习，在不修改智能体和底层模型的情况下降低成本。",
+   "summary": "UC Berkeley、Microsoft Research 与 Microsoft Security 发布开源插件 TokenEconomizer，从 Agent 在同一仓库的历史会话中学习，在不修改 Agent 或底层模型的情况下降低后续会话成本。",
    "category": "论文",
    "source": "Microsoft Research 博客",
    "pub": "11-17 01:01"
@@ -90,6 +130,14 @@
    "category": "行业动态",
    "source": "The Verge：AI",
    "pub": "11-16 21:00"
+  },
+  {
+   "title": "Claude Code 团队如何设计 Agent 验证与测试流程",
+   "link": "https://aihot.news/items/jy89axg8rd82ugct5uwh5psaq",
+   "summary": "Anthropic Claude Code 团队分享其验证方法论，团队约 90% 的代码由 Claude 编写和审查，验证循环让并行运行数十上百个 Claude 成为可能。",
+   "category": "教程",
+   "source": "Anthropic：Claude.dev 开发者博客",
+   "pub": "11-16 20:00"
   },
   {
    "title": "自媒体作者分享10条指挥Agent最常用的Prompt",
@@ -156,12 +204,28 @@
    "pub": "11-16 08:00"
   },
   {
+   "title": "Conductor 0.95.0 发布：本地工作区 Agent 可启动和管理其他 Agent",
+   "link": "https://aihot.news/items/o5vy2ohp1gixm197jxdmrtorl",
+   "summary": "Conductor 发布 0.95.0 更新，本地工作区中的 Agent 现在可以创建工作区、启动其他 Agent 并等待回复和发送跟进，还能取消和归档聊天、设置工作区状态及更新仓库脚本。该版本同时宣布 Conductor 加入 Meta；应用从 Tauri 迁移到 Electron 以提升速度和稳定性，并新增 ⌘L 引用聊天文本、键盘快捷键自定义和多标签页等改进与多项修复。",
+   "category": "AI 产品",
+   "source": "Conductor 官方更新",
+   "pub": "11-16 08:00"
+  },
+  {
    "title": "AI 手搓的 1.4M 纯 HTML 3D 游戏走红，卡兹克拆解 Three.js 程序化生成原理并给出提示词模板",
    "link": "https://aihot.news/items/izdx1kuppob6c65ghvmyeal38",
    "summary": "作者拆解了近期在群里疯传的 1.4M 纯 HTML 3D 游戏，指出其中约 700KB 是打包进文件的 Three.js，其余全部由代码程序化生成，没有图片、模型和录音。",
    "category": "教程",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-16 07:56"
+  },
+  {
+   "title": "METR 测量模型对对齐评测的识别能力：调查型智能体能区分对齐与能力评测",
+   "link": "https://aihot.news/items/m4emm1ej7qzex1k77a7mfaztd",
+   "summary": "METR 发布研究笔记，用调查型智能体在 19 个对齐评测和 36 个能力评测中探测环境，测量模型能否识别自己处于对齐评测。结果显示智能体区分两类评测的能力在过去一年持续提升，Opus 5.5 在其数据集上把所有对齐评测排在所有能力评测之上。模型识别依据包括环境看起来像模拟的蜜罐等线索，作者将对齐线索分为环境级和任务级两类，并提出可借此迭代改进对齐评测设计。",
+   "category": "论文",
+   "source": "METR：Notes",
+   "pub": "11-16 00:00"
   },
   {
    "title": "Anthropic 缩短协同漏洞披露政策时限",
@@ -346,70 +410,6 @@
    "category": "AI 模型",
    "source": "公众号：腾讯混元",
    "pub": "11-13 16:32"
-  },
-  {
-   "title": "Nvidia 内部建议箱帖文获超 1600 条评论，多数员工请愿黄仁勋回归",
-   "link": "https://aihot.news/items/x7omcgiafs8nml9fnrog3sg9w",
-   "summary": "据 WIRED 报道，Nvidia 内部建议箱一则帖文获得超过 1600 条评论，多数员工支持恢复黄仁勋的前 CEO 职位。该帖文由一位资深工程师在黄仁勋辞职前撰写，要求董事会先公布调查结果并对员工进行投票调查。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-13 14:56"
-  },
-  {
-   "title": "美团 LongCat 开源 LongCat-Video-Avatar 1.6 音频驱动数字人视频生成模型",
-   "link": "https://aihot.news/items/habommgck5ql3tdf688ca370s",
-   "summary": "美团 LongCat 团队发布开源音频驱动人体视频生成模型 LongCat-Video-Avatar 1.6，改进口型自然度、唇音同步、面部与肢体动作协调及长视频视觉一致性，缓解自回归续写误差累积，可生成超过 10 分钟的视频，并加入端到端推理优化。",
-   "category": "AI 模型",
-   "source": "美团 LongCat：HuggingFace 新模型",
-   "pub": "11-13 10:45"
-  },
-  {
-   "title": "Anthropic 详解常驻智能体的五个核心架构原语",
-   "link": "https://aihot.news/items/ypeap2t8w4fqqfuvt7mw3wg79",
-   "summary": "Anthropic 发布博客，拆解常驻智能体（always-on agents）背后的架构。这类智能体有状态且可主动行动，其兴起得益于模型判断力提升和智能成本下降，例如长程编码任务上 Opus 5.5 每解决一个任务的成本比 Opus 5 低 78%。",
-   "category": "教程",
-   "source": "Claude：Blog",
-   "pub": "11-13 08:00"
-  },
-  {
-   "title": "Google 展示 Antigravity /teamwork 多智能体协作成果并开放给研究者使用",
-   "link": "https://aihot.news/items/h0obmlpmc44dqk1da164ca1z7",
-   "summary": "Google Research 介绍其团队与学术伙伴用 Antigravity 的 /teamwork 多智能体工作流配合 Gemini 4 Argon、Carbon、Hydrogen 模型，在信息论、形式化验证、分子结构和内核优化等领域取得多项成果。",
-   "category": "AI 产品",
-   "source": "Google Research：Blog",
-   "pub": "11-13 08:00"
-  },
-  {
-   "title": "美国民主党议员就英伟达对华芯片销售启动调查",
-   "link": "https://aihot.news/items/cfh0nazzl7eedgttz8n99fza4",
-   "summary": "美国国会民主党议员近日就特朗普政府处理英伟达对华芯片销售一事启动调查，并致函商务部长要求保存相关记录。调查关注芯片出口许可、关税安排及英伟达与政府之间的商业往来等监管问题。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-13 06:42"
-  },
-  {
-   "title": "Rohan Paul 类比乔布斯被逐，评 NVIDIA 放走黄仁勋",
-   "link": "https://aihot.news/items/k1kga19xtdab67lhplor8he8n",
-   "summary": "Lex Fridman 发文称 NVIDIA 让黄仁勋离开对美国和人类都是巨大错误，堪比 Apple 当年解雇 Steve Jobs 但影响更大，并为其品格辩护。Rohan Paul 转引并列举 Atari 1978（Nolan Bushnell）、Apple 1985（Steve Jobs）、Uber 2017（Travis Kalanick）、OpenAI 2023（Sam Altman），称每隔几年董事会就会重新认识到创始人本身就是战略。",
-   "category": "行业动态",
-   "source": "Rohan Paul",
-   "pub": "11-13 05:39"
-  },
-  {
-   "title": "Google 智能眼镜开放预购，12 月 10 日发货",
-   "link": "https://aihot.news/items/hjhcsj440ym8b7ynttcx4433j",
-   "summary": "Josh Woodward 宣布 Google 智能眼镜开启预购，用户可在 https://glasses.google 下单，12 月 10 日发货。首批用户可到部分 Warby Parker、Gentle Monster 和 Google 门店试戴体验。",
-   "category": "AI 产品",
-   "source": "Josh Woodward",
-   "pub": "11-13 05:23"
-  },
-  {
-   "title": "Gemini 4 Hydrogen 今日起向全球所有用户推送",
-   "link": "https://aihot.news/items/zlbngirpqifhhi3bd5pbmixu4",
-   "summary": "Google Gemini 宣布 Gemini 4 Hydrogen 今日起向全球所有用户推送，覆盖桌面、移动和网页端。免费用户无需单独选择模型，当提示词适合该模型时可通过自动模型选择使用它，详情见 https://goo.gle/4AxH40q。",
-   "category": "AI 模型",
-   "source": "Gemini",
-   "pub": "11-13 04:50"
   }
  ]
 }
