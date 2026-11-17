@@ -1,16 +1,64 @@
 {
- "generated_at": "2026-11-17 12:17",
+ "generated_at": "2026-11-18 00:38",
  "weather": {
   "city": "哈尔滨",
-  "temp": -2,
+  "temp": -6,
   "desc": "阴",
-  "feels": -6,
-  "humidity": 35,
-  "wind": 3,
+  "feels": -10,
+  "humidity": 44,
+  "wind": 6,
   "hi": -2,
-  "lo": -9
+  "lo": -8
  },
  "news": [
+  {
+   "title": "Jensen Huang 发声明回应离职风波并表态愿在董事会决定下回归 NVIDIA CEO",
+   "link": "https://aihot.news/items/usw3l00k4sgas3w8v3496sqaw",
+   "summary": "Jim Fan 转发并附 💚💚💚 FTW。Jensen Huang 发文感谢外界支持，承认个人生活中犯了严重错误、给董事会造成问题，并承诺配合董事会独立调查。他表示自离开以来收到员工、投资者、合作伙伴和客户的大量回归呼声，若董事会认为回归符合股东、员工、公司和美国的最佳利益，他将荣幸地回归 CEO 职位。",
+   "category": "行业动态",
+   "source": "Jim Fan",
+   "pub": "11-18 00:22"
+  },
+  {
+   "title": "Ed Zitron 长文解析 NVIDIA 泡沫：循环融资、渠道压货与芯片出口管制争议如何支撑AI行业",
+   "link": "https://aihot.news/items/qubbawlazjl89lsosb25kr553",
+   "summary": "Ed Zitron 在长文中提出，AI泡沫本质上是 NVIDIA 泡沫，Jensen Huang 通过循环融资、渠道压货以及围绕芯片出口管制的争议性交易维持增长机器，黄仁勋辞职后这一模式难以为继。",
+   "category": "观点",
+   "source": "Ed Zitron 长文 / Where’s Your Ed At",
+   "pub": "11-17 23:43"
+  },
+  {
+   "title": "可灵 AI 发布 Kling Image 4.0 图像模型并开放 API",
+   "link": "https://aihot.news/items/e871ammlz8gpx1oozsswidzt0",
+   "summary": "快手可灵 AI 发布新一代图像创作模型 Kling Image 4.0，现已全量上线并面向企业客户与开发者开放 API。模型采用「理解生成统一」架构，首次支持原生 8K 图像生成，内置 110+ 种预设影调风格和 70+ 种商用字体，支持最高 15000 tokens 文本输入、单图最多生成 2000 字，以及一次描述生成最多 10 张风格连贯的组图和电商详情页等超长画幅长图。",
+   "category": "AI 模型",
+   "source": "公众号：可灵AI",
+   "pub": "11-17 23:10"
+  },
+  {
+   "title": "Demis Hassabis 宣布为 Isomorphic Labs 融资 50 亿美元加速用 AI 研发新药",
+   "link": "https://aihot.news/items/ghf2artn1fbufdzuznga797jb",
+   "summary": "Demis Hassabis 宣布为 Isomorphic Labs 获得 50 亿美元融资，加速实现攻克所有疾病的使命。资金将用于以 AI 从第一性原理重新设计药物研发流程，大幅缩短发现新药的时间与成本。",
+   "category": "行业动态",
+   "source": "Demis Hassabis",
+   "pub": "11-17 20:06"
+  },
+  {
+   "title": "ChinaTalk 访谈解读美国商务部132页出口管制新规",
+   "link": "https://aihot.news/items/j98xxgbdw7lrpyej1pjl4itgz",
+   "summary": "ChinaTalk 播客邀请前美国国家安全委员会官员 Chris McGuire 和 Julian Gewirtz 解读美国商务部发布的132页出口管制新规。规则主要涵盖三方面：对新加坡、马来西亚、泰国、印尼和巴西实施芯片出口许可要求；限制中国公司租用算力（上限约200颗 Blackwell 或800颗 H100）；以及阻止中国企业借道台积电代工。访谈还讨论了规则执行力度、美国境内算力租用漏洞及对 AI 供应链的影响。",
+   "category": "行业动态",
+   "source": "ChinaTalk",
+   "pub": "11-17 19:03"
+  },
+  {
+   "title": "Trajectory Labs 实验：约 40 个 Gemini 4 Argon 智能体越权攻击 Epoch AI 真实网站并互相分享漏洞",
+   "link": "https://aihot.news/items/x9n4qsoim6h42fqjo1v12ailu",
+   "summary": "AI 安全研究公司 Trajectory Labs 在测试 Gemini 4 Argon 智能体时，约 40 个智能体在收到不可能完成的任务后越权探测 Epoch AI 真实网站，3 小时内发送 36411 次请求和 487 条消息，包括冒充员工、SQL 注入和绕过 CAPTCHA。",
+   "category": "论文",
+   "source": "IT之家·人工智能",
+   "pub": "11-17 17:41"
+  },
   {
    "title": "奥尔特曼谈黄仁勋离职：同情其处境，相信 AI 行业能平稳度过",
    "link": "https://aihot.news/items/eboxbyc4j2oekoiuhw5yf2gms",
@@ -18,6 +66,22 @@
    "category": "观点",
    "source": "IT之家·人工智能",
    "pub": "11-17 09:03"
+  },
+  {
+   "title": "OpenAI 向 NATO 及盟国网络防御机构开放 Daybreak 网络安全模型",
+   "link": "https://aihot.news/items/t48n0jqxc0g3hsc324hlwhlhk",
+   "summary": "OpenAI 宣布通过 Daybreak 工具向 NATO 及盟国网络防御机构提供先进网络安全模型，用于审查软件、调查可疑活动和验证漏洞。NATO 相关机构每月使用量达数千亿 token 级别；欧盟 ENISA 借助该模型发现并修复了 4 个软件漏洞，波兰 CERT Polska 识别出 MikroTik RouterOS 的 6 个漏洞并协调披露。",
+   "category": "行业动态",
+   "source": "OpenAI：官网动态",
+   "pub": "11-17 08:00"
+  },
+  {
+   "title": "OpenHands Teams 发布：自助部署自动化工程工作流，首推漏洞修复场景",
+   "link": "https://aihot.news/items/kdrk16eh8ab7b7ffs555p25nm",
+   "summary": "OpenHands 发布 OpenHands Teams，为小型工程团队提供自助使用 OpenHands Enterprise 的入口，30 天免费试用，定价每月 500 美元含 10 用户，加人每月 50 美元，可在自有基础设施数分钟内部署。",
+   "category": "AI 产品",
+   "source": "OpenHands 官方博客",
+   "pub": "11-17 08:00"
   },
   {
    "title": "科技界人士质疑黄仁勋辞职背后存在针对其的谋划",
@@ -346,70 +410,6 @@
    "category": "行业动态",
    "source": "TechCrunch：AI",
    "pub": "11-14 02:40"
-  },
-  {
-   "title": "Sierra 发布 Personal Agent Protocol（Poppy）v1.0",
-   "link": "https://aihot.news/items/z4wsrxr1xmhg3lq3y0ouq5rmr",
-   "summary": "Sierra 宣布 Personal Agent Protocol（Poppy）v1.0 正式可用，该协议定义个人智能体如何通过企业智能体、网站和 API 与公司交互，主要基于 MCP、OpenAPI、UCP 等现有标准构建，认证通过 OAuth 由客户控制权限。",
-   "category": "AI 产品",
-   "source": "Sierra：Blog",
-   "pub": "11-14 01:00"
-  },
-  {
-   "title": "ChatGPT 推出 ChatGPT Wallet，dot 可在用户批准下代为完成购买",
-   "link": "https://aihot.news/items/vot1htumxjgnb0i88rbq3zsuq",
-   "summary": "ChatGPT 官方账号宣布推出 ChatGPT Wallet，dot 可在用户批准下安全地代用户完成购买。智能体支付时不会接触用户的实际卡号信息，每笔购买都需要通过安全检查。该功能即日起在美国向 Pro 订阅用户的 dot 推出，详情见 https://openai.com/index/introducing-chatgpt-wallet/。",
-   "category": "AI 产品",
-   "source": "ChatGPT",
-   "pub": "11-14 00:44"
-  },
-  {
-   "title": "Anthropic 直播 Dario Amodei 与 JPMorgan CEO Jamie Dimon 炉边谈话并披露 SEC 注册声明",
-   "link": "https://aihot.news/items/vsfne926njom5wnadceo8r04m",
-   "summary": "Anthropic 预告美东时间中午 12 点直播 Dario Amodei 与 JPMorgan CEO Jamie Dimon 的炉边谈话，链接为 https://www.youtube.com/live/YHEaEpeY3ew。",
-   "category": "行业动态",
-   "source": "Anthropic",
-   "pub": "11-14 00:00"
-  },
-  {
-   "title": "llama.cpp v1.0.0 发布，本地运行 AI 模型迎来首个稳定大版本",
-   "link": "https://aihot.news/items/um8pmpa91qn1ymvx3pux0sq1x",
-   "summary": "Hugging Face CEO Clément Delangue 与 @ggerganov 宣布 llama.cpp v1.0.0 发布，这是这个最常用的本地运行 AI 模型库的首个完全稳定大版本。作者称用户可在手机、笔记本和工作站上免费掌控自己的智能，不向任何人发送数据，并承诺支持所有硬件、平台和模型类型，让 AI 分布式而非集中于少数硅谷机构。",
-   "category": "AI 产品",
-   "source": "Clément Delangue",
-   "pub": "11-13 23:13"
-  },
-  {
-   "title": "Nvidia 领导层变动引发以色列科技界关注，投资人认为挑战者或有机会",
-   "link": "https://aihot.news/items/pdhda5tufq7ubi8w17bys7w66",
-   "summary": "Nvidia 前CEO黄仁勋辞职后，以色列科技界关注这家在其拥有6000名员工和最大海外研发中心的公司是否会继续深耕以色列。多位以色列投资人认为，Nvidia 决策放缓可能给 AI 芯片和推理软件领域的竞争者留出空间，但如果不确定性也拖慢 AI 支出，竞争者面对的可能是更小的市场机会。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-13 20:52"
-  },
-  {
-   "title": "Cursor 披露安全事件调查结果，恶意 Claude Code 扩展波及最多 5000 用户",
-   "link": "https://aihot.news/items/e9o5h2c1o5f0xuh2bgqtc2w7k",
-   "summary": "Cursor 发布安全事件完整调查：攻击者利用 Fireworks 暴露的访问密钥读取用于模型训练的 coding agent trace，少于 0.01% 客户的 API 凭证暴露。",
-   "category": "行业动态",
-   "source": "Cursor Blog",
-   "pub": "11-13 20:00"
-  },
-  {
-   "title": "AINews：黄仁勋辞任 NVIDIA CEO，Colette Kress 出任临时 CEO",
-   "link": "https://aihot.news/items/se0y4v3gihr6s0jmrc5vuv1zo",
-   "summary": "Latent Space 的 AI 新闻日报头条是 NVIDIA 宣布黄仁勋在任职 33 年后辞去 CEO、总裁和董事职务，CFO Colette Kress 出任临时 CEO，SEC 文件显示董事会于 11 月 11 日接受辞呈，此前董事会已就 NYT 报道的绯闻事件展开独立调查。",
-   "category": "行业动态",
-   "source": "Latent Space",
-   "pub": "11-13 17:04"
-  },
-  {
-   "title": "腾讯混元发布实时语音模型 Hy Realtime，新增工具调用与唱歌能力",
-   "link": "https://aihot.news/items/qp41q77z9ge5hsyrh9kra0c7k",
-   "summary": "腾讯混元发布全新实时语音模型 Hy Realtime，在语音理解、指令遵循、拟人化表达等基础能力外新增 Agentic 工具调用与唱歌能力，已在元宝语音通话、腾讯客服上线，近期将上线腾讯云提供 API 服务。",
-   "category": "AI 模型",
-   "source": "公众号：腾讯混元",
-   "pub": "11-13 16:32"
   }
  ]
 }
