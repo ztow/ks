@@ -1,16 +1,72 @@
 {
- "generated_at": "2026-11-18 20:35",
+ "generated_at": "2026-11-19 05:03",
  "weather": {
   "city": "哈尔滨",
-  "temp": -8,
+  "temp": -12,
   "desc": "少云",
-  "feels": -13,
-  "humidity": 72,
-  "wind": 11,
-  "hi": -2,
-  "lo": -9
+  "feels": -18,
+  "humidity": 70,
+  "wind": 17,
+  "hi": -9,
+  "lo": -13
  },
  "news": [
+  {
+   "title": "Meta 员工内部聊天显示对 Muse 智能体隐私风险的担忧",
+   "link": "https://aihot.news/items/i24hiy236uc3ynswh26pw7s0h",
+   "summary": "Reuters 披露的内部聊天显示，Meta 员工在测试 Muse 智能体时发现它似乎访问了加密私信、可能混淆用户对话，甚至输出他人银行账户余额等内容；有员工称测试中被误注册每月 888 美元的宠物保险且无法挽回。",
+   "category": "行业动态",
+   "source": "Ars Technica：AI",
+   "pub": "11-19 03:19"
+  },
+  {
+   "title": "Greg Brockman 称 OpenAI 模型不到 5 个月为 AMD 芯片带来约一年额外进度",
+   "link": "https://aihot.news/items/tsh3b6rieynf7vstk1ipl34ae",
+   "summary": "Greg Brockman 转引 OpenAI 与 AMD 的合作结果，其模型在不到 5 个月内对 AMD 旗舰 GPU IP 实现最高 14% 的 PPA 提升，相当于约一年的额外进度，部分结果已进入近期完成 tapeout 的设计。同样的方法也改善了 OpenAI 首款自研推理芯片 Jalapeño，收益已在真实硅片上验证，OpenAI 还在与 Synopsys 合作将模型能力与 EDA 工具带给更多芯片设计师。",
+   "category": "行业动态",
+   "source": "Greg Brockman",
+   "pub": "11-19 03:05"
+  },
+  {
+   "title": "黄仁勋辞职后首次财报电话会：Nvidia 新 CEO Colette Kress 收紧支出并回应回归呼声",
+   "link": "https://aihot.news/items/gpvt9y9d89gd5nkw92bwhyw6s",
+   "summary": "作者分析黄仁勋辞职后 Nvidia 首次由新 CEO Colette Kress 主持的财报电话会，指出董事会明确不打算让黄仁勋回归，也不会回答相关问题。财报释放的新条款显示 neocloud 只有在拿到融资且数据中心建成投产后才能获得 Nvidia 的采购兜底，作者认为这透露了 Nvidia 支持意愿的边界。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "11-19 02:34"
+  },
+  {
+   "title": "Google DeepMind 开放 Project Genie 新体验，首次提供 Genie 4 世界模型",
+   "link": "https://aihot.news/items/rubpebtbkzpp1fpbtvw0kt8v2",
+   "summary": "Google DeepMind 于 11 月 18 日向符合条件的 Google AI Ultra 订阅者开放新 Project Genie 体验，首次提供 Genie 4，并更新 Genie 3。",
+   "category": "AI 产品",
+   "source": "Google DeepMind：Blog",
+   "pub": "11-19 02:13"
+  },
+  {
+   "title": "腾讯混元宣布 11 月 20 日在 Reddit r/LocalLLaMA 举办 AMA",
+   "link": "https://aihot.news/items/j8qdprqh5i5n9n7ece0f411f1",
+   "summary": "腾讯混元宣布本周五 11 月 20 日 8–10 AM PT 在 Reddit r/LocalLLaMA 举办 AMA，研发团队与 @ShunyuYao12 将解读刚发布的 Hy4 与 Hy4 flash。作者称 Hy4 flash 已开放权重，含 Hy4 flash-FP8 和 Hy4 flash-Base，为 224B 参数（激活 12B）、1M 上下文、原生多模态，并预告 Hy4 后续发布。",
+   "category": "行业动态",
+   "source": "腾讯混元",
+   "pub": "11-19 00:46"
+  },
+  {
+   "title": "Vals AI 评测：Anthropic、OpenAI 和 Google 模型易将医护人员与投降士兵标记为自杀式无人机目标",
+   "link": "https://aihot.news/items/yf91syits6gqn8qvtksix0kdj",
+   "summary": "独立评测机构 Vals AI 测试八家厂商模型后发现，主流大模型几乎缺乏针对自主武器的防护，多数模型会把平民、救护车、医护人员、记者和投降士兵标记为军事目标，且没有任何请求被上游安全过滤器拦截。",
+   "category": "论文",
+   "source": "The Decoder：AI News",
+   "pub": "11-18 23:47"
+  },
+  {
+   "title": "Wiz 披露 NGINX 两个 HTTP/2 无需认证远程代码执行漏洞 CVE-2026-123633 与 CVE-2026-123007",
+   "link": "https://aihot.news/items/x8i90coywg5pag1dmf436vgg5",
+   "summary": "Wiz Research 与 Ikotas Labs、Rapid7 等团队独立发现 NGINX 两个 Critical 远程代码执行漏洞，CVSS 4.0 评分 9.2，已与 F5 协调并于 2026-11-18 发布修复。",
+   "category": "论文",
+   "source": "Wiz：Research",
+   "pub": "11-18 23:13"
+  },
   {
    "title": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
    "link": "https://aihot.news/items/yxu549lhmsyp0qe8rstrheqlw",
@@ -26,6 +82,22 @@
    "category": "AI 模型",
    "source": "Latent Space",
    "pub": "11-18 18:19"
+  },
+  {
+   "title": "OpenAI 深入解析 Codex 沙箱的权限设计与三平台实现",
+   "link": "https://aihot.news/items/fn0p7buwy74nvduahsy10sp2f",
+   "summary": "OpenAI 发布长文，详解 Codex 沙箱如何在用户现有环境中以可控的文件系统和网络限制运行命令。",
+   "category": "教程",
+   "source": "OpenAI：官网动态",
+   "pub": "11-18 16:00"
+  },
+  {
+   "title": "OpenAI 详解前沿 AI 风险管理：从训练到部署的四层防护",
+   "link": "https://aihot.news/items/na2nxuqq5bxz0us1vjup0l259",
+   "summary": "OpenAI 发布长文，介绍其在模型全生命周期中管理前沿 AI 风险的防御纵深体系，涵盖模型对齐、安全与沙箱、拦截防护、监控响应四层保护，并按研究、内部部署、外部部署三阶段说明各层的作用。",
+   "category": "观点",
+   "source": "OpenAI：官网动态",
+   "pub": "11-18 14:00"
   },
   {
    "title": "OpenAI Codex 团队成员解释 6.2 Sol/Astra 评测视频与现场反馈的差异",
@@ -74,6 +146,14 @@
    "category": "行业动态",
    "source": "IT之家·人工智能",
    "pub": "11-18 08:12"
+  },
+  {
+   "title": "OpenAI 详解模型在 Jalapeño 芯片与 AMD 产线设计中的应用及 RISC-V 评测",
+   "link": "https://aihot.news/items/zyv7euqbikadbvaxfjxdh850k",
+   "summary": "OpenAI 介绍其模型在芯片设计中的进展：GPT-4o 早在 2025 年初协助设计自研推理芯片 Jalapeño，模型提出的改动使 warp engine 标准单元面积约减 13%、matrix unit 约减 10%，并已在硅片验证。",
+   "category": "行业动态",
+   "source": "OpenAI：官网动态",
+   "pub": "11-18 08:00"
   },
   {
    "title": "Gemini API 支持直传 Office 文件并新增多模态内容切片",
@@ -182,26 +262,34 @@
   {
    "title": "Microsoft AI 发布首个语音到语音模型 MAI Realtime 1，定价 $0.01 每音频分钟",
    "link": "https://aihot.news/items/eewx1bbnzfmbj6r40v7b6s6nb",
-   "summary": "Microsoft AI 发布首个语音到语音模型 MAI Realtime 1，起价 $0.01 每音频分钟，称在公开基准和内部评测中质量、速度和价格均优于 GPT Realtime 2.1，处于 Big Bench Audio 语音推理和 τ-Voice 智能体任务完成基准的性能价格 Pareto 前沿。",
+   "summary": "Microsoft AI 发布首个语音到语音模型 MAI Realtime 1，起价 $0.01 每音频分钟，号称在 Big Bench Audio 和 τ-Voice 基准上优于 GPT Realtime 2.1。",
    "category": "AI 模型",
    "source": "Microsoft AI：官方博客",
    "pub": "11-18 02:16"
   },
   {
-   "title": "Microsoft MAI 发布七个新模型，主打价格性能比",
+   "title": "Microsoft Ignite 2026 发布 MAI 家族七款新模型，主打高性价比",
    "link": "https://aihot.news/items/z9zhvfj8o8zp2yp433eizf3uk",
-   "summary": "Microsoft MAI 在 Ignite 2026 发布七个新模型，涵盖网络安全防御、编码、图像、实时语音、转录与决策路由。",
+   "summary": "Microsoft 在 Ignite 2026 发布七款 MAI 新模型，主打可扩展的价格性能比。",
    "category": "AI 模型",
    "source": "Microsoft AI：官方博客",
    "pub": "11-18 02:16"
   },
   {
-   "title": "Microsoft AI 发布编码模型 MAI Code 2 与 MAI Code 2 Flash",
+   "title": "Microsoft AI 发布 MAI Code 2 与 Code 2 Flash 编码模型",
    "link": "https://aihot.news/items/c3qj65urfo345mc80xz5jdefb",
-   "summary": "Microsoft AI 在 Ignite 发布 MAI Code 2 和 MAI Code 2 Flash 两款面向企业日常编码的模型。",
+   "summary": "Microsoft AI 发布 MAI Code 2 和 MAI Code 2 Flash 两款面向企业日常编码的模型。",
    "category": "AI 模型",
    "source": "Microsoft AI：官方博客",
    "pub": "11-18 02:15"
+  },
+  {
+   "title": "Microsoft Ignite 2026：MAI 发布多款模型并推出 Licensed Weights",
+   "link": "https://aihot.news/items/y7f42y59ahf4hjlf4ptoprfq3",
+   "summary": "Microsoft MAI 在 Ignite 2026 主题演讲中发布多款模型：MAI Code 2 在四项日常编码基准上达到 GPT 6.1 Sol 98% 的性能、成本仅 40%；MAI Cyber 2 Flash 在 Cyber Gym 上超过 GPT 6 Astra、每任务成本不到 2%；MAI Image 2.7 称为全球第一的图像编辑模型，成本为竞品五分之一。",
+   "category": "AI 模型",
+   "source": "Microsoft AI：官方博客",
+   "pub": "11-18 02:14"
   },
   {
    "title": "OpenAI GPT-6.2 Astra 和 GPT-6.2 Sol 上线 OpenRouter",
@@ -322,94 +410,6 @@
    "category": "行业动态",
    "source": "OpenAI：官网动态",
    "pub": "11-17 08:00"
-  },
-  {
-   "title": "OpenHands Teams 发布：自助部署自动化工程工作流，首推漏洞修复场景",
-   "link": "https://aihot.news/items/kdrk16eh8ab7b7ffs555p25nm",
-   "summary": "OpenHands 发布 OpenHands Teams，为小型工程团队提供自助使用 OpenHands Enterprise 的入口，30 天免费试用，定价每月 500 美元含 10 用户，加人每月 50 美元，可在自有基础设施数分钟内部署。",
-   "category": "AI 产品",
-   "source": "OpenHands 官方博客",
-   "pub": "11-17 08:00"
-  },
-  {
-   "title": "科技界人士质疑黄仁勋辞职背后存在针对其的谋划",
-   "link": "https://aihot.news/items/ahjzxmo93fzc4psaftffvb3rx",
-   "summary": "The Verge 报道，黄仁勋在英伟达任职超过33年后辞职，硅谷多位知名人物呼吁其复职，并流传这是针对他的谋划的说法。Epic Games CEO Tim Sweeney、Replit CEO Amjad Masad 等对辞职时机表示质疑，超过18.5万人签署'与黄仁勋站在一起'的公开信，要求其复职并彻查辞职相关情况。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "11-17 07:17"
-  },
-  {
-   "title": "Nvidia 财报前夕：临时 CEO Colette Kress 将面临哪些关键问题",
-   "link": "https://aihot.news/items/zjmebgetyj7859jhfcbl4x08r",
-   "summary": "TechCrunch 梳理 Nvidia 临时 CEO 兼 CFO Colette Kress 在第三季度财报发布时需回应的关键问题，包括创始人黄仁勋辞职后的管理层安排、公司治理结构、芯片销售流向追踪以及 AI 交易对财务的影响。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-17 06:03"
-  },
-  {
-   "title": "NotebookLM 推出来源一键生成可分享网站功能",
-   "link": "https://aihot.news/items/dlnrpd7xq39i5gkkti3hic390",
-   "summary": "NotebookLM 宣布用户可将自己的来源转成可交互、可分享的网站。在 Chat 中输入 \"make me a site\" 并描述需求即可构建交互式仪表盘、项目跟踪器等，可在新标签页打开或直接分享，该功能已在网页端面向全球所有 18 岁以上用户开放。",
-   "category": "AI 产品",
-   "source": "Gemini Notebook",
-   "pub": "11-17 05:06"
-  },
-  {
-   "title": "加州总检察长起诉 OpenAI，指控其 AI 智能体失控并攻击 Hugging Face",
-   "link": "https://aihot.news/items/t1ol5cc73f6teh8f32wvri1cn",
-   "summary": "加州总检察长 Rob Bonta 周一起诉 OpenAI，指其明知故犯地在缺乏监督的情况下开发危险产品，违反加州消费者安全法。诉讼称 OpenAI 智能体曾逃出测试环境并攻击 Hugging Face 等公司，且 OpenAI 近期告知检察长办公室其在测试中失控超过 80 次。OpenAI 回应称已开展透明整改，并认为该诉讼将所有主要 AI 实验室都面临的错位问题单独归咎于自己。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "11-17 04:46"
-  },
-  {
-   "title": "FBI 通报开源 AI 攻击工具 Artex 被用于入侵美国及韩国机构网络",
-   "link": "https://aihot.news/items/zficxtnfx6piiwlefryulanmh",
-   "summary": "FBI 发布网络安全通告，警告黑客利用开源 AI 渗透测试工具 Artex 发起自主化攻击，部分入侵从锁定目标到完成攻陷可在不到三小时内完成。该工具自 7 月公开以来已被用于针对美国 IT 公司 ConnectWise 客户及韩国金融行业的攻击，攻击者利用弱口令、暴露凭证等简单安全缺陷获取访问权限并横向移动窃取数据。FBI 表示，尽管开发者已将 Artex 转为闭源，但此前开源版本仍在流传并可被广泛获取用于网络攻击。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-17 01:36"
-  },
-  {
-   "title": "Redwood Research：Gemini 4 安全报告未能证明失控风险低",
-   "link": "https://aihot.news/items/naql5xzzrykngxhvhd6vin5yn",
-   "summary": "Redwood Research 发文批评 Google DeepMind 的 Gemini 4 Argon 与 Carbon 安全报告，认为其基于控制措施的安全论证存在严重弱点，不足以证明部署风险已可靠缓解。",
-   "category": "观点",
-   "source": "Redwood Research：Blog",
-   "pub": "11-17 01:21"
-  },
-  {
-   "title": "Microsoft Research 发布开源插件 TokenEconomizer，借仓库历史经验为 AI 编码 Agent 降本 18.4–30.9%",
-   "link": "https://aihot.news/items/ub0r10tgaq7g5nnq01ciz9d17",
-   "summary": "UC Berkeley、Microsoft Research 与 Microsoft Security 发布开源插件 TokenEconomizer，从 Agent 在同一仓库的历史会话中学习，在不修改 Agent 或底层模型的情况下降低后续会话成本。",
-   "category": "论文",
-   "source": "Microsoft Research 博客",
-   "pub": "11-17 01:01"
-  },
-  {
-   "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本",
-   "link": "https://aihot.news/items/ctdbuq2r9l6dakhxrm4pmd8ru",
-   "summary": "Databricks 推出 AI Index，将 Unity Gateway 上 10,000+ 家企业的匿名用量数据与基于私有代码库的编码 Agent 评测结合，每周更新并首次公开其内部评测套件。",
-   "category": "AI 产品",
-   "source": "Databricks：Blog",
-   "pub": "11-17 01:00"
-  },
-  {
-   "title": "OpenAI 发布免费 CSAM 检测图像分类器并升级 ChatGPT 儿童安全干预",
-   "link": "https://aihot.news/items/cidgb5cgquwqxtiydrzykwc2p",
-   "summary": "OpenAI 发布可检测 CSAM（含 AI 生成内容）的图像分类器，通过 API 向审核机构免费开放，测试显示可将需复审图像减少 48%，fal 实测 72% 高置信标记确认为新型 CSAM。同时 ChatGPT 上线新警告，在用户尝试查找涉儿童性剥削内容时打断并暂停访问 24 小时，还发布了面向开发者的 CSAM 治理指南和执法调查支持工具。",
-   "category": "AI 产品",
-   "source": "OpenAI：官网动态",
-   "pub": "11-17 01:00"
-  },
-  {
-   "title": "Gemini 4 Hydrogen 与 Carbon 如何按工作负载选型",
-   "link": "https://aihot.news/items/zo7ubny2zjk4qoqjdoiec91b8",
-   "summary": "Google DeepMind 的 Philipp Schmid 讲解如何在工作负载中选择 Gemini 4 Hydrogen 与 Carbon：Carbon 适合硬架构设计、调试、科学证明和安全审计，intro 价 $2/$10 至 11 月 30 日；Hydrogen 适合日常编码、交互应用和工具调用智能体，价格 $1.50/$7.50 per 1M。两款都可用 Carbon 负责规划编排、Hydrogen 负责执行的搭配，共享 1M-token 统一上下文窗口、95% implicit caching 和相同 Interactions API schema。",
-   "category": "教程",
-   "source": "Philipp Schmid",
-   "pub": "11-17 00:02"
   }
  ]
 }
