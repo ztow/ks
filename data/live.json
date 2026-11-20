@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-11-20 05:08",
+ "generated_at": "2026-11-20 10:48",
  "weather": {
   "city": "哈尔滨",
-  "temp": -14,
-  "desc": "少云",
-  "feels": -20,
-  "humidity": 64,
-  "wind": 14,
+  "temp": -12,
+  "desc": "阴",
+  "feels": -18,
+  "humidity": 44,
+  "wind": 16,
   "hi": -10,
   "lo": -15
  },
  "news": [
+  {
+   "title": "Nvidia 股价近期波动复盘：财报强劲但股价较 10 月高点跌近 40%",
+   "link": "https://aihot.news/items/w1q2gyqsel49b4vbqeodf0qmc",
+   "summary": "The Verge 梳理 Nvidia 近期股价波动：第三季度营收同比翻倍至 1158 亿美元，数据中心业务增长 110%，Vera Rubin 平台贡献近 200 亿美元收入；但受芯片股整体抛售、前 CEO 黄仁勋辞职及公司治理调查等因素影响，股价一度报约 150 美元，较 10 月 6 日历史高点跌近 40%，周四收于 145.98 美元，创 52 周新低。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "11-20 05:59"
+  },
+  {
+   "title": "Mac 版 Gemini 应用上线计算机操作功能，可代用户执行跨应用任务",
+   "link": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj",
+   "summary": "Google Labs VP Josh Woodward 宣布 Mac 版 Gemini 应用新增 computer use 功能，可跨文件夹、应用和网页代用户执行任务，屏幕和光标控制权仍归用户。官方演示显示 Gemini 能在后台窗口中点击、滚动和输入，把草图变成 Blender 里的绑定的 3D 模型。",
+   "category": "AI 产品",
+   "source": "Josh Woodward",
+   "pub": "11-20 05:52"
+  },
+  {
+   "title": "Gemini 4 Neon 实测：Peter Gostev 对比 Opus、Fable 等模型的首发体验",
+   "link": "https://aihot.news/items/z0unnn7ryj39a3tuns8b1l4a6",
+   "summary": "Arena 分享 Gemini 4 Neon 发布后的第一手实测视频，Peter Gostev 在 3D 场景、游戏、UI 和数据可视化等任务中将其与 Opus、Fable、Astra、Sol 对比，并评估其接近前沿的程度。",
+   "category": "AI 模型",
+   "source": "Arena",
+   "pub": "11-20 05:28"
+  },
   {
    "title": "Karina Nguyen 发文祝贺投资人 Sol 庆祝 Anthropic IPO",
    "link": "https://aihot.news/items/lc38ozrwfur9ympu1l3meqcuq",
@@ -138,6 +162,14 @@
    "category": "行业动态",
    "source": "TechCrunch：AI",
    "pub": "11-19 08:42"
+  },
+  {
+   "title": "Conductor 0.97.0 发布并宣布加入 Meta，本地工作区智能体新增 artifacts",
+   "link": "https://aihot.news/items/stnka187ae3za2qnx70vqheg7",
+   "summary": "Conductor 发布 0.97.0 更新，同时宣布 Conductor 加入 Meta。本地工作区的 Agent 现在可以生成 artifacts，即能在聊天中内联显示的 HTML 页面，默认开启，可在 Settings → Artifacts 关闭，通过 @ 名称调用；还支持高亮文本添加评论 pill 回复聊天的任意部分。",
+   "category": "AI 产品",
+   "source": "Conductor 官方更新",
+   "pub": "11-19 08:00"
   },
   {
    "title": "黄仁勋相关传闻核查：美商务部与司法部就Megaspeed发联合声明，未认定违规芯片销售",
@@ -378,38 +410,6 @@
    "category": "AI 模型",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-18 06:36"
-  },
-  {
-   "title": "Gemini 4 Hydrogen 全面上线 Google Search",
-   "link": "https://aihot.news/items/vxcsjujkrvgpqxl56xkjgdfqf",
-   "summary": "Google 宣布 Gemini 4 Hydrogen 已在全球范围的 Google Search 中上线，称为 Search 迄今最大的一次模型升级。升级包括更好地理解用户意图、更智能的 query fan-out 与链接、更可视化自适应的回复，以及更强的多语言能力。",
-   "category": "AI 产品",
-   "source": "Google",
-   "pub": "11-18 06:35"
-  },
-  {
-   "title": "Wiz 解析 OpenJDK 高危漏洞 CVE-2026-114938（Java4Shell）：AVX-512 Base64 解码可致远程代码执行",
-   "link": "https://aihot.news/items/r30kdvujcakiutm7umgxmije7",
-   "summary": "2026年11月17日披露的 OpenJDK 漏洞 CVE-2026-114938（Java4Shell）CVSSv4.0 评分 9.2，源于 AVX-512 Base64 解码汇编代码对末尾填充字符计算错误导致堆内存越界写，可被未认证攻击者远程利用。",
-   "category": "行业动态",
-   "source": "Wiz：Research",
-   "pub": "11-18 06:29"
-  },
-  {
-   "title": "Perplexity 上线 GPT-6.2 Astra 和 GPT-6.2 Sol，并公布 WANDR 基准成绩",
-   "link": "https://aihot.news/items/zy931jr86bk2nk5cv8ww6seah",
-   "summary": "Perplexity 宣布 GPT-6.2 Astra 和 GPT-6.2 Sol 已在 Perplexity Search 和 Computer 中可用。在其 WANDR 基准上，GPT-6.2 Astra 得分 0.783、单任务约 $12.54，较 GPT-6 Astra 提升 0.095；GPT-6.2 Sol 得分 0.746、约 $2.65，较 GPT-6.1 Sol 提升 0.065。",
-   "category": "AI 模型",
-   "source": "Perplexity",
-   "pub": "11-18 06:10"
-  },
-  {
-   "title": "Microsoft agent-framework 1.26.1/1.26.2 恶意版本被发布至 PyPI，窃取 Azure 与 CI 凭据",
-   "link": "https://aihot.news/items/ekt4wsp34savbuzq0vafnlhpw",
-   "summary": "Wiz 报告，PyPI 上的 agent-framework 出现恶意版本 1.26.1 和 1.26.2（上传于 2026-11-17，约 21:30 UTC 后已下架），植入 .pth 文件在 Python 启动时运行凭据窃取器，收集环境变量、凭据文件及 Azure 与 Azure DevOps 托管标识和 OIDC 令牌，并回传至 webhook.site。",
-   "category": "行业动态",
-   "source": "Wiz：Research",
-   "pub": "11-18 06:03"
   }
  ]
 }
