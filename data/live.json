@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-11-20 10:48",
+ "generated_at": "2026-11-20 20:26",
  "weather": {
   "city": "哈尔滨",
-  "temp": -12,
-  "desc": "阴",
-  "feels": -18,
-  "humidity": 44,
-  "wind": 16,
-  "hi": -10,
-  "lo": -15
+  "temp": -15,
+  "desc": "少云",
+  "feels": -20,
+  "humidity": 69,
+  "wind": 6,
+  "hi": -11,
+  "lo": -16
  },
  "news": [
+  {
+   "title": "DeepSeek Harness 发布100天，作者分享13个实用插件玩法",
+   "link": "https://aihot.news/items/amx0tnq9rthd6ssx81np25ldc",
+   "summary": "卡兹克在DeepSeek Harness发布100天之际分享了13个插件玩法。",
+   "category": "教程",
+   "source": "卡兹克",
+   "pub": "11-20 12:01"
+  },
+  {
+   "title": "腾讯混元开放 Hy4 权重",
+   "link": "https://aihot.news/items/jl6m0eymz9z0kleh54c3guowx",
+   "summary": "腾讯混元发布 Hy4 开放权重，定位原生多模态旗舰 MoE 模型，总参数 770B、激活 49B，支持 1M 上下文。同步发布含安全评估报告的 Hy4 System Card，并提供 GitHub、Hugging Face 权重与 GGUF 下载链接，团队将于本周五 8–10 AM PT 在 r/LocalLLaMA 举行 AMA。",
+   "category": "AI 模型",
+   "source": "腾讯混元",
+   "pub": "11-20 11:52"
+  },
   {
    "title": "Nvidia 股价近期波动复盘：财报强劲但股价较 10 月高点跌近 40%",
    "link": "https://aihot.news/items/w1q2gyqsel49b4vbqeodf0qmc",
@@ -394,22 +410,6 @@
    "category": "论文",
    "source": "OpenAI：失准报告与通报",
    "pub": "11-18 08:00"
-  },
-  {
-   "title": "Nvidia 宣布停售 H200 芯片至中国，并设立董事会级国家安全委员会",
-   "link": "https://aihot.news/items/ulwhtxvx986i1rjdkk2mxgzdl",
-   "summary": "代理 CEO Colette Kress 周二表示，Nvidia 将不再在中国销售 H200 芯片，结束此前由 Jensen Huang 与特朗普斡旋、需经美国境内并缴纳 25% 关税的出口通道。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-18 07:37"
-  },
-  {
-   "title": "深度实测GPT-6.2 Astra：极致省钱但偏科严重，沟通可读性依旧拉胯",
-   "link": "https://aihot.news/items/n125mhueen4ul4elntsa1kk1v",
-   "summary": "OpenAI 发布 GPT-6.2 Astra 与 Sol，已同步上线 ChatGPT、Codex 和 API。",
-   "category": "AI 模型",
-   "source": "公众号：数字生命卡兹克",
-   "pub": "11-18 06:36"
   }
  ]
 }
