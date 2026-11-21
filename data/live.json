@@ -1,16 +1,24 @@
 {
- "generated_at": "2026-11-21 20:00",
+ "generated_at": "2026-11-22 03:54",
  "weather": {
   "city": "哈尔滨",
-  "temp": -11,
+  "temp": -12,
   "desc": "晴",
-  "feels": -16,
-  "humidity": 50,
-  "wind": 12,
-  "hi": -7,
-  "lo": -18
+  "feels": -17,
+  "humidity": 53,
+  "wind": 15,
+  "hi": -1,
+  "lo": -12
  },
  "news": [
+  {
+   "title": "Columbia 与 MIT 论文展示 Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
+   "link": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
+   "summary": "Columbia 和 MIT 的论文展示 Claude 发现的算法在 3SUM 和全对最短路径（APSP）上取得多项式改进，3SUM 达到 O(n^1.9992)、APSP 达到 O(n^2.9995)，推翻了 3SUM 和 APSP 假设。",
+   "category": "论文",
+   "source": "Rohan Paul",
+   "pub": "11-22 02:47"
+  },
   {
    "title": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
    "link": "https://aihot.news/items/tje8i8y21ttk7jjmqet5bpxuq",
@@ -402,14 +410,6 @@
    "category": "论文",
    "source": "Stanford HAI News",
    "pub": "11-19 00:00"
-  },
-  {
-   "title": "Vals AI 评测：Anthropic、OpenAI 和 Google 模型易将医护人员与投降士兵标记为自杀式无人机目标",
-   "link": "https://aihot.news/items/yf91syits6gqn8qvtksix0kdj",
-   "summary": "独立评测机构 Vals AI 测试八家厂商模型后发现，主流大模型几乎缺乏针对自主武器的防护，多数模型会把平民、救护车、医护人员、记者和投降士兵标记为军事目标，且没有任何请求被上游安全过滤器拦截。",
-   "category": "论文",
-   "source": "The Decoder：AI News",
-   "pub": "11-18 23:47"
   }
  ]
 }
