@@ -1,23 +1,31 @@
 {
- "generated_at": "2026-11-21 04:54",
+ "generated_at": "2026-11-21 20:00",
  "weather": {
   "city": "哈尔滨",
-  "temp": -17,
+  "temp": -11,
   "desc": "晴",
-  "feels": -22,
-  "humidity": 77,
-  "wind": 6,
-  "hi": -8,
-  "lo": -17
+  "feels": -16,
+  "humidity": 50,
+  "wind": 12,
+  "hi": -7,
+  "lo": -18
  },
  "news": [
   {
-   "title": "Anthropic 数学家 Levent Alpöge 宣称给出黎曼猜想的 Lean 可编译证明，同周还有纯人工证明出现",
-   "link": "https://aihot.news/items/hsbh8rxnbqfw9pzhqq5rw4ihe",
-   "summary": "Anthropic 数学家 Levent Alpöge 宣称找到黎曼猜想的 Lean 可编译证明，并在文章中描述了与 Claude 一起完成论证的经历；黎曼猜想提出于 1859 年，是千禧年大奖难题之一，数学界在 Zulip 上讨论后多数人预期形式化结果成立。",
+   "title": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
+   "link": "https://aihot.news/items/tje8i8y21ttk7jjmqet5bpxuq",
+   "summary": "Anthropic 数学家 Levent Alpöge 周五宣布与 Claude 合作得到黎曼猜想及广义黎曼猜想的证明，证明以 Lean 语言分 14 个数据包发布，打印将超 25 万页。",
    "category": "论文",
-   "source": "TechCrunch：AI",
-   "pub": "11-21 03:32"
+   "source": "The Decoder：AI News",
+   "pub": "11-21 19:19"
+  },
+  {
+   "title": "Figma 演示用 Specs 与 Figma agent 把上下文变成可实现的开发计划",
+   "link": "https://aihot.news/items/w612ivonntodntv1ydkt2lqwh",
+   "summary": "Figma 在 Workflow lab 中演示一个完整工作流：工程师用 Specs 在画布上汇集 PRD、Hex 数据、FigJam 图、标注设计和组件说明，再让 Figma agent 生成供编码智能体使用的实现计划。文中还提到 Specs 与 code layers 已开放 beta、覆盖所有套餐，最后通过 Figma MCP 把计划链接交给 Codex 读取全部上下文并实现功能。",
+   "category": "教程",
+   "source": "Figma AI / Agent / Make",
+   "pub": "11-21 06:17"
   },
   {
    "title": "ChatGPT 推出 Space：统一管理页面、幻灯片、图片与文件",
@@ -92,11 +100,19 @@
    "pub": "11-20 11:52"
   },
   {
-   "title": "Browser Use 删除 13.7 万行自有代码后 BU Bench v2.1 得分反而上升",
-   "link": "https://aihot.news/items/n07rxpa0zkgr6ejm2jiwzxxn3",
-   "summary": "Browser Use 作者复盘 browser-use 1.0：把 24 个工具收敛为一个 python 工具加两种结束方式，该 PR 新增 29,601 行、删除 136,905 行，178 个 Python 文件减到 43 个。",
-   "category": "教程",
+   "title": "browser-use 1.0 发布：用一个 Python REPL 工具替代 24 个浏览器动作",
+   "link": "https://aihot.news/items/wibzzhd168cafn7o3gl8336di",
+   "summary": "Browser Use 发布 browser-use 1.0，用单一 python 持久 REPL 加原生 Chrome DevTools Protocol 访问替代 0.x 的 24 个浏览器动作。",
+   "category": "AI 产品",
    "source": "Browser Use",
+   "pub": "11-20 08:00"
+  },
+  {
+   "title": "Google 回顾 Duplex 十年演进：如何在 Gemini Tasks 中替用户打电话给商家",
+   "link": "https://aihot.news/items/t68rgyv46hdbp52212ozxleh3",
+   "summary": "Google Research 回顾 Duplex 十年架构演进，并介绍本周在 Gemini App Tasks 中上线的自动致电商家功能。",
+   "category": "AI 产品",
+   "source": "Google Research：Blog",
    "pub": "11-20 08:00"
   },
   {
@@ -394,22 +410,6 @@
    "category": "论文",
    "source": "The Decoder：AI News",
    "pub": "11-18 23:47"
-  },
-  {
-   "title": "Wiz 披露 NGINX 两个 HTTP/2 无需认证远程代码执行漏洞 CVE-2026-123633 与 CVE-2026-123007",
-   "link": "https://aihot.news/items/x8i90coywg5pag1dmf436vgg5",
-   "summary": "Wiz Research 与 Ikotas Labs、Rapid7 等团队独立发现 NGINX 两个 Critical 远程代码执行漏洞，CVSS 4.0 评分 9.2，已与 F5 协调并于 2026-11-18 发布修复。",
-   "category": "论文",
-   "source": "Wiz：Research",
-   "pub": "11-18 23:13"
-  },
-  {
-   "title": "Anthropic IPO 估值最高或达 1.4 万亿美元，华尔街提前造势散户争抢",
-   "link": "https://aihot.news/items/yxu549lhmsyp0qe8rstrheqlw",
-   "summary": "据路透社报道，Anthropic 预计于当地时间 11 月 19 日登陆公开市场，IPO 估值最高可能达到 1.4 万亿美元。金融机构已推出 2 倍做多与做空 ETF 等挂钩产品，Vanda Research 预计上市将吸引约 2.5 亿美元散户净买入，为 SpaceX IPO 期间 1.18 亿美元纪录的两倍。",
-   "category": "行业动态",
-   "source": "IT之家·人工智能",
-   "pub": "11-18 18:45"
   }
  ]
 }
