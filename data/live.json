@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-11-22 09:51",
+ "generated_at": "2026-11-23 04:06",
  "weather": {
   "city": "哈尔滨",
-  "temp": -7,
-  "desc": "少云",
-  "feels": -13,
-  "humidity": 43,
-  "wind": 17,
+  "temp": -3,
+  "desc": "多云",
+  "feels": -8,
+  "humidity": 66,
+  "wind": 14,
   "hi": -1,
-  "lo": -12
+  "lo": -10
  },
  "news": [
+  {
+   "title": "Lean 与 Mathlib 社区确认 Levent Alpöge 黎曼猜想证明正确",
+   "link": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
+   "summary": "Lean 与 Mathlib 社区发表声明，确认斯坦福数学家 Levent Alpöge 的黎曼猜想证明正确。Alpöge 于 2026 年 11 月 20 日以 1700 万行 Lean 代码发布该证明，数十人独立运行得到相同结果，且验证程序被设计为可证明不会接受有缺陷的证明。",
+   "category": "行业动态",
+   "source": "The Decoder：AI News",
+   "pub": "11-22 19:08"
+  },
+  {
+   "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
+   "link": "https://aihot.news/items/p9h5xzsooms0foxeakoivy7qt",
+   "summary": "2022 年菲尔兹奖得主、牛津大学数学教授詹姆斯·梅纳德（James Maynard）在采访中表示，他认为 Anthropic 数学家莱文特·阿尔珀格（Levent Alpöge）与 Claude 合作完成的黎曼猜想证明是正确的，依据是该证明已通过 Lean 库形式化验证并经独立核实，且阿尔珀格过往有可靠记录。",
+   "category": "观点",
+   "source": "IT之家·人工智能",
+   "pub": "11-22 17:35"
+  },
+  {
+   "title": "OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据",
+   "link": "https://aihot.news/items/r7kb35fpdwc1m2iqsmd310tdj",
+   "summary": "OpenAI 撰文提议将 perplexity（交叉熵损失）确立为跨模型开发者比较和安全标准的共享指标，并公开其内部预训练测量数据。",
+   "category": "观点",
+   "source": "OpenAI：官网动态",
+   "pub": "11-22 08:00"
+  },
   {
    "title": "Columbia 与 MIT 论文展示 Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
    "link": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
@@ -386,30 +410,6 @@
    "category": "观点",
    "source": "TechCrunch：AI",
    "pub": "11-19 05:31"
-  },
-  {
-   "title": "Meta 员工内部聊天显示对 Muse 智能体隐私风险的担忧",
-   "link": "https://aihot.news/items/i24hiy236uc3ynswh26pw7s0h",
-   "summary": "Reuters 披露的内部聊天显示，Meta 员工在测试 Muse 智能体时发现它似乎访问了加密私信、可能混淆用户对话，甚至输出他人银行账户余额等内容；有员工称测试中被误注册每月 888 美元的宠物保险且无法挽回。",
-   "category": "行业动态",
-   "source": "Ars Technica：AI",
-   "pub": "11-19 03:19"
-  },
-  {
-   "title": "Greg Brockman 称 OpenAI 模型不到 5 个月为 AMD 芯片带来约一年额外进度",
-   "link": "https://aihot.news/items/tsh3b6rieynf7vstk1ipl34ae",
-   "summary": "Greg Brockman 转引 OpenAI 与 AMD 的合作结果，其模型在不到 5 个月内对 AMD 旗舰 GPU IP 实现最高 14% 的 PPA 提升，相当于约一年的额外进度，部分结果已进入近期完成 tapeout 的设计。同样的方法也改善了 OpenAI 首款自研推理芯片 Jalapeño，收益已在真实硅片上验证，OpenAI 还在与 Synopsys 合作将模型能力与 EDA 工具带给更多芯片设计师。",
-   "category": "行业动态",
-   "source": "Greg Brockman",
-   "pub": "11-19 03:05"
-  },
-  {
-   "title": "黄仁勋辞职后首次财报电话会：Nvidia 新 CEO Colette Kress 收紧支出并回应回归呼声",
-   "link": "https://aihot.news/items/gpvt9y9d89gd5nkw92bwhyw6s",
-   "summary": "作者分析黄仁勋辞职后 Nvidia 首次由新 CEO Colette Kress 主持的财报电话会，指出董事会明确不打算让黄仁勋回归，也不会回答相关问题。财报释放的新条款显示 neocloud 只有在拿到融资且数据中心建成投产后才能获得 Nvidia 的采购兜底，作者认为这透露了 Nvidia 支持意愿的边界。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "11-19 02:34"
   }
  ]
 }
