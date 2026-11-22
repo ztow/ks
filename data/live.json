@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-22 03:54",
+ "generated_at": "2026-11-22 09:51",
  "weather": {
   "city": "哈尔滨",
-  "temp": -12,
-  "desc": "晴",
-  "feels": -17,
-  "humidity": 53,
-  "wind": 15,
+  "temp": -7,
+  "desc": "少云",
+  "feels": -13,
+  "humidity": 43,
+  "wind": 17,
   "hi": -1,
   "lo": -12
  },
@@ -28,12 +28,36 @@
    "pub": "11-21 19:19"
   },
   {
+   "title": "Together AI 通报 2026 年 6-7 月 serverless 推理服务提示词泄露事件",
+   "link": "https://aihot.news/items/xqe6lbb5zsjp9xbsc1o912cs0",
+   "summary": "Together AI 通报一起安全事件：因 AI 编码 agent 在公开 GitHub 仓库 xorl 中提交了私有 Hugging Face 仓库凭证，未授权方下载了 2026 年 6-7 月提交给 MiniMax M3、GLM-5.2、Kimi K2.6 等 serverless 推理服务的存储提示词样本，并搜索其中其他服务凭证。",
+   "category": "行业动态",
+   "source": "Together AI 研究与产品博客",
+   "pub": "11-21 08:00"
+  },
+  {
+   "title": "Qwen4 Max 上线 Together AI，单次调用修复 Tornado 整仓 bug",
+   "link": "https://aihot.news/items/rlj39tzyujneo0u35iyrfb4uc",
+   "summary": "Together AI 宣布阿里旗舰模型 Qwen4 Max 上线其 Serverless 推理平台（模型串 Qwen/Qwen4-Max），1M token 上下文，截至 2026 年 11 月 22 日 7 折。",
+   "category": "AI 产品",
+   "source": "Together AI 研究与产品博客",
+   "pub": "11-21 08:00"
+  },
+  {
    "title": "Figma 演示用 Specs 与 Figma agent 把上下文变成可实现的开发计划",
    "link": "https://aihot.news/items/w612ivonntodntv1ydkt2lqwh",
    "summary": "Figma 在 Workflow lab 中演示一个完整工作流：工程师用 Specs 在画布上汇集 PRD、Hex 数据、FigJam 图、标注设计和组件说明，再让 Figma agent 生成供编码智能体使用的实现计划。文中还提到 Specs 与 code layers 已开放 beta、覆盖所有套餐，最后通过 Figma MCP 把计划链接交给 Codex 读取全部上下文并实现功能。",
    "category": "教程",
    "source": "Figma AI / Agent / Make",
    "pub": "11-21 06:17"
+  },
+  {
+   "title": "研究者向 AI 供应链埋入 200 万个金丝雀，揭露敏感数据泄露",
+   "link": "https://aihot.news/items/agm7klro03kcu9weuix1bt4su",
+   "summary": "研究者在经过 OpenRouter 等 AI 路由的请求中埋入 200 万个金丝雀链接，测试敏感信息是否会沿 AI 服务链泄露，结果显示这些数据像筛子一样大量外泄。",
+   "category": "论文",
+   "source": "Ars Technica：AI",
+   "pub": "11-21 04:59"
   },
   {
    "title": "ChatGPT 推出 Space：统一管理页面、幻灯片、图片与文件",
@@ -386,30 +410,6 @@
    "category": "行业动态",
    "source": "The Verge：AI",
    "pub": "11-19 02:34"
-  },
-  {
-   "title": "Google DeepMind 开放 Project Genie 新体验，首次提供 Genie 4 世界模型",
-   "link": "https://aihot.news/items/rubpebtbkzpp1fpbtvw0kt8v2",
-   "summary": "Google DeepMind 于 11 月 18 日向符合条件的 Google AI Ultra 订阅者开放新 Project Genie 体验，首次提供 Genie 4，并更新 Genie 3。",
-   "category": "AI 产品",
-   "source": "Google DeepMind：Blog",
-   "pub": "11-19 02:13"
-  },
-  {
-   "title": "腾讯混元宣布 11 月 20 日在 Reddit r/LocalLLaMA 举办 AMA",
-   "link": "https://aihot.news/items/j8qdprqh5i5n9n7ece0f411f1",
-   "summary": "腾讯混元宣布本周五 11 月 20 日 8–10 AM PT 在 Reddit r/LocalLLaMA 举办 AMA，研发团队与 @ShunyuYao12 将解读刚发布的 Hy4 与 Hy4 flash。作者称 Hy4 flash 已开放权重，含 Hy4 flash-FP8 和 Hy4 flash-Base，为 224B 参数（激活 12B）、1M 上下文、原生多模态，并预告 Hy4 后续发布。",
-   "category": "行业动态",
-   "source": "腾讯混元",
-   "pub": "11-19 00:46"
-  },
-  {
-   "title": "Stanford RegLab 发布 PhantomDocket 基准，追踪美国州法院诉讼文书中的 AI 辅助写作",
-   "link": "https://aihot.news/items/wi5cfyezztfdcojsokxto4q0d",
-   "summary": "Stanford HAI 与 RegLab 研究者发布论文 Detection Objection 和 PhantomDocket 基准，基于 Damien Charlotin 的 AI 幻觉案例数据库校准 AI 检测器，追踪四个州法院的 AI 辅助写作。",
-   "category": "论文",
-   "source": "Stanford HAI News",
-   "pub": "11-19 00:00"
   }
  ]
 }
