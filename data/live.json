@@ -1,16 +1,24 @@
 {
- "generated_at": "2026-11-23 10:08",
+ "generated_at": "2026-11-23 21:57",
  "weather": {
   "city": "哈尔滨",
-  "temp": -4,
-  "desc": "多云",
-  "feels": -9,
-  "humidity": 58,
-  "wind": 16,
+  "temp": -9,
+  "desc": "晴",
+  "feels": -14,
+  "humidity": 53,
+  "wind": 13,
   "hi": -1,
   "lo": -10
  },
  "news": [
+  {
+   "title": "智谱发布GLM-5.4：首个Loop Transformer架构旗舰模型开启泛Coding",
+   "link": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz",
+   "summary": "智谱发布旗舰模型GLM-5.4，为第一代采用Loop Transformer架构的模型，让28层共享权重循环执行两轮，在参数量不变下获得更深推理，智能水平达到2-3T级模型效果，并开启泛Coding能力。",
+   "category": "AI 模型",
+   "source": "公众号：智谱",
+   "pub": "11-23 17:42"
+  },
   {
    "title": "Anthropic IPO 前三家机构如何重注押注",
    "link": "https://aihot.news/items/dus34samsjrld1qopq65v54uq",
@@ -308,6 +316,14 @@
    "pub": "11-20 00:00"
   },
   {
+   "title": "Reflection 与 Andon Labs 实测 Beam 智能体自主运营售货业务的安全风险",
+   "link": "https://aihot.news/items/w0ka422uzqyautrrsmzlmk9iq",
+   "summary": "Reflection 与 Andon Labs 合作开展真实环境评测，让 Beam 智能体自主运营纽约和旧金山办公室的售货业务，测试其无人干预下的自主性与失控风险。",
+   "category": "论文",
+   "source": "Reflection Blog",
+   "pub": "11-20 00:00"
+  },
+  {
    "title": "METR 发布 2026 年 11 月能力测量更新：AI R&D 相关能力每约 3.6 个月翻倍且更难测量",
    "link": "https://aihot.news/items/sn8qb9u8fqka3mpnmy0r1nz4b",
    "summary": "METR 发布截至 Opus 5.5 和 GPT-6 Astra 的能力评测更新，发现在 TH1.1 与 TH2 任务上模型时间视野约每 3.6 个月翻倍，可验证子集翻倍时间约 1.65 个月。",
@@ -394,22 +410,6 @@
    "category": "行业动态",
    "source": "X.PIN",
    "pub": "11-19 07:41"
-  },
-  {
-   "title": "微软CEO纳德拉就英伟达CEO变动表态：仍对英伟达团队有信心",
-   "link": "https://aihot.news/items/uaupvkzwpndnn2zg1b50zv9v7",
-   "summary": "英伟达CEO黄仁勋在任职33年后于上周卸任，微软CEO萨提亚·纳德拉在纽约时报DealBook峰会上表示此事令人惋惜，并称仍对英伟达及其临时CEO科莱特·克雷斯带领的团队充满信心。纳德拉提到克雷斯曾在微软长期工作，自己与她相识已久。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-19 07:17"
-  },
-  {
-   "title": "OpenAI 团队成员 Tibo 评价 GPT-6.2 Astra 并转引 AMD 与 Jalapeño 芯片优化结果",
-   "link": "https://aihot.news/items/bnqsw7ispucfily4bdq9vz33j",
-   "summary": "OpenAI 成员 Tibo 转引团队结果并评价 GPT-6.2 Astra 擅长极难任务，同时承认收到对其沟通风格的反馈并正在改进。所引内容称与 AMD 合作在不到五个月内将旗舰 GPU IP 的 PPA 提升最高 14%，同样方法改进了 OpenAI 首款自研推理芯片 Jalapeño 且在真实硅片上验证，并与 Synopsys 合作把模型能力接入其 EDA 设计和验证工具，详情见 https://openai.com/index/advancing-chip-design-with-our-models/",
-   "category": "AI 模型",
-   "source": "Tibo",
-   "pub": "11-19 06:03"
   }
  ]
 }
