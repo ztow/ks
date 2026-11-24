@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-11-24 10:43",
+ "generated_at": "2026-11-24 22:29",
  "weather": {
   "city": "哈尔滨",
   "temp": -10,
   "desc": "多云",
   "feels": -16,
-  "humidity": 42,
-  "wind": 20,
+  "humidity": 38,
+  "wind": 13,
   "hi": -8,
   "lo": -12
  },
  "news": [
+  {
+   "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day",
+   "link": "https://aihot.news/items/ygbhvp086wl672gfxuhfgl23x",
+   "summary": "Amazon 威胁情报报告称，黑客在开源 AI 渗透测试框架 Cairn 上运行的 AI 智能体，仅凭一句「获取 shell 权限」的指令，就自主发现并利用了一个开源医学影像 AI 应用中未修补的路径遍历 0-day，从映射 API 到任意写文件仅用约 11 分钟，随后写入 Python 反向 shell payload 并以 root 权限获得控制。",
+   "category": "行业动态",
+   "source": "Ars Technica：AI",
+   "pub": "11-24 20:30"
+  },
+  {
+   "title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
+   "link": "https://aihot.news/items/d41p6k2h48zm8u2kl5xdzqx5h",
+   "summary": "OpenAI 宣布与 Cisco 合作推出开源 Linux 运行时 Shirudo，让 Agent 编写动态 eBPF 控制来抵御漏洞利用，同时保持服务不中断，为防御方争取测试和部署补丁的时间。作者称这是迈向自适应自防御基础设施的第一步，目标是让防御者与 AI Agent 协作定位受影响系统、测试并共享 shield、在不干扰工作负载的情况下部署。",
+   "category": "AI 产品",
+   "source": "Tibo",
+   "pub": "11-24 16:15"
+  },
+  {
+   "title": "卡兹克分享两个优化用户体验和产品动效的 Prompt",
+   "link": "https://aihot.news/items/jb7ohptrc5ctyx9maoimz2hn0",
+   "summary": "数字生命卡兹克分享自己做产品时用的两个 Prompt，一个按用户体验至上的原则审查项目交互并直接修复，一个把项目动效做到细腻丝滑水准。要点包括让 Gemini 当方案顾问、按状态变化逐项审查动效，完成后让 GPT 审查再合并上线。",
+   "category": "教程",
+   "source": "卡兹克",
+   "pub": "11-24 14:12"
+  },
   {
    "title": "MiniMax 发布 H3 Family 系列模型，H3 开源百日衍生模型达 1472 个、下载量超 1.48 亿次",
    "link": "https://aihot.news/items/f1380j6hyrxn0rnz6666nu3b8",
@@ -20,12 +44,20 @@
    "pub": "11-24 10:11"
   },
   {
-   "title": "ChinaTalk播客：Nvidia董事会恢复黄仁勋CEO职务，Megaspeed被列入实体清单",
+   "title": "ChinaTalk 播客：Nvidia 董事会恢复黄仁勋职务，美商务部将 Megaspeed 列入实体清单",
    "link": "https://aihot.news/items/zto0pspydy8330r0bvwqb6j5z",
-   "summary": "ChinaTalk主持Jordan Schneider邀请Chris McGuire和Peter Harrell录制播客，讨论Nvidia董事会全票恢复黄仁勋CEO职务（距其辞职仅十一天），以及美国商务部同日将Megaspeed列入实体清单。嘉宾围绕出口管制与制裁实务，分析了董事会决策背景、Megaspeed实体清单未附加外国直接产品规则（FDPR）等细节，并探讨了后续监管走向。",
+   "summary": "ChinaTalk 主持人 Jordan Schneider 邀请 Chris McGuire 与 Peter Harrell 紧急讨论 Nvidia 董事会在美国政府表态后一致恢复黄仁勋职务，以及美国商务部同日将 Megaspeed 列入实体清单。节目围绕出口管制执法、实体清单是否附加外国直接产品规则（FDPR）、国会相关立法（AI Overwatch、MATCH、RASA）的覆盖范围与局限，以及政策与股市波动之间的互动展开分析。",
    "category": "行业动态",
    "source": "ChinaTalk",
    "pub": "11-24 09:41"
+  },
+  {
+   "title": "OpenClaw 联合多家机构发布真实任务基准 ShellBench，最强模型完成率约六成",
+   "link": "https://aihot.news/items/frmncgr2jcrvfm3t6jgabqhfh",
+   "summary": "OpenClaw 与 Hugging Face、Red Hat、UC Berkeley 等机构合作推出 ShellBench，基于超过 1000 万条匿名真实智能体交互构建 100 个日常任务，含 90 个 rubric 评分任务（721 项标准，其中 381 项安全标准）和 10 个代码测试任务，共 53,100 次评分运行。",
+   "category": "论文",
+   "source": "OpenClaw：Blog",
+   "pub": "11-24 08:00"
   },
   {
    "title": "ChatGPT 推出面向日常对话优化的 GPT-6.2 Sol",
@@ -378,38 +410,6 @@
    "category": "行业动态",
    "source": "Aravind Srinivas",
    "pub": "11-20 02:18"
-  },
-  {
-   "title": "Google 在 Gemini API 推出 Tool Retrieval 预览",
-   "link": "https://aihot.news/items/n3npoqbr48wu58cke5p3ox18l",
-   "summary": "Google 在 Gemini API 的 Interactions API 中以预览形式推出 Tool Retrieval，让智能体按需加载工具参数 schema，而不是每次请求都发送完整工具库，以减少输入 token 并在工具数量扩大时保持选择准确。",
-   "category": "AI 产品",
-   "source": "Google Blog：AI",
-   "pub": "11-20 02:00"
-  },
-  {
-   "title": "Google 在 Gemini API 与 AI Studio 上线 Genie 4 实时世界模型",
-   "link": "https://aihot.news/items/n1nzpfmd3f6zc4abq3s8yxrde",
-   "summary": "Philipp Schmid 宣布 Genie 4 正在 Gemini API 和 AI Studio 上推出，可从文本或图像生成 720p 24fps 的世界，并用 WASD、提示词和 48 kHz 立体声实时操控。可通过 WebRTC（浏览器加临时 token）或 WebSocket 串流，文档见 https://aistudio.google.com/docs/genie。",
-   "category": "AI 产品",
-   "source": "Philipp Schmid",
-   "pub": "11-20 01:17"
-  },
-  {
-   "title": "indigo 转发 Dario Amodei 为 Anthropic IPO 在 Nasdaq 敲钟",
-   "link": "https://aihot.news/items/gp3hccimt42ak2uh82nrpty65",
-   "summary": "indigo 转发 @YahooFinance 的画面，Dario Amodei 在 Nasdaq 为 Anthropic IPO 敲响开市钟。作者恭喜这家最\"人类\"的科技公司上市，并调侃其敲钟鼓掌的样子怎么像是 AI 生成的。",
-   "category": "行业动态",
-   "source": "indigo",
-   "pub": "11-20 01:14"
-  },
-  {
-   "title": "芯片停运叠加海外云通道关闭，中国科技公司面临双重冲击",
-   "link": "https://aihot.news/items/h4bvsjw4ri6to1inm87srlf42",
-   "summary": "美国商务部收紧AI芯片出口管制并关闭第三方国家云算力通道后，亚洲多笔大型AI数据中心交易开始瓦解。Moonshot AI取消了与印尼云服务商的1.5亿美元合同，原计划租用Nvidia Blackwell Ultra B300集群训练Kimi K4，此前已预付约50%而非行业标准的15%。台积电和三星暂停向中国客户交付部分处理器，需申请许可；字节跳动、百度昆仑等客户受影响，非AI芯片豁免取消也波及小米、Oppo、vivo等智能手机处理器。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "11-20 01:02"
   }
  ]
 }
