@@ -1,16 +1,120 @@
 {
- "generated_at": "2026-11-23 21:57",
+ "generated_at": "2026-11-24 10:43",
  "weather": {
   "city": "哈尔滨",
-  "temp": -9,
-  "desc": "晴",
-  "feels": -14,
-  "humidity": 53,
-  "wind": 13,
-  "hi": -1,
-  "lo": -10
+  "temp": -10,
+  "desc": "多云",
+  "feels": -16,
+  "humidity": 42,
+  "wind": 20,
+  "hi": -8,
+  "lo": -12
  },
  "news": [
+  {
+   "title": "MiniMax 发布 H3 Family 系列模型，H3 开源百日衍生模型达 1472 个、下载量超 1.48 亿次",
+   "link": "https://aihot.news/items/f1380j6hyrxn0rnz6666nu3b8",
+   "summary": "MiniMax 推出 H3 Family，包含 H3、H3-Highspeed、H3-Lite、H3-Image、H3-Image Highspeed 等旗舰模型及 fal、Suno、HeyGen、Pika 等伙伴的多个扩展模型。",
+   "category": "AI 产品",
+   "source": "公众号：MiniMax",
+   "pub": "11-24 10:11"
+  },
+  {
+   "title": "ChinaTalk播客：Nvidia董事会恢复黄仁勋CEO职务，Megaspeed被列入实体清单",
+   "link": "https://aihot.news/items/zto0pspydy8330r0bvwqb6j5z",
+   "summary": "ChinaTalk主持Jordan Schneider邀请Chris McGuire和Peter Harrell录制播客，讨论Nvidia董事会全票恢复黄仁勋CEO职务（距其辞职仅十一天），以及美国商务部同日将Megaspeed列入实体清单。嘉宾围绕出口管制与制裁实务，分析了董事会决策背景、Megaspeed实体清单未附加外国直接产品规则（FDPR）等细节，并探讨了后续监管走向。",
+   "category": "行业动态",
+   "source": "ChinaTalk",
+   "pub": "11-24 09:41"
+  },
+  {
+   "title": "ChatGPT 推出面向日常对话优化的 GPT-6.2 Sol",
+   "link": "https://aihot.news/items/gl6fl6hsisrt26tg83li0j4gk",
+   "summary": "ChatGPT 宣布在 Chat 标签页推出面向日常对话优化的 GPT-6.2 Sol，今日起面向 Plus、Pro、Business 和 Enterprise 用户开放。该版本更擅长处理复杂请求和在线信息查找，能识别照片中标签文字、路牌符号等细节，并更好地根据价格、位置等偏好缩小选项范围。转发者 Tibo 表示答案质量会有明显提升，年底前应用体验还会更快、更简洁。",
+   "category": "AI 产品",
+   "source": "Tibo",
+   "pub": "11-24 06:48"
+  },
+  {
+   "title": "Claude 推出插件，统一连接器与技能的接入方式",
+   "link": "https://aihot.news/items/h1vnjuwxsli7ku7rpocjlr3s2",
+   "summary": "Claude 官方宣布将连接器和技能合并为插件，提供统一的方式为 Claude 接入工具或教授新技能。插件已在 Free、Pro、Max 和 Ultra 套餐上线，Team 和 Enterprise 即将支持，用户可在 https://claude.ai/plugins 浏览 10,000 多个插件。",
+   "category": "AI 产品",
+   "source": "Claude",
+   "pub": "11-24 04:56"
+  },
+  {
+   "title": "Figma agent 正式开放至 FigJam 和 Figma Slides",
+   "link": "https://aihot.news/items/zur9ndkrkvtk4lqiix14q468s",
+   "summary": "Figma agent 现已在 FigJam 和 Figma Slides 上对所有付费计划全面开放，支持连接器和附件，可将设计文件、会议记录或研究笔记等材料整理到 FigJam 白板或生成演示文稿初稿。",
+   "category": "AI 产品",
+   "source": "Figma AI / Agent / Make",
+   "pub": "11-24 04:54"
+  },
+  {
+   "title": "俄勒冈州和弗吉尼亚州起诉 SpaceX 指控 Grok 生成色情深伪防护不足",
+   "link": "https://aihot.news/items/vlxrimiuixb91iodhjh5hxmte",
+   "summary": "俄勒冈州和弗吉尼亚州总检察长周一分别起诉 SpaceX，指控其忽视行业标准防护并虚假宣传 X 平台和 Grok AI 的安全性，两案均寻求经济赔偿。诉讼核心指向 Grok Imagine：xAI 于 2025 年 8 月为该工具推出生成色情内容的 spicy 模式，2026 年 1 月又允许 X 用户无需同意即可编辑任意图片，导致非自愿色情深伪泛滥。",
+   "category": "行业动态",
+   "source": "The Verge：AI",
+   "pub": "11-24 02:26"
+  },
+  {
+   "title": "Google Search AI Mode 支持连接 Google Wallet、Drive 和 Gemini 应用",
+   "link": "https://aihot.news/items/cyorgi8t8dm2fo6ee3b5a6qs2",
+   "summary": "Google 宣布在 Search 的 AI Mode 中扩展 Personal Intelligence，用户可选择安全连接 Google Wallet、Drive 和 Gemini 应用，Wallet 即日起开放，Drive 和 Gemini 应用将在未来数周跟进。",
+   "category": "AI 产品",
+   "source": "Google Blog：AI",
+   "pub": "11-24 01:00"
+  },
+  {
+   "title": "Google DeepMind 用 Gemini 4 智能体团队与 Lean 形式化验证改进量子算法",
+   "link": "https://aihot.news/items/pjpgapf3mbvmy98cywxhwf07n",
+   "summary": "Google DeepMind 发布新论文，用多个 Gemini 4 智能体团队结合 Lean 形式化定理证明改进量子算法，生成经数学验证的高效量子电路，并在 GitHub 开源 Lean 库、问题规格和验证解法。",
+   "category": "论文",
+   "source": "Google DeepMind：Blog",
+   "pub": "11-24 00:59"
+  },
+  {
+   "title": "a16z 实测 11,307 次 Agent 购物流程，总结企业赢得 B2A 经济的五条方法",
+   "link": "https://aihot.news/items/qkxvs90ewfu3k430sdefndv56",
+   "summary": "a16z 联合 The Prompting Company 测试 Grok Bot、Muse、Instinct、Dots 等智能体在 1,270 条提示词、11,307 次完整运行中的购物表现，并比对 YipitData 消费数据。",
+   "category": "教程",
+   "source": "a16z：News",
+   "pub": "11-23 23:04"
+  },
+  {
+   "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
+   "link": "https://aihot.news/items/uop2ab4998l6dxugsgtg7w7rn",
+   "summary": "Trump 在 Truth Social 上表态支持 Nvidia 董事会复职黄仁勋为 CEO 兼总裁，称美国政府没有理由认为其回归构成国家安全风险。他称司法部长 Todd Blanche 已确认政府没有黄仁勋违法行为的证据，但 Blanche 本人尚未正式声明。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-23 23:04"
+  },
+  {
+   "title": "Wiz Research 披露 ARTEX 智能体攻击框架的真实云入侵案例",
+   "link": "https://aihot.news/items/gp8e9a8oitha0rbip8pzntuff",
+   "summary": "Wiz Research 发文介绍 ARTEX 等智能体攻击框架正在推动云入侵激增。文中分享了来自真实环境的案例，包括通过攻击操作者泄露的日志看到的一次攻击的双方视角、对 Black October 的更新，以及可捕捉这类嘈杂、机器速度攻击的检测方法。",
+   "category": "行业动态",
+   "source": "Wiz：Research",
+   "pub": "11-23 22:46"
+  },
+  {
+   "title": "ARTEX 开源 AI 黑客框架遭滥用，FBI 发出警告但代码已广泛扩散",
+   "link": "https://aihot.news/items/zb8hu8pp2ogojk5081g7z4en7",
+   "summary": "404 Media 报道，开源框架 ARTEX 让 AI 智能体以机器速度自动完成从侦察到窃取数据的整个入侵流程，FBI 称攻击者用它针对全球政府、医疗、电信、金融、半导体等行业，数小时内即可完成一次完整攻击。原作者 Autumn-27 已于 10 月将其从 GitHub 下架并转为闭源，但多个克隆版本仍在传播，有维护者表示不会删除仓库，理由是代码已被到处复制。",
+   "category": "行业动态",
+   "source": "404 Media",
+   "pub": "11-23 22:16"
+  },
+  {
+   "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会",
+   "link": "https://aihot.news/items/ajcxs84uezjqgsgxpdtr31o0l",
+   "summary": "NVIDIA 于 11 月 23 日宣布黄仁勋即刻复任总裁、CEO 及董事会成员，董事会一致投票通过，临时 CEO Colette Kress 继续担任 CFO。复职决定参考了美国政府高层意见，董事会认为其不构成国家安全风险，此前因黄仁勋成为外国情报行动目标而启动的独立董事调查将继续进行，董事会另设国家安全与出口管制委员会并招聘首席合规官。",
+   "category": "行业动态",
+   "source": "X.PIN",
+   "pub": "11-23 22:04"
+  },
   {
    "title": "智谱发布GLM-5.4：首个Loop Transformer架构旗舰模型开启泛Coding",
    "link": "https://aihot.news/items/d4hhqnlmrclsx7d6idtvq95wz",
@@ -28,12 +132,36 @@
    "pub": "11-23 09:25"
   },
   {
+   "title": "Anthropic 推出 Claude Ship 测试版，自动完成 PR 审查、修复与审批",
+   "link": "https://aihot.news/items/t7jlbaldqf2zcliuva1sofoks",
+   "summary": "Anthropic 发布 Claude Ship 测试版，由 Code Review（已正式可用）、PR Steward 和 Claude Approvals 两个 beta 智能体组成，可审查 PR、推送修复并按团队写进仓库的策略文件决定能否合并。",
+   "category": "AI 产品",
+   "source": "Claude：Blog",
+   "pub": "11-23 08:00"
+  },
+  {
    "title": "卡兹克分享 Claude、GPT、Gemini 三模型协同调度方法",
    "link": "https://aihot.news/items/hz782dpcwhurj6584rtd13eaf",
    "summary": "自媒体作者卡兹克分享自己让 Claude、GPT 和 Gemini 协同工作的方法：把 Claude Opus 5.5 当总指挥负责沟通、拆解和验收，Gemini 4 Neon 当军师出方案和改界面文案，GPT 负责后端、算法、修 BUG 和代码审查。",
    "category": "教程",
    "source": "公众号：数字生命卡兹克",
    "pub": "11-23 07:56"
+  },
+  {
+   "title": "AISI 红队论文：攻击策略选择会让 LLM 监视器评估结果失真",
+   "link": "https://aihot.news/items/tl8v9gto8rd3e4x40xfbljj13",
+   "summary": "英国 AI Security Institute 发布论文，测试合成攻击生成方式对监视器评估的影响。评估一个 OpenAI 前生产监视器时，同一监视器对不同攻击策略的漏报率从 0.2%（基础提示）到 23%（转录编辑）不等，优化程度也会显著改变结果。作者指出合成转录只是真实有害行为代理，其代表性难以证明，仅凭监视器评估不足以保证部署安全，需辅以能力限制、人工在环和沙箱等分层防护。",
+   "category": "论文",
+   "source": "英国 AI Security Institute：Blog",
+   "pub": "11-23 07:00"
+  },
+  {
+   "title": "Anthropic 访谈 58 家企业客户：AI 采用的价值、雇佣影响与组织重组",
+   "link": "https://aihot.news/items/gj8mzwrgqlkvim6xe382a35q2",
+   "summary": "Anthropic 研究团队对 58 家企业客户进行 66 次面对面访谈，分析企业采用 AI 的方式、瓶颈与组织变化。研究发现多数 AI 应用通过扩大产出而非削减成本创造价值；直接裁员案例很少，但约三分之二的公司因 AI 减少招聘，九家削减外包和离岸承包商；高价值应用通常需要更深度的组织重组，如拓宽岗位职责、把员工转向 AI 无法完成的瓶颈任务，以及为非技术员工建设数据和基础设施支持。",
+   "category": "论文",
+   "source": "Anthropic：Research",
+   "pub": "11-23 00:00"
   },
   {
    "title": "MiniCPM 8B 成为老挝国家模型，端侧小模型加速落地多国",
@@ -282,134 +410,6 @@
    "category": "行业动态",
    "source": "The Decoder：AI News",
    "pub": "11-20 01:02"
-  },
-  {
-   "title": "Anthropic CEO Dario Amodei 就公司 IPO 发表声明",
-   "link": "https://aihot.news/items/bj8r4lnrbcoi5cl1asnyn6qt5",
-   "summary": "Anthropic CEO Dario Amodei 就公司 IPO 发表声明，称今天让公司财务地位更稳固，并强调不会向商业或政治压力低头，将放慢 AI 训练与部署节奏以确保安全和人类可控。声明以生物学背景和 Claude 在科研中的应用为例阐述使命，同时承认滥用、经济冲击和失控等风险，倡导行业「向顶部竞赛」。",
-   "category": "行业动态",
-   "source": "Anthropic",
-   "pub": "11-20 01:01"
-  },
-  {
-   "title": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33%",
-   "link": "https://aihot.news/items/gklqioeodqeuqgz3lttg83ztv",
-   "summary": "Anthropic 在纳斯达克完成 IPO，开盘几分钟内股价达 111.50 美元，较 83 美元发行价高出 33%，发行价已超过公司此前 70 至 78 美元的预期区间。本次发行募资超过 810 亿美元，叠加同期私募融资后公司现金储备预计达 2200 亿美元；按开盘价计算市值超过 2 万亿美元，CEO Dario Amodei 在开盘致辞中强调公司对安全的承诺。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-20 00:59"
-  },
-  {
-   "title": "Perplexity Computer 的 Brain 智能体可自动编写和更新个人技能",
-   "link": "https://aihot.news/items/cty34utgc5ppbdnayf7cnjqlv",
-   "summary": "Perplexity CEO Aravind Srinivas 分享 Computer 中 Brain 智能体的自我改进技能研究：Brain 会读取历史会话轨迹（工具调用、推理、结果），识别重复模式，仅在证据足够时提议新技能或更新。",
-   "category": "论文",
-   "source": "Aravind Srinivas",
-   "pub": "11-20 00:19"
-  },
-  {
-   "title": "Runway 详解如何构建智能体驱动的软件工厂",
-   "link": "https://aihot.news/items/wnw22hxqlwsd58lzsm44psc6g",
-   "summary": "Runway 介绍了逐步把软件交付各环节交给智能体完成的实践。智能体 10 月驱动了 38% 的合并 PR（6 月仅 0.1%），首次批准等待中位数从超过 2 小时降至约 5 分钟；AI 单独批准的 PR 回滚率约千分之一，低于人工批准的约 1/200。",
-   "category": "教程",
-   "source": "Runway：News",
-   "pub": "11-20 00:00"
-  },
-  {
-   "title": "Reflection 与 Andon Labs 实测 Beam 智能体自主运营售货业务的安全风险",
-   "link": "https://aihot.news/items/w0ka422uzqyautrrsmzlmk9iq",
-   "summary": "Reflection 与 Andon Labs 合作开展真实环境评测，让 Beam 智能体自主运营纽约和旧金山办公室的售货业务，测试其无人干预下的自主性与失控风险。",
-   "category": "论文",
-   "source": "Reflection Blog",
-   "pub": "11-20 00:00"
-  },
-  {
-   "title": "METR 发布 2026 年 11 月能力测量更新：AI R&D 相关能力每约 3.6 个月翻倍且更难测量",
-   "link": "https://aihot.news/items/sn8qb9u8fqka3mpnmy0r1nz4b",
-   "summary": "METR 发布截至 Opus 5.5 和 GPT-6 Astra 的能力评测更新，发现在 TH1.1 与 TH2 任务上模型时间视野约每 3.6 个月翻倍，可验证子集翻倍时间约 1.65 个月。",
-   "category": "论文",
-   "source": "METR：Research",
-   "pub": "11-20 00:00"
-  },
-  {
-   "title": "Anthropic IPO 检验 AI 循环融资模式，Amazon 和 Google 持股市值约 3079 亿美元",
-   "link": "https://aihot.news/items/a8d06cpj4vy2dkdzazgsqsrwx",
-   "summary": "TechCrunch 分析 Anthropic IPO 如何检验 AI 行业的循环融资模式。Amazon 14.7% 股份价值超 1590 亿美元，Google 13.7% 股份约 1490 亿美元；Nvidia、AMD、Microsoft、Broadcom、Micron、TSMC 还以 83 美元/股参与 260 亿美元私募。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-19 22:54"
-  },
-  {
-   "title": "Anthropic 完成史上最大规模 IPO，其安全治理结构受到审视",
-   "link": "https://aihot.news/items/zs46vfwtzhs7fzho1p17mfisf",
-   "summary": "The Verge 报道 Anthropic 完成 IPO，募资 813 亿美元，超过 SpaceX 成为史上估值最高的上市，完全稀释市值约 1.5 万亿美元。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "11-19 22:25"
-  },
-  {
-   "title": "MIT 研究测算数据中心用电 2023 年在美国致约 650 例过早死亡",
-   "link": "https://aihot.news/items/wefmgc42bqc1uhcqc2gv3haav",
-   "summary": "MIT 研究团队在 Environmental Research Letters 发表研究，估算 2023 年数据中心电力需求带来的额外空气污染在美国导致约 650 例过早死亡，其中 513 例来自 PM2.5、137 例来自烟雾，约占全国电力相关死亡总量的 5.3%。",
-   "category": "论文",
-   "source": "MIT News",
-   "pub": "11-19 22:00"
-  },
-  {
-   "title": "Ai2 在 Asta 平台发布 Theorizer 科研理论生成智能体并开源代码",
-   "link": "https://aihot.news/items/nl1zxwjilx9vxvz7af13c1s9w",
-   "summary": "Ai2 于 11 月 19 日在科研智能体平台 Asta 中上线 Theorizer，该智能体检索文献并为无法解释的观测提出候选理论，所有论断均链接到支持文献，代码同步开源；通过网页界面使用时 Ai2 在限额内承担 token 费用，也可在本地运行开源库自行付费。",
-   "category": "AI 产品",
-   "source": "Ai2 / Allen Institute for AI",
-   "pub": "11-19 16:00"
-  },
-  {
-   "title": "OpenAI 详解 Codex 驱动的 Performance Factory 如何自动保持 ChatGPT 高性能",
-   "link": "https://aihot.news/items/alwgjr29158n454prl9tjmmw1",
-   "summary": "OpenAI 官方详解其 Performance Factory 系统，用 Codex 智能体在云端自动排查并修复 ChatGPT 的性能回归。其中 Regression Workflow 在三个多月内跟踪超过 1700 次调查、定位超过 600 个根因，相当于每天约 17 次自动调查。",
-   "category": "教程",
-   "source": "OpenAI：官网动态",
-   "pub": "11-19 16:00"
-  },
-  {
-   "title": "彭博社：黄仁勋离任英伟达 CEO 后日本 AI 股首当其冲",
-   "link": "https://aihot.news/items/gpufpm2kxcsxrewhivsjviz3a",
-   "summary": "彭博社 11 月 19 日报道称，英伟达管理层变动及黄仁勋离任引发全球 AI 概念股新一轮抛售，日本相关股票首当其冲，市场风向从“AI 溢价”转向“AI 折价”。",
-   "category": "行业动态",
-   "source": "IT之家·人工智能",
-   "pub": "11-19 12:49"
-  },
-  {
-   "title": "Nadella 解释向 6 万员工提供买断的原因：转型为 AI 优先的组织而非裁员",
-   "link": "https://aihot.news/items/g47lsydtqfsi16e0z920ghe2y",
-   "summary": "Microsoft CEO Satya Nadella 在 DealBook Summit 上解释，10 月向 6 万名员工提供买断是为了让员工在转型中拥有选择权，而非用 AI 取代员工，目标是让所有人都用 AI 工作、转向管理 AI 智能体。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-19 08:42"
-  },
-  {
-   "title": "Conductor 0.97.0 发布并宣布加入 Meta，本地工作区智能体新增 artifacts",
-   "link": "https://aihot.news/items/stnka187ae3za2qnx70vqheg7",
-   "summary": "Conductor 发布 0.97.0 更新，同时宣布 Conductor 加入 Meta。本地工作区的 Agent 现在可以生成 artifacts，即能在聊天中内联显示的 HTML 页面，默认开启，可在 Settings → Artifacts 关闭，通过 @ 名称调用；还支持高亮文本添加评论 pill 回复聊天的任意部分。",
-   "category": "AI 产品",
-   "source": "Conductor 官方更新",
-   "pub": "11-19 08:00"
-  },
-  {
-   "title": "OpenHands 详解用 Agent 自动修复自家镜像 CVE 的软件工厂",
-   "link": "https://aihot.news/items/i94tul4bae051uizh2kkpn2r4",
-   "summary": "OpenHands 团队详解把大部分 CVE 修复工作交给 Agent 流水线的做法：Agent 选择修复、开 PR、合并低风险项并跟踪到部署，人每天只读一条最多 11 行的 Slack 消息和少量 PR。",
-   "category": "教程",
-   "source": "OpenHands 官方博客",
-   "pub": "11-19 08:00"
-  },
-  {
-   "title": "黄仁勋相关传闻核查：美商务部与司法部就Megaspeed发联合声明，未认定违规芯片销售",
-   "link": "https://aihot.news/items/abxhv94f3gcq1qb9mzdf7yma3",
-   "summary": "围绕英伟达前高管黄仁勋及AI芯片转运传闻，美国商务部与司法部就Megaspeed发布联合声明，未认定存在违规芯片销售，也未将该公司列入实体清单；英伟达此前已主动切断对Megaspeed的供应。相关声明未提及间谍行为，新加坡内政部亦表示未就间谍问题调查该公司负责人。",
-   "category": "行业动态",
-   "source": "X.PIN",
-   "pub": "11-19 07:41"
   }
  ]
 }
