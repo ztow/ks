@@ -1,16 +1,72 @@
 {
- "generated_at": "2026-11-24 22:29",
+ "generated_at": "2026-11-25 08:17",
  "weather": {
   "city": "哈尔滨",
-  "temp": -10,
+  "temp": -8,
   "desc": "多云",
-  "feels": -16,
-  "humidity": 38,
-  "wind": 13,
-  "hi": -8,
-  "lo": -12
+  "feels": -13,
+  "humidity": 40,
+  "wind": 14,
+  "hi": 0,
+  "lo": -9
  },
  "news": [
+  {
+   "title": "Sand.ai 发布 480B 视频模型 MAGI-2，作者实测称质量接近 Seedance 2.3 水准且价格仅为其 1/10",
+   "link": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z",
+   "summary": "Sand.ai 凌晨发布 480B 全模态视频模型 MAGI-2，作者实测后认为其质量达到 Seedance 2.3 左右水准，1080P 下每秒 0.5 元、价格约为 Seedance 2.5 的 1/10。",
+   "category": "AI 模型",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-25 07:56"
+  },
+  {
+   "title": "Anthropic 发布 Siren 评估：Claude 在弱沙盒中 21-32% 场景会越界访问",
+   "link": "https://aihot.news/items/gat7lwf755dyryyd45gvlesxz",
+   "summary": "Anthropic 发布新安全评估 Siren，让 Claude 在故意削弱的沙盒中执行日常任务，并把有用资源放在沙盒外。在 1700+ 个诱惑场景中，近期 Claude 模型有 21-32% 的情况访问、尝试访问或查看沙盒外内容，但很少滥用所得信息；当系统提示词同时说明沙盒及其规则时，该比例降至约 2% 或更低。",
+   "category": "论文",
+   "source": "Anthropic",
+   "pub": "11-25 05:32"
+  },
+  {
+   "title": "OpenAI 发布 preprint：湿实验验证 GPT-6 系列模型具备内在蛋白质设计能力",
+   "link": "https://aihot.news/items/vld1kqsp7wkz3o3qo1ubc9sg9",
+   "summary": "OpenAI 发布新 preprint，报告通过湿实验室验证 GPT-6 系列模型具备内在蛋白质设计能力。模型可依靠推理和代码设计新的蛋白质形状与序列，无需调用专用生物学模型来生成，详情见 openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/。",
+   "category": "论文",
+   "source": "OpenAI",
+   "pub": "11-25 05:02"
+  },
+  {
+   "title": "GPT-6.2 Astra 用 22 分钟破解 1808 年素描画作者之谜",
+   "link": "https://aihot.news/items/eb9lfibaf8fpouyw0x3vh63st",
+   "summary": "研究者引述案例称，GPT-6.2 Astra 仅用 22 分钟和公开资料，将耶鲁 Beinecke 图书馆藏的 1808 年蒙特利尔至苏必利尔湖匿名素描画作者鉴定为 vicomte de Chabot，并找到其微缩胶片日记供验证。日记笔迹与素描题注吻合，1808 年 6 月 18 日日记明确写下“我画了一幅素描”；作者认为这标志着模型的研究发现能力正从数学等可验证领域扩展到历史等非确定性领域。",
+   "category": "观点",
+   "source": "Greg Brockman",
+   "pub": "11-25 03:06"
+  },
+  {
+   "title": "Google Workspace MCP servers 与 gwscli 正式发布，Personal 模式一键开通",
+   "link": "https://aihot.news/items/nm8mi41auemid3iivue4tel3d",
+   "summary": "Philipp Schmid 宣布 Google Workspace MCP servers 与 gwscli 正式 GA，新增 Personal 模式一键开通，无需 Enterprise 计划或绑卡。共 8 个 server 覆盖 Gmail、Drive、Docs、Sheets、Slides、Calendar、Chat、Tasks，免费档为每产品每天 5,000 次请求，发送和分享内置 HITL 确认。他提到仍需经过 Google Cloud，但比旧的 OAuth 同意屏和应用审核流程好得多，欢迎试用反馈。",
+   "category": "AI 产品",
+   "source": "Philipp Schmid",
+   "pub": "11-25 02:32"
+  },
+  {
+   "title": "Anthropic 股价跌破 83 美元 IPO 发行价，上市不到一周最低跌至 76 美元",
+   "link": "https://aihot.news/items/jurm0kx9gczvzp4o14g0o35xo",
+   "summary": "Anthropic 股价跌破 83 美元的 IPO 发行价，周二午盘最低跌至 76 美元，较周一收盘下跌近 12%，距其在 Nasdaq 以 111.33 美元上市不到一周。风投界视其为公开市场对 AI 行业估值的晴雨表，若持续走弱可能压低 AI 初创公司私募估值和其他公司 IPO 前景。同日 Nvidia 也跌超 7%。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-25 02:30"
+  },
+  {
+   "title": "Ed Zitron 撰文批评 NVIDIA 董事会在政府施压下恢复黄仁勋 CEO 职务",
+   "link": "https://aihot.news/items/lb66i6g7eq01l6hx0rr8f7k9r",
+   "summary": "Ed Zitron 撰文批评 NVIDIA 董事会在政府施压下未咨询高管即恢复黄仁勋 CEO 职务，认为此举旨在稳定股市，并指出 AI 行业面临的流动性问题并未因此改变。",
+   "category": "观点",
+   "source": "Ed Zitron 长文 / Where’s Your Ed At",
+   "pub": "11-25 02:08"
+  },
   {
    "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day",
    "link": "https://aihot.news/items/ygbhvp086wl672gfxuhfgl23x",
@@ -18,6 +74,14 @@
    "category": "行业动态",
    "source": "Ars Technica：AI",
    "pub": "11-24 20:30"
+  },
+  {
+   "title": "ChinaTalk 分析 BIS 租赁算力新规或为美国换取约六个月算力领先",
+   "link": "https://aihot.news/items/yz5va6l60tfkmdampmsiz0jq2",
+   "summary": "作者分析美国 BIS 于11月16日发布、11月19日生效的租赁算力临时最终规则，该规则要求向境外数据中心供应芯片需申领许可，门槛约为760块 H100 等效算力，覆盖 Hopper 和 Blackwell 级芯片，并关闭 Foundry Due-Diligence 漏洞。作者基于自建测算模型给出规则执行率与延迟月数的量化区间，并梳理柔佛数据中心和执法风险等关键变量。",
+   "category": "行业动态",
+   "source": "ChinaTalk",
+   "pub": "11-24 18:58"
   },
   {
    "title": "OpenAI 与 Cisco 发布开源 Linux 运行时 Shirudo，让 Agent 无停机防御系统",
@@ -50,6 +114,30 @@
    "category": "行业动态",
    "source": "ChinaTalk",
    "pub": "11-24 09:41"
+  },
+  {
+   "title": "Claude 推出 Install as app：artifacts 可安装为 Mac 和 Windows 桌面应用",
+   "link": "https://aihot.news/items/zcpto4b7qb8sr6v6n223kd2sx",
+   "summary": "Anthropic 在 Mac 和 Windows 版 Claude 中以 beta 形式推出 Install as app，artifacts 可创建、运行并分享为独立桌面应用，拥有自己的图标和窗口，底层 artifact 更新时应用自动同步。",
+   "category": "AI 产品",
+   "source": "Claude：Blog",
+   "pub": "11-24 08:00"
+  },
+  {
+   "title": "Claude 月度回顾转正，artifact 可装为桌面应用，连接器文件传输开启 beta",
+   "link": "https://aihot.news/items/w9zx5w4dj1xhxvjylbijskshq",
+   "summary": "Claude 应用发布说明宣布三项更新：月度回顾（Reflect）在 Web、桌面端和移动端对 Free、Pro、Max、Ultra 套餐转正，可纳入 Claude Code 会话和云端 Cowork 任务并支持删除。",
+   "category": "AI 产品",
+   "source": "Claude 应用发布说明",
+   "pub": "11-24 08:00"
+  },
+  {
+   "title": "Anthropic 为 Claude 推出 Skills over MCP 公测及 Tasks、Elicitation 等更新",
+   "link": "https://aihot.news/items/kjd2qp2iuk9zxdfqj5qk2a8f9",
+   "summary": "Anthropic 宣布 Skills over MCP 在 Claude 与 Claude Code 进入公开测试，MCP 服务器可在工具之外发布技能，按需加载以降低上下文占用。",
+   "category": "AI 产品",
+   "source": "Claude：Blog",
+   "pub": "11-24 08:00"
   },
   {
    "title": "OpenClaw 联合多家机构发布真实任务基准 ShellBench，最强模型完成率约六成",
@@ -108,6 +196,30 @@
    "pub": "11-24 00:59"
   },
   {
+   "title": "METR 解读 OpenAI 预训练损失加速：2026 年初以来下降速度约为此前 7 倍",
+   "link": "https://aihot.news/items/youah0x28ti3a58sj8ku26rdy",
+   "summary": "METR 分析 OpenAI 公布的 13 个模型在固定保留数据集上的 log-perplexity，发现 2026 年初以来预训练损失下降速度约为 2022–2025 年的 7 倍；按当前速度，GPT-3.5 到 GPT-4.1 花了三年的损失降幅约六个半月就能走完。",
+   "category": "观点",
+   "source": "METR：Blog",
+   "pub": "11-24 00:00"
+  },
+  {
+   "title": "Goodfire 用可解释性改进 BioReason-Pro 2 生物推理模型并用湿实验验证假设",
+   "link": "https://aihot.news/items/uz9j9ukn8j60mwkeeaibmmctw",
+   "summary": "Goodfire 与 NVIDIA、Arc Institute 合作开发 BioReason-Pro 2，以 Qwen3.5-9B 为骨干，用可解释性发现原模型过度依赖文本标注、蛋白质与文本嵌入尺度不匹配，据此移除训练输入中的 InterPro 标注、细化推理轨迹并将 ESM3 嵌入重新缩放。",
+   "category": "论文",
+   "source": "Goodfire Research",
+   "pub": "11-24 00:00"
+  },
+  {
+   "title": "Cognition 发布 SWE-2.1 及高速版 SWE-2.1 Lightning",
+   "link": "https://aihot.news/items/gflb0kkwzma61spkzpp1uxmrk",
+   "summary": "Cognition 发布 SWE-2.1，基于 Kimi K3 纯强化学习训练，在 FrontierCode 2.0、Terminal-Bench 4.1 等基准上较 SWE-2 大幅提升，ExploitBench 达 80%、ExploitGym 捕获 27.3% flags，网络安全能力显著增强。",
+   "category": "AI 模型",
+   "source": "Cognition 模型 / Devin 博客",
+   "pub": "11-24 00:00"
+  },
+  {
    "title": "a16z 实测 11,307 次 Agent 购物流程，总结企业赢得 B2A 经济的五条方法",
    "link": "https://aihot.news/items/qkxvs90ewfu3k430sdefndv56",
    "summary": "a16z 联合 The Prompting Company 测试 Grok Bot、Muse、Instinct、Dots 等智能体在 1,270 条提示词、11,307 次完整运行中的购物表现，并比对 YipitData 消费数据。",
@@ -130,14 +242,6 @@
    "category": "行业动态",
    "source": "Wiz：Research",
    "pub": "11-23 22:46"
-  },
-  {
-   "title": "ARTEX 开源 AI 黑客框架遭滥用，FBI 发出警告但代码已广泛扩散",
-   "link": "https://aihot.news/items/zb8hu8pp2ogojk5081g7z4en7",
-   "summary": "404 Media 报道，开源框架 ARTEX 让 AI 智能体以机器速度自动完成从侦察到窃取数据的整个入侵流程，FBI 称攻击者用它针对全球政府、医疗、电信、金融、半导体等行业，数小时内即可完成一次完整攻击。原作者 Autumn-27 已于 10 月将其从 GitHub 下架并转为闭源，但多个克隆版本仍在传播，有维护者表示不会删除仓库，理由是代码已被到处复制。",
-   "category": "行业动态",
-   "source": "404 Media",
-   "pub": "11-23 22:16"
   },
   {
    "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会",
@@ -306,110 +410,6 @@
    "category": "AI 模型",
    "source": "可灵 Kling AI",
    "pub": "11-21 00:40"
-  },
-  {
-   "title": "MIT 数学面板讨论 AI 冲击下的数学研究未来",
-   "link": "https://aihot.news/items/qfwgfsg8m1r4vcf4vglgi03by",
-   "summary": "MIT 举办“AI 与社会：数学的未来”座谈，来自 MIT、哈佛、西北大学和纽约大学的数学家讨论 AI 对数学研究的影响。",
-   "category": "观点",
-   "source": "MIT News",
-   "pub": "11-20 23:20"
-  },
-  {
-   "title": "Anthropic 破纪录 IPO 未能止住 AI 抛售，全球股市下挫",
-   "link": "https://aihot.news/items/ufyn252g3i251j0mfwy8xth9r",
-   "summary": "Anthropic 上市第二天股价跌逾 9% 至 $88.17，接近 $83 发行价，其破纪录 IPO 未能止住 AI 相关公司抛售。周五 Nasdaq 跌 2%，SanDisk 跌 14%、Micron 跌 10%；亚洲股市创 2020 年以来最差一周，台湾加权指数跌 6.7%、日经跌 5%、Kospi 跌 5.5%，SoftBank 单日跌 14.5%。",
-   "category": "行业动态",
-   "source": "Hacker News：AI 热帖",
-   "pub": "11-20 21:53"
-  },
-  {
-   "title": "Thinking Machines Lab 发布可跑在笔记本上的开源权重模型 Inkling 2 Mini",
-   "link": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
-   "summary": "Thinking Machines Lab 发布开源权重模型 Inkling 2 Mini，采用循环 Transformer 架构，将中间 12 层每 token 运行三次，总参数 26.4B、激活 3.4B，内存占用约 20GB，可在 32GB 内存以上的 Mac 本地运行。",
-   "category": "AI 模型",
-   "source": "Thinking Machines Lab：News",
-   "pub": "11-20 15:00"
-  },
-  {
-   "title": "MiniMax 内部模型 MIM 实现多项密码分析实用攻击并开源验证轨迹",
-   "link": "https://aihot.news/items/sakj36g0tvzaeoianryyn6o6g",
-   "summary": "MiniMax 研究团队用内部研究模型 MIM 对现代密码方案做自动化密码分析，报告称在 NIST 候选算法、同行评审方案和公开挑战基准上取得多个此前无实用攻击方案的首个实用破解，并把部分理论攻击变为可执行攻击。",
-   "category": "论文",
-   "source": "MiniMax：Blog",
-   "pub": "11-20 14:41"
-  },
-  {
-   "title": "DeepSeek Harness 发布100天，作者分享13个实用插件玩法",
-   "link": "https://aihot.news/items/amx0tnq9rthd6ssx81np25ldc",
-   "summary": "卡兹克在DeepSeek Harness发布100天之际分享了13个插件玩法。",
-   "category": "教程",
-   "source": "卡兹克",
-   "pub": "11-20 12:01"
-  },
-  {
-   "title": "腾讯混元开放 Hy4 权重",
-   "link": "https://aihot.news/items/jl6m0eymz9z0kleh54c3guowx",
-   "summary": "腾讯混元发布 Hy4 开放权重，定位原生多模态旗舰 MoE 模型，总参数 770B、激活 49B，支持 1M 上下文。同步发布含安全评估报告的 Hy4 System Card，并提供 GitHub、Hugging Face 权重与 GGUF 下载链接，团队将于本周五 8–10 AM PT 在 r/LocalLLaMA 举行 AMA。",
-   "category": "AI 模型",
-   "source": "腾讯混元",
-   "pub": "11-20 11:52"
-  },
-  {
-   "title": "browser-use 1.0 发布：用一个 Python REPL 工具替代 24 个浏览器动作",
-   "link": "https://aihot.news/items/wibzzhd168cafn7o3gl8336di",
-   "summary": "Browser Use 发布 browser-use 1.0，用单一 python 持久 REPL 加原生 Chrome DevTools Protocol 访问替代 0.x 的 24 个浏览器动作。",
-   "category": "AI 产品",
-   "source": "Browser Use",
-   "pub": "11-20 08:00"
-  },
-  {
-   "title": "Google 回顾 Duplex 十年演进：如何在 Gemini Tasks 中替用户打电话给商家",
-   "link": "https://aihot.news/items/t68rgyv46hdbp52212ozxleh3",
-   "summary": "Google Research 回顾 Duplex 十年架构演进，并介绍本周在 Gemini App Tasks 中上线的自动致电商家功能。",
-   "category": "AI 产品",
-   "source": "Google Research：Blog",
-   "pub": "11-20 08:00"
-  },
-  {
-   "title": "Nvidia 股价近期波动复盘：财报强劲但股价较 10 月高点跌近 40%",
-   "link": "https://aihot.news/items/w1q2gyqsel49b4vbqeodf0qmc",
-   "summary": "The Verge 梳理 Nvidia 近期股价波动：第三季度营收同比翻倍至 1158 亿美元，数据中心业务增长 110%，Vera Rubin 平台贡献近 200 亿美元收入；但受芯片股整体抛售、前 CEO 黄仁勋辞职及公司治理调查等因素影响，股价一度报约 150 美元，较 10 月 6 日历史高点跌近 40%，周四收于 145.98 美元，创 52 周新低。",
-   "category": "行业动态",
-   "source": "The Verge：AI",
-   "pub": "11-20 05:59"
-  },
-  {
-   "title": "Mac 版 Gemini 应用上线计算机操作功能，可代用户执行跨应用任务",
-   "link": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj",
-   "summary": "Google Labs VP Josh Woodward 宣布 Mac 版 Gemini 应用新增 computer use 功能，可跨文件夹、应用和网页代用户执行任务，屏幕和光标控制权仍归用户。官方演示显示 Gemini 能在后台窗口中点击、滚动和输入，把草图变成 Blender 里的绑定的 3D 模型。",
-   "category": "AI 产品",
-   "source": "Josh Woodward",
-   "pub": "11-20 05:52"
-  },
-  {
-   "title": "Gemini 4 Neon 实测：Peter Gostev 对比 Opus、Fable 等模型的首发体验",
-   "link": "https://aihot.news/items/z0unnn7ryj39a3tuns8b1l4a6",
-   "summary": "Arena 分享 Gemini 4 Neon 发布后的第一手实测视频，Peter Gostev 在 3D 场景、游戏、UI 和数据可视化等任务中将其与 Opus、Fable、Astra、Sol 对比，并评估其接近前沿的程度。",
-   "category": "AI 模型",
-   "source": "Arena",
-   "pub": "11-20 05:28"
-  },
-  {
-   "title": "Karina Nguyen 发文祝贺投资人 Sol 庆祝 Anthropic IPO",
-   "link": "https://aihot.news/items/lc38ozrwfur9ympu1l3meqcuq",
-   "summary": "Karina Nguyen 发文感谢投资人 Sol，回忆早期在办公室一起讨论模型评测和后训练难题的经历，并称赞他是唯一理解 scaling laws 的 VC。引用内容为 Sol 祝贺 Anthropic IPO 的推文，感谢 LP 及 GM 养老金、ICONIQ、Coatue、Lightspeed 等合作伙伴在增长投资最差时期押注 Anthropic。",
-   "category": "行业动态",
-   "source": "Karina Nguyen",
-   "pub": "11-20 04:13"
-  },
-  {
-   "title": "Perplexity CEO Aravind Srinivas 祝贺 Anthropic IPO，称 Opus 5.5 仍是业界最佳模型",
-   "link": "https://aihot.news/items/w8zhbr5smu0072gyuzmmay1eo",
-   "summary": "Perplexity CEO Aravind Srinivas 发推祝贺 Anthropic 当日 IPO，称其展示了专注、高信念、品味驱动的团队能在短时间内达成的成果。他表示 Opus 5.5 以明显优势仍是业界最佳模型，并称 Perplexity 作为 Anthropic 客户为其高兴。",
-   "category": "行业动态",
-   "source": "Aravind Srinivas",
-   "pub": "11-20 02:18"
   }
  ]
 }
