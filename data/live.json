@@ -1,16 +1,64 @@
 {
- "generated_at": "2026-11-25 17:28",
+ "generated_at": "2026-11-26 03:43",
  "weather": {
   "city": "哈尔滨",
-  "temp": 0,
-  "desc": "阴",
-  "feels": -6,
-  "humidity": 36,
-  "wind": 16,
-  "hi": 0,
-  "lo": -9
+  "temp": -10,
+  "desc": "少云",
+  "feels": -14,
+  "humidity": 86,
+  "wind": 4,
+  "hi": -3,
+  "lo": -11
  },
  "news": [
+  {
+   "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录",
+   "link": "https://aihot.news/items/j0hoj1rlmltoft6okserijp25",
+   "summary": "42 州总检察长介入 Character.AI 的破产程序，试图阻止其拍卖用户私密聊天数据。相关声明称数据集包含超过 2100 万美国账户的聊天记录，其中逾 210 万属于未成年人，还涉及 IP 地址等信息；目前唯一披露的匿名竞拍方为 2026 年 11 月 13 日在特拉华州注册的 Smirks and Pangs Acquisition LLC，拍卖定于 12 月 1 日。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-26 01:35"
+  },
+  {
+   "title": "Anthropic 平台工程负责人 Katelyn Lesse 谈 2026 年如何用 Claude 构建软件",
+   "link": "https://aihot.news/items/rnanzlnaqxdr2icjqw0qwv9la",
+   "summary": "Pragmatic Engineer 发布对 Anthropic 平台工程负责人 Katelyn Lesse 的播客访谈，她团队负责 Claude API 及 Claude Code 和 Claude Desktop 的基础设施。",
+   "category": "教程",
+   "source": "Pragmatic Engineer",
+   "pub": "11-26 01:31"
+  },
+  {
+   "title": "上下文漂移如何影响你的 AI Agent：470 项实验与一个免费的 MCP 解法",
+   "link": "https://aihot.news/items/br6usy3mxv1q0mzxhgf9y8qam",
+   "summary": "Google AI 开发者 Patrick Kelly 通过 470 个任务实测区分 context rot 与 context drift，在 Gemini 3.8 Flash 和 Gemini Pro 的沙盒中发现：模型在 73% 的运行中内部察觉文件冲突，但 0% 会主动告知用户，95%-100% 的情况下任务级 skill 文件会覆盖 AGENTS.md 的严格规则。",
+   "category": "教程",
+   "source": "Google AI：DEV 作者专属",
+   "pub": "11-26 00:19"
+  },
+  {
+   "title": "OpenClaw 2026.11.10 发布，新增 Deep Research、Knowledge 记忆系统与 Browser handoff",
+   "link": "https://aihot.news/items/vz3bvc1o7zuki3x2zw8lnnv78",
+   "summary": "OpenClaw 发布 2026.11.10 版本，新增聊天内 Deep Research、新的 OpenClaw 记忆系统 Knowledge，以及 Browser handoff 功能。本次版本包含 7,671 个 PR、349 位贡献者，完整说明见 https://docs.openclaw.ai/releases/2026.11.10。",
+   "category": "AI 产品",
+   "source": "OpenClaw",
+   "pub": "11-25 22:05"
+  },
+  {
+   "title": "面壁智能等发布 EVIL 基准，测出 GPT-4o 等模型在违法场景下安全率不足",
+   "link": "https://aihot.news/items/ogucsvlqrdr1rvfh5nvx757cx",
+   "summary": "面壁智能（OpenBMB）团队在 Nature Communications 发表 EVIL 研究，基于中美数千真实判例构建 269 个违法场景 × 50 种违法意图，测试 10 个前沿模型。多数模型安全率低于 75%，GPT-4o 在两种法律语境下均低于 60%，近半违法请求会获得协助；带特定人口身份暗示的请求更易得到协助，用现有安全对齐数据做 SFT 和 DPO 不能修复，某些设置下反而加重。",
+   "category": "论文",
+   "source": "面壁智能 OpenBMB",
+   "pub": "11-25 21:00"
+  },
+  {
+   "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片出口合规调查",
+   "link": "https://aihot.news/items/kzwj96fvnn3whzvnhqdvsh830",
+   "summary": "TechCrunch 分析指出，黄仁勋回归 Nvidia CEO 后，公司仍面临多方对其 GPU 出口合规问题的调查。新加坡数据中心运营商 Megaspeed 被指违反美国出口管制，将先进 GPU 转运至中国。美国司法部于 2024 年启动调查，新加坡方面于 2025 年展开类似调查，加州总检察长办公室及美国证券交易委员会也关注 Nvidia 的相关披露。Nvidia 表示将停止向中国销售许可芯片，并计划设立首席合规官及董事会出口管制委员会。",
+   "category": "行业动态",
+   "source": "TechCrunch：AI",
+   "pub": "11-25 21:00"
+  },
   {
    "title": "Claude Code 团队发布实用指南讲解 Claude Ship 的 PR 审查与守护用法",
    "link": "https://aihot.news/items/uyodjb16jngloilypsm1d3q0d",
@@ -90,6 +138,14 @@
    "category": "观点",
    "source": "Ed Zitron 长文 / Where’s Your Ed At",
    "pub": "11-25 02:08"
+  },
+  {
+   "title": "Anthropic 复盘 Messages API 从 Python 迁移到 Rust 的校验方法",
+   "link": "https://aihot.news/items/h1ja45355xx1xf9rqf89cv1if",
+   "summary": "Anthropic 介绍如何将 Messages API 从 Python 迁移到 Rust，并把生产系统本身当作校验器。该 API 流量从 2024 年初到 2026 年秋增长约 1800 倍，迁移后每请求 CPU 降低约 70%，首 token 中位时间缩短约 20%，且未停服或冻结功能开发。",
+   "category": "教程",
+   "source": "Anthropic：Research",
+   "pub": "11-25 00:00"
   },
   {
    "title": "OpenAI 发布预印本：GPT-6 模型展现内在蛋白质设计能力",
@@ -354,62 +410,6 @@
    "category": "观点",
    "source": "面壁智能 OpenBMB",
    "pub": "11-22 19:15"
-  },
-  {
-   "title": "Lean 与 Mathlib 社区确认 Levent Alpöge 黎曼猜想证明正确",
-   "link": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
-   "summary": "Lean 与 Mathlib 社区发表声明，确认斯坦福数学家 Levent Alpöge 的黎曼猜想证明正确。Alpöge 于 2026 年 11 月 20 日以 1700 万行 Lean 代码发布该证明，数十人独立运行得到相同结果，且验证程序被设计为可证明不会接受有缺陷的证明。",
-   "category": "行业动态",
-   "source": "The Decoder：AI News",
-   "pub": "11-22 19:08"
-  },
-  {
-   "title": "菲尔兹奖得主梅纳德谈 Claude 合作证明黎曼猜想：相信证明正确，但需被理解才可能获认可",
-   "link": "https://aihot.news/items/p9h5xzsooms0foxeakoivy7qt",
-   "summary": "2022 年菲尔兹奖得主、牛津大学数学教授詹姆斯·梅纳德（James Maynard）在采访中表示，他认为 Anthropic 数学家莱文特·阿尔珀格（Levent Alpöge）与 Claude 合作完成的黎曼猜想证明是正确的，依据是该证明已通过 Lean 库形式化验证并经独立核实，且阿尔珀格过往有可靠记录。",
-   "category": "观点",
-   "source": "IT之家·人工智能",
-   "pub": "11-22 17:35"
-  },
-  {
-   "title": "OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据",
-   "link": "https://aihot.news/items/r7kb35fpdwc1m2iqsmd310tdj",
-   "summary": "OpenAI 撰文提议将 perplexity（交叉熵损失）确立为跨模型开发者比较和安全标准的共享指标，并公开其内部预训练测量数据。",
-   "category": "观点",
-   "source": "OpenAI：官网动态",
-   "pub": "11-22 08:00"
-  },
-  {
-   "title": "Columbia 与 MIT 论文展示 Claude 发现的算法突破 3SUM 与 APSP 长期速度上限",
-   "link": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
-   "summary": "Columbia 和 MIT 的论文展示 Claude 发现的算法在 3SUM 和全对最短路径（APSP）上取得多项式改进，3SUM 达到 O(n^1.9992)、APSP 达到 O(n^2.9995)，推翻了 3SUM 和 APSP 假设。",
-   "category": "论文",
-   "source": "Rohan Paul",
-   "pub": "11-22 02:47"
-  },
-  {
-   "title": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
-   "link": "https://aihot.news/items/tje8i8y21ttk7jjmqet5bpxuq",
-   "summary": "Anthropic 数学家 Levent Alpöge 周五宣布与 Claude 合作得到黎曼猜想及广义黎曼猜想的证明，证明以 Lean 语言分 14 个数据包发布，打印将超 25 万页。",
-   "category": "论文",
-   "source": "The Decoder：AI News",
-   "pub": "11-21 19:19"
-  },
-  {
-   "title": "Together AI 通报 2026 年 6-7 月 serverless 推理服务提示词泄露事件",
-   "link": "https://aihot.news/items/xqe6lbb5zsjp9xbsc1o912cs0",
-   "summary": "Together AI 通报一起安全事件：因 AI 编码 agent 在公开 GitHub 仓库 xorl 中提交了私有 Hugging Face 仓库凭证，未授权方下载了 2026 年 6-7 月提交给 MiniMax M3、GLM-5.2、Kimi K2.6 等 serverless 推理服务的存储提示词样本，并搜索其中其他服务凭证。",
-   "category": "行业动态",
-   "source": "Together AI 研究与产品博客",
-   "pub": "11-21 08:00"
-  },
-  {
-   "title": "Qwen4 Max 上线 Together AI，单次调用修复 Tornado 整仓 bug",
-   "link": "https://aihot.news/items/rlj39tzyujneo0u35iyrfb4uc",
-   "summary": "Together AI 宣布阿里旗舰模型 Qwen4 Max 上线其 Serverless 推理平台（模型串 Qwen/Qwen4-Max），1M token 上下文，截至 2026 年 11 月 22 日 7 折。",
-   "category": "AI 产品",
-   "source": "Together AI 研究与产品博客",
-   "pub": "11-21 08:00"
   }
  ]
 }
