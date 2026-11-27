@@ -1,16 +1,24 @@
 {
- "generated_at": "2026-11-27 08:15",
+ "generated_at": "2026-11-27 17:23",
  "weather": {
   "city": "哈尔滨",
-  "temp": -2,
-  "desc": "雾",
-  "feels": -6,
-  "humidity": 81,
-  "wind": 4,
+  "temp": -3,
+  "desc": "阴",
+  "feels": -8,
+  "humidity": 83,
+  "wind": 14,
   "hi": 1,
-  "lo": -6
+  "lo": -7
  },
  "news": [
+  {
+   "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接",
+   "link": "https://aihot.news/items/v5fxjqr2vapkk9vn1j9a8ke96",
+   "summary": "据美国安全公司 Dragos，MiniMax 收集并打开了用户提示词中的私有链接，即便用户要求不存储数据。",
+   "category": "行业动态",
+   "source": "Rohan Paul",
+   "pub": "11-27 15:21"
+  },
   {
    "title": "实测支付宝 SkillPay：手把手教你怎么把 Skill 挂上去卖钱",
    "link": "https://aihot.news/items/cdkswjz368inpelrz3f52rekx",
@@ -164,9 +172,9 @@
    "pub": "11-25 13:29"
   },
   {
-   "title": "千问APP免费开放千问Go打电话服务，经授权可代打电话和定时来电",
+   "title": "千问App免费开放打电话服务，可代用户拨号沟通需求",
    "link": "https://aihot.news/items/cebavio3uyjwli5r3imsuq1si",
-   "summary": "千问APP宣布千问Go打电话服务免费开放，用户告知打给谁、要办什么事并经授权后，AI可代为拨打电话、沟通需求。文中示例包括定时提醒朋友带饮料、定时来电叫醒起床、代订包间或询问快递等场景，并邀请用户在评论区分享想安排的任务。",
+   "summary": "千问App宣布千问Go打电话服务免费开放，用户告知打给谁、要办什么事并授权后，AI可代为拨打电话、沟通需求。文中举例称可帮用户联系酒店前台找回遗落行李并沟通寄回，还适用于订包间、催快递等场景。",
    "category": "AI 产品",
    "source": "公众号：千问APP",
    "pub": "11-25 12:32"
@@ -402,14 +410,6 @@
    "category": "AI 模型",
    "source": "Cognition 模型 / Devin 博客",
    "pub": "11-24 00:00"
-  },
-  {
-   "title": "a16z 实测 11,307 次 Agent 购物流程，总结企业赢得 B2A 经济的五条方法",
-   "link": "https://aihot.news/items/qkxvs90ewfu3k430sdefndv56",
-   "summary": "a16z 联合 The Prompting Company 测试 Grok Bot、Muse、Instinct、Dots 等智能体在 1,270 条提示词、11,307 次完整运行中的购物表现，并比对 YipitData 消费数据。",
-   "category": "教程",
-   "source": "a16z：News",
-   "pub": "11-23 23:04"
   }
  ]
 }
