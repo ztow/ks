@@ -1,16 +1,32 @@
 {
- "generated_at": "2026-11-27 17:23",
+ "generated_at": "2026-11-28 03:18",
  "weather": {
   "city": "哈尔滨",
-  "temp": -3,
-  "desc": "阴",
-  "feels": -8,
-  "humidity": 83,
-  "wind": 14,
-  "hi": 1,
-  "lo": -7
+  "temp": -10,
+  "desc": "多云",
+  "feels": -15,
+  "humidity": 82,
+  "wind": 12,
+  "hi": -5,
+  "lo": -12
  },
  "news": [
+  {
+   "title": "OpenBMB 点评 InternLM 基于 MiniCPM-o 4.5 打造的 Sage-Interaction",
+   "link": "https://aihot.news/items/l9md8ugx8e2zlm5g1tuqthmaw",
+   "summary": "OpenBMB 转发并点评上海人工智能实验室 InternLM 团队发布的开源全双工语音视频模型 Sage-Interaction，该模型基于 MiniCPM-o 4.5 构建。OpenBMB 称赞其边说边听、在不打断对话的情况下把复杂任务交给后端模型，是迈向更自然 AI 交互的一步，并向 InternLM 团队致意。",
+   "category": "行业动态",
+   "source": "面壁智能 OpenBMB",
+   "pub": "11-27 21:32"
+  },
+  {
+   "title": "Antigravity 实用技巧：在 GEMINI.md 加一句话让模型边干活边汇报",
+   "link": "https://aihot.news/items/tiqf353lek6sib8ktn8uvc6nc",
+   "summary": "卡兹克分享一个 Antigravity 使用技巧，针对模型长时间闷头干活不输出信息的问题，只需在 GEMINI.md 中加一句话，要求动手前说要做什么、有发现、换方向、卡住或连干四五步时再说一句，即可获得类似 Claude 或 Codex 那种实时汇报进度的交互体验。",
+   "category": "教程",
+   "source": "卡兹克",
+   "pub": "11-27 20:38"
+  },
   {
    "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接",
    "link": "https://aihot.news/items/v5fxjqr2vapkk9vn1j9a8ke96",
@@ -393,22 +409,6 @@
    "summary": "METR 分析 OpenAI 公布的 13 个模型在固定保留数据集上的 log-perplexity，发现 2026 年初以来预训练损失下降速度约为 2022–2025 年的 7 倍；按当前速度，GPT-3.5 到 GPT-4.1 花了三年的损失降幅约六个半月就能走完。",
    "category": "观点",
    "source": "METR：Blog",
-   "pub": "11-24 00:00"
-  },
-  {
-   "title": "Goodfire 用可解释性改进 BioReason-Pro 2 生物推理模型并用湿实验验证假设",
-   "link": "https://aihot.news/items/uz9j9ukn8j60mwkeeaibmmctw",
-   "summary": "Goodfire 与 NVIDIA、Arc Institute 合作开发 BioReason-Pro 2，以 Qwen3.5-9B 为骨干，用可解释性发现原模型过度依赖文本标注、蛋白质与文本嵌入尺度不匹配，据此移除训练输入中的 InterPro 标注、细化推理轨迹并将 ESM3 嵌入重新缩放。",
-   "category": "论文",
-   "source": "Goodfire Research",
-   "pub": "11-24 00:00"
-  },
-  {
-   "title": "Cognition 发布 SWE-2.1 及高速版 SWE-2.1 Lightning",
-   "link": "https://aihot.news/items/gflb0kkwzma61spkzpp1uxmrk",
-   "summary": "Cognition 发布 SWE-2.1，基于 Kimi K3 纯强化学习训练，在 FrontierCode 2.0、Terminal-Bench 4.1 等基准上较 SWE-2 大幅提升，ExploitBench 达 80%、ExploitGym 捕获 27.3% flags，网络安全能力显著增强。",
-   "category": "AI 模型",
-   "source": "Cognition 模型 / Devin 博客",
    "pub": "11-24 00:00"
   }
  ]
