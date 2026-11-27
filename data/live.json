@@ -1,16 +1,40 @@
 {
- "generated_at": "2026-11-26 21:29",
+ "generated_at": "2026-11-27 08:15",
  "weather": {
   "city": "哈尔滨",
-  "temp": -5,
-  "desc": "阴",
-  "feels": -9,
-  "humidity": 71,
-  "wind": 6,
-  "hi": -3,
-  "lo": -12
+  "temp": -2,
+  "desc": "雾",
+  "feels": -6,
+  "humidity": 81,
+  "wind": 4,
+  "hi": 1,
+  "lo": -6
  },
  "news": [
+  {
+   "title": "实测支付宝 SkillPay：手把手教你怎么把 Skill 挂上去卖钱",
+   "link": "https://aihot.news/items/cdkswjz368inpelrz3f52rekx",
+   "summary": "作者完整实测支付宝 SkillPay 平台的 Skill 变现流程，该平台7月上线，支持买断和订阅两种售卖模式。买断制将 Skill 完整内容交付本地，订阅制把 Skill 保留在云端沙盒中、Agent 看不到明文；买断定价 0.01-50 元，订阅按周月季度收费上限 50 元，免费试用最低 5 次。",
+   "category": "教程",
+   "source": "公众号：数字生命卡兹克",
+   "pub": "11-27 07:56"
+  },
+  {
+   "title": "Karpathy 用 Claude Code 和 Opus 5.5 把美国真实数据做成文明风格游戏地图",
+   "link": "https://aihot.news/items/gc4qp85ij5qzhu53qzkg8quqj",
+   "summary": "Karpathy 分享用 Claude Code 桌面版加 Opus 5.5（开启 ultracode）构建的美国文明风格游戏地图，7 小时生成 45K 行代码，整合 Census、BEA、BLS、EIA、NOAA 等 31 个真实数据源，统一到 25 km 六边形网格。GDP 映射为金产量、城市按真实产业分化，含 19 个视图、524 个都市的 City View 和覆盖 3,100+ 县的 Explorer，已部署在 https://karpathy.ai/usaciv/。作者 Ado 转发并感叹。",
+   "category": "教程",
+   "source": "Ado Kukic",
+   "pub": "11-27 00:44"
+  },
+  {
+   "title": "Philipp Schmid 撰文解释为何在 Skills 与 CLI 兴起后仍更看好 MCP",
+   "link": "https://aihot.news/items/jcdfpftbam647yhc210dbace9",
+   "summary": "Philipp Schmid 撰文解释为何在 Skills 和 CLI 流行后依然看好 MCP：Linear 和 Notion 的 agent 每周创建约 240 万条 issue 和页面，Atlassian 每天 MCP 工具调用超 500 万次，其中 44% 用户来自软件团队之外，Notion 报告 60 倍 MCP 流量增长。",
+   "category": "观点",
+   "source": "Philipp Schmid",
+   "pub": "11-26 21:30"
+  },
   {
    "title": "MiniMax 推出 H3 Family：旗舰与扩展视频图像模型",
    "link": "https://aihot.news/items/cxodjj13xa8ey821rbnmumcrf",
@@ -386,30 +410,6 @@
    "category": "教程",
    "source": "a16z：News",
    "pub": "11-23 23:04"
-  },
-  {
-   "title": "Trump 力挺黄仁勋回归 Nvidia，称美国政府无其不当行为的证据",
-   "link": "https://aihot.news/items/uop2ab4998l6dxugsgtg7w7rn",
-   "summary": "Trump 在 Truth Social 上表态支持 Nvidia 董事会复职黄仁勋为 CEO 兼总裁，称美国政府没有理由认为其回归构成国家安全风险。他称司法部长 Todd Blanche 已确认政府没有黄仁勋违法行为的证据，但 Blanche 本人尚未正式声明。",
-   "category": "行业动态",
-   "source": "TechCrunch：AI",
-   "pub": "11-23 23:04"
-  },
-  {
-   "title": "Wiz Research 披露 ARTEX 智能体攻击框架的真实云入侵案例",
-   "link": "https://aihot.news/items/gp8e9a8oitha0rbip8pzntuff",
-   "summary": "Wiz Research 发文介绍 ARTEX 等智能体攻击框架正在推动云入侵激增。文中分享了来自真实环境的案例，包括通过攻击操作者泄露的日志看到的一次攻击的双方视角、对 Black October 的更新，以及可捕捉这类嘈杂、机器速度攻击的检测方法。",
-   "category": "行业动态",
-   "source": "Wiz：Research",
-   "pub": "11-23 22:46"
-  },
-  {
-   "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会",
-   "link": "https://aihot.news/items/ajcxs84uezjqgsgxpdtr31o0l",
-   "summary": "NVIDIA 于 11 月 23 日宣布黄仁勋即刻复任总裁、CEO 及董事会成员，董事会一致投票通过，临时 CEO Colette Kress 继续担任 CFO。复职决定参考了美国政府高层意见，董事会认为其不构成国家安全风险，此前因黄仁勋成为外国情报行动目标而启动的独立董事调查将继续进行，董事会另设国家安全与出口管制委员会并招聘首席合规官。",
-   "category": "行业动态",
-   "source": "X.PIN",
-   "pub": "11-23 22:04"
   }
  ]
 }
